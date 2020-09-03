@@ -777,19 +777,41 @@
 		<Death_Explosions>Large_Explosion_Space</Death_Explosions>
 		<Remove_Upon_Death>True</Remove_Upon_Death>
 
-<!--	<Abilities SubObjectList="Yes">
-		<Force_Healing_Ability Name="Generic_Turret_Self_Repair">
+	<Abilities SubObjectList="Yes">
+		<Force_Healing_Ability Name="Generic_Turret_Self_Repair_L3">
 			<Activation_Style>Space_Automatic</Activation_Style>
+			<Initially_Enabled>No</Initially_Enabled>
 			<Heal_Range>0.0</Heal_Range>
-			<Heal_Percent>0.0</Heal_Percent>
-			<Heal_Amount>15.0</Heal_Amount>
+			<Heal_Percent>0.015</Heal_Percent>
+			<Heal_Amount>0.0</Heal_Amount>
 			<Heal_Interval_In_Secs>6.0</Heal_Interval_In_Secs>
 			<Single_Target_Heal>Yes</Single_Target_Heal>
 			<Applicable_Unit_Categories/>
 			<Applicable_Unit_Types/>
-			<SFXEvent_Target_Affected/>
 		</Force_Healing_Ability>
-	</Abilities>-->
+		<Force_Healing_Ability Name="Generic_Turret_Self_Repair_L4">
+			<Activation_Style>Space_Automatic</Activation_Style>
+			<Initially_Enabled>No</Initially_Enabled>
+			<Heal_Range>0.0</Heal_Range>
+			<Heal_Percent>0.015</Heal_Percent>
+			<Heal_Amount>0.0</Heal_Amount>
+			<Heal_Interval_In_Secs>6.0</Heal_Interval_In_Secs>
+			<Single_Target_Heal>Yes</Single_Target_Heal>
+			<Applicable_Unit_Categories/>
+			<Applicable_Unit_Types/>
+		</Force_Healing_Ability>
+		<Force_Healing_Ability Name="Generic_Turret_Self_Repair_L5">
+			<Activation_Style>Space_Automatic</Activation_Style>
+			<Initially_Enabled>No</Initially_Enabled>
+			<Heal_Range>0.0</Heal_Range>
+			<Heal_Percent>0.015</Heal_Percent>
+			<Heal_Amount>0.0</Heal_Amount>
+			<Heal_Interval_In_Secs>6.0</Heal_Interval_In_Secs>
+			<Single_Target_Heal>Yes</Single_Target_Heal>
+			<Applicable_Unit_Categories/>
+			<Applicable_Unit_Types/>
+		</Force_Healing_Ability>
+	</Abilities>
 	</SpaceBuildable>
 
 	<SpaceBuildable Name="Empire_Defense_Satellite_TurboLaser">
@@ -867,19 +889,41 @@
 		<Death_Explosions>Large_Explosion_Space</Death_Explosions>
 		<Remove_Upon_Death>True</Remove_Upon_Death>
 
-<!--	<Abilities SubObjectList="Yes">
-		<Force_Healing_Ability Name="Generic_Turret_Self_Repair">
+	<Abilities SubObjectList="Yes">
+		<Force_Healing_Ability Name="Generic_Turret_Self_Repair_L3">
 			<Activation_Style>Space_Automatic</Activation_Style>
+			<Initially_Enabled>No</Initially_Enabled>
 			<Heal_Range>0.0</Heal_Range>
-			<Heal_Percent>0.0</Heal_Percent>
-			<Heal_Amount>15.0</Heal_Amount>
+			<Heal_Percent>0.015</Heal_Percent>
+			<Heal_Amount>0.0</Heal_Amount>
 			<Heal_Interval_In_Secs>6.0</Heal_Interval_In_Secs>
 			<Single_Target_Heal>Yes</Single_Target_Heal>
 			<Applicable_Unit_Categories/>
 			<Applicable_Unit_Types/>
-			<SFXEvent_Target_Affected/>
 		</Force_Healing_Ability>
-	</Abilities>-->
+		<Force_Healing_Ability Name="Generic_Turret_Self_Repair_L4">
+			<Activation_Style>Space_Automatic</Activation_Style>
+			<Initially_Enabled>No</Initially_Enabled>
+			<Heal_Range>0.0</Heal_Range>
+			<Heal_Percent>0.015</Heal_Percent>
+			<Heal_Amount>0.0</Heal_Amount>
+			<Heal_Interval_In_Secs>6.0</Heal_Interval_In_Secs>
+			<Single_Target_Heal>Yes</Single_Target_Heal>
+			<Applicable_Unit_Categories/>
+			<Applicable_Unit_Types/>
+		</Force_Healing_Ability>
+		<Force_Healing_Ability Name="Generic_Turret_Self_Repair_L5">
+			<Activation_Style>Space_Automatic</Activation_Style>
+			<Initially_Enabled>No</Initially_Enabled>
+			<Heal_Range>0.0</Heal_Range>
+			<Heal_Percent>0.015</Heal_Percent>
+			<Heal_Amount>0.0</Heal_Amount>
+			<Heal_Interval_In_Secs>6.0</Heal_Interval_In_Secs>
+			<Single_Target_Heal>Yes</Single_Target_Heal>
+			<Applicable_Unit_Categories/>
+			<Applicable_Unit_Types/>
+		</Force_Healing_Ability>
+	</Abilities>
 	</SpaceBuildable>
 
 	<SpaceBuildable Name="Empire_Defense_Satellite_Missile">
@@ -969,19 +1013,41 @@
 		<Death_Explosions>Large_Explosion_Space</Death_Explosions>
 		<Remove_Upon_Death>True</Remove_Upon_Death>
 
-<!--	<Abilities SubObjectList="Yes">
-		<Force_Healing_Ability Name="Generic_Turret_Self_Repair">
+	<Abilities SubObjectList="Yes">
+		<Force_Healing_Ability Name="Generic_Turret_Self_Repair_L3">
 			<Activation_Style>Space_Automatic</Activation_Style>
+			<Initially_Enabled>No</Initially_Enabled>
 			<Heal_Range>0.0</Heal_Range>
-			<Heal_Percent>0.0</Heal_Percent>
-			<Heal_Amount>15.0</Heal_Amount>
+			<Heal_Percent>0.015</Heal_Percent>
+			<Heal_Amount>0.0</Heal_Amount>
 			<Heal_Interval_In_Secs>6.0</Heal_Interval_In_Secs>
 			<Single_Target_Heal>Yes</Single_Target_Heal>
 			<Applicable_Unit_Categories/>
 			<Applicable_Unit_Types/>
-			<SFXEvent_Target_Affected/>
 		</Force_Healing_Ability>
-	</Abilities>-->
+		<Force_Healing_Ability Name="Generic_Turret_Self_Repair_L4">
+			<Activation_Style>Space_Automatic</Activation_Style>
+			<Initially_Enabled>No</Initially_Enabled>
+			<Heal_Range>0.0</Heal_Range>
+			<Heal_Percent>0.015</Heal_Percent>
+			<Heal_Amount>0.0</Heal_Amount>
+			<Heal_Interval_In_Secs>6.0</Heal_Interval_In_Secs>
+			<Single_Target_Heal>Yes</Single_Target_Heal>
+			<Applicable_Unit_Categories/>
+			<Applicable_Unit_Types/>
+		</Force_Healing_Ability>
+		<Force_Healing_Ability Name="Generic_Turret_Self_Repair_L5">
+			<Activation_Style>Space_Automatic</Activation_Style>
+			<Initially_Enabled>No</Initially_Enabled>
+			<Heal_Range>0.0</Heal_Range>
+			<Heal_Percent>0.015</Heal_Percent>
+			<Heal_Amount>0.0</Heal_Amount>
+			<Heal_Interval_In_Secs>6.0</Heal_Interval_In_Secs>
+			<Single_Target_Heal>Yes</Single_Target_Heal>
+			<Applicable_Unit_Categories/>
+			<Applicable_Unit_Types/>
+		</Force_Healing_Ability>
+	</Abilities>
 	</SpaceBuildable>
 
 	<SpaceBuildable Name="Empire_Defense_Satellite_Repair">
@@ -1175,17 +1241,39 @@
 			<Target_Speed_Decrease_Percent>0.95</Target_Speed_Decrease_Percent>
 			<Stacking_Category>2</Stacking_Category>
 		</Tractor_Beam_Attack_Ability>
-<!--		<Force_Healing_Ability Name="Generic_Turret_Self_Repair">
+		<Force_Healing_Ability Name="Generic_Turret_Self_Repair_L3">
 			<Activation_Style>Space_Automatic</Activation_Style>
+			<Initially_Enabled>No</Initially_Enabled>
 			<Heal_Range>0.0</Heal_Range>
-			<Heal_Percent>0.0</Heal_Percent>
-			<Heal_Amount>15.0</Heal_Amount>
+			<Heal_Percent>0.015</Heal_Percent>
+			<Heal_Amount>0.0</Heal_Amount>
 			<Heal_Interval_In_Secs>6.0</Heal_Interval_In_Secs>
 			<Single_Target_Heal>Yes</Single_Target_Heal>
 			<Applicable_Unit_Categories/>
 			<Applicable_Unit_Types/>
-			<SFXEvent_Target_Affected/>
-		</Force_Healing_Ability>-->
+		</Force_Healing_Ability>
+		<Force_Healing_Ability Name="Generic_Turret_Self_Repair_L4">
+			<Activation_Style>Space_Automatic</Activation_Style>
+			<Initially_Enabled>No</Initially_Enabled>
+			<Heal_Range>0.0</Heal_Range>
+			<Heal_Percent>0.015</Heal_Percent>
+			<Heal_Amount>0.0</Heal_Amount>
+			<Heal_Interval_In_Secs>6.0</Heal_Interval_In_Secs>
+			<Single_Target_Heal>Yes</Single_Target_Heal>
+			<Applicable_Unit_Categories/>
+			<Applicable_Unit_Types/>
+		</Force_Healing_Ability>
+		<Force_Healing_Ability Name="Generic_Turret_Self_Repair_L5">
+			<Activation_Style>Space_Automatic</Activation_Style>
+			<Initially_Enabled>No</Initially_Enabled>
+			<Heal_Range>0.0</Heal_Range>
+			<Heal_Percent>0.015</Heal_Percent>
+			<Heal_Amount>0.0</Heal_Amount>
+			<Heal_Interval_In_Secs>6.0</Heal_Interval_In_Secs>
+			<Single_Target_Heal>Yes</Single_Target_Heal>
+			<Applicable_Unit_Categories/>
+			<Applicable_Unit_Types/>
+		</Force_Healing_Ability>
 	</Abilities>
 	</SpaceBuildable>
 
@@ -1295,19 +1383,41 @@
 		<Death_Explosions>Large_Explosion_Space</Death_Explosions>
 		<Remove_Upon_Death>True</Remove_Upon_Death>
 
-<!--	<Abilities SubObjectList="Yes">
-		<Force_Healing_Ability Name="Generic_Turret_Self_Repair">
+	<Abilities SubObjectList="Yes">
+		<Force_Healing_Ability Name="Generic_Turret_Self_Repair_L3">
 			<Activation_Style>Space_Automatic</Activation_Style>
+			<Initially_Enabled>No</Initially_Enabled>
 			<Heal_Range>0.0</Heal_Range>
-			<Heal_Percent>0.0</Heal_Percent>
-			<Heal_Amount>15.0</Heal_Amount>
+			<Heal_Percent>0.015</Heal_Percent>
+			<Heal_Amount>0.0</Heal_Amount>
 			<Heal_Interval_In_Secs>6.0</Heal_Interval_In_Secs>
 			<Single_Target_Heal>Yes</Single_Target_Heal>
 			<Applicable_Unit_Categories/>
 			<Applicable_Unit_Types/>
-			<SFXEvent_Target_Affected/>
 		</Force_Healing_Ability>
-	</Abilities>-->
+		<Force_Healing_Ability Name="Generic_Turret_Self_Repair_L4">
+			<Activation_Style>Space_Automatic</Activation_Style>
+			<Initially_Enabled>No</Initially_Enabled>
+			<Heal_Range>0.0</Heal_Range>
+			<Heal_Percent>0.015</Heal_Percent>
+			<Heal_Amount>0.0</Heal_Amount>
+			<Heal_Interval_In_Secs>6.0</Heal_Interval_In_Secs>
+			<Single_Target_Heal>Yes</Single_Target_Heal>
+			<Applicable_Unit_Categories/>
+			<Applicable_Unit_Types/>
+		</Force_Healing_Ability>
+		<Force_Healing_Ability Name="Generic_Turret_Self_Repair_L5">
+			<Activation_Style>Space_Automatic</Activation_Style>
+			<Initially_Enabled>No</Initially_Enabled>
+			<Heal_Range>0.0</Heal_Range>
+			<Heal_Percent>0.015</Heal_Percent>
+			<Heal_Amount>0.0</Heal_Amount>
+			<Heal_Interval_In_Secs>6.0</Heal_Interval_In_Secs>
+			<Single_Target_Heal>Yes</Single_Target_Heal>
+			<Applicable_Unit_Categories/>
+			<Applicable_Unit_Types/>
+		</Force_Healing_Ability>
+	</Abilities>
 	</SpaceBuildable>
 
 	<SpaceBuildable Name="Underworld_Defense_Satellite_MassDriver">
@@ -1392,19 +1502,41 @@
 		<Death_Explosions>Large_Explosion_Space</Death_Explosions>
 		<Remove_Upon_Death>True</Remove_Upon_Death>
 
-<!--	<Abilities SubObjectList="Yes">
-		<Force_Healing_Ability Name="Generic_Turret_Self_Repair">
+	<Abilities SubObjectList="Yes">
+		<Force_Healing_Ability Name="Generic_Turret_Self_Repair_L3">
 			<Activation_Style>Space_Automatic</Activation_Style>
+			<Initially_Enabled>No</Initially_Enabled>
 			<Heal_Range>0.0</Heal_Range>
-			<Heal_Percent>0.0</Heal_Percent>
-			<Heal_Amount>15.0</Heal_Amount>
+			<Heal_Percent>0.015</Heal_Percent>
+			<Heal_Amount>0.0</Heal_Amount>
 			<Heal_Interval_In_Secs>6.0</Heal_Interval_In_Secs>
 			<Single_Target_Heal>Yes</Single_Target_Heal>
 			<Applicable_Unit_Categories/>
 			<Applicable_Unit_Types/>
-			<SFXEvent_Target_Affected/>
 		</Force_Healing_Ability>
-	</Abilities>-->
+		<Force_Healing_Ability Name="Generic_Turret_Self_Repair_L4">
+			<Activation_Style>Space_Automatic</Activation_Style>
+			<Initially_Enabled>No</Initially_Enabled>
+			<Heal_Range>0.0</Heal_Range>
+			<Heal_Percent>0.015</Heal_Percent>
+			<Heal_Amount>0.0</Heal_Amount>
+			<Heal_Interval_In_Secs>6.0</Heal_Interval_In_Secs>
+			<Single_Target_Heal>Yes</Single_Target_Heal>
+			<Applicable_Unit_Categories/>
+			<Applicable_Unit_Types/>
+		</Force_Healing_Ability>
+		<Force_Healing_Ability Name="Generic_Turret_Self_Repair_L5">
+			<Activation_Style>Space_Automatic</Activation_Style>
+			<Initially_Enabled>No</Initially_Enabled>
+			<Heal_Range>0.0</Heal_Range>
+			<Heal_Percent>0.015</Heal_Percent>
+			<Heal_Amount>0.0</Heal_Amount>
+			<Heal_Interval_In_Secs>6.0</Heal_Interval_In_Secs>
+			<Single_Target_Heal>Yes</Single_Target_Heal>
+			<Applicable_Unit_Categories/>
+			<Applicable_Unit_Types/>
+		</Force_Healing_Ability>
+	</Abilities>
 	</SpaceBuildable>
 
 	<SpaceBuildable Name="Underworld_Defense_Satellite_DBM">
@@ -1484,18 +1616,41 @@
 		<Death_Explosions>Large_Explosion_Space</Death_Explosions>
 		<Remove_Upon_Death>True</Remove_Upon_Death>
 
-<!--	<Abilities SubObjectList="Yes">
-		<Force_Healing_Ability Name="Generic_Turret_Self_Repair">
+	<Abilities SubObjectList="Yes">
+		<Force_Healing_Ability Name="Generic_Turret_Self_Repair_L3">
 			<Activation_Style>Space_Automatic</Activation_Style>
-			<Applicable_Unit_Types>Underworld_Defense_Satellite_DBM</Applicable_Unit_Types>
-			<Heal_Range>1.0</Heal_Range>
-			<Heal_Percent>0.0</Heal_Percent>
-			<Heal_Amount>15.0</Heal_Amount>
+			<Initially_Enabled>No</Initially_Enabled>
+			<Heal_Range>0.0</Heal_Range>
+			<Heal_Percent>0.015</Heal_Percent>
+			<Heal_Amount>0.0</Heal_Amount>
 			<Heal_Interval_In_Secs>6.0</Heal_Interval_In_Secs>
 			<Single_Target_Heal>Yes</Single_Target_Heal>
-			<SFXEvent_Target_Affected/>
+			<Applicable_Unit_Categories/>
+			<Applicable_Unit_Types/>
 		</Force_Healing_Ability>
-	</Abilities>-->
+		<Force_Healing_Ability Name="Generic_Turret_Self_Repair_L4">
+			<Activation_Style>Space_Automatic</Activation_Style>
+			<Initially_Enabled>No</Initially_Enabled>
+			<Heal_Range>0.0</Heal_Range>
+			<Heal_Percent>0.015</Heal_Percent>
+			<Heal_Amount>0.0</Heal_Amount>
+			<Heal_Interval_In_Secs>6.0</Heal_Interval_In_Secs>
+			<Single_Target_Heal>Yes</Single_Target_Heal>
+			<Applicable_Unit_Categories/>
+			<Applicable_Unit_Types/>
+		</Force_Healing_Ability>
+		<Force_Healing_Ability Name="Generic_Turret_Self_Repair_L5">
+			<Activation_Style>Space_Automatic</Activation_Style>
+			<Initially_Enabled>No</Initially_Enabled>
+			<Heal_Range>0.0</Heal_Range>
+			<Heal_Percent>0.015</Heal_Percent>
+			<Heal_Amount>0.0</Heal_Amount>
+			<Heal_Interval_In_Secs>6.0</Heal_Interval_In_Secs>
+			<Single_Target_Heal>Yes</Single_Target_Heal>
+			<Applicable_Unit_Categories/>
+			<Applicable_Unit_Types/>
+		</Force_Healing_Ability>
+	</Abilities>
 	<Abilities SubObjectList="Yes"><!-- Fake Ability just to show area effect of ion storm -->
 		<Force_Healing_Ability Name="DBM_Satellite_Min_Range">
 			<Activation_Style>Space_Automatic</Activation_Style>
@@ -1577,17 +1732,39 @@
 			<Blob_Color>200, 50, 200, 128</Blob_Color>
 			<Blob_Material_Name>Sensor_Jamming_Blob</Blob_Material_Name>
 		</Sensor_Jamming_Ability>
-<!--		<Force_Healing_Ability Name="Generic_Turret_Self_Repair">
+		<Force_Healing_Ability Name="Generic_Turret_Self_Repair_L3">
 			<Activation_Style>Space_Automatic</Activation_Style>
+			<Initially_Enabled>No</Initially_Enabled>
 			<Heal_Range>0.0</Heal_Range>
-			<Heal_Percent>0.0</Heal_Percent>
-			<Heal_Amount>15.0</Heal_Amount>
+			<Heal_Percent>0.015</Heal_Percent>
+			<Heal_Amount>0.0</Heal_Amount>
 			<Heal_Interval_In_Secs>6.0</Heal_Interval_In_Secs>
 			<Single_Target_Heal>Yes</Single_Target_Heal>
 			<Applicable_Unit_Categories/>
 			<Applicable_Unit_Types/>
-			<SFXEvent_Target_Affected/>
-		</Force_Healing_Ability>-->
+		</Force_Healing_Ability>
+		<Force_Healing_Ability Name="Generic_Turret_Self_Repair_L4">
+			<Activation_Style>Space_Automatic</Activation_Style>
+			<Initially_Enabled>No</Initially_Enabled>
+			<Heal_Range>0.0</Heal_Range>
+			<Heal_Percent>0.015</Heal_Percent>
+			<Heal_Amount>0.0</Heal_Amount>
+			<Heal_Interval_In_Secs>6.0</Heal_Interval_In_Secs>
+			<Single_Target_Heal>Yes</Single_Target_Heal>
+			<Applicable_Unit_Categories/>
+			<Applicable_Unit_Types/>
+		</Force_Healing_Ability>
+		<Force_Healing_Ability Name="Generic_Turret_Self_Repair_L5">
+			<Activation_Style>Space_Automatic</Activation_Style>
+			<Initially_Enabled>No</Initially_Enabled>
+			<Heal_Range>0.0</Heal_Range>
+			<Heal_Percent>0.015</Heal_Percent>
+			<Heal_Amount>0.0</Heal_Amount>
+			<Heal_Interval_In_Secs>6.0</Heal_Interval_In_Secs>
+			<Single_Target_Heal>Yes</Single_Target_Heal>
+			<Applicable_Unit_Categories/>
+			<Applicable_Unit_Types/>
+		</Force_Healing_Ability>
 	</Abilities>
 	</SpaceBuildable>
 
@@ -1690,7 +1867,7 @@
 		<Reinforcement_Prevention_Radius>100</Reinforcement_Prevention_Radius>
 
 		<Armor_Type>Armor_Asteroid_Mine</Armor_Type>
-		<Tactical_Health>1700</Tactical_Health>
+		<Tactical_Health>1500</Tactical_Health> <!--1700-->
 		<Space_FOW_Reveal_Range>275</Space_FOW_Reveal_Range>
 		<Score_Cost_Credits>5000</Score_Cost_Credits>
 
@@ -1767,7 +1944,7 @@
 		<Custom_Soft_Footprint_Radius>275</Custom_Soft_Footprint_Radius>
 
 		<Armor_Type>Armor_Asteroid_Mine</Armor_Type>
-		<Tactical_Health>1700</Tactical_Health>
+		<Tactical_Health>1500</Tactical_Health>
 		<Space_FOW_Reveal_Range>275.0</Space_FOW_Reveal_Range>
 
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
@@ -1816,7 +1993,7 @@
 		<SFXEvent_Build_Cancelled>EHD_Building_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>EHD_Construction_Complete</SFXEvent_Build_Complete>
 	</SpaceBuildable>
-	
+
 	<SpaceBuildable Name="UC_Empire_Mineral_Extractor_EAW">
 		<Variant_Of_Existing_Type>UC_Empire_Mineral_Extractor</Variant_Of_Existing_Type>
 
@@ -1860,7 +2037,7 @@
 		<SFXEvent_Build_Cancelled>RHD_Building_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>RHD_Construction_Complete</SFXEvent_Build_Complete>
 	</SpaceBuildable>
-	
+
 	<SpaceBuildable Name="UC_Rebel_Mineral_Extractor_EAW">
 		<Variant_Of_Existing_Type>UC_Empire_Mineral_Extractor</Variant_Of_Existing_Type>
 
@@ -1943,7 +2120,7 @@
 		<Custom_Soft_Footprint_Radius>275</Custom_Soft_Footprint_Radius>
 
 		<Armor_Type>Armor_Asteroid_Mine</Armor_Type>
-		<Tactical_Health>1700</Tactical_Health>
+		<Tactical_Health>1500</Tactical_Health> <!--1700-->
 		<Score_Cost_Credits>5000</Score_Cost_Credits>
 
 		<Space_FOW_Reveal_Range>400.0</Space_FOW_Reveal_Range>
@@ -2645,6 +2822,8 @@
 		<Affiliation>Rebel_EAW</Affiliation>
 	</SpaceBuildable>
 </SpaceBuildables>
+
+
 
 
 
