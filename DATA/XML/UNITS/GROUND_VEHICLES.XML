@@ -910,7 +910,7 @@
 				<Effective_Radius>200</Effective_Radius> <!--was 150-->
 				<Recharge_Seconds>20</Recharge_Seconds>
 				<Expiration_Seconds>10</Expiration_Seconds>
-				<Supports_Autofire>True</Supports_Autofire>
+<!--				<Supports_Autofire>True</Supports_Autofire>-->
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 
@@ -963,7 +963,7 @@
 				<Effective_Radius>200</Effective_Radius>
 				<Recharge_Seconds>20</Recharge_Seconds>
 				<Expiration_Seconds>10</Expiration_Seconds>
-				<Supports_Autofire>True</Supports_Autofire>
+<!--				<Supports_Autofire>True</Supports_Autofire>-->
 			</Unit_Ability>
 			
 			
@@ -1393,7 +1393,7 @@
 				<Recharge_Seconds>10</Recharge_Seconds>
 				<Max_Secs_For_AE_Delayed_Damage>0</Max_Secs_For_AE_Delayed_Damage>
 				<Spawned_Object_Type> Self_Destruct_Area_Blast_Effect </Spawned_Object_Type>
-				<Supports_Autofire>True</Supports_Autofire>
+<!--				<Supports_Autofire>True</Supports_Autofire>-->
 			</Unit_Ability>
 
 		</Unit_Abilities_Data>
@@ -1446,7 +1446,7 @@
 				<Recharge_Seconds>10</Recharge_Seconds>
 				<Max_Secs_For_AE_Delayed_Damage>0</Max_Secs_For_AE_Delayed_Damage>
 				<Spawned_Object_Type> Self_Destruct_Area_Blast_Effect </Spawned_Object_Type>
-				<Supports_Autofire>True</Supports_Autofire>
+<!--				<Supports_Autofire>True</Supports_Autofire>-->
 			</Unit_Ability>
 
 
@@ -1900,7 +1900,7 @@
 				<SFXEvent_GUI_Unit_Ability_Activated> Unit_Defense_On_Juggernaut </SFXEvent_GUI_Unit_Ability_Activated>
 					 <SFXEvent_GUI_Unit_Ability_Deactivated> Unit_Defense_Off_Juggernaut </SFXEvent_GUI_Unit_Ability_Deactivated>
 					 <Effective_Radius> 500.0 </Effective_Radius>
-				<Supports_Autofire>True</Supports_Autofire>
+<!--				<Supports_Autofire>True</Supports_Autofire>-->
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 
@@ -2175,7 +2175,7 @@
 		<Targeting_Fire_Inaccuracy>Structure, 5.0</Targeting_Fire_Inaccuracy>
 
 		<Turret_Rotate_Extent_Degrees>100.0</Turret_Rotate_Extent_Degrees>
-		<Turret_Elevate_Extent_Degrees>90.0</Turret_Elevate_Extent_Degrees>
+		<Turret_Elevate_Extent_Degrees>120.0</Turret_Elevate_Extent_Degrees>
 
 		<Land_FOW_Reveal_Range>210.0</Land_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>20.0</Targeting_Max_Attack_Distance>
@@ -2633,7 +2633,7 @@
 			<Type>JET_PACK</Type>
 			<Alternate_Name_Text>TEXT_TOOLTIP_DT_JETPACK</Alternate_Name_Text>
 			<Alternate_Description_Text>TEXT_DT_JETPACK_DESCRIPTION</Alternate_Description_Text>
-			<Recharge_Seconds>105.0</Recharge_Seconds>
+			<Recharge_Seconds>60.0</Recharge_Seconds>
 			<GUI_Activated_Ability_Name/>
 			<SFXEvent_Target_Ability>Unit_DT_Jet_Pack_Takeoff</SFXEvent_Target_Ability>
 			<Effective_Radius>-1.0</Effective_Radius>
@@ -2809,7 +2809,7 @@
 				<Recharge_Seconds>120</Recharge_Seconds>
 				<GUI_Activated_Ability_Name>Cable</GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
 				<SFXEvent_Target_Ability> Unit_ATAT_Assault_Speeder </SFXEvent_Target_Ability>
-				<Supports_Autofire>True</Supports_Autofire>
+<!--				<Supports_Autofire>True</Supports_Autofire>-->
 			</Unit_Ability>
 			
 		</Unit_Abilities_Data>
@@ -3940,7 +3940,7 @@
 						Hutt_Rapid_Fire_Laser_Turret,
 						Dark_Trooper_PhaseI,
 						Dark_Trooper_PhaseII,
-						<!--Dark_Trooper_PhaseIII,-->
+						Dark_Trooper_PhaseIII,
 						HAV_Juggernaut,
 						Lancet_Air_Artillery,
 						Gallofree_HTT_Transport,
@@ -4228,7 +4228,7 @@
 				<Max_Secs_For_AE_Delayed_Damage>0</Max_Secs_For_AE_Delayed_Damage>
 				<GUI_Activated_Ability_Name>Pulse_Tank_Self_Destruct</GUI_Activated_Ability_Name>
 				<Must_Be_Bought_On_Black_Market>Yes</Must_Be_Bought_On_Black_Market>
-				<Supports_Autofire>True</Supports_Autofire>
+<!--				<Supports_Autofire>True</Supports_Autofire>-->
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 
@@ -4296,7 +4296,7 @@
 		<Armor_Type> Armor_2M </Armor_Type>
 		<Sensor_Range>200</Sensor_Range>
 		<Shield_Points>180</Shield_Points>
-		<Tactical_Health>135</Tactical_Health>
+		<Tactical_Health>150</Tactical_Health>
 		<Shield_Refresh_Rate>10</Shield_Refresh_Rate>
 		<Energy_Capacity>999</Energy_Capacity>
 		<Energy_Refresh_Rate>999</Energy_Refresh_Rate>
@@ -5166,7 +5166,14 @@
 		<Energy_Refresh_Rate>999</Energy_Refresh_Rate>
 
 		<Behavior> SELECTABLE </Behavior>
-		<LandBehavior>ABILITY_COUNTDOWN, AFFECTED_BY_SHIELD,SURFACE_FX, WALK_LOCOMOTOR, IDLE, TARGETING, WEAPON, TURRET, POWERED, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, TELEKINESIS_TARGET,STUNNABLE, WIND_DISTURBANCE,DAMAGE_TRACKING</LandBehavior>
+		<LandBehavior>GARRISON_VEHICLE, ABILITY_COUNTDOWN, AFFECTED_BY_SHIELD,SURFACE_FX, WALK_LOCOMOTOR, IDLE, TARGETING, WEAPON, TURRET, POWERED, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, TELEKINESIS_TARGET, STUNNABLE, WIND_DISTURBANCE, DAMAGE_TRACKING</LandBehavior>
+		<Property_Flags>CanContainGarrison | GarrisonCanFire</Property_Flags>
+		<Garrison_Category>Infantry</Garrison_Category>
+		<Num_Garrison_Slots>1</Num_Garrison_Slots>
+		<Garrison_Exit_Dist>20</Garrison_Exit_Dist>
+		<Garrison_Enter_Dist>20</Garrison_Enter_Dist>
+		<Garrison_Radius>30</Garrison_Radius>
+		<Garrison_Bone_Names>root</Garrison_Bone_Names>
 
 		<Is_Affected_By_Gravity_Control_Field> Yes </Is_Affected_By_Gravity_Control_Field>	<!-- This is considered a repulsorlift-driven unit -->
 		<Is_Squashable_By_Supercrusher>Yes</Is_Squashable_By_Supercrusher>
@@ -6125,17 +6132,6 @@
 	</GroundVehicle>
 	
 </GroundVehicles>
-
-
-
-
-
-
-
-
-
-
-
 
 
 

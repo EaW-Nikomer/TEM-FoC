@@ -873,7 +873,7 @@
 		<Fire_Cone_Height>25</Fire_Cone_Height>
 		<Damage_Type>Damage_Default</Damage_Type>
 		<Fire_Projectile_Type>Proj_Ship_Large_Laser_Cannon_Red</Fire_Projectile_Type>
-		<Projectile_Damage>14.0</Projectile_Damage>
+		<Projectile_Damage>16.0</Projectile_Damage>
 		<Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>1.0</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>10</Fire_Pulse_Count>
@@ -1905,7 +1905,7 @@
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
 		<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
-		<Health>300.0</Health>
+		<Health>260.0</Health>
 
 		<Death_Explosion_Particles>Large_Explosion_Space</Death_Explosion_Particles>
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
@@ -1928,7 +1928,7 @@
 		<Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>5</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>1100.0</Fire_Range_Distance>
+		<Fire_Range_Distance>1200.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
 
 
@@ -1947,7 +1947,7 @@
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
 		<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
-		<Health>300.0</Health>
+		<Health>260.0</Health>
 
 		<Death_Explosion_Particles>Large_Explosion_Space</Death_Explosion_Particles>
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
@@ -1970,7 +1970,7 @@
 		<Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>5</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>1100.0</Fire_Range_Distance>
+		<Fire_Range_Distance>1200.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
 
 
@@ -1989,7 +1989,7 @@
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
 		<Tooltip_Text>TEXT_WEAPON_LASERCANNON</Tooltip_Text>
-		<Health>300.0</Health>
+		<Health>260.0</Health>
 
 		<Death_Explosion_Particles>Large_Explosion_Space</Death_Explosion_Particles>
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
@@ -2012,7 +2012,7 @@
 		<Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>7</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>1150.0</Fire_Range_Distance>
+		<Fire_Range_Distance>1250.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Rebel_Ship_Laser_Fire</Fire_SFXEvent>
 
 
@@ -2031,7 +2031,7 @@
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
 		<Tooltip_Text>TEXT_WEAPON_LASERCANNON</Tooltip_Text>
-		<Health>300.0</Health>
+		<Health>260.0</Health>
 
 		<Death_Explosion_Particles>Large_Explosion_Space</Death_Explosion_Particles>
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
@@ -2054,7 +2054,7 @@
 		<Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>7</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>1150.0</Fire_Range_Distance>
+		<Fire_Range_Distance>1250.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Rebel_Ship_Laser_Fire</Fire_SFXEvent>
 
 		<Fire_Inaccuracy_Distance>Fighter, 15.0</Fire_Inaccuracy_Distance>
@@ -2072,7 +2072,7 @@
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
 		<Tooltip_Text>TEXT_ENGINE_HARDPOINT</Tooltip_Text>
-		<Health>300.0</Health>
+		<Health>260.0</Health>
 
 			<Death_Explosion_Particles>Large_Explosion_Space</Death_Explosion_Particles>
 			<Death_Explosion_SFXEvent>Unit_Hardpoint_Engines_Death</Death_Explosion_SFXEvent>
@@ -2694,7 +2694,8 @@
 		<Fire_Bone_B>MuzzleA_02</Fire_Bone_B>
 		<Fire_Cone_Width>20.0</Fire_Cone_Width>
 		<Fire_Cone_Height>40.0</Fire_Cone_Height>
-		<Damage_Type>Damage_Gunship</Damage_Type>
+		<Damage_Type>Damage_Fighter</Damage_Type>
+		<Projectile_Damage>5.5</Projectile_Damage>
 		<Fire_Projectile_Type>Proj_Ship_Small_Laser_Cannon_Red</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>1.5</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>1.5</Fire_Max_Recharge_Seconds>
@@ -2706,10 +2707,10 @@
 		<Fire_Inaccuracy_Distance>Fighter, 1.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Bomber, 1.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Transport, 1.0</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>Corvette, 20.0</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>Frigate, 20.0</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>Capital, 20.0</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>Super, 20.0</Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance>Corvette, 30.0</Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance>Frigate, 30.0</Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance>Capital, 30.0</Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance>Super, 30.0</Fire_Inaccuracy_Distance>
 	</HardPoint>
 
 	<HardPoint Name="HP_AWING_LASER_00">
@@ -3023,9 +3024,9 @@
 
 		<Fire_Bone_A>MuzzleA_00</Fire_Bone_A>
 		<Fire_Bone_B>MuzzleA_01</Fire_Bone_B>
-		<Fire_Cone_Width>360.0</Fire_Cone_Width> <!-- Fire bones are messed up ; was 90-->
-		<Fire_Cone_Height>360.0</Fire_Cone_Height> <!-- Fire bones are messed up -->
-		<Damage_Type>Damage_Gunship</Damage_Type>
+		<Fire_Cone_Width>360.0</Fire_Cone_Width>
+		<Fire_Cone_Height>90.0</Fire_Cone_Height>
+		<Damage_Type>Damage_MFalcon</Damage_Type>
 		<Fire_Projectile_Type>Proj_Ship_Medium_Laser_Cannon_Red</Fire_Projectile_Type>
 		<Projectile_Damage>16.0</Projectile_Damage>
 		<Fire_Min_Recharge_Seconds>0.5</Fire_Min_Recharge_Seconds>
@@ -3592,5 +3593,8 @@
 		<Fire_When_Undeployed>No</Fire_When_Undeployed>
 	</HardPoint>
 </HardPoints>
+
+
+
 
 

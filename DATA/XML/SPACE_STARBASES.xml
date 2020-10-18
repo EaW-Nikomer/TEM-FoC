@@ -2716,7 +2716,7 @@
 			<Initially_Enabled>No</Initially_Enabled>
 			<Affects_All_Allies>True</Affects_All_Allies>
 		</Enable_Radar_Ability>
-		<Combat_Bonus_Ability Name="RS_L2_AsteroidMine_Bonus">
+<!--		<Combat_Bonus_Ability Name="RS_L2_AsteroidMine_Bonus">
 			<Activation_Style>Skirmish_Automatic</Activation_Style>
 			<Applicable_Unit_Categories/>
 			<Applicable_Unit_Types>Rebel_Mineral_Extractor</Applicable_Unit_Types>
@@ -2739,7 +2739,7 @@
 			<Defense_Bonus_Percentage>0.0</Defense_Bonus_Percentage>
 			<Movement_Speed_Bonus_Percentage>0.0</Movement_Speed_Bonus_Percentage>
 			<Stacking_Category>3</Stacking_Category>
-		</Combat_Bonus_Ability>
+		</Combat_Bonus_Ability>-->
 	</Abilities>
 	</StarBase>
 
@@ -2827,7 +2827,7 @@
 			<Initially_Enabled>No</Initially_Enabled>
 			<Affects_All_Allies>True</Affects_All_Allies>
 		</Enable_Radar_Ability>
-		<Combat_Bonus_Ability Name="RS_L3_AsteroidMine_Bonus">
+<!--		<Combat_Bonus_Ability Name="RS_L3_AsteroidMine_Bonus">
 			<Activation_Style>Skirmish_Automatic</Activation_Style>
 			<Applicable_Unit_Categories/>
 			<Applicable_Unit_Types>Rebel_Mineral_Extractor</Applicable_Unit_Types>
@@ -2850,18 +2850,18 @@
 			<Defense_Bonus_Percentage>0.0</Defense_Bonus_Percentage>
 			<Movement_Speed_Bonus_Percentage>0.0</Movement_Speed_Bonus_Percentage>
 			<Stacking_Category>3</Stacking_Category>
-		</Combat_Bonus_Ability>
-		<Enable_Ability Name="RS_L3_Turret_Regen_Enabler"> <!-- Needs to trigger a unique ability per level -->
-			<Ability_Name>Generic_Turret_Self_Repair_L3</Ability_Name> <!--Generic_Turret_Self_Repair_L3, L4, L5-->
+		</Combat_Bonus_Ability>-->
+<!--		<Enable_Ability Name="RS_L3_Turret_Regen_Enabler">   Needs to trigger a unique ability per level
+			<Ability_Name>Generic_Turret_Self_Repair_L3</Ability_Name>  Generic_Turret_Self_Repair_L3, L4, L5
 			<Applicable_Unit_Categories/>
-			<Applicable_Unit_Types>Rebel_Defense_Satellite_Laser, Rebel_Defense_Satellite_TurboLaser, Rebel_Defense_Satellite_Missile</Applicable_Unit_Types> <!--Rebel_Defense_Satellite_Repair-->
+			<Applicable_Unit_Types>Rebel_Defense_Satellite_Laser, Rebel_Defense_Satellite_TurboLaser, Rebel_Defense_Satellite_Missile</Applicable_Unit_Types>  Rebel_Defense_Satellite_Repair
 			<Affects_All_Allies>Yes</Affects_All_Allies>
 		</Enable_Ability>
-		<Garrison_Upgrade_Ability Name="RS_L3_Increased_Garrisions_Bonus"> <!-- This should NOT be added to L4 or L5 unless we want even more additional garrison forces. -->
+		<Garrison_Upgrade_Ability Name="RS_L3_Increased_Garrisions_Bonus">   This should NOT be added to L4 or L5 unless we want even more additional garrison forces.
 			<Activation_Style>Skirmish_Automatic</Activation_Style>
 			<Apply_To_All_Allies>Yes</Apply_To_All_Allies>
 			<Additional_Garrison_Units>Rebel_X-Wing_Squadron, Y-Wing_Squadron</Additional_Garrison_Units>
-		</Garrison_Upgrade_Ability>
+		</Garrison_Upgrade_Ability>-->
 	</Abilities>
 	</StarBase>
 
@@ -2955,7 +2955,7 @@
 			<Initially_Enabled>No</Initially_Enabled>
 			<Affects_All_Allies>True</Affects_All_Allies>
 		</Enable_Radar_Ability>
-		<Combat_Bonus_Ability Name="RS_L4_AsteroidMine_Bonus">
+<!--		<Combat_Bonus_Ability Name="RS_L4_AsteroidMine_Bonus">
 			<Activation_Style>Skirmish_Automatic</Activation_Style>
 			<Applicable_Unit_Categories/>
 			<Applicable_Unit_Types>Rebel_Mineral_Extractor</Applicable_Unit_Types>
@@ -2982,9 +2982,9 @@
 		<Enable_Ability Name="RS_L4_Turret_Regen_Enabler">
 			<Ability_Name>Generic_Turret_Self_Repair_L4</Ability_Name>
 			<Applicable_Unit_Categories/>
-			<Applicable_Unit_Types>Rebel_Defense_Satellite_Laser, Rebel_Defense_Satellite_TurboLaser, Rebel_Defense_Satellite_Missile</Applicable_Unit_Types> <!--Rebel_Defense_Satellite_Repair-->
+			<Applicable_Unit_Types>Rebel_Defense_Satellite_Laser, Rebel_Defense_Satellite_TurboLaser, Rebel_Defense_Satellite_Missile</Applicable_Unit_Types>  Rebel_Defense_Satellite_Repair
 			<Affects_All_Allies>Yes</Affects_All_Allies>
-		</Enable_Ability>
+		</Enable_Ability>-->
 	</Abilities>
 	</StarBase>
 
@@ -3086,7 +3086,7 @@
 			<Initially_Enabled>No</Initially_Enabled>
 			<Affects_All_Allies>True</Affects_All_Allies>
 		</Enable_Radar_Ability>
-		<Combat_Bonus_Ability Name="RS_L5_AsteroidMine_Bonus">
+<!--		<Combat_Bonus_Ability Name="RS_L5_AsteroidMine_Bonus">
 			<Activation_Style>Skirmish_Automatic</Activation_Style>
 			<Applicable_Unit_Categories/>
 			<Applicable_Unit_Types>Rebel_Mineral_Extractor</Applicable_Unit_Types>
@@ -3113,9 +3113,9 @@
 		<Enable_Ability Name="RS_L5_Turret_Regen_Enabler">
 			<Ability_Name>Generic_Turret_Self_Repair_L5</Ability_Name>
 			<Applicable_Unit_Categories/>
-			<Applicable_Unit_Types>Rebel_Defense_Satellite_Laser, Rebel_Defense_Satellite_TurboLaser, Rebel_Defense_Satellite_Missile</Applicable_Unit_Types> <!--Rebel_Defense_Satellite_Repair-->
+			<Applicable_Unit_Types>Rebel_Defense_Satellite_Laser, Rebel_Defense_Satellite_TurboLaser, Rebel_Defense_Satellite_Missile</Applicable_Unit_Types>  Rebel_Defense_Satellite_Repair
 			<Affects_All_Allies>Yes</Affects_All_Allies>
-		</Enable_Ability>
+		</Enable_Ability>-->
 	</Abilities>
 	</StarBase>
 
@@ -3140,7 +3140,8 @@
 				TIE_Interceptor_Squadron,
 				TIE_Bomber_Squadron,
 				ES_Enhanced_Reactors_L1_Upgrade,
-				ES_Reinforced_Armor_L1_Upgrade,
+<!--				ES_Reinforced_Armor_L1_Upgrade,-->
+				ES_Upgraded_Electronics_L1_Upgrade,
 				ES_Level_Two_Starbase_Upgrade
 		</Tactical_Buildable_Objects_Multiplayer>
 
@@ -3214,10 +3215,12 @@
 				Tartan_Patrol_Cruiser,
 				TIE_Bomber_Squadron,
 				Acclamator_Assault_Ship,
-				Boba_Fett_Team_Space_MP,
+<!--				Boba_Fett_Team_Space_MP,-->
+				Slave_I_Skirmish,
 				ES_Enhanced_Reactors_L1_Upgrade,
 				ES_Reinforced_Armor_L1_Upgrade,
 				ES_Improved_Weapons_L1_Upgrade,
+				ES_Upgraded_Electronics_L1_Upgrade,
 				ES_Level_Three_Starbase_Upgrade
 		</Tactical_Buildable_Objects_Multiplayer>
 
@@ -3262,7 +3265,7 @@
 			<Initially_Enabled>No</Initially_Enabled>
 			<Affects_All_Allies>True</Affects_All_Allies>
 		</Enable_Radar_Ability>
-		<Combat_Bonus_Ability Name="ES_L2_AsteroidMine_Bonus">
+<!--		<Combat_Bonus_Ability Name="ES_L2_AsteroidMine_Bonus">
 			<Activation_Style>Skirmish_Automatic</Activation_Style>
 			<Applicable_Unit_Categories/>
 			<Applicable_Unit_Types>Empire_Mineral_Extractor</Applicable_Unit_Types>
@@ -3285,7 +3288,7 @@
 			<Defense_Bonus_Percentage>0.0</Defense_Bonus_Percentage>
 			<Movement_Speed_Bonus_Percentage>0.0</Movement_Speed_Bonus_Percentage>
 			<Stacking_Category>3</Stacking_Category>
-		</Combat_Bonus_Ability>
+		</Combat_Bonus_Ability>-->
 	</Abilities>
 	</StarBase>
 
@@ -3330,6 +3333,7 @@
 				ES_Improved_Weapons_L1_Upgrade,
 				ES_Improved_Weapons_L2_Upgrade,
 				ES_Improved_Defenses_L1_Upgrade,
+				ES_Upgraded_Electronics_L1_Upgrade,
 				ES_Hypervelocity_Gun_Use_Upgrade,
 				ES_Level_Four_Starbase_Upgrade
 		</Tactical_Buildable_Objects_Multiplayer>
@@ -3375,7 +3379,7 @@
 			<Initially_Enabled>No</Initially_Enabled>
 			<Affects_All_Allies>True</Affects_All_Allies>
 		</Enable_Radar_Ability>
-		<Combat_Bonus_Ability Name="ES_L3_AsteroidMine_Bonus">
+<!--		<Combat_Bonus_Ability Name="ES_L3_AsteroidMine_Bonus">
 			<Activation_Style>Skirmish_Automatic</Activation_Style>
 			<Applicable_Unit_Categories/>
 			<Applicable_Unit_Types>Empire_Mineral_Extractor</Applicable_Unit_Types>
@@ -3399,17 +3403,17 @@
 			<Movement_Speed_Bonus_Percentage>0.0</Movement_Speed_Bonus_Percentage>
 			<Stacking_Category>3</Stacking_Category>
 		</Combat_Bonus_Ability>
-		<Enable_Ability Name="ES_L3_Turret_Regen_Enabler"> <!-- Needs to trigger a unique ability per level -->
-			<Ability_Name>Generic_Turret_Self_Repair_L3</Ability_Name> <!--Generic_Turret_Self_Repair_L3, L4, L5-->
+		<Enable_Ability Name="ES_L3_Turret_Regen_Enabler">   Needs to trigger a unique ability per level
+			<Ability_Name>Generic_Turret_Self_Repair_L3</Ability_Name>  Generic_Turret_Self_Repair_L3, L4, L5
 			<Applicable_Unit_Categories/>
-			<Applicable_Unit_Types>Empire_Defense_Satellite_Laser, Empire_Defense_Satellite_TurboLaser, Empire_Defense_Satellite_Missile, Empire_Defense_Satellite_Tractor</Applicable_Unit_Types> <!--Empire_Defense_Satellite_Repair-->
+			<Applicable_Unit_Types>Empire_Defense_Satellite_Laser, Empire_Defense_Satellite_TurboLaser, Empire_Defense_Satellite_Missile, Empire_Defense_Satellite_Tractor</Applicable_Unit_Types>  Empire_Defense_Satellite_Repair
 			<Affects_All_Allies>Yes</Affects_All_Allies>
 		</Enable_Ability>
-		<Garrison_Upgrade_Ability Name="ES_L3_Increased_Garrisions_Bonus"> <!-- This should NOT be added to L4 or L5 unless we want even more additional garrison forces. -->
+		<Garrison_Upgrade_Ability Name="ES_L3_Increased_Garrisions_Bonus">   This should NOT be added to L4 or L5 unless we want even more additional garrison forces.
 			<Activation_Style>Skirmish_Automatic</Activation_Style>
 			<Apply_To_All_Allies>Yes</Apply_To_All_Allies>
 			<Additional_Garrison_Units>TIE_Interceptor_Squadron, TIE_Bomber_Squadron</Additional_Garrison_Units>
-		</Garrison_Upgrade_Ability>
+		</Garrison_Upgrade_Ability>-->
 	</Abilities>
 	</StarBase>
 
@@ -3460,6 +3464,7 @@
 				ES_Improved_Weapons_L2_Upgrade,
 				ES_Improved_Defenses_L1_Upgrade,
 				ES_Improved_Defenses_L2_Upgrade,
+				ES_Upgraded_Electronics_L1_Upgrade,
 				ES_Hypervelocity_Gun_Use_Upgrade,
 				ES_Level_Five_Starbase_Upgrade
 		</Tactical_Buildable_Objects_Multiplayer>
@@ -3505,7 +3510,7 @@
 			<Initially_Enabled>No</Initially_Enabled>
 			<Affects_All_Allies>True</Affects_All_Allies>
 		</Enable_Radar_Ability>
-		<Combat_Bonus_Ability Name="ES_L4_AsteroidMine_Bonus">
+<!--		<Combat_Bonus_Ability Name="ES_L4_AsteroidMine_Bonus">
 			<Activation_Style>Skirmish_Automatic</Activation_Style>
 			<Applicable_Unit_Categories/>
 			<Applicable_Unit_Types>Empire_Mineral_Extractor</Applicable_Unit_Types>
@@ -3529,12 +3534,12 @@
 			<Movement_Speed_Bonus_Percentage>0.0</Movement_Speed_Bonus_Percentage>
 			<Stacking_Category>3</Stacking_Category>
 		</Combat_Bonus_Ability>
-		<Enable_Ability Name="ES_L4_Turret_Regen_Enabler"> <!-- Needs to trigger a unique ability per level -->
-			<Ability_Name>Generic_Turret_Self_Repair_L4</Ability_Name> <!--Generic_Turret_Self_Repair_L3, L4, L5-->
+		<Enable_Ability Name="ES_L4_Turret_Regen_Enabler">
+			<Ability_Name>Generic_Turret_Self_Repair_L4</Ability_Name>
 			<Applicable_Unit_Categories/>
-			<Applicable_Unit_Types>Empire_Defense_Satellite_Laser, Empire_Defense_Satellite_TurboLaser, Empire_Defense_Satellite_Missile, Empire_Defense_Satellite_Tractor</Applicable_Unit_Types> <!--Empire_Defense_Satellite_Repair-->
+			<Applicable_Unit_Types>Empire_Defense_Satellite_Laser, Empire_Defense_Satellite_TurboLaser, Empire_Defense_Satellite_Missile, Empire_Defense_Satellite_Tractor</Applicable_Unit_Types>  Empire_Defense_Satellite_Repair
 			<Affects_All_Allies>Yes</Affects_All_Allies>
-		</Enable_Ability>
+		</Enable_Ability>-->
 	</Abilities>
 	</StarBase>
 
@@ -3596,6 +3601,7 @@
 				ES_Improved_Defenses_L1_Upgrade,
 				ES_Improved_Defenses_L2_Upgrade,
 				ES_Improved_Defenses_L3_Upgrade,
+				ES_Upgraded_Electronics_L1_Upgrade,
 				ES_Hypervelocity_Gun_Use_Upgrade
 		</Tactical_Buildable_Objects_Multiplayer>
 
@@ -3640,7 +3646,7 @@
 			<Initially_Enabled>No</Initially_Enabled>
 			<Affects_All_Allies>True</Affects_All_Allies>
 		</Enable_Radar_Ability>
-		<Combat_Bonus_Ability Name="ES_L5_AsteroidMine_Bonus">
+<!--		<Combat_Bonus_Ability Name="ES_L5_AsteroidMine_Bonus">
 			<Activation_Style>Skirmish_Automatic</Activation_Style>
 			<Applicable_Unit_Categories/>
 			<Applicable_Unit_Types>Empire_Mineral_Extractor</Applicable_Unit_Types>
@@ -3664,12 +3670,12 @@
 			<Movement_Speed_Bonus_Percentage>0.0</Movement_Speed_Bonus_Percentage>
 			<Stacking_Category>3</Stacking_Category>
 		</Combat_Bonus_Ability>
-		<Enable_Ability Name="ES_L5_Turret_Regen_Enabler"> <!-- Needs to trigger a unique ability per level -->
-			<Ability_Name>Generic_Turret_Self_Repair_L5</Ability_Name> <!--Generic_Turret_Self_Repair_L3, L4, L5-->
+		<Enable_Ability Name="ES_L5_Turret_Regen_Enabler">
+			<Ability_Name>Generic_Turret_Self_Repair_L5</Ability_Name>
 			<Applicable_Unit_Categories/>
-			<Applicable_Unit_Types>Empire_Defense_Satellite_Laser, Empire_Defense_Satellite_TurboLaser, Empire_Defense_Satellite_Missile, Empire_Defense_Satellite_Tractor</Applicable_Unit_Types> <!--Empire_Defense_Satellite_Repair-->
+			<Applicable_Unit_Types>Empire_Defense_Satellite_Laser, Empire_Defense_Satellite_TurboLaser, Empire_Defense_Satellite_Missile, Empire_Defense_Satellite_Tractor</Applicable_Unit_Types>  Empire_Defense_Satellite_Repair
 			<Affects_All_Allies>Yes</Affects_All_Allies>
-		</Enable_Ability>
+		</Enable_Ability>-->
 	</Abilities>
 	</StarBase>
 
@@ -3814,7 +3820,7 @@
 			<Initially_Enabled>No</Initially_Enabled>
 			<Affects_All_Allies>True</Affects_All_Allies>
 		</Enable_Radar_Ability>
-		<Combat_Bonus_Ability Name="US_L2_AsteroidMine_Bonus">
+<!--		<Combat_Bonus_Ability Name="US_L2_AsteroidMine_Bonus">
 			<Activation_Style>Skirmish_Automatic</Activation_Style>
 			<Applicable_Unit_Categories/>
 			<Applicable_Unit_Types>Underworld_Mineral_Extractor</Applicable_Unit_Types>
@@ -3837,7 +3843,7 @@
 			<Defense_Bonus_Percentage>0.0</Defense_Bonus_Percentage>
 			<Movement_Speed_Bonus_Percentage>0.0</Movement_Speed_Bonus_Percentage>
 			<Stacking_Category>3</Stacking_Category>
-		</Combat_Bonus_Ability>
+		</Combat_Bonus_Ability>-->
 	</Abilities>
 	</StarBase>
 
@@ -3926,7 +3932,7 @@
 			<Initially_Enabled>No</Initially_Enabled>
 			<Affects_All_Allies>True</Affects_All_Allies>
 		</Enable_Radar_Ability>
-		<Combat_Bonus_Ability Name="US_L3_AsteroidMine_Bonus">
+<!--		<Combat_Bonus_Ability Name="US_L3_AsteroidMine_Bonus">
 			<Activation_Style>Skirmish_Automatic</Activation_Style>
 			<Applicable_Unit_Categories/>
 			<Applicable_Unit_Types>Underworld_Mineral_Extractor</Applicable_Unit_Types>
@@ -3950,17 +3956,17 @@
 			<Movement_Speed_Bonus_Percentage>0.0</Movement_Speed_Bonus_Percentage>
 			<Stacking_Category>3</Stacking_Category>
 		</Combat_Bonus_Ability>
-		<Enable_Ability Name="US_L3_Turret_Regen_Enabler"> <!-- Needs to trigger a unique ability per level -->
-			<Ability_Name>Generic_Turret_Self_Repair_L3</Ability_Name> <!--Generic_Turret_Self_Repair_L3, L4, L5-->
+		<Enable_Ability Name="US_L3_Turret_Regen_Enabler">   Needs to trigger a unique ability per level
+			<Ability_Name>Generic_Turret_Self_Repair_L3</Ability_Name>  Generic_Turret_Self_Repair_L3, L4, L5
 			<Applicable_Unit_Categories/>
 			<Applicable_Unit_Types>Underworld_Defense_Satellite_Plasma, Underworld_Defense_Satellite_MassDriver, Underworld_Defense_Satellite_DBM, Underworld_Defense_Satellite_Sensor</Applicable_Unit_Types>
 			<Affects_All_Allies>Yes</Affects_All_Allies>
 		</Enable_Ability>
-		<Garrison_Upgrade_Ability Name="US_L3_Increased_Garrisions_Bonus"> <!-- This should NOT be added to L4 or L5 unless we want even more additional garrison forces. -->
+		<Garrison_Upgrade_Ability Name="US_L3_Increased_Garrisions_Bonus">   This should NOT be added to L4 or L5 unless we want even more additional garrison forces.
 			<Activation_Style>Skirmish_Automatic</Activation_Style>
 			<Apply_To_All_Allies>Yes</Apply_To_All_Allies>
 			<Additional_Garrison_Units>StarViper_Squadron, Skipray_Squadron</Additional_Garrison_Units>
-		</Garrison_Upgrade_Ability>
+		</Garrison_Upgrade_Ability>-->
 	</Abilities>
 	</StarBase>
 
@@ -4058,7 +4064,7 @@
 			<Initially_Enabled>No</Initially_Enabled>
 			<Affects_All_Allies>True</Affects_All_Allies>
 		</Enable_Radar_Ability>
-		<Combat_Bonus_Ability Name="US_L4_AsteroidMine_Bonus">
+<!--		<Combat_Bonus_Ability Name="US_L4_AsteroidMine_Bonus">
 			<Activation_Style>Skirmish_Automatic</Activation_Style>
 			<Applicable_Unit_Categories/>
 			<Applicable_Unit_Types>Underworld_Mineral_Extractor</Applicable_Unit_Types>
@@ -4082,12 +4088,12 @@
 			<Movement_Speed_Bonus_Percentage>0.0</Movement_Speed_Bonus_Percentage>
 			<Stacking_Category>3</Stacking_Category>
 		</Combat_Bonus_Ability>
-		<Enable_Ability Name="US_L4_Turret_Regen_Enabler"> <!-- Needs to trigger a unique ability per level -->
-			<Ability_Name>Generic_Turret_Self_Repair_L4</Ability_Name> <!--Generic_Turret_Self_Repair_L3, L4, L5-->
+		<Enable_Ability Name="US_L4_Turret_Regen_Enabler">
+			<Ability_Name>Generic_Turret_Self_Repair_L4</Ability_Name>
 			<Applicable_Unit_Categories/>
 			<Applicable_Unit_Types>Underworld_Defense_Satellite_Plasma, Underworld_Defense_Satellite_MassDriver, Underworld_Defense_Satellite_DBM, Underworld_Defense_Satellite_Sensor</Applicable_Unit_Types>
 			<Affects_All_Allies>Yes</Affects_All_Allies>
-		</Enable_Ability>
+		</Enable_Ability>-->
 	</Abilities>
 	</StarBase>
 
@@ -4195,7 +4201,7 @@
 			<Initially_Enabled>No</Initially_Enabled>
 			<Affects_All_Allies>True</Affects_All_Allies>
 		</Enable_Radar_Ability>
-		<Combat_Bonus_Ability Name="US_L5_AsteroidMine_Bonus">
+<!--		<Combat_Bonus_Ability Name="US_L5_AsteroidMine_Bonus">
 			<Activation_Style>Skirmish_Automatic</Activation_Style>
 			<Applicable_Unit_Categories/>
 			<Applicable_Unit_Types>Underworld_Mineral_Extractor</Applicable_Unit_Types>
@@ -4219,12 +4225,12 @@
 			<Movement_Speed_Bonus_Percentage>0.0</Movement_Speed_Bonus_Percentage>
 			<Stacking_Category>3</Stacking_Category>
 		</Combat_Bonus_Ability>
-		<Enable_Ability Name="US_L5_Turret_Regen_Enabler"> <!-- Needs to trigger a unique ability per level -->
-			<Ability_Name>Generic_Turret_Self_Repair_L5</Ability_Name> <!--Generic_Turret_Self_Repair_L3, L4, L5-->
+		<Enable_Ability Name="US_L5_Turret_Regen_Enabler">
+			<Ability_Name>Generic_Turret_Self_Repair_L5</Ability_Name>
 			<Applicable_Unit_Categories/>
 			<Applicable_Unit_Types>Underworld_Defense_Satellite_Plasma, Underworld_Defense_Satellite_MassDriver, Underworld_Defense_Satellite_DBM, Underworld_Defense_Satellite_Sensor</Applicable_Unit_Types>
 			<Affects_All_Allies>Yes</Affects_All_Allies>
-		</Enable_Ability>
+		</Enable_Ability>-->
 	</Abilities>
 	</StarBase>
 	
@@ -5082,6 +5088,10 @@
 	</Abilities>
 	</StarBase>
 </StarBases>
+
+
+
+
 
 
 

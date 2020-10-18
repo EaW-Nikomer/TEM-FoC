@@ -2294,7 +2294,7 @@
 		<Affiliation>Underworld</Affiliation>
 		<Tactical_Build_Cost_Multiplayer>2700</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>300</Tactical_Build_Cost_Campaign>
-		<Tactical_Build_Time_Seconds>45</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Time_Seconds>40</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites/>
 		<Tactical_Build_Increments_Tech_Level>Yes</Tactical_Build_Increments_Tech_Level>
 		<Tactical_Destruction_Decrements_Tech_Level>Yes</Tactical_Destruction_Decrements_Tech_Level>
@@ -3803,6 +3803,7 @@
 		<CategoryMask>Upgrade</CategoryMask>
 	</UpgradeObject>
 </UpgradeObjects>
+
 
 
 

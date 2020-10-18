@@ -332,7 +332,7 @@
 			<SFXEvent_GUI_Unit_Ability_Activated>Unit_Ion_Cannon_Tie_Defender</SFXEvent_GUI_Unit_Ability_Activated>
 			<Projectile_Types_Override>Proj_Ion_Cannon_Medium_Laser_Blue</Projectile_Types_Override>
 			<Recharge_Seconds>25.0</Recharge_Seconds>
-			<Supports_Autofire>True</Supports_Autofire>
+<!--			<Supports_Autofire>True</Supports_Autofire>-->
 		</Unit_Ability>
 		<Unit_Ability>
 			<Type>POWER_TO_WEAPONS</Type>
@@ -412,7 +412,7 @@
 			<Recharge_Seconds>60</Recharge_Seconds>
 			<Active_By_Default>Yes</Active_By_Default>
 			<SFXEvent_GUI_Unit_Ability_Activated>Unit_Respawn_Vader_Ship</SFXEvent_GUI_Unit_Ability_Activated>
-			<Supports_Autofire>True</Supports_Autofire>
+<!--			<Supports_Autofire>True</Supports_Autofire>-->
 		</Unit_Ability>
 	</Unit_Abilities_Data>
 	</Container>
@@ -609,7 +609,7 @@
 			<Recharge_Seconds>20.0</Recharge_Seconds>
 			<GUI_Activated_Ability_Name>Y_Wing_Container_Ion_Cannon_Shot</GUI_Activated_Ability_Name>
 			<Projectile_Types_Override>Proj_Ion_Cannon_Medium_Laser_Blue</Projectile_Types_Override>
-			<Supports_Autofire>True</Supports_Autofire>
+<!--			<Supports_Autofire>True</Supports_Autofire>-->
 		</Unit_Ability>
 	</Unit_Abilities_Data>
 
@@ -731,7 +731,7 @@
 			<Projectile_Types_Override>Proj_Ship_Lucky_Shot_Medium_Laser_Cannon_Red</Projectile_Types_Override>
 			<GUI_Activated_Ability_Name>Red_Squadron_Lucky_Shot</GUI_Activated_Ability_Name>
 			<SFXEvent_Target_Ability>Unit_Lucky_Shot_Luke</SFXEvent_Target_Ability>
-			<Supports_Autofire>True</Supports_Autofire>
+<!--			<Supports_Autofire>True</Supports_Autofire>-->
 		</Unit_Ability>
 		<Unit_Ability>
 			<Type>SPOILER_LOCK</Type>
@@ -873,6 +873,7 @@
 	<Unit_Abilities_Data SubObjectList="Yes">
 		<Unit_Ability>
 			<Type>BUZZ_DROIDS</Type>
+			<Effective_Radius>300</Effective_Radius>
 			<GUI_Activated_Ability_Name>Buzz_Droids_Viper</GUI_Activated_Ability_Name>
 			<Must_Be_Bought_On_Black_Market>Yes</Must_Be_Bought_On_Black_Market>
 			<Recharge_Seconds>50</Recharge_Seconds>
@@ -885,13 +886,13 @@
 		<Buzz_Droids_Ability Name="Buzz_Droids_Viper">
 			<Activation_Style>User_Input</Activation_Style>
 			<Activation_Min_Range>5</Activation_Min_Range>
-			<Activation_Max_Range>400</Activation_Max_Range>
+			<Activation_Max_Range>300</Activation_Max_Range> <!-- 400 -->
 			<!--If you change Chase_Radius update Area_Effect_Decal_Distance in the unit ability-->
 			<Chase_Radius>300</Chase_Radius>
 			<Damage_Radius>175</Damage_Radius>
-			<Enemy_Damage_Per_Second>23</Enemy_Damage_Per_Second>
+			<Enemy_Damage_Per_Second>18</Enemy_Damage_Per_Second>
 			<Own_Damage_Per_Second>3</Own_Damage_Per_Second>
-			<Activation_Time_In_Seconds>1</Activation_Time_In_Seconds>
+			<Activation_Time_In_Seconds>1.5</Activation_Time_In_Seconds>
 			<Activate_SFX>GUI_Buzz_Droids_SFX</Activate_SFX>
 			<Object_Type>Buzz_Droids</Object_Type>
 			<Must_Be_Bought_On_Black_Market>Yes</Must_Be_Bought_On_Black_Market>
@@ -2615,13 +2616,13 @@
 				<Recharge_Seconds>45.0</Recharge_Seconds>
 				<GUI_Activated_Ability_Name> R2D2_Hack_Ability </GUI_Activated_Ability_Name>
 				<SFXEvent_Target_Ability> Unit_Hack_Turret_C3PO </SFXEvent_Target_Ability> 
-				<Supports_Autofire>True</Supports_Autofire>
+<!--				<Supports_Autofire>True</Supports_Autofire>-->
 			</Unit_Ability>
 
 		 <!-- REQUIRED HERE FOR TEAM -->
 			<Unit_Ability>
 				<Type>TARGETED_REPAIR</Type>
-				<Recharge_Seconds>50.0</Recharge_Seconds>
+				<Recharge_Seconds>35.0</Recharge_Seconds>
 				<GUI_Activated_Ability_Name> R2D2_Repair_Ability </GUI_Activated_Ability_Name>
 				<Friendly_Ability> Yes </Friendly_Ability> <!-- Targeted ability to friendly units -->
 				<SFXEvent_Target_Ability> Unit_Hack_Turret_C3PO </SFXEvent_Target_Ability> 
@@ -2804,7 +2805,7 @@
 			<Recharge_Seconds>20.0</Recharge_Seconds>
 			<GUI_Activated_Ability_Name>Y_Wing_Container_Ion_Cannon_Shot</GUI_Activated_Ability_Name>
 			<Projectile_Types_Override>Proj_Ion_Cannon_Medium_Laser_Blue</Projectile_Types_Override>
-			<Supports_Autofire>True</Supports_Autofire>
+<!--			<Supports_Autofire>True</Supports_Autofire>-->
 		</Unit_Ability>
 	</Unit_Abilities_Data>
 
@@ -2824,9 +2825,6 @@
 		<Affiliation>Empire_EAW</Affiliation>
 	</Container>
 </Containers>
-
-
-
 
 
 

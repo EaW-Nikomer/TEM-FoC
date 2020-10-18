@@ -890,7 +890,7 @@
 		<Fire_Max_Recharge_Seconds>3.0</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>2</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>1000.0</Fire_Range_Distance>
+		<Fire_Range_Distance>1250.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Turret_Fire</Fire_SFXEvent>
 		<Fire_Inaccuracy_Distance>Fighter, 10.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Bomber, 10.0</Fire_Inaccuracy_Distance>
@@ -1846,7 +1846,7 @@
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
 		<Tooltip_Text>TEXT_WEAPON_CONCUSSIONMISSILE</Tooltip_Text>
-		<Health>350.0</Health>
+		<Health>425.0</Health>
 
 		<Death_Explosion_Particles>Large_Explosion_Space_Empire</Death_Explosion_Particles>
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Missile_Death</Death_Explosion_SFXEvent>
@@ -1866,14 +1866,14 @@
 		<Fire_Projectile_Type>Proj_Ship_Concussion_Missile</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>4.0</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>5.0</Fire_Max_Recharge_Seconds>
-		<Fire_Pulse_Count>4</Fire_Pulse_Count>
+		<Fire_Pulse_Count>6</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>1200.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
-		<Full_Salvo_Weapon_Delay_Multiplier>0.4</Full_Salvo_Weapon_Delay_Multiplier>
+		<Full_Salvo_Weapon_Delay_Multiplier>0.18</Full_Salvo_Weapon_Delay_Multiplier>
 	</HardPoint>
 	
-	<HardPoint Name="HP_Interceptor_Frigate_00B">
+	<HardPoint Name="HP_Interceptor_Frigate_00B"> <!-- No longer used -->
 		<Type>HARD_POINT_WEAPON_MISSILE</Type>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
@@ -1923,7 +1923,7 @@
 
 		<Death_Breakoff_Prop>Hardpoint_Breakoff_InterceptorIV_BL</Death_Breakoff_Prop>
 
-		<Damage_Type>Damage_Acclamator</Damage_Type>
+		<Damage_Type>Damage_Acclamator_TL</Damage_Type>
 		<Fire_Bone_A>FP_B-L_00</Fire_Bone_A>
 		<Fire_Bone_B>FP_B-L_01</Fire_Bone_B>
 		<Fire_Cone_Width>150</Fire_Cone_Width>
@@ -1963,7 +1963,7 @@
 
 		<Death_Breakoff_Prop>Hardpoint_Breakoff_InterceptorIV_BR</Death_Breakoff_Prop>
 
-		<Damage_Type>Damage_Acclamator</Damage_Type>
+		<Damage_Type>Damage_Acclamator_TL</Damage_Type>
 		<Fire_Bone_A>FP_B-R_00</Fire_Bone_A>
 		<Fire_Bone_B>FP_B-R_01</Fire_Bone_B>
 		<Fire_Cone_Width>150</Fire_Cone_Width>
@@ -2475,7 +2475,7 @@
 		<Fire_Bone_B>MuzzleA_00</Fire_Bone_B>
 		<Fire_Cone_Width>90.0</Fire_Cone_Width>
 		<Fire_Cone_Height>90.0</Fire_Cone_Height>
-		<Damage_Type>Damage_Fighter</Damage_Type>
+		<Damage_Type>Damage_Gunship</Damage_Type>
 		<Fire_Projectile_Type>Proj_Ship_Medium_Laser_Cannon_Red</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>0.5</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>0.5</Fire_Max_Recharge_Seconds>
@@ -2504,7 +2504,7 @@
 		<Fire_Bone_B>MuzzleA_01</Fire_Bone_B>
 		<Fire_Cone_Width>90.0</Fire_Cone_Width>
 		<Fire_Cone_Height>90.0</Fire_Cone_Height>
-		<Damage_Type>Damage_Fighter</Damage_Type>
+		<Damage_Type>Damage_Gunship</Damage_Type>
 		<Fire_Projectile_Type>Proj_Ship_Medium_Laser_Cannon_Red</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>0.5</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>0.5</Fire_Max_Recharge_Seconds>
@@ -2874,5 +2874,7 @@
 		<Fire_Inaccuracy_Distance>LandHero, 15.0</Fire_Inaccuracy_Distance>
 	</HardPoint>
 </HardPoints>
+
+
 
 

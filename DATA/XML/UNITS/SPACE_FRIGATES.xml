@@ -68,7 +68,7 @@
 
 		<Space_FOW_Reveal_Range>1200.0</Space_FOW_Reveal_Range>
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
-		<Targeting_Max_Attack_Distance>1000.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>1100.0</Targeting_Max_Attack_Distance>
 		<Ranged_Target_Z_Adjust>35.0</Ranged_Target_Z_Adjust>
 		<Targeting_Priority_Set>Frigate</Targeting_Priority_Set>
 		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
@@ -176,7 +176,7 @@
 			<Mod_Multiplier>SPEED_MULTIPLIER,			0.8f</Mod_Multiplier>
 			<Expiration_Seconds>15</Expiration_Seconds>
 			<SFXEvent_GUI_Unit_Ability_Activated>Unit_Defend_Nebulon</SFXEvent_GUI_Unit_Ability_Activated>
-			<Supports_Autofire>True</Supports_Autofire>
+<!--			<Supports_Autofire>True</Supports_Autofire>-->
 		</Unit_Ability>
 	</Unit_Abilities_Data>
 
@@ -219,7 +219,7 @@
 			<Mod_Multiplier>SPEED_MULTIPLIER,			0.8f</Mod_Multiplier>
 			<Expiration_Seconds>15</Expiration_Seconds>
 			<SFXEvent_GUI_Unit_Ability_Activated>Unit_Defend_Nebulon</SFXEvent_GUI_Unit_Ability_Activated>
-			<Supports_Autofire>False</Supports_Autofire>
+<!--			<Supports_Autofire>False</Supports_Autofire>-->
 		</Unit_Ability>
 	</Unit_Abilities_Data>
 
@@ -420,7 +420,7 @@
 			<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,		3.0f</Mod_Multiplier>
 			<Mod_Multiplier>SPEED_MULTIPLIER,			0.8f</Mod_Multiplier>
 			<SFXEvent_GUI_Unit_Ability_Activated>Unit_Defend_Assault_Frigate</SFXEvent_GUI_Unit_Ability_Activated>
-			<Supports_Autofire>True</Supports_Autofire>
+<!--			<Supports_Autofire>True</Supports_Autofire>-->
 		</Unit_Ability>
 	</Unit_Abilities_Data>
 
@@ -463,7 +463,7 @@
 			<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,		3.0f</Mod_Multiplier>
 			<Mod_Multiplier>SPEED_MULTIPLIER,			0.8f</Mod_Multiplier>
 			<SFXEvent_GUI_Unit_Ability_Activated>Unit_Defend_Assault_Frigate</SFXEvent_GUI_Unit_Ability_Activated>
-			<Supports_Autofire>False</Supports_Autofire>
+<!--			<Supports_Autofire>False</Supports_Autofire>-->
 		</Unit_Ability>
 	</Unit_Abilities_Data>
 
@@ -655,7 +655,7 @@
 			<GUI_Activated_Ability_Name>MC30_Cluster_Bomb</GUI_Activated_Ability_Name> <!--GUI Command Bar support-->
 			<Effective_Radius>500.0</Effective_Radius>
 			<SFXEvent_GUI_Unit_Ability_Activated>Unit_Cluster_Bombs_MC30_Frigate</SFXEvent_GUI_Unit_Ability_Activated>
-			<Supports_Autofire>True</Supports_Autofire>
+<!--			<Supports_Autofire>True</Supports_Autofire>-->
 		</Unit_Ability>
 	</Unit_Abilities_Data>
 
@@ -1114,7 +1114,7 @@
 			<Expiration_Seconds>0</Expiration_Seconds>
 			<SFXEvent_GUI_Unit_Ability_Activated>Unit_Missile_Field_Interdictor</SFXEvent_GUI_Unit_Ability_Activated>
 			<SFXEvent_GUI_Unit_Ability_Deactivated/>
-			<Supports_Autofire>True</Supports_Autofire>
+<!--			<Supports_Autofire>True</Supports_Autofire>-->
 			<Alternate_Icon_Name>i_sa_missile_jamming.tga</Alternate_Icon_Name>
 		</Unit_Ability>
 	</Unit_Abilities_Data>
@@ -1166,7 +1166,7 @@
 			<Expiration_Seconds>0</Expiration_Seconds>
 			<SFXEvent_GUI_Unit_Ability_Activated>Unit_Missile_Field_Interdictor</SFXEvent_GUI_Unit_Ability_Activated>
 			<SFXEvent_GUI_Unit_Ability_Deactivated/>
-			<Supports_Autofire>False</Supports_Autofire>
+<!--			<Supports_Autofire>False</Supports_Autofire>-->
 			<Alternate_Icon_Name>i_sa_missile_jamming.tga</Alternate_Icon_Name>
 		</Unit_Ability>
 	</Unit_Abilities_Data>
@@ -1498,7 +1498,7 @@
 
 		<HardPoints>
 			HP_Interceptor_Frigate_00,
-			HP_Interceptor_Frigate_00B,
+<!--			HP_Interceptor_Frigate_00B,-->
 			HP_Interceptor_Frigate_01,
 			HP_Interceptor_Frigate_02
 		</HardPoints>
@@ -1603,8 +1603,35 @@
 		</Unit_Ability>
 	</Unit_Abilities_Data>
 
+	<Abilities SubObjectList="Yes">
+		<Redirect_Blaster_Ability Name="US_Magnetically_Sealed_Armor_Bonus_L2">
+			<Initially_Enabled>No</Initially_Enabled>
+			<Activation_Style>Take_Damage</Activation_Style>
+			<Redirect_Chance>0.0</Redirect_Chance>
+			<Block_Chance>0.25</Block_Chance>
+			<Reaction_Arc_In_Degrees>360.0</Reaction_Arc_In_Degrees>
+			<Max_Projectile_Redirection_Angle_In_Degrees>30.0</Max_Projectile_Redirection_Angle_In_Degrees>
+			<Turn_To_Face_Unblockable_Shots>No</Turn_To_Face_Unblockable_Shots>
+			<Applicable_Unit_Categories>Fighter | Bomber | Transport | Corvette | Frigate | Capital | Structure</Applicable_Unit_Categories>
+			<Applicable_Unit_Types/>
+			<SFXEvent_Activate>Unit_Lightsaber_Projectile_Block</SFXEvent_Activate>
+		</Redirect_Blaster_Ability>
+		<Redirect_Blaster_Ability Name="US_Magnetically_Sealed_Armor_Bonus_L3">
+			<Initially_Enabled>No</Initially_Enabled>
+			<Activation_Style>Take_Damage</Activation_Style>
+			<Redirect_Chance>0.0</Redirect_Chance>
+			<Block_Chance>0.25</Block_Chance>
+			<Reaction_Arc_In_Degrees>360.0</Reaction_Arc_In_Degrees>
+			<Max_Projectile_Redirection_Angle_In_Degrees>30.0</Max_Projectile_Redirection_Angle_In_Degrees>
+			<Turn_To_Face_Unblockable_Shots>No</Turn_To_Face_Unblockable_Shots>
+			<Applicable_Unit_Categories>Fighter | Bomber | Transport | Corvette | Frigate | Capital | Structure</Applicable_Unit_Categories>
+			<Applicable_Unit_Types/>
+			<SFXEvent_Activate>Unit_Lightsaber_Projectile_Block</SFXEvent_Activate>
+		</Redirect_Blaster_Ability>
+	</Abilities>
+
 	<!--Multiplayer Construction Info-->
-		<Tactical_Build_Cost_Multiplayer>2300</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer>2600</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>12</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites/>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
@@ -2240,7 +2267,5 @@
 		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
 	</SpaceUnit>
 </SpaceUnitsFrigate>
-
-
 
 

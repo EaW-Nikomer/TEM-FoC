@@ -402,7 +402,7 @@
 		<Variant_Of_Existing_Type>Proj_Ship_Concussion_Missile</Variant_Of_Existing_Type>
 		<Max_Speed>8.5</Max_Speed>
 		<Scale_Factor>1.5</Scale_Factor>
-		<Projectile_Damage>25.0</Projectile_Damage>
+		<Projectile_Damage>21.0</Projectile_Damage> <!--was 25-->
 	</Projectile>
 
 	<Projectile Name="Proj_Ship_Concussion_Missile_Bossk">
@@ -1239,6 +1239,11 @@
 		
 		<Projectile_Max_Flight_Distance>1400.0</Projectile_Max_Flight_Distance>
 		<Projectile_Damage>75.0</Projectile_Damage>
+		<Projectile_Blast_Area_Range>75.0</Projectile_Blast_Area_Range>
+		<Projectile_Blast_Area_Damage>75.0</Projectile_Blast_Area_Damage>
+		<Projectile_Blast_Area_Dropoff>True</Projectile_Blast_Area_Dropoff>
+		<Projectile_Blast_Area_Dropoff_Tiers>2</Projectile_Blast_Area_Dropoff_Tiers>
+		
 		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
 		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
 		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
@@ -1251,12 +1256,10 @@
 		<Projectile_SFXEvent_Detonate>SFX_Concussion_Missile_Detonation</Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>SFX_Small_Damage_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 		<AI_Combat_Power>700</AI_Combat_Power>
+		
+		<Projectile_Block_Chance_Modifier>0.0</Projectile_Block_Chance_Modifier>
+		<Projectile_Redirect_Chance_Modifier>0.0</Projectile_Redirect_Chance_Modifier>
 	</Projectile>
-
-
-
-
-
 
 
 	<Projectile Name="Proj_Drunk_Missile">
@@ -1369,6 +1372,8 @@
 
 
 </Projectiles>
+
+
 
 
 

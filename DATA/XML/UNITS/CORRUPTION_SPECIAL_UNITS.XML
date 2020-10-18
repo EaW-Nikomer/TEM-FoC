@@ -1743,7 +1743,7 @@
 			<Unit_Ability>
 				<Type>ION_CANNON_SHOT</Type>
 				<Recharge_Seconds>25.0</Recharge_Seconds>
-				<Supports_Autofire>True</Supports_Autofire>
+<!--				<Supports_Autofire>True</Supports_Autofire>-->
 				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Ion_Cannon_Tie_Defender</SFXEvent_GUI_Unit_Ability_Activated>
 				<GUI_Activated_Ability_Name>Tie_Defender_Ion_Cannon_Shot</GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
 				<Projectile_Types_Override>Proj_Ion_Cannon_Medium_Laser_Blue</Projectile_Types_Override>
@@ -1776,33 +1776,5 @@
 
 	</Squadron>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 </Corruption_Special_Units>
+
