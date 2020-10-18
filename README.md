@@ -1,148 +1,683 @@
 # Tournament Edition Mod FoC Ideas
 
-## Version 0.1
+## Version 0.1b
 
-### Space:
+### Space
 
-#### General:
+#### General
 
-Geonosis: 
+All abilities:
+- :heavy_check_mark: Removed auto fire from all abilities.
+
+Missile Turrets:
+- :heavy_check_mark: Reduce damage by 15%, but retain the volley count.
+- :heavy_check_mark: Increased price to 800 credits.
+
+Laser Turrets:
+- :heavy_check_mark: Decrease price to 700 credits.
+
+Pirate Interceptor III Frigate:
+- :heavy_check_mark: Applied the correct damage type.
+
+Random Faction:
+- :soon: Add random faction. (33% chance to spawn as Rebs, Imps, or Cons.)
+
+Projectile Inaccuracy:
+- :heavy_check_mark: Restore inaccuracy values similar to vanilla EaW.
+
+#### Maps
+
+MP Space Geonosis: 
 - :heavy_check_mark: Fix team 1 spawn.
 
-Hypori: 
+MP Space Hypori: 
 - :heavy_check_mark: Fix team 2 spawn.
 
-Bespin: 
-- :heavy_check_mark: Fix team 2 right mine to be hit by station.
+MP Space Bespin: 
+- :heavy_check_mark: Fix team 1 left mine so it is not in range of the space station.
 
-Coruscant: 
+MP Space Coruscant: 
 - :heavy_check_mark: Remove gravity well generator.
 
-#### Rebels:
+MP Space Dathomir:
+- :soon: Fix team 1.
+
+MP Space Mustafar:
+- :heavy_check_mark: Add to map pool.
+
+MP Space Mon Calamari:
+- :heavy_check_mark: Add to map pool.
+
+MP Space Nal Hutta:
+- :heavy_check_mark: Add to map pool.
+
+SP Space Battle for Eclipse:
+- :heavy_check_mark: Add to map pool.
+
+MP Space Dantooine:
+- :soon: Add to map pool.
+
+MP Space Mandalore:
+- :soon: Add to map pool.
+
+MP Space Mygeeto:
+- :soon: Add to map pool.
+
+MP Space Honoghr:
+- :soon: Add to map pool.
+
+MP Space Corellia:
+- :soon: Add to map pool.
+
+MP Space Korriban:
+- :soon: Add to map pool.
+
+MP Space Wayland:
+- :soon: Add to map pool.
+
+#### Spectator
+
+Spectator Faction:
+- :soon: Add spectator faction.
+
+#### Empire
+
+Repair Satellite:
+- :heavy_check_mark: Removed.
+
+Gravity Well Satellite:
+- :heavy_check_mark: Add new satellite.
+- :heavy_check_mark: Set price to 650 credits.
+
+Laser Turret Satellite:
+- :heavy_check_mark: Increase damage output by 15%.
+
+Hypervelocity Gun:
+- :heavy_check_mark: Fix hitbox on Consortium space station.
+
+##### Tech 1
+
+Engine Upgrade I:
+- :heavy_check_mark: Decrease price to 500 credits.
+- :heavy_check_mark: Incrase speed of all squadrons so that it does not only apply to dogfighting.
+- :heavy_check_mark: Apply to bombers as well.
+
+Damage Reduction Upgrade I:
+- :heavy_check_mark: Decrease price to 450 credits.
+- :heavy_check_mark: Moved to Tech 2 as it only affects Tartan Patrol Cruiser.
+
+Enhanced Sensors Upgrade I:
+- :heavy_check_mark: Increases FoW reveal range of all units by 25%.
+- :heavy_check_mark: Set price to 550 credits.
+
+TIE Bombers:
+- :heavy_check_mark: Decrease price to 500 credits.
+
+##### Tech 2
+
+Firepower Upgrade:
+- :heavy_check_mark: Increase damage modifier to 25%.
+- :heavy_check_mark: Increase cost to 700 credits.
+
+TIE Scout:
+- :heavy_check_mark: Increase price to 450 credits.
+- :heavy_check_mark: Increase build time to 15 seconds.
+- :heavy_check_mark: Increase sensor ping ability cooldown to 45 seconds.
+
+Acclamator Frigate:
+- :heavy_check_mark: Increase price to 2400 credits.
+- :heavy_check_mark: Fix turbolaser hardpoint.
+
+Boba Fett:
+- :heavy_check_mark: Increase damage against Asteroid Mining Facility by 10%.
+- :beetle: Fix where he locks onto someone and follows them even with stop command.
+    - Added minimum follow distance of 350 units to mitigate the bug, not a complete fix.
+
+#### Rebellion
+
+Pirate Fighter:
+- :heavy_check_mark: Decrease price to 350 credits.
+
+Pirate IPV Corvette:
+- :heavy_check_mark: Decrease price to 1000 credits.
+
+Repair satellite:
+- :heavy_check_mark: Decrease price to 550 credits.
+
+Laser Turret Satellite:
+- :heavy_check_mark: Increase damage output by 15%.
+
+Ion Cannon:
+- :heavy_check_mark: Fix hitbox on Consortium space station.
+
+##### Tech 1
+
+Firepower Upgrade:
+- :heavy_check_mark: Decrease price to 700 credits.
+
+Shield Upgrade:
+- :heavy_check_mark: Decrease price to 600 credits.
+
+Y-Wing Squadron:
+- :heavy_check_mark: Decrease price to 450 credits.
+- :heavy_check_mark: Added 360-degree laser turret.
+- :heavy_check_mark: Ion Torpedo ability disables target ship for 1.3 seconds per torpedo.
+
+##### Tech 2
+
+Shield Upgrade II:
+- :heavy_check_mark: Increase shield hitpoint pool by 25% for all Corvettes and Frigates.
+- :heavy_check_mark: Set price to 900 credits.
+
+Firepower Upgrade II:
+- :heavy_check_mark: Increase damage output by 25% for all Corvettes and Frigates.
+- :heavy_check_mark: Set price to 1000 credits.
+
+A-Wing Squadron:
+- :heavy_check_mark: Decrease build time to 16 seconds.
+- :heavy_check_mark: Increase Lure ability damage reduction value to 45%.
 
 Corellian Corvette:
-- :heavy_check_mark: Price reduced from 1800 to 1700. (Kinda useless compared to a Tartan or Crusader)
-- :heavy_check_mark: Build time reduced from 15 seconds to 14 seconds. (Kinda useless compared to a Tartan or Crusader)
-- :heavy_check_mark: Increase damage done to mining facilities by 10%. (Possibly 15%)
+- :heavy_check_mark: Increase damage to Asteroid Mining Facility by 15%.
 
-Nebulon B-Frigate: 
-- :heavy_check_mark: Increase the damage done to mining facilities by 10%. 
-    - Biggest issue with Nebs is that they cost 2500 and have far more cost efficient counters than an Acclamator as well as killing mines slower
-- :heavy_check_mark: Increase hardpoint health by 10% (Possibly 15%)
+Nebulon-B Frigate:
+- :heavy_check_mark: Increase damage to Asteroid Mining Facility by 10%.
+- :heavy_check_mark: Increase targeting range by 10%.
 
-Han Solo: 
-- :heavy_check_mark: Increase damage done to mining facilities by 15% (Possibly 20%)
-- :heavy_check_mark: Build time decreased from 33 seconds to 29 seconds. (Han is only good vs heroes, trying to make him more viable)
+Rogue Squadron:
+- :heavy_check_mark: Moved to Tech 2.
+- :heavy_check_mark: Decrease price to 1500 credits.
+- :heavy_check_mark: Decrease build time to 20 seconds.
+- :heavy_check_mark: Increase fighter damage output by 10%.
+- :heavy_check_mark: Remove Strike ability speed bonus.
+- :heavy_check_mark: Increase Strike ability damage output to 15%.
+- :heavy_check_mark: Increase health hitpoint pool by 15%.
+- :heavy_check_mark: Add Combat Bonus ability increasing all non-hero unit health hitpoint pools by 15%.
 
-Y-Wing: 
-- :heavy_check_mark: Price reduction from 550 to 450
-- :heavy_check_mark: Make laser cannons rotating 360 degrees.
-- :heavy_check_mark: Buff Ion shot to disable an enemy ship for 1.3 seconds per shot (4 seconds total)
+#### Zann Consortium
 
-A-Wing: 
-- :heavy_check_mark: Build time reduced from 18 seconds to 16 seconds. (Not useful other than finding a Phantom so why not)
-- :heavy_check_mark: Increase damage reduction from lure ability from 30% to 45%.
+Income Upgrade I:
+- :heavy_check_mark: Increase income modifier to 30%.
 
-Rogue Squadron: 
-- :heavy_check_mark: Moved from tech 4 to tech 2. (Bad hero unit at tech 4 plus would give Rebels a cheaper alternative to help vs bombers)
-- :heavy_check_mark: Price reduced from 2500 to 1500. (Costs way to much)
-- :heavy_check_mark: Build time reduced from 25 seconds to 18 seconds. 
-- :heavy_check_mark: Reduce damage taken from Seismic Charge by 30%. (Probably to op but will nerf if so)
-- :heavy_check_mark: Increase damage of strike by 20% as well as removing speed bonus. (Ability is trash due to pathing)
-- :heavy_check_mark: Increase base damage vs mining facilities by 10% (Probably needs a bigger buff tbh)
-- :heavy_check_mark: Fix bug where if Wedge dies he loses hero status.
+Pirate Fighter:
+- :heavy_check_mark: Decrease price to 300 credits.
 
-Ion Cannon: 
-- :heavy_check_mark::beetle: Adjust hit marker for Cons Space Station so that it doesn’t miss.
+Pirate IPV Corvette:
+- :heavy_check_mark: Decrease price to 900 credits.
 
-#### Empire:
+Diamond Boron Missile Satellite:
+- :heavy_check_mark: Decrease price to 1000 credits.
+- :heavy_check_mark: Decrease missile volley count to 4.
+- :heavy_check_mark: Decrease AoE splash radius by 15%.
+- :heavy_check_mark: Decrease damage output by 20%.
 
-Boba Fett: 
-- :heavy_check_mark: Increase the damage done to mining facilities by 10% (Possibly 15%)
-- :heavy_check_mark: Build time decreased from 28 seconds to 26. (Trying to make heroes useful in FoC)
-- :heavy_check_mark: Fix his animation where he locks onto someone and follows them even with the stop command.
-   - Turn Rate reduced (5.0 > 4.0) to help with this
+Plasma Pulse Cannon Satellite:
+- :heavy_check_mark: Decrease price to 900 credits.
+- :heavy_check_mark: Add AoE damage to projectile.
+- :heavy_check_mark: Increase targeting range by 25%. 
 
-TIE Phantom: 
-- :heavy_check_mark: Decrease HP by 10%.
- 
-TIE Scout:
-- :heavy_check_mark: Increase cooldown on Sensor Ping.
-- :heavy_check_mark: Increase price from 275 to 300.
+##### Tech 1
 
-TIE Interceptor: 
-- :heavy_check_mark: Price increase from 550 to 600. (Beats X-Wings 1v1 no upgrades, lore wise rivaled A-Wing, should cost more also will help with Empire having more credits)
+StarViper Squadron:
+- :soon: Decrease price to 650 credits.
+- :beetle: Fix Buzz Droids ability cast in nebula.
+- :heavy_check_mark: Buzz Droids ability cast range reduced.
+- :heavy_check_mark: Buzz Droids ability damage delay added.
 
-Tartan: 
-- :heavy_check_mark: Price increase from 1700 to 1800. (Best corvette in-game vs mines, needs to cost more)
+Deflection Upgrade I:
+- :heavy_check_mark: Decrease price to 750 credits.
 
-Acclamator: 
-- :heavy_check_mark: Price increase from 2350 to 2400 (Best frigate overall in-game yet costs the least, needs to be nerfed in price)
-- :heavy_check_mark: Right turbolaser damage type corrected from Damage_Acclamator to Damage_Acclamator_TL
+Skipray Blastboat Squadron:
+- :heavy_check_mark: Decrease price to 650 credits.
+- :heavy_check_mark: Decrease ion cannon volley count.
 
-Hyper Velocity Gun: 
-- :heavy_check_mark::beetle: Adjust hit marker for Cons Space Station so that it doesn’t miss.
+##### Tech 2
 
-#### Zann Consortium:
+Crusader Gunship:
+- :heavy_check_mark: Increase build time to 10 seconds.
+- :heavy_check_mark: Change damage type to be less potent against space stations.
 
-Diamond Boron Missile Turret: 
-- :soon: Reduce amount of missiles fired to 3 or 4. (Obvious reasons)
-- :soon: Reduce AOE by 15% (Obvious reasons)
-- :soon: Reduce damage by 15% (Possibly 20 or 25%)
-    - Diamond Missile Turret reworked with proper accuracy and larger min range
+Interceptor IV Frigate:
+- :heavy_check_mark: Increase price to 2600 credits.
+- :heavy_check_mark: Change damage type to the appropriate frigate level.
 
-Crusader: 
-- :heavy_check_mark: Fix damage type against enemy space stations. (Obvious reasons)
+Deflection Upgrade II:
+- :heavy_check_mark: Adds 25% deflect chance to all Corvettes and Frigates.
+- :heavy_check_mark: Set price to 1050 credits.
 
-Star Viper: 
-- :x: Increase damage by 10% (Not sure about this yet, We decided against this)
-
-Skipray:
-- :heavy_check_mark: Price reduced from 700 to 650. (Too expensive as is)
-- :heavy_check_mark: Reduce the amount of ion bolts fired.
-    - Potentially remove them as well, it’s kinda dumb you can add 1 skipray with starvipers and win even harder
-
-Buzz Droids:
-- :heavy_check_mark: Reduce cooldown by 15% (If we add a window of damage activation and nerf damage then cooldown should be reduced a little)
-- :heavy_check_mark: Reduce damage by 10% (Obvious reasons)
-- :heavy_check_mark: Add a 1.8 second window before they begin to do damage. (To help give people time to react to them)
-- :beetle: Prevent the use of buzz droids in nebulas. (If Possible needs to be fixed, Currently not possible)
-
-Interceptor IV Frigate: 
-- :heavy_check_mark: Add an extra Missile turret hardpoint. (Attempting to make this unit useful)
-- :heavy_check_mark: Reduce health of turret hardpoints by 10-15% (Needs to be tweaked if given two of them)
-- :heavy_check_mark: Price reduced from 2400 to 2300. 
-    - One reason people don’t buy it is because it’s too expensive, can revert back if missile buff on it makes it worth 2400
-
-Extort Cash Upgrade:
-- :heavy_check_mark: Increase the amount of credits given from 15% to 20% 
-    - No reason they pay 200 more credits for less money since Rebels & Empire are 20%
-
-Zann Consortium Credit Rate:
-- :heavy_check_mark: Increase to 21.75 creds/sec per mine from 20.5 creds/sec per mine. (To help balance the cost of units at tech 2)
-    - Increased to 21.0 due to increased station income
+Black Market Engines Upgrade I:
+- :heavy_check_mark: Increase movement speed of Interceptor IV Frigate and Crusader Gunship by 25%.
+- :heavy_check_mark: Set price to 650 credits.
 
 Bossk:
-- :soon: Change Bossk’s Sensor Jamming ability to go on full cooldown once clicked and have a duration of 20 seconds as well as a 45 second cooldown. (I hope I explained this one correctly, if not I can over voice chat)
-    - Cooldown was reduced: 75 > 45sec
-	- Duration was reduced: 30 > 20sec
+- :heavy_check_mark: Increase damage to Asteroid Mining Facility by 5%.
+- :heavy_check_mark: Decrease shield hitpoint pool to 500.
+- :heavy_check_mark: Decrease shield regen to 20 per 3 seconds.
 
 ***
 
-### Land:
+### Land
 
-#### General:
+#### Maps
+
+MP Land Mygeeto:
+- :heavy_check_mark: Add to map pool.
+
+MP Land Mustafar:
+- :heavy_check_mark: Add to map pool.
+
+MP Land Utapau:
+- :heavy_check_mark: Add to map pool.
+
+MP Land Dathomir:
+- :heavy_check_mark: Add to map pool.
+
+MP Land Kashyyyk:
+- :soon: Add to map pool.
+
+MP Land Mandalore:
+- :heavy_check_mark: Add to map pool.
+
+MP Land Nal Hutta:
+- :soon: Add to map pool.
+
+MP Land Mon Calamari:
+- :heavy_check_mark: Add to map pool.
+
+MP Land Courscant:
+- :heavy_check_mark: Add to map pool.
+
+MP Land Kuat:
+- :soon: Add to map pool.
+
+MP Land Korriban:
+- :soon: Add to map pool.
+
+MP Land Wayland:
+- :soon: Add to map pool.
+
+#### Empire
+
+Anti-Infantry Turret:
+- :heavy_check_mark: Buff to be comparable to Rebellion Anti-Infantry Turret.
+
+Starting Units:
+- :heavy_check_mark: Increase starting squadron count to 5 Stormtrooper platoons.
+
+Magnapulse Cannon:
+- :heavy_check_mark: Increase targeting range by 25%.
+
+##### Tech 1
+
+Stormtrooper Platoon:
+- :beetle: Fix formation issues where squads slow down to wait for others to catch up when grouped together.
+
+AT-ST Mk I:
+- :heavy_check_mark: Remove Barrage Area ability.
+- :heavy_check_mark: Add Concussion Grenade ability.
+
+Scout Troopers:
+- :heavy_check_mark: Decrease build time to 10 seconds.
+- :heavy_check_mark: Increase targeting range by 25%.
+- :heavy_check_mark: No longer visible on minimap.
+
+Mara Jade:
+- :heavy_check_mark: Moved to tech 1.
+- :heavy_check_mark: Increase price to 1500 credits.
+
+Dark Trooper Phase I:
+- :heavy_check_mark: Fix melee.
+- :heavy_check_mark: Enable build pad capture behavior.
+- :heavy_check_mark: Decrease build time to 14 seconds.
+- :heavy_check_mark: Increase health hitpoint pool by 10%.
+- :heavy_check_mark: Decrease Sprint ability duration to 8 seconds.
+
+##### Tech 2
+
+AT-ST Mk II:
+- :heavy_check_mark: Set price to 1100 credits.
+- :heavy_check_mark: Adjust texture to be darker to distinguish from AT-ST Mk I.
+- :heavy_check_mark: Homing Missile ability point-and-click.
+
+Stamina Upgrade I:
+- :heavy_check_mark: Increases health of Stormtrooper squadron by 15%.
+
+Juggernaut Transport:
+- :heavy_check_mark: Increase health hitpoint pool by 30%.
+
+Boba Fett:
+- :heavy_check_mark: Moved to tech 2.
+- :heavy_check_mark: Increase Flamethrower ability activation range to 150 units.
+- :heavy_check_mark: Decrease Flamethrower ability cooldown to 20 seconds.
+- :heavy_check_mark: Decrease price to 1400 credits.
+- :heavy_check_mark: Increase targeting range by 15%.
+- :heavy_check_mark: Decrease build time to 10 seconds.
+
+Dark Trooper Phase II:
+- :soon: Fix landing animation and pathing.
+- :heavy_check_mark: Increase price to 1300 credits.
+
+SPMA-T Artillery:
+- :heavy_check_mark: Decrease damage output by 10%.
+- :heavy_check_mark: Increase Deploy ability channel time by 1.5 seconds.
+
+##### Tech 3
+
+Dark Trooper Phase III:
+- :heavy_check_mark: Decrease Deploy ability channel time by 2 seconds.
+- :heavy_check_mark: Increase price to 2000 credits.
+- :heavy_check_mark: Increase squad size to 2.
+
+General Veers AT-AT:
+- :heavy_check_mark: Add Imperial insignia blob to distinguish from other AT-ATs.
+- :heavy_check_mark: Decrease price to 3500 credits.
+- :heavy_check_mark: Increase health hitpoint pool by 25%.
+
+##### Upgrades
+
+Infantry Armor Lv 1 (Soldiers)
+- :soon: $700: 25% Armor
+
+Infantry Armor Lv 2 (Soldiers & Plex)
+- :soon: $875: 25% Armor - Change to $850
+
+Survival Training 
+- :soon: $500 - All Weather Conditions Removed - Change to $450
+
+Enhanced Repulsors Lv 1 
+- :soon: $425: 15% Speed
+
+Enhanced Repulsors Lv 2 
+- :soon: $750: 30% Speed
+
+Light Armor Lv 1 
+- :soon:  $550: 25% Armor
+
+Light Armor Lv 2 
+- :soon: $800: 50% Armor
+
+Improved Treads Lv 1 
+- :soon: $675: 15% Speed
+
+Improved Treads Lv 2 
+- :soon: $925: 30% Speed
+
+Heavy Armor Lv 1 
+- :soon: $650: 25% Armor
+
+Heavy Armor Lv 2 
+- :soon: $1000: 50% Armor
+
+Improved T4-B Damage Lv 1 
+- :soon: $1000: 25% Damage 
+
+Improved T4-B Damage Lv 2
+- :soon: $1450: 50% Damage
+
+Enhanced Turret Lv 1 (Anti-Infantry Turret) 
+- :soon: $675: 25% Damage - Change to $350
+
+Enhanced Turret Lv 2 (All Turrets) 
+- :soon: $900: 25% Damage - Change to $650
+
+Mine Upgrade Lv 1
+- :soon: $250: 20% Income
+
+Mine Upgrade Lv 2
+- :soon: $500: 40% Income
+
+Reinforced Structures 
+- :soon: $750: 25% Armor - Change to $650
+
+#### Rebellion
+
+Uplink Station:
+- :soon: Remove and replace with Rebel Training Facility.
+
+##### Tech 1
+
+Kyle Katarn:
+- :heavy_check_mark: Increase FoW reveal radius by 20%.
+- :heavy_check_mark: Increase movement speed by 15%.
+- :heavy_check_mark: Remove Sprint ability.
+- :heavy_check_mark: Add Mind Trick ability.
+- :heavy_check_mark: Increase price to 1400 credits.
+
+Rebel Trooper Platoon:
+- :heavy_check_mark: Increase build time to 4 seconds.
+- :heavy_check_mark: Increase price to 350 credits.
+
+R2-D2 and C-3PO Droid Team:
+- :heavy_check_mark: Decrease price to 650 credits.
+- :heavy_check_mark: Vehicle Repair ability made AoE instead of single-target.
+
+##### Tech 2
+
+Rebel Infiltrator:
+- :heavy_check_mark: Increase movement speed by 10%.
+- :heavy_check_mark: Increase health hitpoint pool by 40%.
+- :heavy_check_mark: Increase Thermal Detonator ability cast range by 15%.
+- :heavy_check_mark: Decrease squad size to 1.
+- :heavy_check_mark: Decrease price to 450 credits.
+- :heavy_check_mark: No longer visible on minimap.
+
+T2-B Tank:
+- :heavy_check_mark: Increase price to 1300 credits.
+
+MPTL Artillery:
+- :heavy_check_mark: Increase volley rate of fire.
+- :heavy_check_mark: Decrease accuracy to be similar to EaW values.
+
+##### Tech 3
+
+Obi-Wan Kenobi:
+- :heavy_check_mark: Remove Mind Trick ability.
+- :heavy_check_mark: Add Force Heal ability (like EaW).
+
+T4-B Tank:
+- :heavy_check_mark: Decrease armor stacking upgrades.
+
+##### Upgrades
+
+Infantry Armor Lv 1 (Soldiers)
+- :soon: $700: 25% Armor
+
+Infantry Armor Lv 2 (Soldiers & Plex)
+- :soon: $875: 25% Armor - Change to $850
+
+Survival Training 
+- :soon: $500 - All Weather Conditions Removed - Change to $450
+
+Enhanced Repulsors Lv 1
+- :soon: $425: 15% Speed
+
+Enhanced Repulsors Lv 2 
+- :soon: $750: 30% Speed
+
+Light Armor Lv 1 
+- :soon: $550: 25% Armor
+
+Light Armor Lv 2 
+- :soon: $800: 50% Armor
+
+Improved Treads Lv 1 
+- :soon: $675: 15% Speed
+
+Improved Treads Lv 2 
+- :soon: $925: 30% Speed
+
+Heavy Armor Lv 1 
+- :soon: $650: 25% Armor 
+
+Heavy Armor Lv 2 
+- :soon: $1000: 50% Armor
+
+Improved T4-B Damage Lv 1
+- :soon: $1000: 25% Damage 
+
+Improved T4-B Damage Lv 2 
+- :soon: $1450: 50% Damage
+
+Enhanced Turret Lv 1 (Anti-Infantry Turret)
+- :soon: $675: 25% Damage - Change to $350
+
+Enhanced Turret Lv 2 (All Turrets) 
+- :soon: $900: 25% Damage - Change to $650
+
+Mine Upgrade Lv 1
+- :soon: $250: 20% Income
+
+Mine Upgrade Lv 2
+- :soon: $500: 40% Income
+
+Reinforced Structures 
+- :soon: $750: 25% Armor - Change to $650
+
+#### Zann Consortium
+
+Tech 2 Research Upgrade:
+- :heavy_check_mark: Decrease build time to 40 seconds.
+
+Repulsorlift Jammer:
+- :heavy_check_mark: Decrease range by 50%.
+
+Proton Torpedo Turret:
+- :heavy_check_mark: Increase build time to 16 seconds.
+- :heavy_check_mark: Decrease targeting range to 250 units.
+
+Mineral Resource Pad:
+- :heavy_check_mark: Decrease build time to 20 seconds.
+
+Structures:
+- :heavy_check_mark: Decrease shield hitpoint pool of all buildings except Consortium Palace by 20%.
+
+##### Tech 1
+
+Grenadier Platoon:
+- :heavy_check_mark: Decrease damage to Heroes by 25%.
+
+Bossk:
+- :heavy_check_mark: Plasma Grenade ability is a one-time use with 15 second cooldown.
+    - Need to test ability timers with this change.
+- :heavy_check_mark: Add initial damage to Plasma Grenade ability.
+- :heavy_check_mark: Increase price to 1300 credits.
+- :heavy_check_mark: Remove Flamethrower ability.
+- :heavy_check_mark: Add Sprint ability.
+- :heavy_check_mark: Increase damage output by 20%.
+- :heavy_check_mark: Increase volley rate of fire by 15%.
+- :heavy_check_mark: Increase movement speed by 15%.
+
+Black Market Weapons Upgrade I:
+- :soon: Increase Grenadier volley rate of fire by 15%.
+- :soon: Set price to 400 credits.
+
+Vorskner Pack:
+- :heavy_check_mark: Fix melee.
+
+Droideka:
+- :heavy_check_mark: Increase damage to all Infantry by 15%.
+- :heavy_check_mark: Increase range threshold for which Droidekas will undeploy to move.
+
+Recharge Special Abilities Upgrade I:
+- :soon: Determine if this upgrade actually works.
+- :soon: Apply to heroes only?
+
+##### Tech 2
+
+M.A.L. Artillery:
+- :heavy_check_mark: Increase volley rate of fire.
+- :heavy_check_mark: Decrease accuracy to be similar to MPTL Artillery.
+- :heavy_check_mark: Increase Deploy ability channel time by 2 seconds.
+
+Ewok Handler:
+- :heavy_check_mark: Increase targeting range by 20%.
+- :heavy_multiplication_x: Spawned Ewok should display health bar.
+    - Not possible since this requires the SELECTABLE behavior, enabling control of the individual Ewoks.
+- :heavy_multiplication_x: Decrease damage to structures by 40%.
+    - Not possible since the damage type is internally defined.
+- :heavy_check_mark: Decrease damage AoE radius by 20%.
+- :heavy_check_mark: Decrease damage output by 20%.
+- :heavy_check_mark: Increase squad count to 2.
+
+##### Tech 3
+
+Rancor:
+- :heavy_check_mark: Fix melee.
+
+Black Market Armor Upgrade I:
+- :soon: Increase Mercenary Squadron health hitpoint pool by 15%.
+- :soon: Set price to 500 credits.
+
+##### Upgrades
+
+Weapon Boost Lv 1 (pulse tank):
+- :soon: $900: 25% Damage - Change to $750
+
+Weapon Boost Lv 2 (pulse tank):
+- :soon: $1350: 50% Damage - Change to $1050
+
+Recharge Special Lv 1 (Infantry)
+- :soon: $900: 15% Recharge Speed - Change to $350
+
+Recharge Special Lv 2 (Infantry and Heroes)
+- :soon: $1350: 15% Recharge Speed - Change to $625
+
+Droid Systems Lv 1 (Droideka)
+- :soon: $650: 25% Shields - Change to $600
+
+Droid Systems Lv 2 (Droideka) 
+- :soon: $1100: 25% Shields & 20% Damage - Change to $1050
+
+MDU Armor Lv 1 
+- :soon: $750: 20% Armor - Change to $550
+
+MDU Armor Lv 2 
+- :soon: $1000: 40% Armor - Change to $750
+
+Structure Shielding Lv 1 
+- :soon: $850: 25% Shields - Change to $650
+
+Structure Shielding Lv 2 
+- :soon: $1300: 50% Shields - Change to $1050
+
+Rancor Stimulant Lv 1 
+- :soon: $950: 15% Speed - Change to $650
+
+Rancor Stimulant Lv 2 
+- :soon: $1300: 25% Speed - Change to 1050
+
+Mine upgrade Lv 1
+- :soon: 15% $400 - Change to 25%
+
+Mine Upgrade Lv 1 
+- :soon: 45% - $700 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 Anti-Air Turrets: 
 - :soon: Prevent them from being able to target ground units. 
     - AA Turrets reworked with proper inaccuracy, reduced area effect, and reduced damage vs non-aircraft
 
 Mass Driver Turrets:
-- :soon:Prevent them from being able to target ground units.
+- :soon: Prevent them from being able to target ground units.
     - Reworked with proper inaccuracy
 
-Tatooine: 
-- :soon:Dust devil & Rancor no longer harms units.
+MP Land Tatooine: 
+- :soon: Dust devil & Rancor no longer harms units.
 
 Felucia: 
 - :heavy_check_mark: Remove damage of flowers.
