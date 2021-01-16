@@ -2326,11 +2326,13 @@
 		<Damage>15</Damage>
 		<AI_Combat_Power>1500</AI_Combat_Power>
 
+<!-- removing HPs
 		<HardPoints>
 			HP_MFALCON_LASER_00
 		</HardPoints>
+-->
 
-<!--		<Damage_Type>Damage_Fighter</Damage_Type>
+		<Damage_Type>Damage_Fighter</Damage_Type>
 		<Projectile_Types>Proj_Ship_Medium_Laser_Cannon_Red</Projectile_Types>
 		<Projectile_Damage>16.0</Projectile_Damage>
 		<Projectile_Fire_Pulse_Count>8</Projectile_Fire_Pulse_Count>
@@ -2345,12 +2347,14 @@
 		<Fire_Inaccuracy_Distance>Capital, 30.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Super, 1.0</Fire_Inaccuracy_Distance>
 
+<!-- move to landing unit variant
 		<Fire_Category_Restrictions>Infantry, Vehicle, Air, Structure, Transport</Fire_Category_Restrictions>
+-->
 
 		<Fires_Forward>No</Fires_Forward>
 		<Ranged_Target_Z_Adjust>-3.0</Ranged_Target_Z_Adjust>
 		<Turret_Rotate_Extent_Degrees>360</Turret_Rotate_Extent_Degrees>
-		<Turret_Elevate_Extent_Degrees>90</Turret_Elevate_Extent_Degrees>-->
+		<Turret_Elevate_Extent_Degrees>90</Turret_Elevate_Extent_Degrees>
 
 		<Land_FOW_Reveal_Range>200.0</Land_FOW_Reveal_Range>
 		<Space_FOW_Reveal_Range>1000.0</Space_FOW_Reveal_Range>
@@ -2385,7 +2389,7 @@
 
 	<!-- Behavior - Death Info -->
 		<Behavior>TRANSPORT</Behavior>
-		<SpaceBehavior>ABILITY_COUNTDOWN, FIGHTER_LOCOMOTOR, SELECTABLE, TARGETING,<!--WEAPON,-->POWERED, SHIELDED, REVEAL, HIDE_WHEN_FOGGED, AMBIENT_SFX, DAMAGE_TRACKING, UNIT_AI, NEBULA</SpaceBehavior>
+		<SpaceBehavior>ABILITY_COUNTDOWN, FIGHTER_LOCOMOTOR, SELECTABLE, TARGETING, WEAPON, POWERED, SHIELDED, REVEAL, HIDE_WHEN_FOGGED, AMBIENT_SFX, DAMAGE_TRACKING, UNIT_AI, NEBULA</SpaceBehavior>
 		<LandBehavior>REVEAL, HIDE_WHEN_FOGGED</LandBehavior>
 		<Lua_Script>ObjectScript_MillenniumFalcon</Lua_Script>
 
@@ -2433,6 +2437,7 @@
 		<No_Colorization_Color>255, 255, 255, 255</No_Colorization_Color>
 		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 		<Scale_Factor>2.5</Scale_Factor>
+		<Fire_Category_Restrictions>Infantry, Vehicle, Air, Structure, Transport</Fire_Category_Restrictions>
 	</UniqueUnit>
 
 	<!-- Special version of the millennium falcon used for end of rebel campaign -->
@@ -2589,11 +2594,13 @@
 		<Damage>5</Damage>
 		<AI_Combat_Power>1500</AI_Combat_Power>
 
+<!-- removing HPs
 		<HardPoints>
 			HP_SLAVE_I_LASER
 		</HardPoints>
+-->
 
-<!--		<Damage_Type>Damage_Fighter</Damage_Type>
+		<Damage_Type>Damage_Fighter</Damage_Type>
 		<Projectile_Types>Proj_Ship_Medium_Laser_Cannon_Red</Projectile_Types>
 		<Projectile_Damage>12.0</Projectile_Damage>
 		<Projectile_Fire_Pulse_Count>8</Projectile_Fire_Pulse_Count>
@@ -2607,11 +2614,14 @@
 		<Fire_Inaccuracy_Distance>Frigate, 30.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Capital, 30.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Super, 30.0</Fire_Inaccuracy_Distance>
+		
+<!-- move to landing unit variant
 		<Fire_Category_Restrictions>Infantry, Vehicle, Air, Structure, Transport</Fire_Category_Restrictions>
+-->
 
 		<Ranged_Target_Z_Adjust>0</Ranged_Target_Z_Adjust>
 		<Turret_Rotate_Extent_Degrees>50</Turret_Rotate_Extent_Degrees>
-		<Turret_Elevate_Extent_Degrees>50</Turret_Elevate_Extent_Degrees>-->
+		<Turret_Elevate_Extent_Degrees>50</Turret_Elevate_Extent_Degrees>
 
 		<Land_FOW_Reveal_Range>200.0</Land_FOW_Reveal_Range>
 		<Space_FOW_Reveal_Range>1000.0</Space_FOW_Reveal_Range>
@@ -2642,7 +2652,7 @@
 
 	<!-- Behavior - Death Info -->
 		<Behavior>DUMMY_STARSHIP, TRANSPORT, POWERED, SHIELDED</Behavior>
-		<SpaceBehavior>ABILITY_COUNTDOWN, FIGHTER_LOCOMOTOR, TARGETING,<!--WEAPON,-->REVEAL, HIDE_WHEN_FOGGED, AMBIENT_SFX, UNIT_AI, NEBULA, SELECTABLE, DAMAGE_TRACKING</SpaceBehavior>
+		<SpaceBehavior>ABILITY_COUNTDOWN, FIGHTER_LOCOMOTOR, TARGETING, WEAPON, REVEAL, HIDE_WHEN_FOGGED, AMBIENT_SFX, UNIT_AI, NEBULA, SELECTABLE, DAMAGE_TRACKING</SpaceBehavior>
 		<LandBehavior>REVEAL, HIDE_WHEN_FOGGED, IDLE</LandBehavior>
 		<Lua_Script>Slave_I</Lua_Script>
 
@@ -2743,11 +2753,13 @@
 		<Damage>5</Damage>
 		<AI_Combat_Power>1500</AI_Combat_Power>
 
+<!-- removing HPs
 		<HardPoints>
 			HP_SLAVE_I_LASER
 		</HardPoints>
+-->
 
-<!--		<Damage_Type>Damage_Fighter</Damage_Type>
+		<Damage_Type>Damage_Fighter</Damage_Type>
 		<Projectile_Types>Proj_Ship_Medium_Laser_Cannon_Red</Projectile_Types>
 		<Projectile_Damage>12.0</Projectile_Damage>
 		<Projectile_Fire_Pulse_Count>8</Projectile_Fire_Pulse_Count>
@@ -2761,13 +2773,14 @@
 		<Fire_Inaccuracy_Distance>Frigate, 30.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Capital, 30.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Super, 30.0</Fire_Inaccuracy_Distance>
+		
+<!-- move to landing unit variant
 		<Fire_Category_Restrictions>Infantry, Vehicle, Air, Structure, Transport</Fire_Category_Restrictions>
+-->
 
 		<Ranged_Target_Z_Adjust>0</Ranged_Target_Z_Adjust>
 		<Turret_Rotate_Extent_Degrees>50</Turret_Rotate_Extent_Degrees>
-		<Turret_Elevate_Extent_Degrees>50</Turret_Elevate_Extent_Degrees>-->
-		
-		<Ranged_Target_Z_Adjust>0</Ranged_Target_Z_Adjust>
+		<Turret_Elevate_Extent_Degrees>50</Turret_Elevate_Extent_Degrees>
 
 		<Land_FOW_Reveal_Range>200.0</Land_FOW_Reveal_Range>
 		<Space_FOW_Reveal_Range>1000.0</Space_FOW_Reveal_Range>
@@ -2802,7 +2815,7 @@
 
 	<!-- Behavior - Death Info -->
 		<Behavior>DUMMY_STARSHIP, POWERED, SHIELDED</Behavior>
-		<SpaceBehavior>ABILITY_COUNTDOWN, FIGHTER_LOCOMOTOR, TARGETING,<!--WEAPON,-->REVEAL, HIDE_WHEN_FOGGED, AMBIENT_SFX, UNIT_AI, NEBULA, SELECTABLE, DAMAGE_TRACKING</SpaceBehavior>
+		<SpaceBehavior>ABILITY_COUNTDOWN, FIGHTER_LOCOMOTOR, TARGETING, WEAPON, REVEAL, HIDE_WHEN_FOGGED, AMBIENT_SFX, UNIT_AI, NEBULA, SELECTABLE, DAMAGE_TRACKING</SpaceBehavior>
 		<Lua_Script>Slave_I</Lua_Script>
 
 		<Asteroid_Damage_Hit_Particles>Small_Damage_Space</Asteroid_Damage_Hit_Particles>
@@ -2870,6 +2883,7 @@
 		<User_Bound_Min>-700, -700, 0</User_Bound_Min>
 		<User_Bound_Max>700, 700, 1500</User_Bound_Max>
 		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Fire_Category_Restrictions>Infantry, Vehicle, Air, Structure, Transport</Fire_Category_Restrictions>
 	</UniqueUnit>
 
 	<UniqueUnit Name="Slave_I_Ground_Prop">
@@ -3251,9 +3265,11 @@
 
 		<Damage>40</Damage>
 
+<!-- removing HPs
 		<HardPoints>HP_ROGUE_XWING_LASER_00</HardPoints>
+-->
 
-<!--		<Damage_Type>Damage_Gunship</Damage_Type>
+		<Damage_Type>Damage_Gunship</Damage_Type>
 		<Projectile_Types>Proj_Ship_Small_Laser_Cannon_Red</Projectile_Types>
 		<Projectile_Fire_Pulse_Count>4</Projectile_Fire_Pulse_Count>
 		<Projectile_Fire_Pulse_Delay_Seconds>0.1</Projectile_Fire_Pulse_Delay_Seconds>
@@ -3270,14 +3286,14 @@
 		<Fires_Forward>No</Fires_Forward>
 		<Ranged_Target_Z_Adjust>0</Ranged_Target_Z_Adjust>
 		<Turret_Rotate_Extent_Degrees>20</Turret_Rotate_Extent_Degrees>
-		<Turret_Elevate_Extent_Degrees>40</Turret_Elevate_Extent_Degrees>-->
+		<Turret_Elevate_Extent_Degrees>40</Turret_Elevate_Extent_Degrees>
 
 		<!-- Wedge's X-Wing is a Death Star killer! -->
 		<Is_Super_Weapon_Killer>Yes</Is_Super_Weapon_Killer>
 <!--		<Redirect_Damage_To_Teammates>Yes</Redirect_Damage_To_Teammates>-->
 		<Respawn_Whole_Team_When_Killed>Yes</Respawn_Whole_Team_When_Killed>
 
-		<SpaceBehavior>FIGHTER_LOCOMOTOR, ABILITY_COUNTDOWN, SELECTABLE, TARGETING, <!--WEAPON,--> POWERED, SHIELDED, HIDE_WHEN_FOGGED, AMBIENT_SFX, NEBULA</SpaceBehavior>
+		<SpaceBehavior>FIGHTER_LOCOMOTOR, ABILITY_COUNTDOWN, SELECTABLE, TARGETING, WEAPON, POWERED, SHIELDED, HIDE_WHEN_FOGGED, AMBIENT_SFX, NEBULA</SpaceBehavior>
 
 		<SFXEvent_Select>Unit_Select_Wedge_Rogue</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_Wedge_Rogue</SFXEvent_Move>
