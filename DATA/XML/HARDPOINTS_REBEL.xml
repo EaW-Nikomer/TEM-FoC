@@ -2265,7 +2265,7 @@
 		<Damage_Type>Damage_Corellian_Corvette</Damage_Type>
 		<Fire_Bone_A>MuzzleA_03</Fire_Bone_A>
 		<Fire_Bone_B>MuzzleA_03</Fire_Bone_B>
-		<Fire_Cone_Width>90.0</Fire_Cone_Width>
+		<Fire_Cone_Width>160.0</Fire_Cone_Width>
 		<Fire_Cone_Height>90.0</Fire_Cone_Height>
 		<Fire_Projectile_Type>Proj_Ship_Medium_Laser_Cannon_Red</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>2.0</Fire_Min_Recharge_Seconds>
@@ -2294,7 +2294,7 @@
 		<Damage_Type>Damage_Corellian_Corvette</Damage_Type>
 		<Fire_Bone_A>MuzzleA_04</Fire_Bone_A>
 		<Fire_Bone_B>MuzzleA_04</Fire_Bone_B>
-		<Fire_Cone_Width>160</Fire_Cone_Width>
+		<Fire_Cone_Width>90.0</Fire_Cone_Width>
 		<Fire_Cone_Height>90.0</Fire_Cone_Height>
 		<Fire_Projectile_Type>Proj_Ship_Medium_Laser_Cannon_Red</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>2.0</Fire_Min_Recharge_Seconds>
@@ -2323,7 +2323,7 @@
 		<Damage_Type>Damage_Corellian_Corvette</Damage_Type>
 		<Fire_Bone_A>MuzzleA_05</Fire_Bone_A>
 		<Fire_Bone_B>MuzzleA_05</Fire_Bone_B>
-		<Fire_Cone_Width>160</Fire_Cone_Width>
+		<Fire_Cone_Width>90.0</Fire_Cone_Width>
 		<Fire_Cone_Height>90.0</Fire_Cone_Height>
 		<Fire_Projectile_Type>Proj_Ship_Medium_Laser_Cannon_Red</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>2.0</Fire_Min_Recharge_Seconds>
@@ -2352,7 +2352,7 @@
 		<Damage_Type>Damage_Corellian_Corvette</Damage_Type>
 		<Fire_Bone_A>MuzzleA_06</Fire_Bone_A>
 		<Fire_Bone_B>MuzzleA_06</Fire_Bone_B>
-		<Fire_Cone_Width>180</Fire_Cone_Width>
+		<Fire_Cone_Width>180.0</Fire_Cone_Width>
 		<Fire_Cone_Height>90.0</Fire_Cone_Height>
 		<Fire_Projectile_Type>Proj_Ship_Medium_Laser_Cannon_Red</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>2.0</Fire_Min_Recharge_Seconds>
@@ -2381,7 +2381,7 @@
 		<Damage_Type>Damage_Corellian_Corvette</Damage_Type>
 		<Fire_Bone_A>MuzzleA_07</Fire_Bone_A>
 		<Fire_Bone_B>MuzzleA_07</Fire_Bone_B>
-		<Fire_Cone_Width>90.0</Fire_Cone_Width>
+		<Fire_Cone_Width>180.0</Fire_Cone_Width>
 		<Fire_Cone_Height>90.0</Fire_Cone_Height>
 		<Fire_Projectile_Type>Proj_Ship_Medium_Laser_Cannon_Red</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>2.0</Fire_Min_Recharge_Seconds>
@@ -2560,10 +2560,10 @@
 		<Fire_Inaccuracy_Distance>Fighter, 3.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Bomber, 5.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Transport, 5.0</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>Corvette, 70.0</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>Frigate, 30.0</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>Capital, 30.0</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>Super, 30.0</Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance>Corvette, 30.0</Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance>Frigate, 15.0</Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance>Capital, 15.0</Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance>Super, 15.0</Fire_Inaccuracy_Distance>
 	</HardPoint>
 
 	<HardPoint Name="HP_BWING_LASER_01">
@@ -2587,10 +2587,10 @@
 		<Fire_Inaccuracy_Distance>Fighter, 3.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Bomber, 5.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Transport, 5.0</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>Corvette, 70.0</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>Frigate, 30.0</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>Capital, 30.0</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>Super, 30.0</Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance>Corvette, 30.0</Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance>Frigate, 15.0</Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance>Capital, 15.0</Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance>Super, 15.0</Fire_Inaccuracy_Distance>
 	</HardPoint>
 
 	<HardPoint Name="HP_BWING_ION_00">
@@ -2613,10 +2613,10 @@
 		<Fire_Inaccuracy_Distance>Fighter, 5.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Bomber, 5.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Transport, 5.0</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>Corvette, 70.0</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>Frigate, 30.0</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>Capital, 30.0</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>Super, 30.0</Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance>Corvette, 30.0</Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance>Frigate, 15.0</Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance>Capital, 15.0</Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance>Super, 15.0</Fire_Inaccuracy_Distance>
 	</HardPoint>
 
 	<HardPoint Name="HP_BWING_ION_01">
@@ -2639,10 +2639,10 @@
 		<Fire_Inaccuracy_Distance>Fighter, 5.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Bomber, 5.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Transport, 5.0</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>Corvette, 70.0</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>Frigate, 30.0</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>Capital, 30.0</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>Super, 30.0</Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance>Corvette, 30.0</Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance>Frigate, 15.0</Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance>Capital, 15.0</Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance>Super, 15.0</Fire_Inaccuracy_Distance>
 	</HardPoint>
 
 	<HardPoint Name="HP_BWING_TORP_00">
@@ -2717,6 +2717,28 @@
 		<Fire_SFXEvent>Unit_Torpedo_Fire</Fire_SFXEvent>
 
 		<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+		<Allow_Opportunity_Fire_When_Targeting>False</Allow_Opportunity_Fire_When_Targeting>
+		<Allow_Opportunity_Fire_When_Idle>False</Allow_Opportunity_Fire_When_Idle>
+	</HardPoint>
+	
+	<HardPoint Name="HP_BOMBER_03_ALT"> <!-- Force this to be overridden by Ion Torpedo Ability -->
+		<Type>HARD_POINT_WEAPON_TORPEDO</Type>
+		<Is_Targetable>No</Is_Targetable>
+		<Is_Destroyable>No</Is_Destroyable>
+
+		<Damage_Type>Damage_Proton_Torp</Damage_Type>
+		<Fire_Bone_A>MuzzleA_00</Fire_Bone_A>
+		<Fire_Bone_B>MuzzleA_01</Fire_Bone_B>
+		<Fire_Cone_Width>30.0</Fire_Cone_Width>
+		<Fire_Cone_Height>30.0</Fire_Cone_Height>
+		<Fire_Projectile_Type>Proj_Dummy_Invisible</Fire_Projectile_Type> <!-- Deals no damage -->
+		<Fire_Min_Recharge_Seconds>5.0</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>5.0</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>1</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>0.1</Fire_Pulse_Delay_Seconds>
+		<Fire_Range_Distance>725.0</Fire_Range_Distance>
+		<Fire_SFXEvent> </Fire_SFXEvent>
+
 		<Allow_Opportunity_Fire_When_Targeting>False</Allow_Opportunity_Fire_When_Targeting>
 		<Allow_Opportunity_Fire_When_Idle>False</Allow_Opportunity_Fire_When_Idle>
 	</HardPoint>
@@ -3208,5 +3230,7 @@
 		<Fire_When_In_Normal_Attack_Mode>No</Fire_When_In_Normal_Attack_Mode>
 	</HardPoint>
 </HardPoints>
+
+
 
 

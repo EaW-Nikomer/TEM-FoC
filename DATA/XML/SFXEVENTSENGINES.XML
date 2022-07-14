@@ -638,6 +638,8 @@
 	<SFXEvent Name="Unit_Buzz_Droids_Fly_By">
 		<Use_Preset>Preset_EGB</Use_Preset>
 		<Samples>Buzz_Droids_1.wav Buzz_Droids_2.wav Buzz_Droids_3.wav Buzz_Droids_4.wav Buzz_Droids_5.wav</Samples>
+		<Min_Volume>85</Min_Volume>
+		<Max_Volume>85</Max_Volume>
 		<Min_Pitch>100</Min_Pitch>
 		<Max_Pitch>110</Max_Pitch>
 	</SFXEvent>
@@ -862,5 +864,6 @@
 		<Volume_Saturation_Distance>200.0</Volume_Saturation_Distance>
 	</SFXEvent>
 </SFXEvents>
+
 
 

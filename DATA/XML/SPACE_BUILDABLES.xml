@@ -2209,7 +2209,7 @@
 		<Score_Cost_Credits>5000</Score_Cost_Credits>
 
 		<Space_FOW_Reveal_Range>400.0</Space_FOW_Reveal_Range>
-		<Reinforcement_Prevention_Radius>600</Reinforcement_Prevention_Radius>
+		<Reinforcement_Prevention_Radius>1200</Reinforcement_Prevention_Radius>
 
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Radar_Icon_Name>mini_map_mining_facilities.tga</Radar_Icon_Name>
@@ -2483,3 +2483,4 @@
 	</Abilities>
 	</SpaceBuildable>
 </SpaceBuildables>
+

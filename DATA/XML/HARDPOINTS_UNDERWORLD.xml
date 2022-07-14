@@ -2272,7 +2272,7 @@
 		<Fire_Inaccuracy_Distance>Fighter, 15.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Bomber, 20.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Transport, 15.0</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>Corvette, 70.0</Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance>Corvette, 40.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Frigate, 20.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Capital, 30.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Super, 30.0</Fire_Inaccuracy_Distance>
@@ -2681,5 +2681,6 @@
 		<Fire_Inaccuracy_Distance>Super, 30.0</Fire_Inaccuracy_Distance>
 	</HardPoint>
 </HardPoints>
+
 
 

@@ -1688,8 +1688,9 @@
 		<Unit_Ability>
 			<Type>DEFEND</Type>
 			<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,		3.0f</Mod_Multiplier>
+			<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER,			0.8f</Mod_Multiplier>
 			<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,		1.0f</Mod_Multiplier>
-			<Mod_Multiplier>SHIELD_REGEN_INTERVAL_MULTIPLIER,	0.10f</Mod_Multiplier>
+			<Mod_Multiplier>SHIELD_REGEN_INTERVAL_MULTIPLIER,	0.1333f</Mod_Multiplier>
 			<Mod_Multiplier>ENERGY_REGEN_INTERVAL_MULTIPLIER,	0.10f</Mod_Multiplier>
 			<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,		5.0f</Mod_Multiplier>
 			<Mod_Multiplier>SPEED_MULTIPLIER,			0.8f</Mod_Multiplier>
@@ -2340,8 +2341,8 @@
 		<Targeting_Fire_Inaccuracy>Bomber, 1.0</Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy>Transport, 1.0</Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy>Corvette, 5.0</Targeting_Fire_Inaccuracy>
-		<Targeting_Fire_Inaccuracy>Frigate, 30.0</Targeting_Fire_Inaccuracy>
-		<Targeting_Fire_Inaccuracy>Capital, 30.0</Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy>Frigate, 15.0</Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy>Capital, 15.0</Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy>Super, 1.0</Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy>Structure, 10.0</Targeting_Fire_Inaccuracy>
 		<Fire_Category_Restrictions>Infantry, Vehicle, Air, Structure, Transport</Fire_Category_Restrictions>
@@ -2599,9 +2600,9 @@
 		<Targeting_Fire_Inaccuracy>Bomber, 1.0</Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy>Transport, 1.0</Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy>Corvette, 5.0</Targeting_Fire_Inaccuracy>
-		<Targeting_Fire_Inaccuracy>Frigate, 30.0</Targeting_Fire_Inaccuracy>
-		<Targeting_Fire_Inaccuracy>Capital, 30.0</Targeting_Fire_Inaccuracy>
-		<Targeting_Fire_Inaccuracy>Super, 30.0</Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy>Frigate, 15.0</Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy>Capital, 15.0</Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy>Super, 15.0</Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy>Structure, 10.0</Targeting_Fire_Inaccuracy>
 		<Fire_Category_Restrictions>Infantry, Vehicle, Air, Structure, Transport</Fire_Category_Restrictions>
 
@@ -4046,7 +4047,7 @@
 		<Max_Speed>6.5</Max_Speed>
 		<Min_Speed>3.5</Min_Speed>
 		<Max_Rate_Of_Turn>1.5</Max_Rate_Of_Turn>
-		<Max_Rate_Of_Roll>0.5</Max_Rate_Of_Roll>
+		<Max_Rate_Of_Roll>2.5</Max_Rate_Of_Roll>
 		<Bank_Turn_Angle>30</Bank_Turn_Angle>
 		<Max_Thrust>1.0</Max_Thrust>
 		<Max_Lift>2.0</Max_Lift>
@@ -4145,20 +4146,114 @@
 			<Effective_Radius>900.0</Effective_Radius>
 		</Unit_Ability>
 		<Unit_Ability>
-			<Type>HARMONIC_BOMB</Type>
+			<Type>BUZZ_DROIDS</Type>
+<!--			<Effective_Radius>2000</Effective_Radius>-->
+			<GUI_Activated_Ability_Name>Stealth_Detection_Pod_Bossk</GUI_Activated_Ability_Name>
 			<Recharge_Seconds>65</Recharge_Seconds>
-			<Spawned_Object_Type>Proj_Stealth_Detection_Pod</Spawned_Object_Type>
-			<Bomb_Countdown_Seconds>10</Bomb_Countdown_Seconds>
-			<SFXEvent_GUI_Unit_Ability_Activated> </SFXEvent_GUI_Unit_Ability_Activated>
-<!--			<Supports_Autofire>True</Supports_Autofire>-->
+			<SFXEvent_Target_Ability> </SFXEvent_Target_Ability>
+			<Area_Effect_Decal_Distance>400.0</Area_Effect_Decal_Distance>
+			<Alternate_Name_Text>TEM_Ability_Stealth_Detection_Pod</Alternate_Name_Text>
+			<Alternate_Description_Text>TEM_Ability_Tooltip_Stealth_Detection_Pod</Alternate_Description_Text>
+			<Alternate_Icon_Name>I_SA_FORCE_SIGHT.TGA</Alternate_Icon_Name>
 		</Unit_Ability>
 	</Unit_Abilities_Data>
 
 	<Abilities SubObjectList="Yes">
 		<Sensor_Jamming_Ability Name="HoundsTooth_Sensor_Jamming">
 			<Activation_Style>User_Input</Activation_Style>
-			<Owner_Particle_Effect>Sensor_Jamming_Effect</Owner_Particle_Effect>
+			<Owner_Particle_Effect>Sensor_Jamming_Effect_Skipray</Owner_Particle_Effect>
 		</Sensor_Jamming_Ability>
+		<Buzz_Droids_Ability Name="Stealth_Detection_Pod_Bossk">
+			<Activation_Style>User_Input</Activation_Style>
+			<Activation_Min_Range>0</Activation_Min_Range>
+			<Activation_Max_Range>300</Activation_Max_Range> <!-- 400 -->
+			<Chase_Radius>0</Chase_Radius>
+			<Damage_Radius>0</Damage_Radius>
+			<Enemy_Damage_Per_Second>0</Enemy_Damage_Per_Second>
+			<Own_Damage_Per_Second>3</Own_Damage_Per_Second>
+			<Activation_Time_In_Seconds>0</Activation_Time_In_Seconds>
+			<Activate_SFX> </Activate_SFX>
+			<Object_Type>Stealth_Detection_Pod</Object_Type>
+		</Buzz_Droids_Ability>
+	</Abilities>
+	</UniqueUnit>
+	
+	<UniqueUnit Name="Stealth_Detection_Pod">
+		<Text_ID>TEM_UNIT_STEALTH_DETECTION_POD</Text_ID>
+		<Encyclopedia_Text>TEM_UNIT_TOOLTIP_STEALTH_DETECTION_POD</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
+
+		<Space_Model_Name>NV_DEFENSESATELLITE.alo</Space_Model_Name>
+		<Icon_Name>i_button_lrs.tga</Icon_Name>
+		<Affiliation>Underworld</Affiliation>
+		<Population_Value>0</Population_Value>
+
+		<GUI_Row>1</GUI_Row>
+
+		<Mass>0.9995</Mass>
+		<Size_Value>120</Size_Value>
+		<Scale_Factor>0.15</Scale_Factor>
+		<Select_Box_Scale>70</Select_Box_Scale>
+		<Select_Box_Z_Adjust>-1</Select_Box_Z_Adjust>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Mouse_Collide_Override_Sphere_Radius>40.0</Mouse_Collide_Override_Sphere_Radius>
+
+		<Max_Speed>0</Max_Speed>
+		<MovementClass>Space</MovementClass>
+
+		<Shield_Armor_Type/>
+		<Shield_Points>0</Shield_Points>
+		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+		<Armor_Type>Armor_Bomber</Armor_Type>
+		<Tactical_Health>20</Tactical_Health>
+		<Autoresolve_Health>20</Autoresolve_Health>
+		<Energy_Capacity>500</Energy_Capacity>
+		<Energy_Refresh_Rate>300</Energy_Refresh_Rate>
+
+		<Damage>20</Damage>
+		<AI_Combat_Power>1</AI_Combat_Power>
+		<Number_per_Squadron>1</Number_per_Squadron>
+
+		<Special_Weapon_Valid_Targets> </Special_Weapon_Valid_Targets>
+
+		<Space_FOW_Reveal_Range>400.0</Space_FOW_Reveal_Range>
+		<Dense_FOW_Reveal_Range_Multiplier>1.0</Dense_FOW_Reveal_Range_Multiplier>
+		<Ranking_In_Category>7</Ranking_In_Category>
+		<Ranged_Target_Z_Adjust>0</Ranged_Target_Z_Adjust>
+		
+		<Target_Stealth_Units>Yes</Target_Stealth_Units>
+
+		<Behavior>DUMMY_STARSHIP, POWERED, SELECTABLE</Behavior>
+		<SpaceBehavior>BUZZ_DROIDS, REVEAL, HIDE_WHEN_FOGGED, DAMAGE_TRACKING, DUMMY_TOOLTIP, IDLE, AMBIENT_SFX, TARGETING</SpaceBehavior>
+
+		<Death_Explosions>Medium_Explosion_Space</Death_Explosions>
+		<Remove_Upon_Death>True</Remove_Upon_Death>
+
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Is_Valid_Target>False</Is_Valid_Target>
+		<Influences_Capture_Point>False</Influences_Capture_Point>
+
+		<CategoryMask>Corvette | AntiFighter | AntiBomber</CategoryMask>
+		<Ship_Class>Corvette</Ship_Class>
+		<Space_Layer>None</Space_Layer>
+
+		<SFXEvent_Ambient_Moving> </SFXEvent_Ambient_Moving>
+		<SFXEvent_Engine_Cinematic_Focus_Loop/>
+
+		<Death_SFXEvent_Start_Die>Unit_Corvette_Death_SFX</Death_SFXEvent_Start_Die>
+		
+	<Abilities SubObjectList="Yes">
+		<Force_Healing_Ability Name="Stealth_Detection_Range_Indicator">
+			<Activation_Style>Space_Automatic</Activation_Style>
+			<Heal_Range>400.0</Heal_Range>
+			<Heal_Percent>0.0</Heal_Percent>
+			<Blob_Color>0, 0, 255, 255</Blob_Color>
+			<Heal_Interval_In_Secs>5.0</Heal_Interval_In_Secs>
+			<Single_Target_Heal>Yes</Single_Target_Heal>
+			<Heal_Range_Blob_Material>FoW_Ping_Blob</Heal_Range_Blob_Material>
+			<Applicable_Unit_Types>Stealth_Detection_Pod</Applicable_Unit_Types>
+			<Excluded_Unit_Types/>
+		</Force_Healing_Ability>
 	</Abilities>
 	</UniqueUnit>
 
@@ -4744,9 +4839,4 @@
 	<Hover_Offset>30.0</Hover_Offset>
 </UniqueUnit>
 -->
-
-
-
-
-
 

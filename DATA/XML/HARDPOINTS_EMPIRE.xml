@@ -3939,13 +3939,13 @@
 		<Fire_Range_Distance>600.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_TIE_Fighter_Fire</Fire_SFXEvent>
 
-		<Fire_Inaccuracy_Distance>Fighter, 25.0</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>Bomber, 20.0</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>Transport, 20.0</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>Corvette, 15.0</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>Frigate, 20.0</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>Capital, 25.0</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>Super, 30.0</Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance>Fighter, 20.0</Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance>Bomber, 15.0</Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance>Transport, 10.0</Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance>Corvette, 10.0</Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance>Frigate, 10.0</Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance>Capital, 10.0</Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance>Super, 10.0</Fire_Inaccuracy_Distance>
 	</HardPoint>
 	
 	<HardPoint Name="HP_TIE_DEFENDER_TORP_00">
@@ -4534,3 +4534,4 @@
 		<Fire_Inaccuracy_Distance>LandHero, 45.0</Fire_Inaccuracy_Distance>
 	</HardPoint>
 </HardPoints>
+

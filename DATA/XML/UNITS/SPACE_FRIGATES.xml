@@ -170,8 +170,9 @@
 			<Recharge_Seconds>60</Recharge_Seconds>
 			<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,		1.35f</Mod_Multiplier>
 			<Mod_Multiplier>CAUSE_DAMAGE_MULTIPLIER,		0.75f</Mod_Multiplier>
+			<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER,			0.8f</Mod_Multiplier>
 			<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,		1.0f</Mod_Multiplier>
-			<Mod_Multiplier>SHIELD_REGEN_INTERVAL_MULTIPLIER,	0.10f</Mod_Multiplier>
+			<Mod_Multiplier>SHIELD_REGEN_INTERVAL_MULTIPLIER,	0.1333f</Mod_Multiplier>
 			<Mod_Multiplier>ENERGY_REGEN_INTERVAL_MULTIPLIER,	0.10f</Mod_Multiplier>
 			<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,		3.0f</Mod_Multiplier>
 			<Mod_Multiplier>SPEED_MULTIPLIER,			0.8f</Mod_Multiplier>
@@ -372,8 +373,9 @@
 			<Expiration_Seconds>15</Expiration_Seconds>
 			<Recharge_Seconds>60</Recharge_Seconds>
 			<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,		1.0f</Mod_Multiplier>
+			<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER,			0.8f</Mod_Multiplier>
 			<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,		1.0f</Mod_Multiplier>
-			<Mod_Multiplier>SHIELD_REGEN_INTERVAL_MULTIPLIER,	0.10f</Mod_Multiplier>
+			<Mod_Multiplier>SHIELD_REGEN_INTERVAL_MULTIPLIER,	0.1333f</Mod_Multiplier>
 			<Mod_Multiplier>ENERGY_REGEN_INTERVAL_MULTIPLIER,	0.10f</Mod_Multiplier>
 			<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,		3.0f</Mod_Multiplier>
 			<Mod_Multiplier>SPEED_MULTIPLIER,			0.8f</Mod_Multiplier>
@@ -2016,6 +2018,7 @@
 		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
 	</SpaceUnit>
 </SpaceUnitsFrigate>
+
 
 
 

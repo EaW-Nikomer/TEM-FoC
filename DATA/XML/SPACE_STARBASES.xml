@@ -2596,7 +2596,7 @@
 				Y-Wing_Squadron,
 				Rogue_Squadron_Space,
 				RS_Enhanced_Shielding_L1_Upgrade,
-				RS_Improved_Weapons_L1_Upgrade,
+<!--				RS_Improved_Weapons_L1_Upgrade,-->
 				RS_Level_Two_Starbase_Upgrade
 		</Tactical_Buildable_Objects_Multiplayer>
 
@@ -3141,7 +3141,7 @@
 				TIE_Fighter_Squadron,
 				TIE_Interceptor_Squadron,
 				TIE_Bomber_Squadron,
-				ES_Enhanced_Reactors_L1_Upgrade,
+<!--				ES_Enhanced_Reactors_L1_Upgrade,-->
 				ES_Reinforced_Armor_L1_Upgrade,
 <!--				ES_Upgraded_Electronics_L1_Upgrade,-->
 				ES_Level_Two_Starbase_Upgrade
@@ -3709,7 +3709,7 @@
 				StarViper_Squadron,
 				Skipray_Squadron,
 				US_Reinforced_Structure_L1_Upgrade,
-				US_Magnetically_Sealed_Armor_L1_Upgrade,
+<!--				US_Magnetically_Sealed_Armor_L1_Upgrade,-->
 				US_Level_Two_Starbase_Upgrade
 		</Tactical_Buildable_Objects_Multiplayer>
 
@@ -4243,3 +4243,4 @@
 	</Abilities>
 	</StarBase>
 </StarBases>
+

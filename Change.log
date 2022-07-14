@@ -1,7 +1,60 @@
 TEM FOC NOTES
 
+v4.0.1.1254 (2021-10-17) [FoC v1.121.748742]
+============================================
+
+----- GENERIC -----
+Asteroid Mine
+	Reinforcement prevention range: 600 > 1200
+Fighter Inaccuracy Distance vs Corvettes, Frigates, and Capital Ships: 30 > 12
+	(more accurate)
+Fighter Fire Arc Width: 20 > 30deg
+	(should help dogfighting issues)
+
+----- EMPIRE -----
+Improved Engines Upgrade
+	L1 moved to Tech 2 station
+TIE Fighter
+	Max Speed: 4.5 > 4.2
+TIE Scout
+	FoW Ping Range: 6000 > 5000
+TIE Phantom
+	Ability Recharge Time: 13 > 20sec
+
+----- REBEL -----
+Power to Shields Ability
+	Now reduces damage taken by 20%
+	Shield Regen interval: 0.3 > 0.4sec
+Enhanced Firepower Upgrade
+	L1 moved to Tech 2 station
+Corellian Corvette
+	Cleaned up hardpoint fire arcs
+Y-Wing
+	Ion Torpedo no longer overrides the first proton torpedo when used
+Ion Torpedo
+	Projectile Damage: 50 > 70
+	Fire rate reduction: 50 > 80%
+
+----- UNDERWORLD -----
+Magnetically Sealed Armor Upgrade
+	L1 moved to Tech 2 station
+Buzz Droids
+	SFX volume increased: 70 > 85
+	Activation time: 1.3 > 1.2
+Bossk
+	Sensor Buoy ability type: Seismic Charge > Buzz Droids
+		Can now reveal stealth units
+		Can now be clicked on to show effective range / lifespan
+	Rate of Roll: 0.5 > 2.5
+	Sensor Jamming ability particle effect now lasts as long as the ability
+Damage Bossk Missile vs Armor
+	Corellian Corvette: 1.8 > 1.4x
+	Tartan: 1.6 > 1.2x
+
+
 v3.0.1.1206 (2021-10-09) [FoC v1.121.748742]
 ============================================
+
 Asteroid Mines
 	Reinforcement Prevention Radius: 200 > 600
 	Self Repair: 5 > 8/sec (More accurate to vanilla)
