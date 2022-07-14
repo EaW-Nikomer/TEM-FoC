@@ -68,7 +68,7 @@
 		<Dense_FOW_Reveal_Range_Multiplier>1.0</Dense_FOW_Reveal_Range_Multiplier>
 		<Targeting_Max_Attack_Distance>150.0</Targeting_Max_Attack_Distance>
 		<Ranged_Target_Z_Adjust>7.0</Ranged_Target_Z_Adjust>
-		<Projectile_Fire_Recharge_Seconds>.7</Projectile_Fire_Recharge_Seconds>
+		<Projectile_Fire_Recharge_Seconds>0.7</Projectile_Fire_Recharge_Seconds>
 		
 		<SFXEvent_Select>Unit_Select_Boba_Fett</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_Boba_Fett</SFXEvent_Move>
@@ -144,7 +144,7 @@
 			<!-- Secondary ability -->
 			<Unit_Ability>
 				<Type>JET_PACK</Type>
-				<Recharge_Seconds>45.0</Recharge_Seconds>
+				<Recharge_Seconds>40.0</Recharge_Seconds>
 				<GUI_Activated_Ability_Name> </GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
 				<SFXEvent_Target_Ability> Unit_Move_Boba_Fett </SFXEvent_Target_Ability> 
 				<!-- Disabling these, since we now want Boba to be able to fly anywhere on the map, even into FOW -->
@@ -190,7 +190,7 @@
 				<Activation_Min_Range>0.0</Activation_Min_Range>
 				<Activation_Max_Range>150.0</Activation_Max_Range>
 				<Damage_Arc_In_Degrees>90.0</Damage_Arc_In_Degrees>
-				<Damage_Amount>225.0</Damage_Amount>
+				<Damage_Amount>250.0</Damage_Amount>
 				<Fire_Time_In_Secs>10.0</Fire_Time_In_Secs>
 				<Damage_Delay_In_Secs>0.5</Damage_Delay_In_Secs>
 				
@@ -1519,7 +1519,7 @@
 
 			<Unit_Ability>
 				<Type>AREA_EFFECT_CONVERT</Type>
-				<Recharge_Seconds>50.0</Recharge_Seconds>
+				<Recharge_Seconds>55.0</Recharge_Seconds>
 				<GUI_Activated_Ability_Name> </GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
 				<Spawned_Object_Type> Proj_Special_Mara_Corrupt_Blast </Spawned_Object_Type>
 				<SFXEvent_Target_Ability> Unit_Convert_Emperor </SFXEvent_Target_Ability>  
@@ -2668,7 +2668,7 @@
 
 		<Projectile_Types>Proj_Infiltrator_Blaster</Projectile_Types>
 <!--		<Projectile_Damage>40.0</Projectile_Damage>-->
-		<Projectile_Fire_Recharge_Seconds>1.5</Projectile_Fire_Recharge_Seconds>
+		<Projectile_Fire_Recharge_Seconds>2.5</Projectile_Fire_Recharge_Seconds>
 		<Projectile_Fire_Pulse_Count>2</Projectile_Fire_Pulse_Count>
 		<Projectile_Fire_Pulse_Delay_Seconds>0.2</Projectile_Fire_Pulse_Delay_Seconds>
 
@@ -2750,25 +2750,17 @@
 		<Death_SFXEvent_Start_Die>Unit_Defeat_Katarn</Death_SFXEvent_Start_Die>
 
 	<Unit_Abilities_Data SubObjectList="Yes">
-<!--		<Unit_Ability>
+		<Unit_Ability>
 			<Type>SPRINT</Type>
 			<Expiration_Seconds>8.0</Expiration_Seconds>
-			<Recharge_Seconds>45.0</Recharge_Seconds>
+			<Recharge_Seconds>50.0</Recharge_Seconds>
 			<Mod_Multiplier>SPEED_MULTIPLIER,		2.0f</Mod_Multiplier>
 			<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER,	0.75f</Mod_Multiplier>
 			<SFXEvent_GUI_Unit_Ability_Activated>Unit_Sprint_Katarn</SFXEvent_GUI_Unit_Ability_Activated>
-		</Unit_Ability>-->
-		<Unit_Ability>
-			<Type>FORCE_CONFUSE</Type>
-			<Recharge_Seconds>40.0</Recharge_Seconds>
-			<GUI_Activated_Ability_Name>Katarn_Confuse</GUI_Activated_Ability_Name>
-			<Effective_Radius>500.0</Effective_Radius>
-			<SFXEvent_GUI_Unit_Ability_Activated>Unit_Confuse_Obi_Wan</SFXEvent_GUI_Unit_Ability_Activated>
-<!--			<Supports_Autofire>True</Supports_Autofire>-->
 		</Unit_Ability>
 		<Unit_Ability>
 			<Type>STICKY_BOMB</Type>
-			<Recharge_Seconds>23.0</Recharge_Seconds>
+			<Recharge_Seconds>28.0</Recharge_Seconds>
 			<GUI_Activated_Ability_Name>Kyle_Katarn_Grenade_Attack</GUI_Activated_Ability_Name>
 			<SFXEvent_Target_Ability>Unit_Bomb_Katarn</SFXEvent_Target_Ability>
 <!--			<Supports_Autofire>True</Supports_Autofire>-->
@@ -2812,7 +2804,7 @@
 			<Causes_Despawn>No</Causes_Despawn>
 			<SFXEvent_Activate>RHD_Removing_Corruption</SFXEvent_Activate>
 		</Remove_Corruption_Ability>
-		<Force_Confuse_Ability Name="Katarn_Confuse">
+		<!-- <Force_Confuse_Ability Name="Katarn_Confuse">
 			<Activation_Style> User_Input </Activation_Style>
 			<Activation_Min_Range>0.0</Activation_Min_Range>
 			<Activation_Max_Range>132.0</Activation_Max_Range>
@@ -2830,7 +2822,7 @@
 			<Owner_Light_Effect_Color2/>
 			<Owner_Light_Effect_Duration>0.5</Owner_Light_Effect_Duration>
 			<Owner_Light_Effect_Pulse_Count/>
-		</Force_Confuse_Ability>
+		</Force_Confuse_Ability> -->
 	</Abilities>
 	</HeroUnit>
 
@@ -2978,7 +2970,7 @@
 				<Chance_Affinity_Modifier>+0.25</Chance_Affinity_Modifier>
 			</Slicer_Ability>
 			
-			<Force_Healing_Ability Name="R2D2_Vehicle_Repair">
+	        <!-- <Force_Healing_Ability Name="R2D2_Vehicle_Repair">
 				<Activation_Style>Ground_Automatic</Activation_Style>
 				<Heal_Range>120.0</Heal_Range>
 				<Heal_Amount>15.0</Heal_Amount>
@@ -2988,7 +2980,7 @@
 				<Applicable_Unit_Categories>Vehicle</Applicable_Unit_Categories>
 				<Applicable_Unit_Types>MPTL_Spotter</Applicable_Unit_Types>
 				<SFXEvent_Target_Affected>Unit_Force_Healing_Pulse</SFXEvent_Target_Affected>
-			</Force_Healing_Ability>
+			</Force_Healing_Ability> -->
 
 			<!-- DUE TO TEAM, DO NOT ADD TACTICAL SPECIAL ABILITIES TO THIS OBJECT - <Hack_Ability Name="R2D2_Hack_Ability"> -->
 			<!-- DUE TO TEAM, DO NOT ADD TACTICAL SPECIAL ABILITIES TO THIS OBJECT - <Repair_Ability Name="R2D2_Repair_Ability"> -->
@@ -3888,24 +3880,17 @@
 
 		<!-- Non-Hero unit abilities description -->
 		<Unit_Abilities_Data SubObjectList="Yes">
+			
 			<!-- Primary ability -->
-<!--			<Unit_Ability>
+		    <Unit_Ability>
 				<Type>FLAME_THROWER</Type>
 				<Alternate_Name_Text>TEXT_TOOLTIP_BOSSK_FLAMETHROWER</Alternate_Name_Text>
 				<Alternate_Description_Text>TEXT_BOSSK_FLAMETHROWER_DESCRIPTION</Alternate_Description_Text>
-				<Recharge_Seconds>30.0</Recharge_Seconds>
+				<Recharge_Seconds>35.0</Recharge_Seconds>
 				<GUI_Activated_Ability_Name> Bossk_Flame_Thrower </GUI_Activated_Ability_Name>
 			<SFXEvent_GUI_Unit_Ability_Activated> Unit_Attack_Bossk </SFXEvent_GUI_Unit_Ability_Activated>
-				<Supports_Autofire>True</Supports_Autofire>
-			</Unit_Ability>-->
-		<Unit_Ability>
-			<Type>SPRINT</Type>
-			<Expiration_Seconds>10.0</Expiration_Seconds>
-			<Recharge_Seconds>45.0</Recharge_Seconds>
-			<Mod_Multiplier>SPEED_MULTIPLIER,		1.6f</Mod_Multiplier>
-			<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER,	0.75f</Mod_Multiplier>
-			<SFXEvent_GUI_Unit_Ability_Activated>Unit_Move_Bossk</SFXEvent_GUI_Unit_Ability_Activated>
-		</Unit_Ability>
+				<Supports_Autofire>False</Supports_Autofire>
+			</Unit_Ability>
 
 			<Unit_Ability>
 				<Type>SWAP_WEAPONS</Type>
@@ -3915,6 +3900,7 @@
  				<GUI_Activated_Ability_Name>Disruptor_Swap_Weapon</GUI_Activated_Ability_Name>	<!-- This doesn't exist ??? -->
 				<SFXEvent_GUI_Unit_Ability_Activated> Unit_Attack_Bossk </SFXEvent_GUI_Unit_Ability_Activated>
 			</Unit_Ability>
+			
 		</Unit_Abilities_Data>
 
 		<Abilities SubObjectList="Yes">
@@ -3945,7 +3931,7 @@
 				<Can_Neutralize_Major_Heroes>Yes</Can_Neutralize_Major_Heroes>
 			</Neutralize_Hero_Ability>
 
-<!--			<Personal_Flame_Thrower_Ability Name="Bossk_Flame_Thrower">
+			<Personal_Flame_Thrower_Ability Name="Bossk_Flame_Thrower">
 				<Activation_Style> User_Input </Activation_Style>
 				<Activation_Min_Range>0.0</Activation_Min_Range>
 				<Activation_Max_Range>100.0</Activation_Max_Range>

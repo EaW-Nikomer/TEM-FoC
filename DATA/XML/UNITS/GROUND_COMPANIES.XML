@@ -1492,8 +1492,8 @@
 		</Unit_Abilities_Data>
 
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>1300</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>30</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Cost_Multiplayer>1150</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>29</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites/>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
@@ -2683,6 +2683,7 @@
 
 		<!-- 6 squads of 5 soldiers -->
 		<Company_Units>
+			Underworld_Merc, Underworld_Merc, Underworld_Merc, Underworld_Merc,
 			Underworld_Merc, Underworld_Merc, Underworld_Merc, Underworld_Merc,
 			Underworld_Merc, Underworld_Merc, Underworld_Merc, Underworld_Merc,
 			Underworld_Merc, Underworld_Merc, Underworld_Merc, Underworld_Merc,

@@ -1,5 +1,81 @@
 TEM FOC NOTES
 
+v6.0.1.1382 (2022-05-26) [FoC v1.121.748742]
+============================================
+
+=Zann Consortium=
+General:
+- Increased starting grenadiers from 6 to 7.
+
+Droideka:
+- Damage_Droideka_Blaster base damage increased from 3.0 to 4.0 
+- Damage_Droideka_Blaster damage increased to Armor_ATAA from 1.0 to 1.2 
+
+Bossk: 
+- Reverted sprint on Bossk and give back flamethrower 
+- Increase blaster fire delay rate from 0.6 to 0.7 
+- Increase Bossk cost from 1200 to 1350 
+- Increase Bossk build time from 8 seconds to 10 seconds 
+- Increase bossk auto attack damage from 8 to 14 
+- Increase Bossk Plasma grenade initial damage from 30 to 65 
+- Increase Bossk Plasma grenade burn damage from 30 to 35 
+- Decreased Bossk Plasma grenade recharge from 20 seconds to 15 seconds
+- Increased Bossk Flamethrower recharge time from 30 seconds to 35 seconds 
+
+=Empire=
+Mara Jade: 
+- Increased recharge time of force corrupt from 50 seconds to 55 seconds
+
+Boba Fett:
+- Decreased recharge time of jetpack from 45 seconds to 40 seconds
+- Flamethrower damage increased from 225 to 250
+- Build time decreased from 18 seconds to 15 seconds
+- Cost decreased from 1400 to 1200
+
+=Rebels=
+Kyle Katarn: 
+- Removed Jedi Mind trick and reverted sprint back
+- Sticky bomb recharge rate increased from 23 seconds to 28 seconds
+- Sprint recharge increased from 40 seconds to 50 seconds
+- Build time increased from 14 seconds to 18 seconds
+- <Projectile_Fire_Recharge_Seconds> increased from 1.5 to 2.5
+
+R2D2 & C3P0:
+- Removed AoE repair.
+- Targeted Repair Ability cooldown reduced from 35 to 20.
+- Build time increased from 12 seconds to 11 seconds.
+
+T2-B Tank:
+- Decreased cost from 1300 to 1150
+
+
+Space:
+=Zann Consortium=
+Crusader:
+- Build time increased from 16 to 18 seconds
+
+Interceptor IV Frigate:
+- Build time increased from 22 seconds to 26 seconds.
+
+=Empire=
+Tartan:
+- Build time increased from 13 seconds to 16 seconds
+- Price decreased from 1600 to 1550.
+- Power to Weapons recharge time decreased from 60 seconds to 45 seconds.
+
+Acclamator:
+- Build time increased from 18 seconds to 24 seconds
+- Price reduced from 2400 to 2350
+
+=Rebels=
+Nebulon-B Frigate:
+- Build time increased from 14 seconds to 20 seconds
+- Price reduced from 2100 to 1950
+
+Corvettes:
+- Build time increased from 10 seconds to 14 seconds
+
+
 v5.0.1.1310 (2021-10-27) [FoC v1.121.748742]
 ============================================
 

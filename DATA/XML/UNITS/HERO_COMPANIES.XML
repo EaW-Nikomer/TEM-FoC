@@ -625,8 +625,8 @@
 	<HeroCompany Name="Boba_Fett_Team_Land_MP">
 		<Variant_Of_Existing_Type>Boba_Fett_Team</Variant_Of_Existing_Type>
 
-		<Tactical_Build_Cost_Multiplayer>1400</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>18</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Cost_Multiplayer>1200</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>15</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites>EC_Level_Two_Tech_Upgrade</Tactical_Build_Prerequisites>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
@@ -1292,7 +1292,7 @@
 		
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->  
 		<Tactical_Build_Cost_Multiplayer>1400</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>15</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Time_Seconds>18</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites/>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
@@ -1625,7 +1625,7 @@
 			</Unit_Ability>
 			<Unit_Ability>
 				<Type>TARGETED_REPAIR</Type>
-				<Recharge_Seconds>35.0</Recharge_Seconds>
+				<Recharge_Seconds>20.0</Recharge_Seconds>
 				<GUI_Activated_Ability_Name> R2D2_Repair_Ability </GUI_Activated_Ability_Name>
 				<Friendly_Ability> Yes </Friendly_Ability> <!-- Targeted ability to friendly units -->
 				<SFXEvent_Target_Ability> Unit_Hack_Turret_C3PO </SFXEvent_Target_Ability> 
@@ -1634,7 +1634,7 @@
 
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->  
 		<Tactical_Build_Cost_Multiplayer>650</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>12</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Time_Seconds>10</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites/>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
@@ -1754,8 +1754,8 @@
 
 		<Unit_Abilities_Data SubObjectList="Yes"> </Unit_Abilities_Data>
 
-		<Tactical_Build_Cost_Multiplayer>1200</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>8</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Cost_Multiplayer>1350</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>10</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites/>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
