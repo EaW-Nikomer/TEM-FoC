@@ -875,91 +875,6 @@
 		<Fire_Inaccuracy_Distance>Super, 1.0</Fire_Inaccuracy_Distance>
 	</HardPoint>
 	
-	<HardPoint Name="HP_Satellite_Plasma">
-		<Type>HARD_POINT_WEAPON_LASER</Type>
-		<Is_Targetable>no</Is_Targetable>
-		<Is_Destroyable>no</Is_Destroyable>
-		<Attachment_Bone>root</Attachment_Bone>
-		<Collision_Mesh>root</Collision_Mesh>
-		<Fire_Bone_A>MuzzleA_00</Fire_Bone_A>
-		<Fire_Bone_B>MuzzleA_01</Fire_Bone_B>
-		<Fire_Cone_Width>25</Fire_Cone_Width>
-		<Fire_Cone_Height>25</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_Plasma_Space_Turret_Blast</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>3.0</Fire_Max_Recharge_Seconds>
-		<Fire_Pulse_Count>2</Fire_Pulse_Count>
-		<Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>1000.0</Fire_Range_Distance>
-		<Fire_SFXEvent>Unit_Turret_Fire</Fire_SFXEvent>
-		<Fire_Inaccuracy_Distance>Fighter, 10.0</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>Bomber, 10.0</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>Transport, 10.0</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>Corvette, 5.0</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>Frigate, 5.0</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>Capital, 10.0</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>Super, 10.0</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>Structure, 10</Fire_Inaccuracy_Distance>
-		<Allow_Opportunity_Fire_When_Targeting>true</Allow_Opportunity_Fire_When_Targeting>
-	</HardPoint>
-
-	<HardPoint Name="HP_Satellite_Mass_Driver">
-		<Type>HARD_POINT_WEAPON_LASER</Type>
-		<Is_Targetable>no</Is_Targetable>
-		<Is_Destroyable>no</Is_Destroyable>
-		<Attachment_Bone>root</Attachment_Bone>
-		<Collision_Mesh>root</Collision_Mesh>
-		<Fire_Bone_A>MuzzleA_00</Fire_Bone_A>
-		<Fire_Bone_B>MuzzleA_01</Fire_Bone_B>
-		<Fire_Cone_Width>25</Fire_Cone_Width>
-		<Fire_Cone_Height>25</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_Vengeance_Mass_Driver</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>2.0</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>2.0</Fire_Max_Recharge_Seconds>
-		<Fire_Pulse_Count>6</Fire_Pulse_Count>
-		<Fire_Pulse_Delay_Seconds>0.15</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>1250.0</Fire_Range_Distance>
-		<Fire_SFXEvent>Unit_Anti_Air_Fire</Fire_SFXEvent>
-		<Fire_Inaccuracy_Distance>Fighter, 40.0</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>Bomber, 40.0</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>Transport, 30.0</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>Corvette, 1.0</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>Frigate, 5.0</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>Capital, 10.0</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>Super, 10.0</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>Structure, 10.0</Fire_Inaccuracy_Distance>
-		<Allow_Opportunity_Fire_When_Targeting>true</Allow_Opportunity_Fire_When_Targeting>
-	</HardPoint>
-
-	<HardPoint Name="HP_Satellite_DBM">
-		<Type>HARD_POINT_WEAPON_LASER</Type>
-		<Is_Targetable>no</Is_Targetable>
-		<Is_Destroyable>no</Is_Destroyable>
-		<Attachment_Bone>root</Attachment_Bone>
-		<Collision_Mesh>root</Collision_Mesh>
-		<Fire_Bone_A>MuzzleA_00</Fire_Bone_A>
-		<Fire_Bone_B>MuzzleA_01</Fire_Bone_B>
-		<Fire_Cone_Width>30</Fire_Cone_Width>
-		<Fire_Cone_Height>30</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_Ship_Diamond_Boron_Missile_Satellite</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>4.0</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
-		<Fire_Pulse_Count>4</Fire_Pulse_Count>
-		<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>1500.0</Fire_Range_Distance>
-		<Fire_Min_Range_Distance>300.0</Fire_Min_Range_Distance>
-		<Fire_SFXEvent>Unit_Boron_Missile_Fire</Fire_SFXEvent>
-		<Fire_Inaccuracy_Distance>Fighter, 150.0</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>Bomber, 150.0</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>Transport, 120.0</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>Corvette, 120.0</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>Frigate, 90.0</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>Capital, 75.0</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>Super, 75.0</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>Structure, 75.0</Fire_Inaccuracy_Distance>
-		<Allow_Opportunity_Fire_When_Targeting>true</Allow_Opportunity_Fire_When_Targeting>
-	</HardPoint>
-	
 	<!-- KEDALBE BATTLESHIP HARD POINTS -->
 	<HardPoint Name="HP_KEDALBE_LEFT_TURBO_00">
 		<Type>HARD_POINT_WEAPON_LASER</Type>
@@ -1846,7 +1761,7 @@
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
 		<Tooltip_Text>TEXT_WEAPON_CONCUSSIONMISSILE</Tooltip_Text>
-		<Health>350.0</Health>
+		<Health>425.0</Health>
 
 		<Death_Explosion_Particles>Large_Explosion_Space_Empire</Death_Explosion_Particles>
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Missile_Death</Death_Explosion_SFXEvent>
@@ -1866,14 +1781,14 @@
 		<Fire_Projectile_Type>Proj_Ship_Concussion_Missile</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>4.0</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>5.0</Fire_Max_Recharge_Seconds>
-		<Fire_Pulse_Count>4</Fire_Pulse_Count>
+		<Fire_Pulse_Count>6</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>1200.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
-		<Full_Salvo_Weapon_Delay_Multiplier>0.4</Full_Salvo_Weapon_Delay_Multiplier>
+		<Full_Salvo_Weapon_Delay_Multiplier>0.18</Full_Salvo_Weapon_Delay_Multiplier>
 	</HardPoint>
 	
-	<HardPoint Name="HP_Interceptor_Frigate_00B">
+	<HardPoint Name="HP_Interceptor_Frigate_00B"> <!-- No longer used -->
 		<Type>HARD_POINT_WEAPON_MISSILE</Type>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
@@ -1923,7 +1838,7 @@
 
 		<Death_Breakoff_Prop>Hardpoint_Breakoff_InterceptorIV_BL</Death_Breakoff_Prop>
 
-		<Damage_Type>Damage_Acclamator</Damage_Type>
+		<Damage_Type>Damage_Acclamator_TL</Damage_Type>
 		<Fire_Bone_A>FP_B-L_00</Fire_Bone_A>
 		<Fire_Bone_B>FP_B-L_01</Fire_Bone_B>
 		<Fire_Cone_Width>150</Fire_Cone_Width>
@@ -1963,7 +1878,7 @@
 
 		<Death_Breakoff_Prop>Hardpoint_Breakoff_InterceptorIV_BR</Death_Breakoff_Prop>
 
-		<Damage_Type>Damage_Acclamator</Damage_Type>
+		<Damage_Type>Damage_Acclamator_TL</Damage_Type>
 		<Fire_Bone_A>FP_B-R_00</Fire_Bone_A>
 		<Fire_Bone_B>FP_B-R_01</Fire_Bone_B>
 		<Fire_Cone_Width>150</Fire_Cone_Width>
@@ -2333,33 +2248,6 @@
 		<Fire_Inaccuracy_Distance>Super, 30.0</Fire_Inaccuracy_Distance>
 
  		<Allow_Opportunity_Fire_When_Targeting>False</Allow_Opportunity_Fire_When_Targeting>
-	</HardPoint>
-	
-	<HardPoint Name="HP_STARVIPER_LASER_00">
-		<Type>HARD_POINT_WEAPON_LASER</Type>
-		<Is_Targetable>No</Is_Targetable>
-		<Is_Destroyable>No</Is_Destroyable>
-
-		<Fire_Bone_A>MuzzleA_00</Fire_Bone_A>
-		<Fire_Bone_B>MuzzleA_01</Fire_Bone_B>
-		<Fire_Cone_Width>45.0</Fire_Cone_Width>
-		<Fire_Cone_Height>45.0</Fire_Cone_Height>
-		<Damage_Type>Damage_Fighter</Damage_Type>
-		<Fire_Projectile_Type>Proj_Ship_Small_Laser_Cannon_Green</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>1.0</Fire_Max_Recharge_Seconds>
-		<Fire_Pulse_Count>2</Fire_Pulse_Count>
-		<Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>500.0</Fire_Range_Distance>
-		<Fire_SFXEvent>Unit_Star_Viper_Fire</Fire_SFXEvent>
-
-		<Fire_Inaccuracy_Distance>Fighter, 2.0</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>Bomber, 2.0</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>Transport, 2.0</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>Corvette, 30.0</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>Frigate, 30.0</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>Capital, 30.0</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>Super, 30.0</Fire_Inaccuracy_Distance>
 	</HardPoint>
 	
 	<!-- SKIPRAY BLAST BOAT HARD POINTS -->
@@ -2766,63 +2654,7 @@
 		<Fire_When_Deployed>Yes</Fire_When_Deployed>
 		<Fire_When_Undeployed>No</Fire_When_Undeployed>
 	</HardPoint>
-	
-		<HardPoint Name="HP_MAL_Missile">
-		<Type>HARD_POINT_WEAPON_MISSILE</Type>
-		<Is_Targetable>No</Is_Targetable>
-		<Is_Destroyable>No</Is_Destroyable>
-		<Fire_Bone_A>MuzzleA_04</Fire_Bone_A>
-		<Fire_Bone_B>MuzzleA_05</Fire_Bone_B>
-		<Fire_Cone_Width>20.0</Fire_Cone_Width>
-		<Fire_Cone_Height>20.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_MAL_Concussion_Missile</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>5.0</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>5.0</Fire_Max_Recharge_Seconds>
-		<Fire_Pulse_Count>9</Fire_Pulse_Count>
-		<Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>500.0</Fire_Range_Distance>
-		<Fire_Min_Range_Distance>30.0</Fire_Min_Range_Distance>
-		<Fire_SFXEvent>Unit_MPTL_Tank_Fire</Fire_SFXEvent>
-		<Fire_Inaccuracy_Distance>Infantry, 60</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>Vehicle, 60</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>Air, 50</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>Structure, 50</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>LandHero, 50</Fire_Inaccuracy_Distance>
 
-		<Fire_When_Deployed>Yes</Fire_When_Deployed>
-		<Fire_When_Undeployed>No</Fire_When_Undeployed>
-		<Fire_When_In_Rocket_Attack_Mode>No</Fire_When_In_Rocket_Attack_Mode>
-		<Fire_When_In_Normal_Attack_Mode>Yes</Fire_When_In_Normal_Attack_Mode>
-	</HardPoint>
-	
-	<HardPoint Name="HP_MAL_Carbonite_Missile">
-		<Type>HARD_POINT_WEAPON_MISSILE</Type>
-		<Is_Targetable>No</Is_Targetable>
-		<Is_Destroyable>No</Is_Destroyable>
-		<Fire_Bone_A>MuzzleA_04</Fire_Bone_A>
-		<Fire_Bone_B>MuzzleA_05</Fire_Bone_B>
-		<Fire_Cone_Width>20.0</Fire_Cone_Width>
-		<Fire_Cone_Height>20.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_MAL_Carbonite_Missile</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>4.0</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
-		<Fire_Pulse_Count>2</Fire_Pulse_Count>
-		<Fire_Pulse_Delay_Seconds>1</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>500.0</Fire_Range_Distance>
-		<Fire_Min_Range_Distance>30.0</Fire_Min_Range_Distance>
-		<Fire_SFXEvent>Unit_MAL_Carbonite_Fire</Fire_SFXEvent>
-		<Fire_Inaccuracy_Distance>Infantry, 50</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>Vehicle, 50</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>Air, 50</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>Structure, 40</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>LandHero, 40</Fire_Inaccuracy_Distance>
-
-		<Fire_When_Deployed>Yes</Fire_When_Deployed>
-		<Fire_When_Undeployed>No</Fire_When_Undeployed>
-		<Fire_When_In_Rocket_Attack_Mode>Yes</Fire_When_In_Rocket_Attack_Mode>
-		<Fire_When_In_Normal_Attack_Mode>No</Fire_When_In_Normal_Attack_Mode>
-	</HardPoint>
-	
 	<HardPoint Name="HP_Dekard_Blast_00">
 		<Type>HARD_POINT_WEAPON_SPECIAL</Type>
 		<Is_Targetable>No</Is_Targetable>
@@ -2848,31 +2680,5 @@
 		<Fire_Inaccuracy_Distance>Capital, 30.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Super, 30.0</Fire_Inaccuracy_Distance>
 	</HardPoint>
-	
-	<HardPoint Name="HP_Mass_Driver_Turret">
-		<Type>HARD_POINT_WEAPON_MISSILE</Type>
-		<Is_Targetable>no</Is_Targetable>
-		<Is_Destroyable>no</Is_Destroyable>
-		<Attachment_Bone>root</Attachment_Bone>
-		<Collision_Mesh>root</Collision_Mesh>
-		<Fire_Bone_A>MuzzleA_00</Fire_Bone_A>
-		<Fire_Bone_B>MuzzleA_01</Fire_Bone_B>
-		<Fire_Cone_Width>10</Fire_Cone_Width>
-		<Fire_Cone_Height>10</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_Mass_Driver_Turret</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>1.5</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>1.5</Fire_Max_Recharge_Seconds>
-		<Fire_Pulse_Count>12</Fire_Pulse_Count>
-		<Fire_Pulse_Delay_Seconds>0.0333</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>300.0</Fire_Range_Distance>
-		<Fire_Min_Range_Distance>30.0</Fire_Min_Range_Distance>
-		<Fire_SFXEvent>Unit_Anti_Air_Fire</Fire_SFXEvent>
-		<Fire_Inaccuracy_Distance>Infantry, 15.0</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>Vehicle, 15.0</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>Air, 1.0</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>Structure, 20.0</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>LandHero, 15.0</Fire_Inaccuracy_Distance>
-	</HardPoint>
 </HardPoints>
-
 

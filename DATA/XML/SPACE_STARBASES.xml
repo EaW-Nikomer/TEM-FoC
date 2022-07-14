@@ -2574,7 +2574,7 @@
 		<Build_Initially_Locked>Yes</Build_Initially_Locked>
 		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
 	</Starbase>
-	
+
 	<StarBase Name="Skirmish_Rebel_Star_Base_1">
 		<Variant_Of_Existing_Type>Rebel_Star_Base_1</Variant_Of_Existing_Type>
 
@@ -2594,6 +2594,7 @@
 			Rebel,
 				Rebel_X-Wing_Squadron,
 				Y-Wing_Squadron,
+				Rogue_Squadron_Space,
 				RS_Enhanced_Shielding_L1_Upgrade,
 				RS_Improved_Weapons_L1_Upgrade,
 				RS_Level_Two_Starbase_Upgrade
@@ -2628,7 +2629,7 @@
 			<Activation_Style>Skirmish_Automatic</Activation_Style>
 			<Initially_Enabled>No</Initially_Enabled><!-- This bonus income is controlled by the presence of the Supply Dock hardpoint -->
 			<Income_Multiplier>1.0</Income_Multiplier>
-			<Income_Additive_Value>20</Income_Additive_Value>
+			<Income_Additive_Value>70</Income_Additive_Value>
 			<Interval_Multiplier>1.0</Interval_Multiplier>
 			<Stacking_Category>0</Stacking_Category>
 			<Target_Stream_Source>Skirmish_Rebel_Star_Base_1</Target_Stream_Source>
@@ -2704,7 +2705,7 @@
 			<Activation_Style>Skirmish_Automatic</Activation_Style>
 			<Initially_Enabled>No</Initially_Enabled>
 			<Income_Multiplier>1.0</Income_Multiplier>
-			<Income_Additive_Value>35</Income_Additive_Value>
+			<Income_Additive_Value>95</Income_Additive_Value>
 			<Interval_Multiplier>1.0</Interval_Multiplier>
 			<Stacking_Category>0</Stacking_Category>
 			<Target_Stream_Source>Skirmish_Rebel_Star_Base_2</Target_Stream_Source>
@@ -2716,7 +2717,7 @@
 			<Initially_Enabled>No</Initially_Enabled>
 			<Affects_All_Allies>True</Affects_All_Allies>
 		</Enable_Radar_Ability>
-		<Combat_Bonus_Ability Name="RS_L2_AsteroidMine_Bonus">
+<!--		<Combat_Bonus_Ability Name="RS_L2_AsteroidMine_Bonus">
 			<Activation_Style>Skirmish_Automatic</Activation_Style>
 			<Applicable_Unit_Categories/>
 			<Applicable_Unit_Types>Rebel_Mineral_Extractor</Applicable_Unit_Types>
@@ -2739,7 +2740,7 @@
 			<Defense_Bonus_Percentage>0.0</Defense_Bonus_Percentage>
 			<Movement_Speed_Bonus_Percentage>0.0</Movement_Speed_Bonus_Percentage>
 			<Stacking_Category>3</Stacking_Category>
-		</Combat_Bonus_Ability>
+		</Combat_Bonus_Ability>-->
 	</Abilities>
 	</StarBase>
 
@@ -2815,7 +2816,7 @@
 			<Activation_Style>Skirmish_Automatic</Activation_Style>
 			<Initially_Enabled>No</Initially_Enabled>
 			<Income_Multiplier>1.0</Income_Multiplier>
-			<Income_Additive_Value>50</Income_Additive_Value>
+			<Income_Additive_Value>120</Income_Additive_Value>
 			<Interval_Multiplier>1.0</Interval_Multiplier>
 			<Stacking_Category>0</Stacking_Category>
 			<Target_Stream_Source>Skirmish_Rebel_Star_Base_3</Target_Stream_Source>
@@ -2827,7 +2828,7 @@
 			<Initially_Enabled>No</Initially_Enabled>
 			<Affects_All_Allies>True</Affects_All_Allies>
 		</Enable_Radar_Ability>
-		<Combat_Bonus_Ability Name="RS_L3_AsteroidMine_Bonus">
+<!--		<Combat_Bonus_Ability Name="RS_L3_AsteroidMine_Bonus">
 			<Activation_Style>Skirmish_Automatic</Activation_Style>
 			<Applicable_Unit_Categories/>
 			<Applicable_Unit_Types>Rebel_Mineral_Extractor</Applicable_Unit_Types>
@@ -2850,18 +2851,18 @@
 			<Defense_Bonus_Percentage>0.0</Defense_Bonus_Percentage>
 			<Movement_Speed_Bonus_Percentage>0.0</Movement_Speed_Bonus_Percentage>
 			<Stacking_Category>3</Stacking_Category>
-		</Combat_Bonus_Ability>
-		<Enable_Ability Name="RS_L3_Turret_Regen_Enabler"> <!-- Needs to trigger a unique ability per level -->
-			<Ability_Name>Generic_Turret_Self_Repair_L3</Ability_Name> <!--Generic_Turret_Self_Repair_L3, L4, L5-->
+		</Combat_Bonus_Ability>-->
+<!--		<Enable_Ability Name="RS_L3_Turret_Regen_Enabler">   Needs to trigger a unique ability per level
+			<Ability_Name>Generic_Turret_Self_Repair_L3</Ability_Name>  Generic_Turret_Self_Repair_L3, L4, L5
 			<Applicable_Unit_Categories/>
-			<Applicable_Unit_Types>Rebel_Defense_Satellite_Laser, Rebel_Defense_Satellite_TurboLaser, Rebel_Defense_Satellite_Missile</Applicable_Unit_Types> <!--Rebel_Defense_Satellite_Repair-->
+			<Applicable_Unit_Types>Rebel_Defense_Satellite_Laser, Rebel_Defense_Satellite_TurboLaser, Rebel_Defense_Satellite_Missile</Applicable_Unit_Types>  Rebel_Defense_Satellite_Repair
 			<Affects_All_Allies>Yes</Affects_All_Allies>
 		</Enable_Ability>
-		<Garrison_Upgrade_Ability Name="RS_L3_Increased_Garrisions_Bonus"> <!-- This should NOT be added to L4 or L5 unless we want even more additional garrison forces. -->
+		<Garrison_Upgrade_Ability Name="RS_L3_Increased_Garrisions_Bonus">   This should NOT be added to L4 or L5 unless we want even more additional garrison forces.
 			<Activation_Style>Skirmish_Automatic</Activation_Style>
 			<Apply_To_All_Allies>Yes</Apply_To_All_Allies>
 			<Additional_Garrison_Units>Rebel_X-Wing_Squadron, Y-Wing_Squadron</Additional_Garrison_Units>
-		</Garrison_Upgrade_Ability>
+		</Garrison_Upgrade_Ability>-->
 	</Abilities>
 	</StarBase>
 
@@ -2943,7 +2944,7 @@
 			<Activation_Style>Skirmish_Automatic</Activation_Style>
 			<Initially_Enabled>No</Initially_Enabled>
 			<Income_Multiplier>1.0</Income_Multiplier>
-			<Income_Additive_Value>75</Income_Additive_Value>
+			<Income_Additive_Value>155</Income_Additive_Value>
 			<Interval_Multiplier>1.0</Interval_Multiplier>
 			<Stacking_Category>0</Stacking_Category>
 			<Target_Stream_Source>Skirmish_Rebel_Star_Base_4</Target_Stream_Source>
@@ -2955,7 +2956,7 @@
 			<Initially_Enabled>No</Initially_Enabled>
 			<Affects_All_Allies>True</Affects_All_Allies>
 		</Enable_Radar_Ability>
-		<Combat_Bonus_Ability Name="RS_L4_AsteroidMine_Bonus">
+<!--		<Combat_Bonus_Ability Name="RS_L4_AsteroidMine_Bonus">
 			<Activation_Style>Skirmish_Automatic</Activation_Style>
 			<Applicable_Unit_Categories/>
 			<Applicable_Unit_Types>Rebel_Mineral_Extractor</Applicable_Unit_Types>
@@ -2982,9 +2983,9 @@
 		<Enable_Ability Name="RS_L4_Turret_Regen_Enabler">
 			<Ability_Name>Generic_Turret_Self_Repair_L4</Ability_Name>
 			<Applicable_Unit_Categories/>
-			<Applicable_Unit_Types>Rebel_Defense_Satellite_Laser, Rebel_Defense_Satellite_TurboLaser, Rebel_Defense_Satellite_Missile</Applicable_Unit_Types> <!--Rebel_Defense_Satellite_Repair-->
+			<Applicable_Unit_Types>Rebel_Defense_Satellite_Laser, Rebel_Defense_Satellite_TurboLaser, Rebel_Defense_Satellite_Missile</Applicable_Unit_Types>  Rebel_Defense_Satellite_Repair
 			<Affects_All_Allies>Yes</Affects_All_Allies>
-		</Enable_Ability>
+		</Enable_Ability>-->
 	</Abilities>
 	</StarBase>
 
@@ -3074,7 +3075,7 @@
 			<Activation_Style>Skirmish_Automatic</Activation_Style>
 			<Initially_Enabled>No</Initially_Enabled>
 			<Income_Multiplier>1.0</Income_Multiplier>
-			<Income_Additive_Value>100</Income_Additive_Value>
+			<Income_Additive_Value>200</Income_Additive_Value>
 			<Interval_Multiplier>1.0</Interval_Multiplier>
 			<Stacking_Category>0</Stacking_Category>
 			<Target_Stream_Source>Skirmish_Rebel_Star_Base_5</Target_Stream_Source>
@@ -3086,7 +3087,7 @@
 			<Initially_Enabled>No</Initially_Enabled>
 			<Affects_All_Allies>True</Affects_All_Allies>
 		</Enable_Radar_Ability>
-		<Combat_Bonus_Ability Name="RS_L5_AsteroidMine_Bonus">
+<!--		<Combat_Bonus_Ability Name="RS_L5_AsteroidMine_Bonus">
 			<Activation_Style>Skirmish_Automatic</Activation_Style>
 			<Applicable_Unit_Categories/>
 			<Applicable_Unit_Types>Rebel_Mineral_Extractor</Applicable_Unit_Types>
@@ -3113,9 +3114,9 @@
 		<Enable_Ability Name="RS_L5_Turret_Regen_Enabler">
 			<Ability_Name>Generic_Turret_Self_Repair_L5</Ability_Name>
 			<Applicable_Unit_Categories/>
-			<Applicable_Unit_Types>Rebel_Defense_Satellite_Laser, Rebel_Defense_Satellite_TurboLaser, Rebel_Defense_Satellite_Missile</Applicable_Unit_Types> <!--Rebel_Defense_Satellite_Repair-->
+			<Applicable_Unit_Types>Rebel_Defense_Satellite_Laser, Rebel_Defense_Satellite_TurboLaser, Rebel_Defense_Satellite_Missile</Applicable_Unit_Types>  Rebel_Defense_Satellite_Repair
 			<Affects_All_Allies>Yes</Affects_All_Allies>
-		</Enable_Ability>
+		</Enable_Ability>-->
 	</Abilities>
 	</StarBase>
 
@@ -3141,6 +3142,7 @@
 				TIE_Bomber_Squadron,
 				ES_Enhanced_Reactors_L1_Upgrade,
 				ES_Reinforced_Armor_L1_Upgrade,
+<!--				ES_Upgraded_Electronics_L1_Upgrade,-->
 				ES_Level_Two_Starbase_Upgrade
 		</Tactical_Buildable_Objects_Multiplayer>
 
@@ -3173,7 +3175,7 @@
 			<Activation_Style>Skirmish_Automatic</Activation_Style>
 			<Initially_Enabled>No</Initially_Enabled>
 			<Income_Multiplier>1.0</Income_Multiplier>
-			<Income_Additive_Value>20</Income_Additive_Value>
+			<Income_Additive_Value>70</Income_Additive_Value>
 			<Interval_Multiplier>1.0</Interval_Multiplier>
 			<Stacking_Category>0</Stacking_Category>
 			<Target_Stream_Source>Skirmish_Empire_Star_Base_1</Target_Stream_Source>
@@ -3214,10 +3216,12 @@
 				Tartan_Patrol_Cruiser,
 				TIE_Bomber_Squadron,
 				Acclamator_Assault_Ship,
-				Boba_Fett_Team_Space_MP,
+<!--				Boba_Fett_Team_Space_MP,-->
+				Slave_I_Skirmish,
 				ES_Enhanced_Reactors_L1_Upgrade,
 				ES_Reinforced_Armor_L1_Upgrade,
 				ES_Improved_Weapons_L1_Upgrade,
+				ES_Upgraded_Electronics_L1_Upgrade,
 				ES_Level_Three_Starbase_Upgrade
 		</Tactical_Buildable_Objects_Multiplayer>
 
@@ -3250,7 +3254,7 @@
 			<Activation_Style>Skirmish_Automatic</Activation_Style>
 			<Initially_Enabled>No</Initially_Enabled>
 			<Income_Multiplier>1.0</Income_Multiplier>
-			<Income_Additive_Value>35</Income_Additive_Value>
+			<Income_Additive_Value>95</Income_Additive_Value>
 			<Interval_Multiplier>1.0</Interval_Multiplier>
 			<Stacking_Category>0</Stacking_Category>
 			<Target_Stream_Source>Skirmish_Empire_Star_Base_2</Target_Stream_Source>
@@ -3262,7 +3266,7 @@
 			<Initially_Enabled>No</Initially_Enabled>
 			<Affects_All_Allies>True</Affects_All_Allies>
 		</Enable_Radar_Ability>
-		<Combat_Bonus_Ability Name="ES_L2_AsteroidMine_Bonus">
+<!--		<Combat_Bonus_Ability Name="ES_L2_AsteroidMine_Bonus">
 			<Activation_Style>Skirmish_Automatic</Activation_Style>
 			<Applicable_Unit_Categories/>
 			<Applicable_Unit_Types>Empire_Mineral_Extractor</Applicable_Unit_Types>
@@ -3285,7 +3289,7 @@
 			<Defense_Bonus_Percentage>0.0</Defense_Bonus_Percentage>
 			<Movement_Speed_Bonus_Percentage>0.0</Movement_Speed_Bonus_Percentage>
 			<Stacking_Category>3</Stacking_Category>
-		</Combat_Bonus_Ability>
+		</Combat_Bonus_Ability>-->
 	</Abilities>
 	</StarBase>
 
@@ -3320,7 +3324,8 @@
 				Acclamator_Assault_Ship,
 				TIE_Scout_Squadron,
 				Interdictor_Cruiser,
-				Boba_Fett_Team_Space_MP,
+<!--				Boba_Fett_Team_Space_MP,-->
+				Slave_I_Skirmish,
 				Darth_Team_Space_MP,
 				Victory_Destroyer,
 				ES_Enhanced_Reactors_L1_Upgrade,
@@ -3330,6 +3335,7 @@
 				ES_Improved_Weapons_L1_Upgrade,
 				ES_Improved_Weapons_L2_Upgrade,
 				ES_Improved_Defenses_L1_Upgrade,
+				ES_Upgraded_Electronics_L1_Upgrade,
 				ES_Hypervelocity_Gun_Use_Upgrade,
 				ES_Level_Four_Starbase_Upgrade
 		</Tactical_Buildable_Objects_Multiplayer>
@@ -3363,7 +3369,7 @@
 			<Activation_Style>Skirmish_Automatic</Activation_Style>
 			<Initially_Enabled>No</Initially_Enabled>
 			<Income_Multiplier>1.0</Income_Multiplier>
-			<Income_Additive_Value>50</Income_Additive_Value>
+			<Income_Additive_Value>120</Income_Additive_Value>
 			<Interval_Multiplier>1.0</Interval_Multiplier>
 			<Stacking_Category>0</Stacking_Category>
 			<Target_Stream_Source>Skirmish_Empire_Star_Base_3</Target_Stream_Source>
@@ -3375,7 +3381,7 @@
 			<Initially_Enabled>No</Initially_Enabled>
 			<Affects_All_Allies>True</Affects_All_Allies>
 		</Enable_Radar_Ability>
-		<Combat_Bonus_Ability Name="ES_L3_AsteroidMine_Bonus">
+<!--		<Combat_Bonus_Ability Name="ES_L3_AsteroidMine_Bonus">
 			<Activation_Style>Skirmish_Automatic</Activation_Style>
 			<Applicable_Unit_Categories/>
 			<Applicable_Unit_Types>Empire_Mineral_Extractor</Applicable_Unit_Types>
@@ -3399,17 +3405,17 @@
 			<Movement_Speed_Bonus_Percentage>0.0</Movement_Speed_Bonus_Percentage>
 			<Stacking_Category>3</Stacking_Category>
 		</Combat_Bonus_Ability>
-		<Enable_Ability Name="ES_L3_Turret_Regen_Enabler"> <!-- Needs to trigger a unique ability per level -->
-			<Ability_Name>Generic_Turret_Self_Repair_L3</Ability_Name> <!--Generic_Turret_Self_Repair_L3, L4, L5-->
+		<Enable_Ability Name="ES_L3_Turret_Regen_Enabler">   Needs to trigger a unique ability per level
+			<Ability_Name>Generic_Turret_Self_Repair_L3</Ability_Name>  Generic_Turret_Self_Repair_L3, L4, L5
 			<Applicable_Unit_Categories/>
-			<Applicable_Unit_Types>Empire_Defense_Satellite_Laser, Empire_Defense_Satellite_TurboLaser, Empire_Defense_Satellite_Missile, Empire_Defense_Satellite_Tractor</Applicable_Unit_Types> <!--Empire_Defense_Satellite_Repair-->
+			<Applicable_Unit_Types>Empire_Defense_Satellite_Laser, Empire_Defense_Satellite_TurboLaser, Empire_Defense_Satellite_Missile, Empire_Defense_Satellite_Tractor</Applicable_Unit_Types>  Empire_Defense_Satellite_Repair
 			<Affects_All_Allies>Yes</Affects_All_Allies>
 		</Enable_Ability>
-		<Garrison_Upgrade_Ability Name="ES_L3_Increased_Garrisions_Bonus"> <!-- This should NOT be added to L4 or L5 unless we want even more additional garrison forces. -->
+		<Garrison_Upgrade_Ability Name="ES_L3_Increased_Garrisions_Bonus">   This should NOT be added to L4 or L5 unless we want even more additional garrison forces.
 			<Activation_Style>Skirmish_Automatic</Activation_Style>
 			<Apply_To_All_Allies>Yes</Apply_To_All_Allies>
 			<Additional_Garrison_Units>TIE_Interceptor_Squadron, TIE_Bomber_Squadron</Additional_Garrison_Units>
-		</Garrison_Upgrade_Ability>
+		</Garrison_Upgrade_Ability>-->
 	</Abilities>
 	</StarBase>
 
@@ -3449,7 +3455,8 @@
 				Interdictor_Cruiser,
 				Victory_Destroyer,
 				Broadside_Class_Cruiser,
-				Boba_Fett_Team_Space_MP,
+<!--				Boba_Fett_Team_Space_MP,-->
+				Slave_I_Skirmish,
 				Darth_Team_Space_MP,
 				Admonitor_Star_Destroyer,
 				ES_Enhanced_Reactors_L1_Upgrade,
@@ -3460,6 +3467,7 @@
 				ES_Improved_Weapons_L2_Upgrade,
 				ES_Improved_Defenses_L1_Upgrade,
 				ES_Improved_Defenses_L2_Upgrade,
+				ES_Upgraded_Electronics_L1_Upgrade,
 				ES_Hypervelocity_Gun_Use_Upgrade,
 				ES_Level_Five_Starbase_Upgrade
 		</Tactical_Buildable_Objects_Multiplayer>
@@ -3493,7 +3501,7 @@
 			<Activation_Style>Skirmish_Automatic</Activation_Style>
 			<Initially_Enabled>No</Initially_Enabled>
 			<Income_Multiplier>1.0</Income_Multiplier>
-			<Income_Additive_Value>75</Income_Additive_Value>
+			<Income_Additive_Value>155</Income_Additive_Value>
 			<Interval_Multiplier>1.0</Interval_Multiplier>
 			<Stacking_Category>0</Stacking_Category>
 			<Target_Stream_Source>Skirmish_Empire_Star_Base_4</Target_Stream_Source>
@@ -3505,7 +3513,7 @@
 			<Initially_Enabled>No</Initially_Enabled>
 			<Affects_All_Allies>True</Affects_All_Allies>
 		</Enable_Radar_Ability>
-		<Combat_Bonus_Ability Name="ES_L4_AsteroidMine_Bonus">
+<!--		<Combat_Bonus_Ability Name="ES_L4_AsteroidMine_Bonus">
 			<Activation_Style>Skirmish_Automatic</Activation_Style>
 			<Applicable_Unit_Categories/>
 			<Applicable_Unit_Types>Empire_Mineral_Extractor</Applicable_Unit_Types>
@@ -3529,12 +3537,12 @@
 			<Movement_Speed_Bonus_Percentage>0.0</Movement_Speed_Bonus_Percentage>
 			<Stacking_Category>3</Stacking_Category>
 		</Combat_Bonus_Ability>
-		<Enable_Ability Name="ES_L4_Turret_Regen_Enabler"> <!-- Needs to trigger a unique ability per level -->
-			<Ability_Name>Generic_Turret_Self_Repair_L4</Ability_Name> <!--Generic_Turret_Self_Repair_L3, L4, L5-->
+		<Enable_Ability Name="ES_L4_Turret_Regen_Enabler">
+			<Ability_Name>Generic_Turret_Self_Repair_L4</Ability_Name>
 			<Applicable_Unit_Categories/>
-			<Applicable_Unit_Types>Empire_Defense_Satellite_Laser, Empire_Defense_Satellite_TurboLaser, Empire_Defense_Satellite_Missile, Empire_Defense_Satellite_Tractor</Applicable_Unit_Types> <!--Empire_Defense_Satellite_Repair-->
+			<Applicable_Unit_Types>Empire_Defense_Satellite_Laser, Empire_Defense_Satellite_TurboLaser, Empire_Defense_Satellite_Missile, Empire_Defense_Satellite_Tractor</Applicable_Unit_Types>  Empire_Defense_Satellite_Repair
 			<Affects_All_Allies>Yes</Affects_All_Allies>
-		</Enable_Ability>
+		</Enable_Ability>-->
 	</Abilities>
 	</StarBase>
 
@@ -3579,7 +3587,8 @@
 				Victory_Destroyer,
 				Broadside_Class_Cruiser,
 				Star_Destroyer,
-				Boba_Fett_Team_Space_MP,
+<!--				Boba_Fett_Team_Space_MP,-->
+				Slave_I_Skirmish,
 				Darth_Team_Space_MP,
 				Accuser_Star_Destroyer,
 				Admonitor_Star_Destroyer,
@@ -3596,6 +3605,7 @@
 				ES_Improved_Defenses_L1_Upgrade,
 				ES_Improved_Defenses_L2_Upgrade,
 				ES_Improved_Defenses_L3_Upgrade,
+				ES_Upgraded_Electronics_L1_Upgrade,
 				ES_Hypervelocity_Gun_Use_Upgrade
 		</Tactical_Buildable_Objects_Multiplayer>
 
@@ -3628,7 +3638,7 @@
 			<Activation_Style>Skirmish_Automatic</Activation_Style>
 			<Initially_Enabled>No</Initially_Enabled>
 			<Income_Multiplier>1.0</Income_Multiplier>
-			<Income_Additive_Value>100</Income_Additive_Value>
+			<Income_Additive_Value>200</Income_Additive_Value>
 			<Interval_Multiplier>1.0</Interval_Multiplier>
 			<Stacking_Category>0</Stacking_Category>
 			<Target_Stream_Source>Skirmish_Empire_Star_Base_5</Target_Stream_Source>
@@ -3640,7 +3650,7 @@
 			<Initially_Enabled>No</Initially_Enabled>
 			<Affects_All_Allies>True</Affects_All_Allies>
 		</Enable_Radar_Ability>
-		<Combat_Bonus_Ability Name="ES_L5_AsteroidMine_Bonus">
+<!--		<Combat_Bonus_Ability Name="ES_L5_AsteroidMine_Bonus">
 			<Activation_Style>Skirmish_Automatic</Activation_Style>
 			<Applicable_Unit_Categories/>
 			<Applicable_Unit_Types>Empire_Mineral_Extractor</Applicable_Unit_Types>
@@ -3664,12 +3674,12 @@
 			<Movement_Speed_Bonus_Percentage>0.0</Movement_Speed_Bonus_Percentage>
 			<Stacking_Category>3</Stacking_Category>
 		</Combat_Bonus_Ability>
-		<Enable_Ability Name="ES_L5_Turret_Regen_Enabler"> <!-- Needs to trigger a unique ability per level -->
-			<Ability_Name>Generic_Turret_Self_Repair_L5</Ability_Name> <!--Generic_Turret_Self_Repair_L3, L4, L5-->
+		<Enable_Ability Name="ES_L5_Turret_Regen_Enabler">
+			<Ability_Name>Generic_Turret_Self_Repair_L5</Ability_Name>
 			<Applicable_Unit_Categories/>
-			<Applicable_Unit_Types>Empire_Defense_Satellite_Laser, Empire_Defense_Satellite_TurboLaser, Empire_Defense_Satellite_Missile, Empire_Defense_Satellite_Tractor</Applicable_Unit_Types> <!--Empire_Defense_Satellite_Repair-->
+			<Applicable_Unit_Types>Empire_Defense_Satellite_Laser, Empire_Defense_Satellite_TurboLaser, Empire_Defense_Satellite_Missile, Empire_Defense_Satellite_Tractor</Applicable_Unit_Types>  Empire_Defense_Satellite_Repair
 			<Affects_All_Allies>Yes</Affects_All_Allies>
-		</Enable_Ability>
+		</Enable_Ability>-->
 	</Abilities>
 	</StarBase>
 
@@ -3727,7 +3737,7 @@
 			<Activation_Style>Skirmish_Automatic</Activation_Style>
 			<Initially_Enabled>No</Initially_Enabled>
 			<Income_Multiplier>1.0</Income_Multiplier>
-			<Income_Additive_Value>20</Income_Additive_Value>
+			<Income_Additive_Value>70</Income_Additive_Value>
 			<Interval_Multiplier>1.0</Interval_Multiplier>
 			<Stacking_Category>0</Stacking_Category>
 			<Target_Stream_Source>Skirmish_Underworld_Star_Base_1</Target_Stream_Source>
@@ -3802,7 +3812,7 @@
 			<Activation_Style>Skirmish_Automatic</Activation_Style>
 			<Initially_Enabled>No</Initially_Enabled>
 			<Income_Multiplier>1.0</Income_Multiplier>
-			<Income_Additive_Value>35</Income_Additive_Value>
+			<Income_Additive_Value>95</Income_Additive_Value>
 			<Interval_Multiplier>1.0</Interval_Multiplier>
 			<Stacking_Category>0</Stacking_Category>
 			<Target_Stream_Source>Skirmish_Underworld_Star_Base_2</Target_Stream_Source>
@@ -3814,7 +3824,7 @@
 			<Initially_Enabled>No</Initially_Enabled>
 			<Affects_All_Allies>True</Affects_All_Allies>
 		</Enable_Radar_Ability>
-		<Combat_Bonus_Ability Name="US_L2_AsteroidMine_Bonus">
+<!--		<Combat_Bonus_Ability Name="US_L2_AsteroidMine_Bonus">
 			<Activation_Style>Skirmish_Automatic</Activation_Style>
 			<Applicable_Unit_Categories/>
 			<Applicable_Unit_Types>Underworld_Mineral_Extractor</Applicable_Unit_Types>
@@ -3837,7 +3847,7 @@
 			<Defense_Bonus_Percentage>0.0</Defense_Bonus_Percentage>
 			<Movement_Speed_Bonus_Percentage>0.0</Movement_Speed_Bonus_Percentage>
 			<Stacking_Category>3</Stacking_Category>
-		</Combat_Bonus_Ability>
+		</Combat_Bonus_Ability>-->
 	</Abilities>
 	</StarBase>
 
@@ -3914,7 +3924,7 @@
 			<Activation_Style>Skirmish_Automatic</Activation_Style>
 			<Initially_Enabled>No</Initially_Enabled>
 			<Income_Multiplier>1.0</Income_Multiplier>
-			<Income_Additive_Value>50</Income_Additive_Value>
+			<Income_Additive_Value>120</Income_Additive_Value>
 			<Interval_Multiplier>1.0</Interval_Multiplier>
 			<Stacking_Category>0</Stacking_Category>
 			<Target_Stream_Source>Skirmish_Underworld_Star_Base_3</Target_Stream_Source>
@@ -3926,7 +3936,7 @@
 			<Initially_Enabled>No</Initially_Enabled>
 			<Affects_All_Allies>True</Affects_All_Allies>
 		</Enable_Radar_Ability>
-		<Combat_Bonus_Ability Name="US_L3_AsteroidMine_Bonus">
+<!--		<Combat_Bonus_Ability Name="US_L3_AsteroidMine_Bonus">
 			<Activation_Style>Skirmish_Automatic</Activation_Style>
 			<Applicable_Unit_Categories/>
 			<Applicable_Unit_Types>Underworld_Mineral_Extractor</Applicable_Unit_Types>
@@ -3950,17 +3960,17 @@
 			<Movement_Speed_Bonus_Percentage>0.0</Movement_Speed_Bonus_Percentage>
 			<Stacking_Category>3</Stacking_Category>
 		</Combat_Bonus_Ability>
-		<Enable_Ability Name="US_L3_Turret_Regen_Enabler"> <!-- Needs to trigger a unique ability per level -->
-			<Ability_Name>Generic_Turret_Self_Repair_L3</Ability_Name> <!--Generic_Turret_Self_Repair_L3, L4, L5-->
+		<Enable_Ability Name="US_L3_Turret_Regen_Enabler">   Needs to trigger a unique ability per level
+			<Ability_Name>Generic_Turret_Self_Repair_L3</Ability_Name>  Generic_Turret_Self_Repair_L3, L4, L5
 			<Applicable_Unit_Categories/>
 			<Applicable_Unit_Types>Underworld_Defense_Satellite_Plasma, Underworld_Defense_Satellite_MassDriver, Underworld_Defense_Satellite_DBM, Underworld_Defense_Satellite_Sensor</Applicable_Unit_Types>
 			<Affects_All_Allies>Yes</Affects_All_Allies>
 		</Enable_Ability>
-		<Garrison_Upgrade_Ability Name="US_L3_Increased_Garrisions_Bonus"> <!-- This should NOT be added to L4 or L5 unless we want even more additional garrison forces. -->
+		<Garrison_Upgrade_Ability Name="US_L3_Increased_Garrisions_Bonus">   This should NOT be added to L4 or L5 unless we want even more additional garrison forces.
 			<Activation_Style>Skirmish_Automatic</Activation_Style>
 			<Apply_To_All_Allies>Yes</Apply_To_All_Allies>
 			<Additional_Garrison_Units>StarViper_Squadron, Skipray_Squadron</Additional_Garrison_Units>
-		</Garrison_Upgrade_Ability>
+		</Garrison_Upgrade_Ability>-->
 	</Abilities>
 	</StarBase>
 
@@ -4046,7 +4056,7 @@
 			<Activation_Style>Skirmish_Automatic</Activation_Style>
 			<Initially_Enabled>No</Initially_Enabled>
 			<Income_Multiplier>1.0</Income_Multiplier>
-			<Income_Additive_Value>75</Income_Additive_Value>
+			<Income_Additive_Value>155</Income_Additive_Value>
 			<Interval_Multiplier>1.0</Interval_Multiplier>
 			<Stacking_Category>0</Stacking_Category>
 			<Target_Stream_Source>Skirmish_Underworld_Star_Base_4</Target_Stream_Source>
@@ -4058,7 +4068,7 @@
 			<Initially_Enabled>No</Initially_Enabled>
 			<Affects_All_Allies>True</Affects_All_Allies>
 		</Enable_Radar_Ability>
-		<Combat_Bonus_Ability Name="US_L4_AsteroidMine_Bonus">
+<!--		<Combat_Bonus_Ability Name="US_L4_AsteroidMine_Bonus">
 			<Activation_Style>Skirmish_Automatic</Activation_Style>
 			<Applicable_Unit_Categories/>
 			<Applicable_Unit_Types>Underworld_Mineral_Extractor</Applicable_Unit_Types>
@@ -4082,12 +4092,12 @@
 			<Movement_Speed_Bonus_Percentage>0.0</Movement_Speed_Bonus_Percentage>
 			<Stacking_Category>3</Stacking_Category>
 		</Combat_Bonus_Ability>
-		<Enable_Ability Name="US_L4_Turret_Regen_Enabler"> <!-- Needs to trigger a unique ability per level -->
-			<Ability_Name>Generic_Turret_Self_Repair_L4</Ability_Name> <!--Generic_Turret_Self_Repair_L3, L4, L5-->
+		<Enable_Ability Name="US_L4_Turret_Regen_Enabler">
+			<Ability_Name>Generic_Turret_Self_Repair_L4</Ability_Name>
 			<Applicable_Unit_Categories/>
 			<Applicable_Unit_Types>Underworld_Defense_Satellite_Plasma, Underworld_Defense_Satellite_MassDriver, Underworld_Defense_Satellite_DBM, Underworld_Defense_Satellite_Sensor</Applicable_Unit_Types>
 			<Affects_All_Allies>Yes</Affects_All_Allies>
-		</Enable_Ability>
+		</Enable_Ability>-->
 	</Abilities>
 	</StarBase>
 
@@ -4183,7 +4193,7 @@
 			<Activation_Style>Skirmish_Automatic</Activation_Style>
 			<Initially_Enabled>No</Initially_Enabled>
 			<Income_Multiplier>1.0</Income_Multiplier>
-			<Income_Additive_Value>100</Income_Additive_Value>
+			<Income_Additive_Value>200</Income_Additive_Value>
 			<Interval_Multiplier>1.0</Interval_Multiplier>
 			<Stacking_Category>0</Stacking_Category>
 			<Target_Stream_Source>Skirmish_Underworld_Star_Base_5</Target_Stream_Source>
@@ -4195,7 +4205,7 @@
 			<Initially_Enabled>No</Initially_Enabled>
 			<Affects_All_Allies>True</Affects_All_Allies>
 		</Enable_Radar_Ability>
-		<Combat_Bonus_Ability Name="US_L5_AsteroidMine_Bonus">
+<!--		<Combat_Bonus_Ability Name="US_L5_AsteroidMine_Bonus">
 			<Activation_Style>Skirmish_Automatic</Activation_Style>
 			<Applicable_Unit_Categories/>
 			<Applicable_Unit_Types>Underworld_Mineral_Extractor</Applicable_Unit_Types>
@@ -4219,873 +4229,14 @@
 			<Movement_Speed_Bonus_Percentage>0.0</Movement_Speed_Bonus_Percentage>
 			<Stacking_Category>3</Stacking_Category>
 		</Combat_Bonus_Ability>
-		<Enable_Ability Name="US_L5_Turret_Regen_Enabler"> <!-- Needs to trigger a unique ability per level -->
-			<Ability_Name>Generic_Turret_Self_Repair_L5</Ability_Name> <!--Generic_Turret_Self_Repair_L3, L4, L5-->
+		<Enable_Ability Name="US_L5_Turret_Regen_Enabler">
+			<Ability_Name>Generic_Turret_Self_Repair_L5</Ability_Name>
 			<Applicable_Unit_Categories/>
 			<Applicable_Unit_Types>Underworld_Defense_Satellite_Plasma, Underworld_Defense_Satellite_MassDriver, Underworld_Defense_Satellite_DBM, Underworld_Defense_Satellite_Sensor</Applicable_Unit_Types>
 			<Affects_All_Allies>Yes</Affects_All_Allies>
-		</Enable_Ability>
-	</Abilities>
-	</StarBase>
-	
-	
-	<StarBase Name="EAW_Skirmish_Rebel_Star_Base_1">
-		<Variant_Of_Existing_Type>Rebel_Star_Base_1</Variant_Of_Existing_Type>
-		<Affiliation>Rebel_EAW</Affiliation>
-
-	<!-- Replacement List of Hardpoints -->
-		<HardPoints>
-			HP_Rebel_Station_One_Supply_Dock,
-			HP_Rebel_Station_One_Comm_Array,
-			HP_Rebel_Station_One_CCM_EAW,
-			HP_Rebel_Station_One_LC,
-			HP_Rebel_Station_One_TBL,
-			HP_Rebel_Station_One_ShieldGen,
-			HP_Rebel_Station_One_Fighter_Bay
-		</HardPoints>
-
-	<!-- Skirmish Buildables -->
-		<Tactical_Buildable_Objects_Multiplayer>
-			Rebel_EAW,
-				EAW_Rebel_X-Wing_Squadron,
-				EAW_Y-Wing_Squadron,
-				EAW_RS_Enhanced_Shielding_L1_Upgrade,
-				EAW_RS_Improved_Weapons_L1_Upgrade,
-				EAW_RS_Level_Two_Starbase_Upgrade
-		</Tactical_Buildable_Objects_Multiplayer>
-
-	<!-- Misc. Info -->
-		<Visible_To_Enemies_When_Empty>True</Visible_To_Enemies_When_Empty>
-		<Last_State_Visible_Under_FOW>True</Last_State_Visible_Under_FOW>
-		<Initial_State_Visible_Under_FOW>False</Initial_State_Visible_Under_FOW>
-		<Visible_On_Radar_When_Fogged>False</Visible_On_Radar_When_Fogged>
-		<Is_Community_Property>Yes</Is_Community_Property>
-
-	<!-- Galactic Info -->
-		<Build_Tab_Space_Station>No</Build_Tab_Space_Station>
-		<Build_Initially_Locked>Yes</Build_Initially_Locked>
-		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
-
-		<Prev_Level_Base/>
-		<Next_Level_Base>EAW_Skirmish_Rebel_Star_Base_2</Next_Level_Base>
-
-	<Abilities SubObjectList="Yes">
-		<Income_Stream_Ability Name="R_Starbase_Income_Stream">
-			<Activation_Style>Skirmish_Automatic</Activation_Style>
-			<Initially_Enabled>Yes</Initially_Enabled>
-			<Base_Income_Value>30</Base_Income_Value>
-			<Base_Interval_In_Secs>10</Base_Interval_In_Secs>
-			<Split_Income_With_Allies>Yes</Split_Income_With_Allies>
-			<Split_Favors_Owner>No</Split_Favors_Owner>
-			<Full_Amount_To_Everyone>Yes</Full_Amount_To_Everyone>
-		</Income_Stream_Ability>
-		<Income_Stream_Mod_Ability Name="R_Supply_Dock_Income_Bonus">
-			<Activation_Style>Skirmish_Automatic</Activation_Style>
-			<Initially_Enabled>No</Initially_Enabled><!-- This bonus income is controlled by the presence of the Supply Dock hardpoint -->
-			<Income_Multiplier>1.0</Income_Multiplier>
-			<Income_Additive_Value>20</Income_Additive_Value>
-			<Interval_Multiplier>1.0</Interval_Multiplier>
-			<Stacking_Category>0</Stacking_Category>
-			<Target_Stream_Source>Skirmish_Rebel_Star_Base_1</Target_Stream_Source>
-			<Affects_All_Allied_Sources>Yes</Affects_All_Allied_Sources>
-			<Reverse_Application_Logic>No</Reverse_Application_Logic>
-		</Income_Stream_Mod_Ability>
-		<Enable_Radar_Ability Name="R_Comm_Array_Enable_Radar">
-			<Activation_Style>Skirmish_Automatic</Activation_Style>
-			<Initially_Enabled>No</Initially_Enabled><!-- This effect is controlled by the presence of the Comm Array hardpoint -->
-			<Affects_All_Allies>True</Affects_All_Allies>
-		</Enable_Radar_Ability>
-	</Abilities>
-	</StarBase>
-
-	<StarBase Name="EAW_Skirmish_Rebel_Star_Base_2">
-		<Variant_Of_Existing_Type>Rebel_Star_Base_2</Variant_Of_Existing_Type>
-		<Affiliation>Rebel_EAW</Affiliation>
-
-	<!-- Replacement List of Hardpoints -->
-		<HardPoints>
-			HP_Rebel_Station_One_Supply_Dock,
-			HP_Rebel_Station_One_Comm_Array,
-			HP_Rebel_Station_One_CCM_EAW,
-			HP_Rebel_Station_One_LC,
-			HP_Rebel_Station_One_TBL,
-			HP_Rebel_Station_One_ShieldGen,
-			HP_Rebel_Station_One_Fighter_Bay,
-			HP_Rebel_Station_Two_LC,
-			HP_Rebel_Station_Two_PRT,
-			HP_Rebel_Station_Two_TBL
-		</HardPoints>
-
-	<!-- Skirmish Buildables -->
-		<Tactical_Buildable_Objects_Multiplayer>
-			Rebel,
-				EAW_Rebel_X-Wing_Squadron,
-				Corellian_Corvette_EAW,
-				EAW_Y-Wing_Squadron,
-				Nebulon_B_Frigate_EAW,
-				EAW_A_Wing_Squadron,
-				Han_Solo_Team_Space_MP,
-				EAW_RS_Enhanced_Shielding_L1_Upgrade,
-				EAW_RS_Improved_Weapons_L1_Upgrade,
-				EAW_RS_Level_Three_Starbase_Upgrade
-		</Tactical_Buildable_Objects_Multiplayer>
-
-	<!-- Misc. Info -->
-		<Visible_To_Enemies_When_Empty>True</Visible_To_Enemies_When_Empty>
-		<Last_State_Visible_Under_FOW>True</Last_State_Visible_Under_FOW>
-		<Initial_State_Visible_Under_FOW>False</Initial_State_Visible_Under_FOW>
-		<Visible_On_Radar_When_Fogged>False</Visible_On_Radar_When_Fogged>
-		<Is_Community_Property>Yes</Is_Community_Property>
-
-	<!-- Galactic Info -->
-		<Build_Tab_Space_Station>No</Build_Tab_Space_Station>
-		<Build_Initially_Locked>Yes</Build_Initially_Locked>
-		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
-
-		<Prev_Level_Base>EAW_Skirmish_Rebel_Star_Base_1</Prev_Level_Base>
-		<Next_Level_Base>EAW_Skirmish_Rebel_Star_Base_3</Next_Level_Base>
-
-	<Abilities SubObjectList="Yes">
-		<Income_Stream_Ability Name="R_Starbase_Income_Stream">
-			<Activation_Style>Skirmish_Automatic</Activation_Style>
-			<Initially_Enabled>Yes</Initially_Enabled>
-			<Base_Income_Value>35</Base_Income_Value>
-			<Base_Interval_In_Secs>10</Base_Interval_In_Secs>
-			<Split_Income_With_Allies>Yes</Split_Income_With_Allies>
-			<Split_Favors_Owner>No</Split_Favors_Owner>
-			<Full_Amount_To_Everyone>Yes</Full_Amount_To_Everyone>
-		</Income_Stream_Ability>
-		<Income_Stream_Mod_Ability Name="R_Supply_Dock_Income_Bonus">
-			<Activation_Style>Skirmish_Automatic</Activation_Style>
-			<Initially_Enabled>No</Initially_Enabled>
-			<Income_Multiplier>1.0</Income_Multiplier>
-			<Income_Additive_Value>25</Income_Additive_Value>
-			<Interval_Multiplier>1.0</Interval_Multiplier>
-			<Stacking_Category>0</Stacking_Category>
-			<Target_Stream_Source>Skirmish_Rebel_Star_Base_2</Target_Stream_Source>
-			<Affects_All_Allied_Sources>Yes</Affects_All_Allied_Sources>
-			<Reverse_Application_Logic>No</Reverse_Application_Logic>
-		</Income_Stream_Mod_Ability>
-		<Enable_Radar_Ability Name="R_Comm_Array_Enable_Radar">
-			<Activation_Style>Skirmish_Automatic</Activation_Style>
-			<Initially_Enabled>No</Initially_Enabled>
-			<Affects_All_Allies>True</Affects_All_Allies>
-		</Enable_Radar_Ability>
-	</Abilities>
-	</StarBase>
-
-	<StarBase Name="EAW_Skirmish_Rebel_Star_Base_3">
-		<Variant_Of_Existing_Type>Rebel_Star_Base_3</Variant_Of_Existing_Type>
-		<Affiliation>Rebel_EAW</Affiliation>
-
-	<!-- Replacement List of Hardpoints -->
-		<HardPoints>
-			HP_Rebel_Station_One_Supply_Dock,
-			HP_Rebel_Station_One_Comm_Array,
-			HP_Rebel_Station_One_CCM_EAW,
-			HP_Rebel_Station_One_LC,
-			HP_Rebel_Station_One_TBL,
-			HP_Rebel_Station_One_ShieldGen,
-			HP_Rebel_Station_One_Fighter_Bay,
-			HP_Rebel_Station_Two_LC,
-			HP_Rebel_Station_Two_PRT,
-			HP_Rebel_Station_Two_TBL,
-			HP_Rebel_Station_Three_CCM,
-			HP_Rebel_Station_Three_IC,
-			HP_Rebel_Station_Three_PRT
-		</HardPoints>
-
-	<!-- Skirmish Buildables -->
-		<Tactical_Buildable_Objects_Multiplayer>
-			Rebel,
-				EAW_Rebel_X-Wing_Squadron,
-				Corellian_Corvette_EAW,
-				EAW_Y-Wing_Squadron,
-				Nebulon_B_Frigate_EAW,
-				EAW_A_Wing_Squadron,
-				Corellian_Gunboat_EAW,
-				Han_Solo_Team_Space_MP,
-				Sundered_Heart,
-				Alliance_Assault_Frigate_EAW,
-				EAW_RS_Enhanced_Shielding_L1_Upgrade,
-				EAW_RS_Enhanced_Shielding_L2_Upgrade,
-				EAW_RS_Improved_Weapons_L1_Upgrade,
-				EAW_RS_Improved_Weapons_L2_Upgrade,
-				EAW_RS_Improved_Defenses_L1_Upgrade,
-				EAW_RS_Ion_Cannon_Use_Upgrade,
-				EAW_RS_Level_Four_Starbase_Upgrade
-		</Tactical_Buildable_Objects_Multiplayer>
-
-	<!-- Misc. Info -->
-		<Visible_To_Enemies_When_Empty>True</Visible_To_Enemies_When_Empty>
-		<Last_State_Visible_Under_FOW>True</Last_State_Visible_Under_FOW>
-		<Initial_State_Visible_Under_FOW>False</Initial_State_Visible_Under_FOW>
-		<Visible_On_Radar_When_Fogged>False</Visible_On_Radar_When_Fogged>
-		<Is_Community_Property>Yes</Is_Community_Property>
-
-	<!-- Galactic Info -->
-		<Build_Tab_Space_Station>No</Build_Tab_Space_Station>
-		<Build_Initially_Locked>Yes</Build_Initially_Locked>
-		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
-
-		<Prev_Level_Base>EAW_Skirmish_Rebel_Star_Base_2</Prev_Level_Base>
-		<Next_Level_Base>EAW_Skirmish_Rebel_Star_Base_4</Next_Level_Base>
-
-	<Abilities SubObjectList="Yes">
-		<Income_Stream_Ability Name="R_Starbase_Income_Stream">
-			<Activation_Style>Skirmish_Automatic</Activation_Style>
-			<Initially_Enabled>Yes</Initially_Enabled>
-			<Base_Income_Value>40</Base_Income_Value>
-			<Base_Interval_In_Secs>10</Base_Interval_In_Secs>
-			<Split_Income_With_Allies>Yes</Split_Income_With_Allies>
-			<Split_Favors_Owner>No</Split_Favors_Owner>
-			<Full_Amount_To_Everyone>Yes</Full_Amount_To_Everyone>
-		</Income_Stream_Ability>
-		<Income_Stream_Mod_Ability Name="R_Supply_Dock_Income_Bonus">
-			<Activation_Style>Skirmish_Automatic</Activation_Style>
-			<Initially_Enabled>No</Initially_Enabled>
-			<Income_Multiplier>1.0</Income_Multiplier>
-			<Income_Additive_Value>30</Income_Additive_Value>
-			<Interval_Multiplier>1.0</Interval_Multiplier>
-			<Stacking_Category>0</Stacking_Category>
-			<Target_Stream_Source>Skirmish_Rebel_Star_Base_3</Target_Stream_Source>
-			<Affects_All_Allied_Sources>Yes</Affects_All_Allied_Sources>
-			<Reverse_Application_Logic>No</Reverse_Application_Logic>
-		</Income_Stream_Mod_Ability>
-		<Enable_Radar_Ability Name="R_Comm_Array_Enable_Radar">
-			<Activation_Style>Skirmish_Automatic</Activation_Style>
-			<Initially_Enabled>No</Initially_Enabled>
-			<Affects_All_Allies>True</Affects_All_Allies>
-		</Enable_Radar_Ability>
-	</Abilities>
-	</StarBase>
-
-	<StarBase Name="EAW_Skirmish_Rebel_Star_Base_4">
-		<Variant_Of_Existing_Type>Rebel_Star_Base_4</Variant_Of_Existing_Type>
-		<Affiliation>Rebel_EAW</Affiliation>
-
-	<!-- Replacement List of Hardpoints -->
-		<HardPoints>
-			HP_Rebel_Station_One_Supply_Dock,
-			HP_Rebel_Station_One_Comm_Array,
-			HP_Rebel_Station_One_CCM_EAW,
-			HP_Rebel_Station_One_LC,
-			HP_Rebel_Station_One_TBL,
-			HP_Rebel_Station_Four_ShieldGen,
-			HP_Rebel_Station_One_Fighter_Bay,
-			HP_Rebel_Station_Two_LC,
-			HP_Rebel_Station_Two_PRT,
-			HP_Rebel_Station_Two_TBL,
-			HP_Rebel_Station_Three_CCM,
-			HP_Rebel_Station_Three_IC,
-			HP_Rebel_Station_Three_PRT,
-			HP_Rebel_Station_Four_IC,
-			HP_Rebel_Station_Four_LC,
-			HP_Rebel_Station_Four_TBL
-		</HardPoints>
-
-	<!-- Skirmish Buildables -->
-		<Tactical_Buildable_Objects_Multiplayer>
-			Rebel,
-				EAW_Rebel_X-Wing_Squadron,
-				Corellian_Corvette_EAW,
-				EAW_Y-Wing_Squadron,
-				Nebulon_B_Frigate_EAW,
-				EAW_A_Wing_Squadron,
-				Corellian_Gunboat_EAW,
-				Alliance_Assault_Frigate_EAW,
-				Marauder_Missile_Cruiser_EAW,
-				Han_Solo_Team_Space_MP,
-				Rogue_Squadron_Space,
-				Sundered_Heart,
-				EAW_RS_Enhanced_Shielding_L1_Upgrade,
-				EAW_RS_Enhanced_Shielding_L2_Upgrade,
-				EAW_RS_Improved_Weapons_L1_Upgrade,
-				EAW_RS_Improved_Weapons_L2_Upgrade,
-				EAW_RS_Improved_Defenses_L1_Upgrade,
-				EAW_RS_Improved_Defenses_L2_Upgrade,
-				EAW_RS_Ion_Cannon_Use_Upgrade,
-				EAW_RS_Level_Five_Starbase_Upgrade
-		</Tactical_Buildable_Objects_Multiplayer>
-
-	<!-- Misc. Info -->
-		<Visible_To_Enemies_When_Empty>True</Visible_To_Enemies_When_Empty>
-		<Last_State_Visible_Under_FOW>True</Last_State_Visible_Under_FOW>
-		<Initial_State_Visible_Under_FOW>False</Initial_State_Visible_Under_FOW>
-		<Visible_On_Radar_When_Fogged>False</Visible_On_Radar_When_Fogged>
-		<Is_Community_Property>Yes</Is_Community_Property>
-
-	<!-- Galactic Info -->
-		<Build_Tab_Space_Station>No</Build_Tab_Space_Station>
-		<Build_Initially_Locked>Yes</Build_Initially_Locked>
-		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
-
-		<Prev_Level_Base>EAW_Skirmish_Rebel_Star_Base_3</Prev_Level_Base>
-		<Next_Level_Base>EAW_Skirmish_Rebel_Star_Base_5</Next_Level_Base>
-
-	<Abilities SubObjectList="Yes">
-		<Income_Stream_Ability Name="R_Starbase_Income_Stream">
-			<Activation_Style>Skirmish_Automatic</Activation_Style>
-			<Initially_Enabled>Yes</Initially_Enabled>
-			<Base_Income_Value>45</Base_Income_Value>
-			<Base_Interval_In_Secs>10</Base_Interval_In_Secs>
-			<Split_Income_With_Allies>Yes</Split_Income_With_Allies>
-			<Split_Favors_Owner>No</Split_Favors_Owner>
-			<Full_Amount_To_Everyone>Yes</Full_Amount_To_Everyone>
-		</Income_Stream_Ability>
-		<Income_Stream_Mod_Ability Name="R_Supply_Dock_Income_Bonus">
-			<Activation_Style>Skirmish_Automatic</Activation_Style>
-			<Initially_Enabled>No</Initially_Enabled>
-			<Income_Multiplier>1.0</Income_Multiplier>
-			<Income_Additive_Value>35</Income_Additive_Value>
-			<Interval_Multiplier>1.0</Interval_Multiplier>
-			<Stacking_Category>0</Stacking_Category>
-			<Target_Stream_Source>Skirmish_Rebel_Star_Base_4</Target_Stream_Source>
-			<Affects_All_Allied_Sources>Yes</Affects_All_Allied_Sources>
-			<Reverse_Application_Logic>No</Reverse_Application_Logic>
-		</Income_Stream_Mod_Ability>
-		<Enable_Radar_Ability Name="R_Comm_Array_Enable_Radar">
-			<Activation_Style>Skirmish_Automatic</Activation_Style>
-			<Initially_Enabled>No</Initially_Enabled>
-			<Affects_All_Allies>True</Affects_All_Allies>
-		</Enable_Radar_Ability>
-	</Abilities>
-	</StarBase>
-
-	<StarBase Name="EAW_Skirmish_Rebel_Star_Base_5">
-		<Variant_Of_Existing_Type>Rebel_Star_Base_5</Variant_Of_Existing_Type>
-		<Affiliation>Rebel_EAW</Affiliation>
-
-	<!-- Replacement List of Hardpoints -->
-		<HardPoints>
-			HP_Rebel_Station_One_Supply_Dock,
-			HP_Rebel_Station_One_Comm_Array,
-			HP_Rebel_Station_One_CCM_EAW,
-			HP_Rebel_Station_One_LC,
-			HP_Rebel_Station_One_TBL,
-			HP_Rebel_Station_Four_ShieldGen,
-			HP_Rebel_Station_One_Fighter_Bay,
-			HP_Rebel_Station_Two_LC,
-			HP_Rebel_Station_Two_PRT,
-			HP_Rebel_Station_Three_CCM,
-			HP_Rebel_Station_Three_IC,
-			HP_Rebel_Station_Three_PRT,
-			HP_Rebel_Station_Four_IC,
-			HP_Rebel_Station_Four_LC,
-			HP_Rebel_Station_Four_TBL,
-			HP_Rebel_Station_Five_CCM,
-			HP_Rebel_Station_Five_IC,
-			HP_Rebel_Station_Five_PRT,
-			HP_Rebel_Station_Five_TBL,
-			HP_Rebel_Station_Five_TBL2
-		</HardPoints>
-
-	<!-- Skirmish Buildables -->
-		<Tactical_Buildable_Objects_Multiplayer>
-			Rebel,
-				EAW_Rebel_X-Wing_Squadron,
-				Corellian_Corvette_EAW,
-				EAW_Y-Wing_Squadron,
-				Nebulon_B_Frigate_EAW,
-				EAW_A_Wing_Squadron,
-				Corellian_Gunboat_EAW,
-				Alliance_Assault_Frigate_EAW,
-				Marauder_Missile_Cruiser_EAW,
-				Calamari_Cruiser,
-				Home_One,
-				Han_Solo_Team_Space_MP,
-				Rogue_Squadron_Space,
-				Sundered_Heart,
-				EAW_RS_Enhanced_Shielding_L1_Upgrade,
-				EAW_RS_Enhanced_Shielding_L2_Upgrade,
-				EAW_RS_Enhanced_Shielding_L3_Upgrade,
-				EAW_RS_Improved_Weapons_L1_Upgrade,
-				EAW_RS_Improved_Weapons_L2_Upgrade,
-				EAW_RS_Improved_Weapons_L3_Upgrade,
-				EAW_RS_Improved_Defenses_L1_Upgrade,
-				EAW_RS_Improved_Defenses_L2_Upgrade,
-				EAW_RS_Improved_Defenses_L3_Upgrade,
-				EAW_RS_Ion_Cannon_Use_Upgrade
-		</Tactical_Buildable_Objects_Multiplayer>
-
-	<!-- Misc. Info -->
-		<Visible_To_Enemies_When_Empty>True</Visible_To_Enemies_When_Empty>
-		<Last_State_Visible_Under_FOW>True</Last_State_Visible_Under_FOW>
-		<Initial_State_Visible_Under_FOW>False</Initial_State_Visible_Under_FOW>
-		<Visible_On_Radar_When_Fogged>False</Visible_On_Radar_When_Fogged>
-		<Is_Community_Property>Yes</Is_Community_Property>
-
-	<!-- Galactic Info -->
-		<Build_Tab_Space_Station>No</Build_Tab_Space_Station>
-		<Build_Initially_Locked>Yes</Build_Initially_Locked>
-		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
-
-		<Prev_Level_Base>EAW_Skirmish_Rebel_Star_Base_4</Prev_Level_Base>
-		<Next_Level_Base/>
-
-	<Abilities SubObjectList="Yes">
-		<Income_Stream_Ability Name="R_Starbase_Income_Stream">
-			<Activation_Style>Skirmish_Automatic</Activation_Style>
-			<Initially_Enabled>Yes</Initially_Enabled>
-			<Base_Income_Value>55</Base_Income_Value>
-			<Base_Interval_In_Secs>10</Base_Interval_In_Secs>
-			<Split_Income_With_Allies>Yes</Split_Income_With_Allies>
-			<Split_Favors_Owner>No</Split_Favors_Owner>
-			<Full_Amount_To_Everyone>Yes</Full_Amount_To_Everyone>
-		</Income_Stream_Ability>
-		<Income_Stream_Mod_Ability Name="R_Supply_Dock_Income_Bonus">
-			<Activation_Style>Skirmish_Automatic</Activation_Style>
-			<Initially_Enabled>No</Initially_Enabled>
-			<Income_Multiplier>1.0</Income_Multiplier>
-			<Income_Additive_Value>45</Income_Additive_Value>
-			<Interval_Multiplier>1.0</Interval_Multiplier>
-			<Stacking_Category>0</Stacking_Category>
-			<Target_Stream_Source>Skirmish_Rebel_Star_Base_5</Target_Stream_Source>
-			<Affects_All_Allied_Sources>Yes</Affects_All_Allied_Sources>
-			<Reverse_Application_Logic>No</Reverse_Application_Logic>
-		</Income_Stream_Mod_Ability>
-		<Enable_Radar_Ability Name="R_Comm_Array_Enable_Radar">
-			<Activation_Style>Skirmish_Automatic</Activation_Style>
-			<Initially_Enabled>No</Initially_Enabled>
-			<Affects_All_Allies>True</Affects_All_Allies>
-		</Enable_Radar_Ability>
-	</Abilities>
-	</StarBase>
-
-	<!-- Empire Skirmish Starbases -->
-	<StarBase Name="EAW_Skirmish_Empire_Star_Base_1">
-		<Variant_Of_Existing_Type>Empire_Star_Base_1</Variant_Of_Existing_Type>
-		<Affiliation>Empire_EAW</Affiliation>
-
-	<!-- Replacement List of Hardpoints -->
-		<HardPoints>
-			HP_Empire_Station_One_00_EAW,
-			HP_Empire_Station_One_01,
-			HP_Empire_Station_One_02,
-			HP_Empire_Station_One_03,
-			HP_Empire_Station_One_Fighter_Bay,
-			HP_Empire_Station_One_Comm_Array,
-			HP_Empire_Station_One_Supply_Dock
-		</HardPoints>
-
-	<!-- Skirmish Buildables -->
-		<Tactical_Buildable_Objects_Multiplayer>
-			Empire_EAW,
-				EAW_TIE_Fighter_Squadron,
-				EAW_TIE_Bomber_Squadron,
-				EAW_ES_Enhanced_Reactors_L1_Upgrade,
-				EAW_ES_Reinforced_Armor_L1_Upgrade,
-				EAW_ES_Level_Two_Starbase_Upgrade
-		</Tactical_Buildable_Objects_Multiplayer>
-
-	<!-- Misc. Info -->
-		<Visible_To_Enemies_When_Empty>True</Visible_To_Enemies_When_Empty>
-		<Last_State_Visible_Under_FOW>True</Last_State_Visible_Under_FOW>
-		<Initial_State_Visible_Under_FOW>False</Initial_State_Visible_Under_FOW>
-		<Visible_On_Radar_When_Fogged>False</Visible_On_Radar_When_Fogged>
-		<Is_Community_Property>Yes</Is_Community_Property>
-
-	<!-- Galactic Info -->
-		<Build_Tab_Space_Station>No</Build_Tab_Space_Station>
-		<Build_Initially_Locked>Yes</Build_Initially_Locked>
-		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
-
-		<Prev_Level_Base/>
-		<Next_Level_Base>EAW_Skirmish_Empire_Star_Base_2</Next_Level_Base>
-
-	<Abilities SubObjectList="Yes">
-		<Income_Stream_Ability Name="E_Starbase_Income_Stream">
-			<Activation_Style>Skirmish_Automatic</Activation_Style>
-			<Initially_Enabled>Yes</Initially_Enabled>
-			<Base_Income_Value>30</Base_Income_Value>
-			<Base_Interval_In_Secs>10</Base_Interval_In_Secs>
-			<Split_Income_With_Allies>Yes</Split_Income_With_Allies>
-			<Split_Favors_Owner>No</Split_Favors_Owner>
-			<Full_Amount_To_Everyone>Yes</Full_Amount_To_Everyone>
-		</Income_Stream_Ability>
-		<Income_Stream_Mod_Ability Name="E_Supply_Dock_Income_Bonus">
-			<Activation_Style>Skirmish_Automatic</Activation_Style>
-			<Initially_Enabled>No</Initially_Enabled>
-			<Income_Multiplier>1.0</Income_Multiplier>
-			<Income_Additive_Value>20</Income_Additive_Value>
-			<Interval_Multiplier>1.0</Interval_Multiplier>
-			<Stacking_Category>0</Stacking_Category>
-			<Target_Stream_Source>Skirmish_Empire_Star_Base_1</Target_Stream_Source>
-			<Affects_All_Allied_Sources>Yes</Affects_All_Allied_Sources>
-			<Reverse_Application_Logic>No</Reverse_Application_Logic>
-		</Income_Stream_Mod_Ability>
-		<Enable_Radar_Ability Name="E_Comm_Array_Enable_Radar">
-			<Activation_Style>Skirmish_Automatic</Activation_Style>
-			<Initially_Enabled>No</Initially_Enabled>
-			<Affects_All_Allies>True</Affects_All_Allies>
-		</Enable_Radar_Ability>
-	</Abilities>
-	</StarBase>
-
-	<StarBase Name="EAW_Skirmish_Empire_Star_Base_2">
-		<Variant_Of_Existing_Type>Empire_Star_Base_2</Variant_Of_Existing_Type>
-		<Affiliation>Empire_EAW</Affiliation>
-
-	<!-- Replacement List of Hardpoints -->
-		<HardPoints>
-			HP_Empire_Station_One_00_EAW,
-			HP_Empire_Station_One_01,
-			HP_Empire_Station_One_02,
-			HP_Empire_Station_One_03,
-			HP_Empire_Station_One_Fighter_Bay,
-			HP_Empire_Station_One_Comm_Array,
-			HP_Empire_Station_One_Supply_Dock,
-			HP_Empire_Station_Two_00,
-			HP_Empire_Station_Two_01,
-			HP_Empire_Station_Two_02
-		</HardPoints>
-
-	<!-- Skirmish Buildables -->
-		<Tactical_Buildable_Objects_Multiplayer>
-			Empire,
-				EAW_TIE_Fighter_Squadron,
-				EAW_TIE_Scout_Squadron,
-				Tartan_Patrol_Cruiser_EAW,
-				EAW_TIE_Bomber_Squadron,
-				Acclamator_Assault_Ship_EAW,
-				Boba_Fett_Team_Space_MP,
-				EAW_ES_Enhanced_Reactors_L1_Upgrade,
-				EAW_ES_Reinforced_Armor_L1_Upgrade,
-				EAW_ES_Improved_Weapons_L1_Upgrade,
-				EAW_ES_Level_Three_Starbase_Upgrade
-		</Tactical_Buildable_Objects_Multiplayer>
-
-	<!-- Misc. Info -->
-		<Visible_To_Enemies_When_Empty>True</Visible_To_Enemies_When_Empty>
-		<Last_State_Visible_Under_FOW>True</Last_State_Visible_Under_FOW>
-		<Initial_State_Visible_Under_FOW>False</Initial_State_Visible_Under_FOW>
-		<Visible_On_Radar_When_Fogged>False</Visible_On_Radar_When_Fogged>
-		<Is_Community_Property>Yes</Is_Community_Property>
-
-	<!-- Galactic Info -->
-		<Build_Tab_Space_Station>No</Build_Tab_Space_Station>
-		<Build_Initially_Locked>Yes</Build_Initially_Locked>
-		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
-
-		<Prev_Level_Base>EAW_Skirmish_Empire_Star_Base_1</Prev_Level_Base>
-		<Next_Level_Base>EAW_Skirmish_Empire_Star_Base_3</Next_Level_Base>
-
-	<Abilities SubObjectList="Yes">
-		<Income_Stream_Ability Name="E_Starbase_Income_Stream">
-			<Activation_Style>Skirmish_Automatic</Activation_Style>
-			<Initially_Enabled>Yes</Initially_Enabled>
-			<Base_Income_Value>35</Base_Income_Value>
-			<Base_Interval_In_Secs>10</Base_Interval_In_Secs>
-			<Split_Income_With_Allies>Yes</Split_Income_With_Allies>
-			<Split_Favors_Owner>No</Split_Favors_Owner>
-			<Full_Amount_To_Everyone>Yes</Full_Amount_To_Everyone>
-		</Income_Stream_Ability>
-		<Income_Stream_Mod_Ability Name="E_Supply_Dock_Income_Bonus">
-			<Activation_Style>Skirmish_Automatic</Activation_Style>
-			<Initially_Enabled>No</Initially_Enabled>
-			<Income_Multiplier>1.0</Income_Multiplier>
-			<Income_Additive_Value>25</Income_Additive_Value>
-			<Interval_Multiplier>1.0</Interval_Multiplier>
-			<Stacking_Category>0</Stacking_Category>
-			<Target_Stream_Source>Skirmish_Empire_Star_Base_2</Target_Stream_Source>
-			<Affects_All_Allied_Sources>Yes</Affects_All_Allied_Sources>
-			<Reverse_Application_Logic>No</Reverse_Application_Logic>
-		</Income_Stream_Mod_Ability>
-		<Enable_Radar_Ability Name="E_Comm_Array_Enable_Radar">
-			<Activation_Style>Skirmish_Automatic</Activation_Style>
-			<Initially_Enabled>No</Initially_Enabled>
-			<Affects_All_Allies>True</Affects_All_Allies>
-		</Enable_Radar_Ability>
-	</Abilities>
-	</StarBase>
-
-	<StarBase Name="EAW_Skirmish_Empire_Star_Base_3">
-		<Variant_Of_Existing_Type>Empire_Star_Base_3</Variant_Of_Existing_Type>
-		<Affiliation>Empire_EAW</Affiliation>
-
-	<!-- Replacement List of Hardpoints -->
-		<HardPoints>
-			HP_Empire_Station_One_00_EAW,
-			HP_Empire_Station_One_01,
-			HP_Empire_Station_One_02,
-			HP_Empire_Station_One_03,
-			HP_Empire_Station_One_Fighter_Bay,
-			HP_Empire_Station_One_Comm_Array,
-			HP_Empire_Station_One_Supply_Dock,
-			HP_Empire_Station_Two_00,
-			HP_Empire_Station_Two_01,
-			HP_Empire_Station_Two_02,
-			HP_Empire_Station_Three_00,
-			HP_Empire_Station_Three_01,
-			HP_Empire_Station_Three_02
-		</HardPoints>
-
-	<!-- Skirmish Buildables -->
-		<Tactical_Buildable_Objects_Multiplayer>
-			Empire,
-				EAW_TIE_Fighter_Squadron,
-				Tartan_Patrol_Cruiser_EAW,
-				EAW_TIE_Bomber_Squadron,
-				Acclamator_Assault_Ship_EAW,
-				EAW_TIE_Scout_Squadron,
-				Interdictor_Cruiser_EAW,
-				Boba_Fett_Team_Space_MP,
-				Darth_Team_Space_MP,
-				Victory_Destroyer_EAW,
-				EAW_ES_Enhanced_Reactors_L1_Upgrade,
-				EAW_ES_Enhanced_Reactors_L2_Upgrade,
-				EAW_ES_Reinforced_Armor_L1_Upgrade,
-				EAW_ES_Reinforced_Armor_L2_Upgrade,
-				EAW_ES_Improved_Weapons_L1_Upgrade,
-				EAW_ES_Improved_Weapons_L2_Upgrade,
-				EAW_ES_Improved_Defenses_L1_Upgrade,
-				EAW_ES_Hypervelocity_Gun_Use_Upgrade,
-				EAW_ES_Level_Four_Starbase_Upgrade
-		</Tactical_Buildable_Objects_Multiplayer>
-
-	<!-- Misc. Info -->
-		<Visible_To_Enemies_When_Empty>True</Visible_To_Enemies_When_Empty>
-		<Last_State_Visible_Under_FOW>True</Last_State_Visible_Under_FOW>
-		<Initial_State_Visible_Under_FOW>False</Initial_State_Visible_Under_FOW>
-		<Visible_On_Radar_When_Fogged>False</Visible_On_Radar_When_Fogged>
-		<Is_Community_Property>Yes</Is_Community_Property>
-
-	<!-- Galactic Info -->
-		<Build_Tab_Space_Station>No</Build_Tab_Space_Station>
-		<Build_Initially_Locked>Yes</Build_Initially_Locked>
-		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
-
-		<Prev_Level_Base>EAW_Skirmish_Empire_Star_Base_2</Prev_Level_Base>
-		<Next_Level_Base>EAW_Skirmish_Empire_Star_Base_4</Next_Level_Base>
-
-	<Abilities SubObjectList="Yes">
-		<Income_Stream_Ability Name="E_Starbase_Income_Stream">
-			<Activation_Style>Skirmish_Automatic</Activation_Style>
-			<Initially_Enabled>Yes</Initially_Enabled>
-			<Base_Income_Value>40</Base_Income_Value>
-			<Base_Interval_In_Secs>10</Base_Interval_In_Secs>
-			<Split_Income_With_Allies>Yes</Split_Income_With_Allies>
-			<Split_Favors_Owner>No</Split_Favors_Owner>
-			<Full_Amount_To_Everyone>Yes</Full_Amount_To_Everyone>
-		</Income_Stream_Ability>
-		<Income_Stream_Mod_Ability Name="E_Supply_Dock_Income_Bonus">
-			<Activation_Style>Skirmish_Automatic</Activation_Style>
-			<Initially_Enabled>No</Initially_Enabled>
-			<Income_Multiplier>1.0</Income_Multiplier>
-			<Income_Additive_Value>30</Income_Additive_Value>
-			<Interval_Multiplier>1.0</Interval_Multiplier>
-			<Stacking_Category>0</Stacking_Category>
-			<Target_Stream_Source>Skirmish_Empire_Star_Base_3</Target_Stream_Source>
-			<Affects_All_Allied_Sources>Yes</Affects_All_Allied_Sources>
-			<Reverse_Application_Logic>No</Reverse_Application_Logic>
-		</Income_Stream_Mod_Ability>
-		<Enable_Radar_Ability Name="E_Comm_Array_Enable_Radar">
-			<Activation_Style>Skirmish_Automatic</Activation_Style>
-			<Initially_Enabled>No</Initially_Enabled>
-			<Affects_All_Allies>True</Affects_All_Allies>
-		</Enable_Radar_Ability>
-	</Abilities>
-	</StarBase>
-
-	<StarBase Name="EAW_Skirmish_Empire_Star_Base_4">
-		<Variant_Of_Existing_Type>Empire_Star_Base_4</Variant_Of_Existing_Type>
-		<Affiliation>Empire_EAW</Affiliation>
-
-	<!-- Replacement List of Hardpoints -->
-		<HardPoints>
-			HP_Empire_Station_One_00_EAW,
-			HP_Empire_Station_One_01,
-			HP_Empire_Station_One_02,
-			HP_Empire_Station_One_Fighter_Bay,
-			HP_Empire_Station_One_Comm_Array,
-			HP_Empire_Station_One_Supply_Dock,
-			HP_Empire_Station_Two_00,
-			HP_Empire_Station_Two_01,
-			HP_Empire_Station_Two_02,
-			HP_Empire_Station_Three_00,
-			HP_Empire_Station_Three_01,
-			HP_Empire_Station_Three_02,
-			HP_Empire_Station_Four_00,
-			HP_Empire_Station_Four_01,
-			HP_Empire_Station_Four_02,
-			HP_Empire_Station_Four_03
-		</HardPoints>
-
-	<!-- Skirmish Buildables -->
-		<Tactical_Buildable_Objects_Multiplayer>
-			Empire,
-				EAW_TIE_Fighter_Squadron,
-				Tartan_Patrol_Cruiser_EAW,
-				EAW_TIE_Bomber_Squadron,
-				Acclamator_Assault_Ship_EAW,
-				EAW_TIE_Scout_Squadron,
-				Interdictor_Cruiser_EAW,
-				Victory_Destroyer_EAW,
-				Broadside_Class_Cruiser_EAW,
-				Boba_Fett_Team_Space_MP,
-				Darth_Team_Space_MP,
-				EAW_ES_Enhanced_Reactors_L1_Upgrade,
-				EAW_ES_Enhanced_Reactors_L2_Upgrade,
-				EAW_ES_Reinforced_Armor_L1_Upgrade,
-				EAW_ES_Reinforced_Armor_L2_Upgrade,
-				EAW_ES_Improved_Weapons_L1_Upgrade,
-				EAW_ES_Improved_Weapons_L2_Upgrade,
-				EAW_ES_Improved_Defenses_L1_Upgrade,
-				EAW_ES_Improved_Defenses_L2_Upgrade,
-				EAW_ES_Hypervelocity_Gun_Use_Upgrade,
-				EAW_ES_Level_Five_Starbase_Upgrade
-		</Tactical_Buildable_Objects_Multiplayer>
-
-	<!-- Misc. Info -->
-		<Visible_To_Enemies_When_Empty>True</Visible_To_Enemies_When_Empty>
-		<Last_State_Visible_Under_FOW>True</Last_State_Visible_Under_FOW>
-		<Initial_State_Visible_Under_FOW>False</Initial_State_Visible_Under_FOW>
-		<Visible_On_Radar_When_Fogged>False</Visible_On_Radar_When_Fogged>
-		<Is_Community_Property>Yes</Is_Community_Property>
-
-	<!-- Galactic Info -->
-		<Build_Tab_Space_Station>No</Build_Tab_Space_Station>
-		<Build_Initially_Locked>Yes</Build_Initially_Locked>
-		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
-
-		<Prev_Level_Base>EAW_Skirmish_Empire_Star_Base_3</Prev_Level_Base>
-		<Next_Level_Base>EAW_Skirmish_Empire_Star_Base_5</Next_Level_Base>
-
-	<Abilities SubObjectList="Yes">
-		<Income_Stream_Ability Name="E_Starbase_Income_Stream">
-			<Activation_Style>Skirmish_Automatic</Activation_Style>
-			<Initially_Enabled>Yes</Initially_Enabled>
-			<Base_Income_Value>45</Base_Income_Value>
-			<Base_Interval_In_Secs>10</Base_Interval_In_Secs>
-			<Split_Income_With_Allies>Yes</Split_Income_With_Allies>
-			<Split_Favors_Owner>No</Split_Favors_Owner>
-			<Full_Amount_To_Everyone>Yes</Full_Amount_To_Everyone>
-		</Income_Stream_Ability>
-		<Income_Stream_Mod_Ability Name="E_Supply_Dock_Income_Bonus">
-			<Activation_Style>Skirmish_Automatic</Activation_Style>
-			<Initially_Enabled>No</Initially_Enabled>
-			<Income_Multiplier>1.0</Income_Multiplier>
-			<Income_Additive_Value>35</Income_Additive_Value>
-			<Interval_Multiplier>1.0</Interval_Multiplier>
-			<Stacking_Category>0</Stacking_Category>
-			<Target_Stream_Source>Skirmish_Empire_Star_Base_4</Target_Stream_Source>
-			<Affects_All_Allied_Sources>Yes</Affects_All_Allied_Sources>
-			<Reverse_Application_Logic>No</Reverse_Application_Logic>
-		</Income_Stream_Mod_Ability>
-		<Enable_Radar_Ability Name="E_Comm_Array_Enable_Radar">
-			<Activation_Style>Skirmish_Automatic</Activation_Style>
-			<Initially_Enabled>No</Initially_Enabled>
-			<Affects_All_Allies>True</Affects_All_Allies>
-		</Enable_Radar_Ability>
-	</Abilities>
-	</StarBase>
-
-	<StarBase Name="EAW_Skirmish_Empire_Star_Base_5">
-		<Variant_Of_Existing_Type>Empire_Star_Base_5</Variant_Of_Existing_Type>
-		<Affiliation>Empire_EAW</Affiliation>
-
-	<!-- Replacement List of Hardpoints -->
-		<HardPoints>
-			HP_Empire_Station_One_Supply_Dock,
-			HP_Empire_Station_One_Comm_Array,
-			HP_Empire_Station_One_00_EAW,
-			HP_Empire_Station_One_01,
-			HP_Empire_Station_One_02,
-			HP_Empire_Station_One_Fighter_Bay,
-			HP_Empire_Station_Two_00,
-			HP_Empire_Station_Two_01,
-			HP_Empire_Station_Two_02,
-			HP_Empire_Station_Three_00,
-			HP_Empire_Station_Three_01,
-			HP_Empire_Station_Three_02,
-			HP_Empire_Station_Four_00,
-			HP_Empire_Station_Four_01,
-			HP_Empire_Station_Four_02,
-			HP_Empire_Station_Four_03,
-			HP_Empire_Station_Five_00,
-			HP_Empire_Station_Five_01,
-			HP_Empire_Station_Five_02,
-			HP_Empire_Station_Five_03
-		</HardPoints>
-
-	<!-- Skirmish Buildables -->
-		<Tactical_Buildable_Objects_Multiplayer>
-			Empire,
-				EAW_TIE_Fighter_Squadron,
-				Tartan_Patrol_Cruiser_EAW,
-				EAW_TIE_Bomber_Squadron,
-				Acclamator_Assault_Ship_EAW,
-				EAW_TIE_Scout_Squadron,
-				Interdictor_Cruiser_EAW,
-				Victory_Destroyer_EAW,
-				Broadside_Class_Cruiser_EAW,
-				Star_Destroyer,
-				Boba_Fett_Team_Space_MP,
-				Darth_Team_Space_MP,
-				Accuser_Star_Destroyer,
-				EAW_ES_Enhanced_Reactors_L1_Upgrade,
-				EAW_ES_Enhanced_Reactors_L2_Upgrade,
-				EAW_ES_Enhanced_Reactors_L3_Upgrade,
-				EAW_ES_Reinforced_Armor_L1_Upgrade,
-				EAW_ES_Reinforced_Armor_L2_Upgrade,
-				EAW_ES_Reinforced_Armor_L3_Upgrade,
-				EAW_ES_Improved_Weapons_L1_Upgrade,
-				EAW_ES_Improved_Weapons_L2_Upgrade,
-				EAW_ES_Improved_Weapons_L3_Upgrade,
-				EAW_ES_Improved_Defenses_L1_Upgrade,
-				EAW_ES_Improved_Defenses_L2_Upgrade,
-				EAW_ES_Improved_Defenses_L3_Upgrade,
-				EAW_ES_Hypervelocity_Gun_Use_Upgrade
-		</Tactical_Buildable_Objects_Multiplayer>
-
-	<!-- Misc. Info -->
-		<Visible_To_Enemies_When_Empty>True</Visible_To_Enemies_When_Empty>
-		<Last_State_Visible_Under_FOW>True</Last_State_Visible_Under_FOW>
-		<Initial_State_Visible_Under_FOW>False</Initial_State_Visible_Under_FOW>
-		<Visible_On_Radar_When_Fogged>False</Visible_On_Radar_When_Fogged>
-		<Is_Community_Property>Yes</Is_Community_Property>
-
-	<!-- Galactic Info -->
-		<Build_Tab_Space_Station>No</Build_Tab_Space_Station>
-		<Build_Initially_Locked>Yes</Build_Initially_Locked>
-		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
-
-		<Prev_Level_Base>EAW_Skirmish_Empire_Star_Base_4</Prev_Level_Base>
-		<Next_Level_Base/>
-
-	<Abilities SubObjectList="Yes">
-		<Income_Stream_Ability Name="E_Starbase_Income_Stream">
-			<Activation_Style>Skirmish_Automatic</Activation_Style>
-			<Initially_Enabled>Yes</Initially_Enabled>
-			<Base_Income_Value>55</Base_Income_Value>
-			<Base_Interval_In_Secs>10</Base_Interval_In_Secs>
-			<Split_Income_With_Allies>Yes</Split_Income_With_Allies>
-			<Split_Favors_Owner>No</Split_Favors_Owner>
-			<Full_Amount_To_Everyone>Yes</Full_Amount_To_Everyone>
-		</Income_Stream_Ability>
-		<Income_Stream_Mod_Ability Name="E_Supply_Dock_Income_Bonus">
-			<Activation_Style>Skirmish_Automatic</Activation_Style>
-			<Initially_Enabled>No</Initially_Enabled>
-			<Income_Multiplier>1.0</Income_Multiplier>
-			<Income_Additive_Value>45</Income_Additive_Value>
-			<Interval_Multiplier>1.0</Interval_Multiplier>
-			<Stacking_Category>0</Stacking_Category>
-			<Target_Stream_Source>Skirmish_Empire_Star_Base_5</Target_Stream_Source>
-			<Affects_All_Allied_Sources>Yes</Affects_All_Allied_Sources>
-			<Reverse_Application_Logic>No</Reverse_Application_Logic>
-		</Income_Stream_Mod_Ability>
-		<Enable_Radar_Ability Name="E_Comm_Array_Enable_Radar">
-			<Activation_Style>Skirmish_Automatic</Activation_Style>
-			<Initially_Enabled>No</Initially_Enabled>
-			<Affects_All_Allies>True</Affects_All_Allies>
-		</Enable_Radar_Ability>
+		</Enable_Ability>-->
 	</Abilities>
 	</StarBase>
 </StarBases>
-
-
-
-
-
 
 

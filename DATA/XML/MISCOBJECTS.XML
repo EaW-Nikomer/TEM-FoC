@@ -20,11 +20,12 @@
 		<Model_Name>w_smallbomb.alo</Model_Name>
 		<LandBehavior>MARKER</LandBehavior>
 		<SpaceBehavior>MARKER</SpaceBehavior>
-		<Scale_Factor>100.0</Scale_Factor>
+		<Scale_Factor>5.0</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
 		<CategoryMask>Corvette </CategoryMask>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Influences_Capture_Point>no</Influences_Capture_Point>
+		<Immune_To_Damage>True</Immune_To_Damage>
 	</MiscObject>
 
 	<MiscObject Name="Credit_Power_Up">
@@ -184,3 +185,4 @@
 		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 	</MiscObject>
 </MiscObjects>
+

@@ -1,0 +1,524 @@
+TEM FOC NOTES
+
+v1.0.1.1048 (2021-02-12) [FoC v1.121.748742]
+============================================
+
+===== Fixes / Adjustments =====
+=SPACE=
+GENERIC
+Skirmish radar width adjusted to match height (171 > 175 units)
+Recode of all generic space units
+Recode of all primary space stations
+Fixed a few unparsed AI template files
+Updated a few missing icons
+Startup logo movies now disabled
+Skirmish max starting credits: 8000 > 20,000
+Hardpoint reticle size reduced: 0.03 > 0.025x
+Increased starbase tactical health by 10x
+Fixed starbase income scaling per level (now 5-7-9-12-15 from 5-5-5-5-5.5)
+	New Income Breakdown (Starbase income + Supply Dock income)
+		3.0 + 2.0
+		3.5 + 3.5
+		4.0 + 5.0
+		4.5 + 7.5
+		5.0 + 10.0
+	BETA TESTING CHANGES
+		3.0 + 7.0	(10)
+		3.5 + 9.5	(13)
+		4.0 + 12.0	(16)
+		4.5 + 15.5	(20)
+		5.0 + 20.0	(25)
+Income rubberbanding adjusted
+	Lower income players will now get 20% the difference in income from 8%
+All generic fighters now have specific containers
+Fixed Fighter and Turret accuracy for Jan 2021 patch
+Better consistancy of good against/vulnerable to unit list between fighters/squadrons/containers
+Fighter mouse collide sphere: 50 > 40
+Proj_Ion_Cannon_Small (for fighters) damage reduced: 20 > 10
+	Projectile size increased (width x length): 2x5 > 3x6
+Upgrades now apply to pirate units
+Disabled autofire for all abilities
+Dummy_Barrage_Target
+	Is now immune to damage (fix for barrage abilities)
+	Scale Factor: 100 > 5x
+Asteroid Mines
+	Capture point now has 100 unit reinforcement prevention range
+	Built mines armor_type changed: Armor_Satellite > Armor_Asteroid_Mine (new)
+	Base Income increased: 200 > 240 (Empire / Rebels) | 205 > 250 (Cons)
+Pirate Asteroid Base
+	Fixed typo for laser and turbolaser damage_type
+	Fixed incorrect laser cannon hardpoint model
+	Fixed base_level assert (base_level: 6 > 1)
+	Added dummy hangar bay hardpoint for secondary structure variant
+IPV-1
+	Hardpoint fire arc height increased slightly - it can now target rebel station shield gen
+
+MAPS
+Geonosis team 1 spawn marker adjusted
+Bespin team 2 station and spawn markers and right asteroid mine adjusted
+Hypori team 2 spawn markers adjusted
+Coruscant gravity well station removed
+
+EMPIRE
+Starbase
+	Fixed multiple Firebone_A and _B on L1 laser hardpoint
+HV Gun
+	Added skirmish variant that is immune to damage (bugfix for reflection)
+Laser Turret
+	Now fires green projectiles
+Engines Upgrade
+	Now applies to containers
+	TIE Defender added to L1 upgrade
+Increased Supplies Upgrade
+	L1 income bonus: 20 > 30%
+	L2 income bonus: 40 > 45%
+TIE Scout
+	Build Cost: 275 > 325
+	Build Time: 12 > 15sec
+	FoW Ping Ability max range: unlim > 6000 units
+TIE Bomber
+	Build Cost: 550 > 500
+TIE Phantom
+	Build Time: 15 > 13sec
+Tartan
+	Build Cost: 1700 > 1600
+	Build Time: 12 > 13sec
+Acclamator
+	Turbolaser damage type fixed (Damage_Acc > Damage_Acc_TL)
+	Build Cost: 2350 > 2400
+Boba Fett
+	Build Cost: 1700 > 1650
+Vader
+	Escort TIE Fighters scale reduced to match generic TIEs (0.9 > 0.7x)
+
+REBEL
+Starbase
+	Removed Firebone_C and _D references from various hardpoints (they don't exist in engine code)
+Planetary Ion Cannon
+	Added skirmish variant that is immune to damage
+Repair Turret
+	Now has a FoW Reveal Range
+	Can no longer heal starbases
+Damage Upgrade
+	B-Wing added to L1 upgrade
+	MC30 added to L2 upgrade
+Increased Supplies Upgrade
+	L1 income bonus: 20 > 30%
+	L2 income bonus: 40 > 45%
+X-Wing
+	Build Time: 15 > 16sec
+A-Wing
+	Lure now applies to all fighters and fighter-bombers
+	Lure damage reduction: 30 > 45%
+	Build Time: 18 > 16sec
+Y-Wing
+	Laser Cannon fire cone (width x height): 20x20 > 360x30
+	Laser Cannon fire pulse delay: 0.2 > 0.3sec
+	Laser Cannon fire recharge time: 0.5 > 1.0sec
+	Ion Torpedo ion stun duration: 1 > 1.333sec
+	Build Cost: 550 > 450
+	Build Time: 17 > 18sec
+B-Wing
+	Ion Cannon fire recharge time: 0.5 > 2.5sec
+Pirate Fighter
+	Build Cost: 350
+IPV-1
+	Build Cost: 1200 > 1000
+Corellian Corvette
+	Build Cost: 1800 > 1450
+	Build Time: 15 > 16sec
+Corellian Gunship
+	Hardpoints now symmetrical
+	Turbolaser changed to medium laser cannon
+	Tooltip updated
+Nebulon-B
+	Build Cost: 2500 > 2100
+	Build Time: 18 > 21sec
+Han Solo
+	Laser Cannon muzzle bones fixed
+	Build Cost: 1800 > 1750
+Rogue Squadron
+	Fighter scale reduced to match generic X-Wing (0.9 > 0.7x)
+	Hero is no longer lost when wedge dies
+	Strike ability no longer buffs speed (was 2.0x)
+	S-Foils speed bonus: 2.0 > 1.55x
+	Moved from T4 to T1
+	Build Cost: 2500 > 1000
+	Build Time: 25 > 18sec
+	Combat Bonus: +25% fighter health > +10%
+
+UNDERWORLD
+Starbase
+	Now has collision box at root (fixes HV gun and planetary ion cannon)
+	Hardpoints adjusted to improve blindspots
+	Added some missing upgrades to GC starbases
+Starbase Armor Upgrade
+	Activation_Style changed to Space_Automatic (was Ground_Automatic - this upgrade did nothing in vanilla...)
+	No longer applies to structures
+	Applies to all starbase levels and capturable skirmish asteroid base
+Reflective Armor Upgrade
+	L2 and L3 reflection chance changed to match tooltip: 30 > 25%
+	All levels now reflect lasers from transport class ships
+Cloaking Generator Upgrade
+	Activation_Style fixed (Ground_Automatic > Space_Automatic)
+	(This is now technically exploitable for perma-cloaking)
+Extort Cash Upgrade
+	Upgrade now split from Land version
+	L1 income bonus: 15 > 25%
+	L2 income bonus: 45 > 50%
+Buzz Droids
+	Activation time: 1.0 > 1.5sec
+	Damage per second: 23 > 18
+	Will now damage Bomber class units
+	Will no longer damage Frigate class units
+StarViper
+	Buzz Droids ability recharge time: 60 > 50sec
+	Buzz Droids ability max deployment range: Unlim > 300
+	Build Cost: 675 > 625
+Skipray
+	Ion Cannon fire recharge time: 0.6 > 2.5sec (average)
+	Ion Cannon fire pulse count: 6 > 4
+	Ion Cannon fire inaccuracy vs Corvettes and Frigates: 10 > 20
+	Build Cost: 700 > 650
+Pirate Fighter
+	Build Cost: 350 > 300
+IPV-1
+	Build Cost: 1200 > 900
+Crusader
+	Build Time: 9 > 10sec
+	Build Cost: 1900 > 1750
+	Hardpoints now have a damage_type (Damage_Crusader_Gunship, new)
+		Variant of Damage_Corellian_Corvette with slightly lower damage (1.3 vs 1.4x) vs Armor_Fighter and _Bomber
+Interceptor IV
+	Build Cost: 2400 > 2600
+	Turbolaser damage type changed: Damage_Acclamator > Damage_Acclamator_TL
+Bossk
+	Build Cost: 1200 > 1250
+
+= LAND =
+MAPS
+Felucia plants will no longer deal damage
+
+GENERIC
+Transports now have attack category restrictions vs all land units, land heroes, structures (including space), and other transports
+AA Turret changes:
+	Now uses a hardpoint weapon (fixes accuracy issues)
+	Projectile Area Effect Damage: 15 > 10
+	Projectile Area Effect Range: 75 > 60
+	Projectile now has 3 damage dropoff tiers
+	Targeting and Firing Min Attack Distance: 30 > 40
+	Damage_Flak_Pod damage vs armor:
+		Structure: 1.5 > 0.5x
+		Turret: 1.0 > 0.5x
+		Wall: 1.5 > 0.5x
+		Bunker: 1.0 > 0.3x
+		MPTL: 1.0 > 0.2x
+		Scout_Bike: 0.5 > 0.3x
+		Destroyer_Droid: 0.5 > 0.2x
+		Juggernaut: 0.25 > 0.1x
+		Dark_Trooper: 0.25 > 0.1x
+		Vornskr: 0.25 > 0.1x (Vornskr uses Hero armor for some reason)
+		T4B: 0.2 > 0.1x
+		ATAT: 0.2 > 0.1x
+		Speeder: 8 > 10x
+Mass Driver Turret
+	Now uses a hardpoint weapon (fixes accuracy issues)
+	Fire pulse delay: 0.02 > 0.0333 (1 frame)
+Free reinforcement troops for all factions
+	One large company of units
+MDU changes
+	Empire EM Field Gen now has a collision box
+	Empire EM Field Gen sell animation is now an idle animation
+	Empire EM Field Gen missile shield radius: 150 > 200
+	Empire Offensive Sensor Node now has a collision box
+	Rebel Rapid Fire Laser Turret build animation updated
+	Rebel Mobile Shield Gen health bar moved closer to the unit
+	Underworld Sensor Jammer now has a collision box
+	Underworld Sensor Jammer has a new build animation
+Pod Walkers
+	Company Size: 2 > 4
+	Empire Build Cost: 500 > 450
+	Rebel Build Cost: 250 > 450; 500 > 450
+	Underworld Build Cost: 400 > 450
+Swamp Speeders
+	Build Cost: 575 > 375
+Skiffs
+	Can now garrison 1 infantry company
+	Garrison can fire
+
+EMPIRE
+Bombardment
+	Projectile area effect: 85 > 100
+	Projectile damage: 375 > 400
+Starting Forces
+	Company Size: 4 > 5 squads of 9 soldiers
+Added Stamina Boost to tech 2 barracks
+	Provides 20% health bonus to stormtroopers (Was 35% and for GC only)
+	Cost: 550 > 500
+Magnapulse Cannon
+	Fire Range: 1600 > 2000
+Anti-Infantry Turret
+	Fire pulse count: 10 > 12
+	Fire pulse delay: 0.02 > 0.0333 (1 frame between shots)
+	(Shots per second: 4.54 > 5.0; Rebel AI turret is 4.8/sec)
+Veers
+	Now has hero insignia
+	Build Cost: 4000 > 3500
+	Health: 2000 > 2500
+Boba Fett
+	Projectile damage: 14 > 16
+	Flame Thrower max activation range: 100 > 150
+	Flame Thrower recharge time: 28 > 20sec
+	Build Cost: 1450 > 1400
+	Build Time: 23 > 18sec
+	Moved to Tech 2
+Mara Jade
+	Moved to Tech 1
+Juggernaut
+	Health: 850 > 1100
+SPMA-T
+	Deploy Animation Time increased: 45 > 90frames [1.5 > 3.0sec]
+	Projectile Damage: 90 > 80
+AT-AA
+	Projectile changes:
+		Projectile Area Effect Range: 75 > 60
+		Projectile now has 3 damage dropoff tiers
+	*See Damage_Flak_Pod damage to armor modifier changes above*
+	**Will probably add a hardpoint weapon in the future to fix accuracy issues**
+	Missile Shield radius: 150 > 200
+	Chewbacca captured missile shield radius: 100 > 200
+2.0sec
+Scout Trooper
+	Targeting Max Attack Distance: 150 > 190
+	Is no longer visible on enemy radar
+StormTroopers
+	New armor type that reduces concussion grenade damage by 15% (1.0 > 0.85x)
+DTp1
+	Health: 200 > 220
+	Can now contest capture points
+	Can no longer be squashed by non-supercrushers
+	Added turret rotate and elevate extents to improve attacking
+	Sprint Duration: 12 > 8sec
+	Build Time: 18 > 14sec
+DTp2
+	Build Cost: 1000 > 1300
+	Can now reflect swamp speeder lasers
+DTp3
+	Deploy Animation Time reduced: 50 > 30frames [1.67 > 1.0sec]
+	Company Size: 1 > 2
+	Build Cost: 1400 > 2000
+	(Galactic Build Cost: 900 > 1600)
+ATST
+	Reworked Barrage ability to fire a quick volley of AoE projectiles
+	Created 2 types of AT-ST
+		v1 Concussion Grenade Barrage available at T1 for 900 credits
+		v2 Homing Missile Barrage available at T2 for 1100 credits
+ATST v1 (changes from alpha)
+	Ability Duration: 8 > 2sec
+	Grenade damage: 20 > 24
+	Grenade AoE: 18 > 60
+	Grenade now has 2 damage drop-off tiers
+	Ability targeting circle reduced to match area effect (75 > 60)
+ATST v2 (changes from alpha)
+	Ability Duration: 9 > 2sec
+	Ability Icon changed
+	Removed Vehicle Thief ability
+	Ability targeting circle reduced to match area effect (75 > 15)
+
+REBEL
+Bombardment
+	Salvo Count: 2 > 3
+Heavy Armor Upgrade
+	Defense Bonus converted to Health bonus (+33%hp, +100%hp)
+	(Even if this stacks like defense, the bonus will be much lower [+133% vs +400%])
+Anti-Infantry Turret
+	Fire pulse delay: 0.03 > 0.0333 (1 frame between shots)
+	Fire recharge time: 2.5 > 2.45sec
+	(Shots per second: 4.79 > 4.8)
+Obi-Wan
+	Force Confuse ability replaced with Force Heal
+Kyle Katarn
+	Speed: 1.0 > 1.15
+	FoW Reveal Range: 325 > 390
+	Replaced Sprint ability with Force Confuse
+	Build Cost: 1300 > 1400
+Droids Team
+	Build Cost: 850 > 650
+	Now has vehicle repair passive
+Rebel Trooper
+	Build Cost: 320 > 350
+	Build Time: 3 > 4sec
+Infiltrator
+	Speed: 1.4 > 1.55
+	Health: 70 > 100
+	Thermal Detonator max range: 75 > 90
+	No longer visible on enemy radar
+	Units per company: 2 > 1
+	Build Cost: 500 > 450
+T2-B
+	Build Cost: 1100 > 1300
+MPTL
+	Now has hardpoint based weapons (fixes accuracy issues)
+	Fire recharge time: 6 > 7sec
+	New model (removes muzzle flash)
+
+UNDERWORLD
+Grenadier Mercs and Disruptor Mercs can now be bribed for 30 credits
+Droideka Shield Upgrade
+	Build Cost: 850 > 650
+Damage Upgrade
+	L1 now applies to Canderous tanks
+	Tooltip now states it applies to Canderous tanks
+Tech 2 Upgrade
+	Build Time: 45 > 40sec
+Damage_Con_Grenade vs Armor_Hero: 1.0 > 0.75x
+Damage_Droideka_Blaster vs Armor_Infantry: 2.0 > 2.3x
+Barracks
+	Fixed spawn bone
+	Fixed damaged _alt2 shadow mesh
+	Shields: 600 > 480
+Droid Works
+	Shields: 700 > 560
+Factory
+	Shields: 900 > 720
+Mineral Processor
+	Build Time: 22 > 20sec
+Gravity Generator
+	Control Field Range: 3000 > 1500
+Torpedo Turret
+	Build Time: 13 > 16sec
+	Targeting Max Attack Distance: 350 > 250
+	FoW Reveal Range: 360 > 300
+Urai
+	Health: 300 > 350
+	Now has Turret Elevation tag (120 deg)
+Bossk
+	Projectile damage: 5 > 6
+	Projectile fire recharge time: 0.5 > 0.4
+	Speed: 1.0 > 1.15
+	Build Cost: 1250 > 1200
+	Flamethrower ability replaced with Sprint
+		Sprint speed multiplier: 1.6x
+		Sprint take damage multiplier: 0.75x
+		Sprint duration: 10sec
+		Sprint recharge time: 45sec
+	Plasma Grenade ability
+		Fire recharge time: 6 > 15sec
+		Burn damage: 2.2 > 2.0
+		Burn interval: 0.23 > 0.2sec
+		(Burn DPS: 9.57 > 10)
+		Now has initial area effect damage: 30 *This uses internal damage_type: damage_fire.  No values are specified so it should default to damage_default*
+Cuddles the Rancor
+	Now has nightsister rancor fixes (see below)
+	Armor type: Hero > ATAT
+	Health: 900 > 1200
+	Speed: 0.75 > 1.0
+	AI Combat Power: 1500 > 1000 (this was very high for GC)
+Canderous
+	Model rescaled in 3ds max
+	Fixed multiple bugs with crusher mesh/bones/etc
+MZ-8
+	FoW Reveal Range: 320 > 350
+Droideka
+	Deployed max walk distance: 150 > 250
+MAL
+	Now has hardpoint weapons
+	CCM fire recharge time: 4 > 5sec
+	Carbonite missile fire recharge time: 3 > 4sec
+	Fire min range: 10 > 30
+	Turret deployed elevate extent: 180 > 120deg
+	Deploy animation time increased: 60 > 100frames [2 > 3.333sec]
+Ewok Handler
+	Targeting Max Attack Distance: 250 > 300
+	Special Attack max activation range: 270 > 320
+	Ewok Bomb area effect damage: 300 > 225 *This uses internal damage_type: damage_fire.  No values are specified so it should default to damage_default*
+	Ewok Bomb area effect range: 25 > 20
+	Company Size: 1 > 2
+	Formation Spacing: 0.5 > 1.0
+Vornskr
+	Armor_type: Armor_Hero > Armor_Vornskr *Curious to see how this changes the unit, can/probably will revert back*
+	Added turret rotate and elevate extents to improve attacking
+Nightsister
+	Health: 900 > 1000
+	Projectile given small area effect (20)
+	Removed Squash (Infantry crusher) behavior
+	Pound Vehicles special attack damage increased: 100 > 210+10%hp
+	Pound Vehicles max activation distance: 45 > 50
+	Swat Infantry special attack disabled
+	Drain Life recharge time: 40 > 30sec
+	Added turret rotate and elevate extents to improve attacking
+	Many minor tweaks
+
+
+===== FILE STRUCTURE CHANGES =====
+Deleted Files
+	Campaigns_Alpha
+	Campaigns_Demos
+	Campaigns_Demos_02
+	Campaigns_P1
+	Campaigns_P2
+	Campaigns_P3
+	Campaigns_P4
+	Campaigns_P5
+	Campaigns_P6
+	Campaigns_P7
+	Campaigns_Standard
+	Campaigns_Style_Guide
+	Campaigns_Test
+	Campaigns_Underworld_Demo
+	Campaigns_Underworld_E3_Demo
+	Campaigns_Underworld_Exec_Demo
+	Campaigns_UW_GC_Test
+	34 files referencing various demos and tests
+Compressed to EaW_Galactic.7z
+	Campaigns_Main > Campaigns_EaW_Story <Renamed>
+	Campaigns_Singleplayer > Campaigns_EaW_Singleplayer <Renamed>
+	97 other files referencing EaW GC Intervention missions, EaW Story Campaigns, and EaW GC missions
+Renamed Files
+	Campaigns_Underworld_GC > Campaigns_FoC_Singleplayer
+	Campaigns_Underworld_Story > Campaigns_FoC_Story
+	GroundUnitTargetingPriorities > TargetingPriorities_GroundUnit
+	TurretTargetingPriorities > TargetingPriorities_GroundTurret
+	SpaceUnitTargetingPriorities > TargetingPriorities_SpaceUnit
+	LandPrimarySkydomes > Skydomes_Land_Primary
+	LandSecondarySkydomes > Skydomes_Land_Secondary
+	SpacePrimarySkydomes > Skydomes_Space_Primary
+	SpaceSecondarySkydomes > Skydomes_Space_Secondary
+	SpaceUnitsFighters > Space_Fighters
+	SpaceUnitsFrigates > Space_Frigates
+	SpaceUnitsCorvettes > Space_Corvettes
+	SpaceUnitsSupers > Space_Supers
+	SpaceUnitsCapital > Space_Capitals
+	Squadrons > Space_Squadrons
+	GenericHeroUnits > Heroes_Minor
+	NamedHeroUnits > Heroes_Major
+	HeroClash > Hero_Clash
+	GroundBuildablesSkirmish > Ground_Buildable_Structures
+	SpaceProps > Space_Props
+	SpaceBuildablesSkirmish > Space_Buildables
+	Starbases > Space_Starbases
+	LandBombingRunUnits > Ground_Bombers
+	TransportUnits > Transport_Units
+Moved Files
+	All non-CIN_* unit files moved to new folder [Units]
+Merged Files
+	Campaigns_Underworld_Tutorial > Campaigns_Tutorial
+	XML and Resource files from Patch2.meg merged to config.meg
+	UNITS_xxx files merged into appropiate combined xmls
+	GroundCompaniesRebel and *_Empire merged to [Ground_Companies]
+	Underworld_TransportUnits > Transport_Units
+	Expansion_Factions > Factions
+	GroundBuildables(Faction) > [Ground_Buildable_Turrets]
+	SpecialStructures_Underworld > SpecialStructures
+	GroundStructures_Underworld > GroundStructures
+	SpaceProps_Underworld > SpaceProps
+	Starbases_Underworld > Starbases
+	Minor_Heroes_Expansion > Heroes_Minor
+	Swamp Speeder and Pod Walker merged into Ground_Vehicles
+	UpgradeObjects_Underworld > UpgradeObjects
+	SFXEvent Files merged and sorted (basically cloned from SoaFE and removed modded events)
+Split Files
+	Hardpoints and Hardpoints_Underworld split into faction specific files
+	SpecialStructures split into Ground_* and Space_*
+	Projectiles > *_Land and *_Space
+	UpgradeObjects > *_Land, *_Space, and *_Galactic

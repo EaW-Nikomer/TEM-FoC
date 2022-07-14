@@ -1176,7 +1176,7 @@
 				<Recharge_Seconds>18.0</Recharge_Seconds>
 				<GUI_Activated_Ability_Name>Saboteur_Remote_Bomb_Attack</GUI_Activated_Ability_Name>
 				<SFXEvent_Target_Ability> Unit_Thermal_Sabateur </SFXEvent_Target_Ability>
-				<Supports_Autofire>True</Supports_Autofire>
+<!--				<Supports_Autofire>True</Supports_Autofire>-->
 			</Unit_Ability>
 
 			<Unit_Ability>
@@ -1365,7 +1365,7 @@
 				<Recharge_Seconds>2.0</Recharge_Seconds>
 				<GUI_Activated_Ability_Name>Saboteur_Remote_Bomb_Attack</GUI_Activated_Ability_Name>
 				<SFXEvent_Target_Ability> Unit_Thermal_Sabateur </SFXEvent_Target_Ability>
-				<Supports_Autofire>True</Supports_Autofire>
+<!--				<Supports_Autofire>True</Supports_Autofire>-->
 			</Unit_Ability>
 
 			<Unit_Ability>
@@ -1430,4 +1430,5 @@
 		</Abilities>
 	</GenericHeroUnit>
 </GenericHeroUnits>
+
 

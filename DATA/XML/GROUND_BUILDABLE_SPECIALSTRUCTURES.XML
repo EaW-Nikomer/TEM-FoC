@@ -4520,7 +4520,7 @@
 		<Space_Layer>Land</Space_Layer>
 		<Projectile_Types>Magnepulse_Blob_Skirmish</Projectile_Types>
 		<Land_FOW_Reveal_Range>400.0</Land_FOW_Reveal_Range>
-		<Targeting_Max_Attack_Distance>1600.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>2000.0</Targeting_Max_Attack_Distance>
 		<Custom_Hard_XExtent>20.0</Custom_Hard_XExtent>
 		<Custom_Hard_YExtent>20.0</Custom_Hard_YExtent>
 		<UnitCollisionClass>Vehicle</UnitCollisionClass>
@@ -4635,6 +4635,10 @@
 		<Build_Cost_Credits>0</Build_Cost_Credits>
 		<Tech_Level>0</Tech_Level>
 		<Victory_Relevant>No</Victory_Relevant>
+		
+		<Gravity_Control_Field_Range>1500.0</Gravity_Control_Field_Range><!-- Reduced for skirmish: was 3000 -->
+		<Gravity_Control_Field_Slow_Fraction>0.9</Gravity_Control_Field_Slow_Fraction>
+		<Gravity_Control_Field_Effect>Repulsor_Jammer_Effect</Gravity_Control_Field_Effect>
 	</GroundBuildable>
 	
 	
@@ -4916,5 +4920,7 @@
 		<SFXEvent_Select>Structure_Mining_Select_SFX</SFXEvent_Select>
 	</GroundBuildable>
 </GroundBuildables>
+
+
 
 

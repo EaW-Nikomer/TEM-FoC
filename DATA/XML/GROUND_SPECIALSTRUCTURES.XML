@@ -1635,7 +1635,7 @@
 		<Apply_Y_Turret_Rotate_To_Axis>1</Apply_Y_Turret_Rotate_To_Axis>
 		<GUI_Bracket_Size>2</GUI_Bracket_Size>
 		<Land_FOW_Reveal_Range>1500.0</Land_FOW_Reveal_Range>
-		<Targeting_Max_Attack_Distance>1500.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>2000.0</Targeting_Max_Attack_Distance>
 		
 		<!--Oksana: Make sure it matches recharge seconds in its unit ability, or it will ASSERT !!!-->
 		<Projectile_Fire_Recharge_Seconds>30.0</Projectile_Fire_Recharge_Seconds>
@@ -6400,6 +6400,7 @@
 		</Abilities>
 	</SpecialStructure>
 </SpecialStructures>
+
 
 
 

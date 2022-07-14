@@ -58,6 +58,7 @@
 				UC_Empire_Defense_Satellite_Laser,
 <!--				UC_Empire_Defense_Satellite_TurboLaser,-->
 				UC_Empire_Defense_Satellite_Missile,
+<!--				UC_Empire_Defense_Satellite_Interdictor,-->
 				UC_Empire_Defense_Satellite_Repair,
 <!--				UC_Empire_Defense_Satellite_Tractor,-->
 			Rebel,
@@ -73,13 +74,7 @@
 			Pirates,
 				UC_Pirate_Defense_Satellite_Laser,
 				UC_Pirate_Defense_Satellite_TurboLaser,
-				UC_Pirate_Defense_Satellite_Missile,
-			Empire_EAW,
-				EAW_UC_Empire_Defense_Satellite_Laser,
-				EAW_UC_Empire_Defense_Satellite_Missile,
-			Rebel_EAW,
-				EAW_UC_Rebel_Defense_Satellite_Laser,
-				EAW_UC_Rebel_Defense_Satellite_Missile
+				UC_Pirate_Defense_Satellite_Missile
 		</Tactical_Buildable_Objects_Multiplayer>
 
 		<Tactical_Buildable_Objects_Campaign>
@@ -87,6 +82,7 @@
 				UC_Empire_Defense_Satellite_Laser,
 <!--				UC_Empire_Defense_Satellite_TurboLaser,-->
 				UC_Empire_Defense_Satellite_Missile,
+<!--				UC_Empire_Defense_Satellite_Interdictor,-->
 				UC_Empire_Defense_Satellite_Repair,
 <!--				UC_Empire_Defense_Satellite_Tractor,-->
 			Rebel,
@@ -102,13 +98,7 @@
 			Pirates,
 				UC_Pirate_Defense_Satellite_Laser,
 				UC_Pirate_Defense_Satellite_TurboLaser,
-				UC_Pirate_Defense_Satellite_Missile,
-			Empire_EAW,
-				EAW_UC_Empire_Defense_Satellite_Laser,
-				EAW_UC_Empire_Defense_Satellite_Missile,
-			Rebel_EAW,
-				EAW_UC_Rebel_Defense_Satellite_Laser,
-				EAW_UC_Rebel_Defense_Satellite_Missile
+				UC_Pirate_Defense_Satellite_Missile
 		</Tactical_Buildable_Objects_Campaign>
 
 		<Death_SFXEvent_Start_Die>Unit_Generic_Building_Death_SFX</Death_SFXEvent_Start_Die>
@@ -181,7 +171,7 @@
 		<Behavior>SPACE_OBSTACLE, TACTICAL_UNDER_CONSTRUCTION, SELECTABLE, REVEAL, HIDE_WHEN_FOGGED</Behavior>
 
 		<Tactical_Buildable_Constructed>Empire_Defense_Satellite_Laser</Tactical_Buildable_Constructed>
-		<Tactical_Build_Cost_Multiplayer>875</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer>875</Tactical_Build_Cost_Multiplayer> <!--was 875-->
 		<Tactical_Build_Cost_Campaign>400</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds>25</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Start_Lower_Z>0.0</Tactical_Build_Start_Lower_Z>
@@ -295,7 +285,7 @@
 		<Behavior>SPACE_OBSTACLE, TACTICAL_UNDER_CONSTRUCTION, SELECTABLE, REVEAL, HIDE_WHEN_FOGGED</Behavior>
 
 		<Tactical_Buildable_Constructed>Empire_Defense_Satellite_Missile</Tactical_Buildable_Constructed>
-		<Tactical_Build_Cost_Multiplayer>700</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer>700</Tactical_Build_Cost_Multiplayer> <!--was 700-->
 		<Tactical_Build_Cost_Campaign>275</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds>28</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Start_Lower_Z>0.0</Tactical_Build_Start_Lower_Z>
@@ -412,13 +402,66 @@
 		<Death_SFXEvent_Start_Die>Unit_Generic_Building_Death_SFX</Death_SFXEvent_Start_Die>
 		<Death_Explosions>Large_Explosion_Space</Death_Explosions>
 	</SpaceBuildable>
+	
+	<SpaceBuildable Name="UC_Empire_Defense_Satellite_Interdictor">
+		<Text_ID>TEXT_GRAVITY_WELL_STATION</Text_ID>
+		<Encyclopedia_Text>TEXT_ENCYCLOPEDIA_GRAVITY_WELL_STATION_01</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
+
+		<Space_Model_Name>NB_CommJamStation.ALO</Space_Model_Name>
+		<Icon_Name>i_button_GWS.tga</Icon_Name>
+		<Affiliation>Empire</Affiliation>
+
+		<GUI_Row>0</GUI_Row>
+		<GUI_Bracket_Size>2</GUI_Bracket_Size>
+
+		<Size_Value>30</Size_Value>
+		<Select_Box_Scale>330</Select_Box_Scale>
+		<Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Custom_Soft_Footprint_Radius>100</Custom_Soft_Footprint_Radius>
+
+		<Armor_Type>Armor_Satellite</Armor_Type>
+		<Tactical_Health>1200</Tactical_Health>
+		<Space_FOW_Reveal_Range>200.0</Space_FOW_Reveal_Range>
+
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Size>0.1 0.1</Radar_Icon_Size>
+		<Last_State_Visible_Under_FOW>True</Last_State_Visible_Under_FOW>
+		<Initial_State_Visible_Under_FOW>False</Initial_State_Visible_Under_FOW>
+
+		<Victory_Relevant>No</Victory_Relevant>
+		<Has_Space_Evaluator>True</Has_Space_Evaluator>
+		<Influences_Capture_Point>False</Influences_Capture_Point>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+
+		<CategoryMask>Structure</CategoryMask>
+		<Space_Layer>StaticObject</Space_Layer>
+		<Space_Obstacle_Offset>0 0 0</Space_Obstacle_Offset>
+		<Is_Dummy>Yes</Is_Dummy>
+
+		<Behavior>SPACE_OBSTACLE, TACTICAL_UNDER_CONSTRUCTION, SELECTABLE, REVEAL, HIDE_WHEN_FOGGED</Behavior>
+
+		<Tactical_Buildable_Constructed>Empire_Defense_Satellite_Interdictor</Tactical_Buildable_Constructed>
+		<Tactical_Build_Cost_Multiplayer>650</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>500</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds>20</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Start_Lower_Z>0.0</Tactical_Build_Start_Lower_Z>
+
+		<SFXEvent_Build_Started>EHD_Build_Structure</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Building_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>EHD_Construction_Complete</SFXEvent_Build_Complete>
+		<Death_SFXEvent_Start_Die>Unit_Generic_Building_Death_SFX</Death_SFXEvent_Start_Die>
+		<Death_Explosions>Large_Explosion_Space</Death_Explosions>
+	</SpaceBuildable>
 
 <!-- Rebel Satellites -->
 	<SpaceBuildable Name="UC_Rebel_Defense_Satellite_Laser">
 		<Variant_Of_Existing_Type>UC_Empire_Defense_Satellite_Laser</Variant_Of_Existing_Type>
 
 		<Tactical_Buildable_Constructed>Rebel_Defense_Satellite_Laser</Tactical_Buildable_Constructed>
-		<Tactical_Build_Cost_Multiplayer>875</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer>875</Tactical_Build_Cost_Multiplayer>  <!--was 875-->
 		<Tactical_Build_Cost_Campaign>400</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds>25</Tactical_Build_Time_Seconds>
 
@@ -446,7 +489,7 @@
 		<Variant_Of_Existing_Type>UC_Empire_Defense_Satellite_Missile</Variant_Of_Existing_Type>
 
 		<Tactical_Buildable_Constructed>Rebel_Defense_Satellite_Missile</Tactical_Buildable_Constructed>
-		<Tactical_Build_Cost_Multiplayer>700</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer>700</Tactical_Build_Cost_Multiplayer> <!--was 700-->
 		<Tactical_Build_Cost_Campaign>275</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds>28</Tactical_Build_Time_Seconds>
 
@@ -460,7 +503,7 @@
 		<Variant_Of_Existing_Type>UC_Empire_Defense_Satellite_Repair</Variant_Of_Existing_Type>
 
 		<Tactical_Buildable_Constructed>Rebel_Defense_Satellite_Repair</Tactical_Buildable_Constructed>
-		<Tactical_Build_Cost_Multiplayer>750</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer>750</Tactical_Build_Cost_Multiplayer> <!--was 750-->
 		<Tactical_Build_Cost_Campaign>500</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds>28</Tactical_Build_Time_Seconds>
 
@@ -512,7 +555,7 @@
 		<Behavior>SPACE_OBSTACLE, TACTICAL_UNDER_CONSTRUCTION, SELECTABLE, REVEAL, HIDE_WHEN_FOGGED</Behavior>
 
 		<Tactical_Buildable_Constructed>Underworld_Defense_Satellite_Plasma</Tactical_Buildable_Constructed>
-		<Tactical_Build_Cost_Multiplayer>1000</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer>1000</Tactical_Build_Cost_Multiplayer> <!--was 1000-->
 		<Tactical_Build_Cost_Campaign>750</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds>20</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Start_Lower_Z>0.0</Tactical_Build_Start_Lower_Z>
@@ -584,7 +627,7 @@
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
 
 		<Tactical_Buildable_Constructed>Underworld_Defense_Satellite_DBM</Tactical_Buildable_Constructed>
-		<Tactical_Build_Cost_Multiplayer>1200</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer>1200</Tactical_Build_Cost_Multiplayer> <!--was 1200-->
 		<Tactical_Build_Cost_Campaign>1000</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds>20</Tactical_Build_Time_Seconds>
 		<Tactical_Health>1200</Tactical_Health>
@@ -636,8 +679,8 @@
 		<Behavior>SPACE_OBSTACLE, TACTICAL_UNDER_CONSTRUCTION, SELECTABLE, REVEAL, HIDE_WHEN_FOGGED</Behavior>
 
 		<Tactical_Buildable_Constructed>Underworld_Defense_Satellite_Sensor</Tactical_Buildable_Constructed>
-		<Tactical_Build_Cost_Multiplayer>875</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Cost_Campaign>700</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Cost_Multiplayer>875</Tactical_Build_Cost_Multiplayer> <!-- 875 -->
+		<Tactical_Build_Cost_Campaign>450</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds>18</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Start_Lower_Z>0.0</Tactical_Build_Start_Lower_Z>
 
@@ -720,25 +763,25 @@
 		<Score_Cost_Credits>25000</Score_Cost_Credits>
 
 		<Damage>12</Damage>
-		<HardPoints>HP_Satellite_Laser_E</HardPoints>
-		<!--<Damage_Type>Damage_Default</Damage_Type>
+		<Damage_Type>Damage_Default</Damage_Type>
 		<Projectile_Types>Proj_Ship_Large_Laser_Cannon_Green</Projectile_Types>
-		<Projectile_Damage>14.0</Projectile_Damage>
+		<Projectile_Damage>14.0</Projectile_Damage> <!--v=14-->
 		<Projectile_Fire_Pulse_Count>10</Projectile_Fire_Pulse_Count>
 		<Projectile_Fire_Pulse_Delay_Seconds>0.15</Projectile_Fire_Pulse_Delay_Seconds>
 		<Projectile_Fire_Recharge_Seconds>1.0</Projectile_Fire_Recharge_Seconds>
 
-		<Fire_Inaccuracy_Distance>Fighter, 3.0</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>Bomber, 2.0</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>Transport, 3.0</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>Corvette, 10.0</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>Frigate, 10.0</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>Capital, 10.0</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>Super, 10.0</Fire_Inaccuracy_Distance>-->
+		<Targeting_Fire_Inaccuracy>Fighter, 3.0</Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy>Bomber, 2.0</Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy>Transport, 3.0</Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy>Corvette, 10.0</Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy>Frigate, 10.0</Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy>Capital, 10.0</Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy>Super, 10.0</Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy>Structure, 10.0</Targeting_Fire_Inaccuracy>
 
 		<Turret_Rotate_Extent_Degrees>360</Turret_Rotate_Extent_Degrees>
-		<Turret_Elevate_Extent_Degrees>100</Turret_Elevate_Extent_Degrees> <!-- vanilla: 90 -->
-		<Turret_Rotate_Speed>4.0</Turret_Rotate_Speed> <!-- vanilla: 3.5 -->
+		<Turret_Elevate_Extent_Degrees>90</Turret_Elevate_Extent_Degrees>
+		<Turret_Rotate_Speed>3.5</Turret_Rotate_Speed>
 		<Turret_Rest_Angle>0.0, 0.0, 0.0</Turret_Rest_Angle>
 		<Turret_Bone_Name>B_Turret</Turret_Bone_Name>
 		<!--<Barrel_Bone_Name>Barrel_00</Barrel_Bone_Name>-->
@@ -766,7 +809,7 @@
 		<Is_Dummy>Yes</Is_Dummy>
 
 		<Behavior>DUMMY_ORBITAL_STRUCTURE, SELECTABLE, POWERED, SHIELDED</Behavior>
-		<SpaceBehavior>SPACE_OBSTACLE, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, TARGETING, DAMAGE_TRACKING, TURRET</SpaceBehavior>
+		<SpaceBehavior>SPACE_OBSTACLE, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, TARGETING, WEAPON, DAMAGE_TRACKING, TURRET</SpaceBehavior>
 
 		<Land_Damage_Thresholds>1, 0.66, 0.33</Land_Damage_Thresholds>
 		<Land_Damage_Alternates>0, 1, 2</Land_Damage_Alternates>
@@ -846,7 +889,19 @@
 		<Score_Cost_Credits>25000</Score_Cost_Credits>
 
 		<Damage>15</Damage>
-		<HardPoints>HP_Satellite_Turbolaser_E</HardPoints>
+		<Projectile_Types>Proj_Ship_Turbolaser_Green</Projectile_Types>
+		<Projectile_Fire_Pulse_Count>6</Projectile_Fire_Pulse_Count>
+		<Projectile_Fire_Pulse_Delay_Seconds>0.2</Projectile_Fire_Pulse_Delay_Seconds>
+		<Projectile_Fire_Recharge_Seconds>3.0</Projectile_Fire_Recharge_Seconds>
+
+		<Targeting_Fire_Inaccuracy>Fighter, 60.0</Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy>Bomber, 60.0</Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy>Transport, 40.0</Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy>Corvette, 5.0</Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy>Frigate, 5.0</Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy>Capital, 10.0</Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy>Super, 10.0</Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy>Structure, 10.0</Targeting_Fire_Inaccuracy>
 
 		<Turret_Rotate_Extent_Degrees>360</Turret_Rotate_Extent_Degrees>
 		<Turret_Elevate_Extent_Degrees>100</Turret_Elevate_Extent_Degrees>
@@ -878,7 +933,7 @@
 		<Is_Dummy>Yes</Is_Dummy>
 
 		<Behavior>DUMMY_ORBITAL_STRUCTURE, SELECTABLE, POWERED, SHIELDED</Behavior>
-		<SpaceBehavior>SPACE_OBSTACLE, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, TARGETING, DAMAGE_TRACKING, TURRET</SpaceBehavior>
+		<SpaceBehavior>SPACE_OBSTACLE, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, TARGETING, WEAPON, DAMAGE_TRACKING, TURRET</SpaceBehavior>
 
 		<Land_Damage_Thresholds>1, 0.66, 0.33</Land_Damage_Thresholds>
 		<Land_Damage_Alternates>0, 1, 2</Land_Damage_Alternates>
@@ -958,19 +1013,12 @@
 		<Score_Cost_Credits>25000</Score_Cost_Credits>
 
 		<Damage>13</Damage>
-		<HardPoints>HP_Satellite_Missile</HardPoints>
-		<!--<Projectile_Types>Proj_Ship_Concussion_Missile_Satellite</Projectile_Types>
+		<Projectile_Types>Proj_Ship_Concussion_Missile_Satellite</Projectile_Types>
 		<Projectile_Fire_Pulse_Count>6</Projectile_Fire_Pulse_Count>
 		<Projectile_Fire_Pulse_Delay_Seconds>0.35</Projectile_Fire_Pulse_Delay_Seconds>
 		<Projectile_Fire_Recharge_Seconds>3.5</Projectile_Fire_Recharge_Seconds>
 
-		<Fire_Inaccuracy_Distance>Fighter, 0.0</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>Bomber, 0.0</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>Transport, 0.0</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>Corvette, 0.0</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>Frigate, 0.0</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>Capital, 0.0</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>Super, 0.0</Fire_Inaccuracy_Distance>-->
+		<Targeting_Fire_Inaccuracy_Fixed_Radius>0.0</Targeting_Fire_Inaccuracy_Fixed_Radius>
 
 		<Turret_Rotate_Extent_Degrees>360</Turret_Rotate_Extent_Degrees>
 		<Turret_Elevate_Extent_Degrees>90</Turret_Elevate_Extent_Degrees>
@@ -1002,7 +1050,7 @@
 		<Is_Dummy>Yes</Is_Dummy>
 
 		<Behavior>DUMMY_ORBITAL_STRUCTURE, SELECTABLE, POWERED, SHIELDED</Behavior>
-		<SpaceBehavior>SPACE_OBSTACLE, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, TARGETING, DAMAGE_TRACKING, TURRET</SpaceBehavior>
+		<SpaceBehavior>SPACE_OBSTACLE, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, TARGETING, WEAPON, DAMAGE_TRACKING, TURRET</SpaceBehavior>
 
 		<Land_Damage_Thresholds>1, 0.66, 0.33</Land_Damage_Thresholds>
 		<Land_Damage_Alternates>0, 1, 2</Land_Damage_Alternates>
@@ -1277,17 +1325,89 @@
 	</Abilities>
 	</SpaceBuildable>
 
+	<SpaceBuildable Name="Empire_Defense_Satellite_Interdictor">
+		<Text_ID>TEXT_GRAVITY_WELL_STATION</Text_ID>
+		<Encyclopedia_Text>TEXT_ENCYCLOPEDIA_GRAVITY_WELL_STATION_01</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
+
+		<Space_Model_Name>NB_CommJamStation.ALO</Space_Model_Name>
+		<Icon_Name>i_button_GWS.tga</Icon_Name>
+		<Affiliation>Empire</Affiliation>
+
+		<GUI_Row>0</GUI_Row>
+		<GUI_Bracket_Size>2</GUI_Bracket_Size>
+
+		<Size_Value>90</Size_Value>
+		<Select_Box_Scale>330</Select_Box_Scale>
+		<Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Custom_Soft_Footprint_Radius>300</Custom_Soft_Footprint_Radius><!-- Was 500 -->
+
+		<Armor_Type>Armor_Satellite</Armor_Type>
+		<Tactical_Health>750</Tactical_Health>
+		<Score_Cost_Credits>5000</Score_Cost_Credits>
+
+		<Space_FOW_Reveal_Range>800.0</Space_FOW_Reveal_Range>
+		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
+		<Reinforcement_Prevention_Radius>2000</Reinforcement_Prevention_Radius>
+
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+<!--		<Radar_Icon_Name>mini_map_structure.tga</Radar_Icon_Name>-->
+		<Radar_Icon_Size>0.1 0.1</Radar_Icon_Size>
+		<Last_State_Visible_Under_FOW>True</Last_State_Visible_Under_FOW>
+		<Initial_State_Visible_Under_FOW>False</Initial_State_Visible_Under_FOW>
+
+		<Victory_Relevant>No</Victory_Relevant>
+		<Has_Space_Evaluator>True</Has_Space_Evaluator>
+		<Influences_Capture_Point>False</Influences_Capture_Point>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+
+		<CategoryMask>Structure</CategoryMask>
+		<Space_Layer>StaticObject</Space_Layer>
+		<Space_Obstacle_Offset>0 0 0</Space_Obstacle_Offset>
+		<Is_Interdictor>Yes</Is_Interdictor>
+		<Is_Dummy>Yes</Is_Dummy>
+
+		<Behavior>DUMMY_ORBITAL_STRUCTURE, SELECTABLE</Behavior>
+		<SpaceBehavior>SPACE_OBSTACLE, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, DAMAGE_TRACKING</SpaceBehavior>
+
+		<Land_Damage_Thresholds>1, 0.66, 0.33</Land_Damage_Thresholds>
+		<Land_Damage_Alternates>0, 1, 2</Land_Damage_Alternates>
+		<Land_Damage_SFX>null, SFX_Grenade_Detonation, SFX_Grenade_Detonation</Land_Damage_SFX>
+
+		<SFXEvent_Select>Structure_Power_Gen_Select_SFX</SFXEvent_Select>
+		<Death_SFXEvent_Start_Die>Unit_Generic_Building_Death_SFX</Death_SFXEvent_Start_Die>
+		<Death_Clone>Damage_Normal, N_Gravity_Well_Station_Death_Clone</Death_Clone>
+		<Death_Explosions>Large_Explosion_Space</Death_Explosions>
+
+<!--	<Abilities SubObjectList="Yes">
+		<Force_Healing_Ability Name="E_GravWell_Range">
+			<Activation_Style>Space_Automatic</Activation_Style>
+			<Applicable_Unit_Types>Empire_Defense_Satellite_Interdictor</Applicable_Unit_Types>
+			<Heal_Range>2000.0</Heal_Range>
+			<Heal_Percent>0</Heal_Percent>
+			<Blob_Color>0, 127, 255, 255</Blob_Color>
+			<Heal_Interval_In_Secs>10</Heal_Interval_In_Secs>
+			<Single_Target_Heal>Yes</Single_Target_Heal>
+			<Heal_Range_Blob_Material>Generic_Range_Indicator_Highlight</Heal_Range_Blob_Material>
+		</Force_Healing_Ability>
+	</Abilities>-->
+	</SpaceBuildable>
+
 	<!-- Rebel Satellites -->
 	<SpaceBuildable Name="Rebel_Defense_Satellite_Laser">
 		<Variant_Of_Existing_Type>Empire_Defense_Satellite_Laser</Variant_Of_Existing_Type>
-		<HardPoints>HP_Satellite_Laser_R</HardPoints>
 		<Affiliation>Rebel</Affiliation>
+
+		<Projectile_Types>Proj_Ship_Large_Laser_Cannon_Red</Projectile_Types>
 	</SpaceBuildable>
 
 	<SpaceBuildable Name="Rebel_Defense_Satellite_TurboLaser">
 		<Variant_Of_Existing_Type>Empire_Defense_Satellite_TurboLaser</Variant_Of_Existing_Type>
-		<HardPoints>HP_Satellite_Turbolaser_R</HardPoints>
 		<Affiliation>Rebel</Affiliation>
+
+		<Projectile_Types>Proj_Ship_Turbolaser_Red</Projectile_Types>
 	</SpaceBuildable>
 
 	<SpaceBuildable Name="Rebel_Defense_Satellite_Missile">
@@ -1329,22 +1449,22 @@
 		<Score_Cost_Credits>25000</Score_Cost_Credits>
 
 		<Damage>12</Damage>
-		<HardPoints>HP_Satellite_Plasma</HardPoints>
-		<!--<Projectile_Types>Proj_Plasma_Space_Turret_Blast</Projectile_Types>
+		<Projectile_Types>Proj_Plasma_Space_Turret_Blast</Projectile_Types>
 		<Projectile_Fire_Pulse_Count>2</Projectile_Fire_Pulse_Count>
 		<Projectile_Fire_Pulse_Delay_Seconds>0.2</Projectile_Fire_Pulse_Delay_Seconds>
 		<Projectile_Fire_Recharge_Seconds>3.0</Projectile_Fire_Recharge_Seconds>
 
-		<Fire_Inaccuracy_Distance>Fighter, 10.0</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>Bomber, 10.0</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>Transport, 10.0</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>Corvette, 5.0</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>Frigate, 5.0</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>Capital, 10.0</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>Super, 10.0</Fire_Inaccuracy_Distance>-->
+		<Targeting_Fire_Inaccuracy>Fighter, 10.0</Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy>Bomber, 10.0</Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy>Transport, 10.0</Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy>Corvette, 5.0</Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy>Frigate, 5.0</Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy>Capital, 10.0</Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy>Super, 10.0</Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy>Structure, 10.0</Targeting_Fire_Inaccuracy>
 
 		<Turret_Rotate_Extent_Degrees>360</Turret_Rotate_Extent_Degrees>
-		<Turret_Elevate_Extent_Degrees>100</Turret_Elevate_Extent_Degrees> <!-- vanilla: 90 -->
+		<Turret_Elevate_Extent_Degrees>90</Turret_Elevate_Extent_Degrees>
 		<Turret_Rotate_Speed>3.5</Turret_Rotate_Speed>
 		<Turret_Rest_Angle>0.0, 0.0, 0.0</Turret_Rest_Angle>
 		<Turret_Bone_Name>B_Turret</Turret_Bone_Name>
@@ -1372,7 +1492,7 @@
 		<Is_Dummy>Yes</Is_Dummy>
 
 		<Behavior>DUMMY_ORBITAL_STRUCTURE, SELECTABLE, POWERED, SHIELDED</Behavior>
-		<SpaceBehavior>SPACE_OBSTACLE, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, TARGETING, DAMAGE_TRACKING, TURRET</SpaceBehavior>
+		<SpaceBehavior>SPACE_OBSTACLE, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, TARGETING, WEAPON, DAMAGE_TRACKING, TURRET</SpaceBehavior>
 
 		<Land_Damage_Thresholds>1, 0.66, 0.33</Land_Damage_Thresholds>
 		<Land_Damage_Alternates>0, 1, 2</Land_Damage_Alternates>
@@ -1448,22 +1568,22 @@
 		<Score_Cost_Credits>25000</Score_Cost_Credits>
 
 		<Damage>15</Damage>
-		<HardPoints>HP_Satellite_Mass_Driver</HardPoints>
-		<!--<Projectile_Types>Proj_Vengeance_Mass_Driver</Projectile_Types>
+		<Projectile_Types>Proj_Vengeance_Mass_Driver</Projectile_Types>
 		<Projectile_Fire_Pulse_Count>6</Projectile_Fire_Pulse_Count>
 		<Projectile_Fire_Pulse_Delay_Seconds>0.2</Projectile_Fire_Pulse_Delay_Seconds>
 		<Projectile_Fire_Recharge_Seconds>2.0</Projectile_Fire_Recharge_Seconds>
 
-		<Fire_Inaccuracy_Distance>Fighter, 15.0</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>Bomber, 10.0</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>Transport, 10.0</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>Corvette, 5.0</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>Frigate, 5.0</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>Capital, 10.0</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>Super, 10.0</Fire_Inaccuracy_Distance>-->
+		<Targeting_Fire_Inaccuracy>Fighter, 40.0</Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy>Bomber, 40.0</Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy>Transport, 30.0</Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy>Corvette, 5.0</Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy>Frigate, 5.0</Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy>Capital, 10.0</Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy>Super, 10.0</Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy>Structure, 10.0</Targeting_Fire_Inaccuracy>
 
 		<Turret_Rotate_Extent_Degrees>360</Turret_Rotate_Extent_Degrees>
-		<Turret_Elevate_Extent_Degrees>100</Turret_Elevate_Extent_Degrees>
+		<Turret_Elevate_Extent_Degrees>90</Turret_Elevate_Extent_Degrees>
 		<Turret_Rotate_Speed>3.5</Turret_Rotate_Speed>
 		<Turret_Rest_Angle>0.0, 0.0, 0.0</Turret_Rest_Angle>
 		<Turret_Bone_Name>B_Turret</Turret_Bone_Name>
@@ -1567,13 +1687,12 @@
 		<Score_Cost_Credits>25000</Score_Cost_Credits>
 
 		<Damage>13</Damage>
-		<HardPoints>HP_Satellite_DBM</HardPoints>
-		<!--<Projectile_Types>Proj_Ship_Diamond_Boron_Missile</Projectile_Types>
+		<Projectile_Types>Proj_Ship_Diamond_Boron_Missile_Satellite</Projectile_Types>
 		<Projectile_Fire_Pulse_Count>4</Projectile_Fire_Pulse_Count>
 		<Projectile_Fire_Pulse_Delay_Seconds>0.5</Projectile_Fire_Pulse_Delay_Seconds>
 		<Projectile_Fire_Recharge_Seconds>4.0</Projectile_Fire_Recharge_Seconds>
 
-		<Targeting_Fire_Inaccuracy_Fixed_Radius>100</Targeting_Fire_Inaccuracy_Fixed_Radius> -->
+		<Targeting_Fire_Inaccuracy_Fixed_Radius>100</Targeting_Fire_Inaccuracy_Fixed_Radius> <!--v=100-->
 
 		<Turret_Rotate_Extent_Degrees>360</Turret_Rotate_Extent_Degrees>
 		<Turret_Elevate_Extent_Degrees>90</Turret_Elevate_Extent_Degrees>
@@ -1585,7 +1704,7 @@
 
 		<Space_FOW_Reveal_Range>1750.0</Space_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>1500.0</Targeting_Max_Attack_Distance>
-		<Targeting_Min_Attack_Distance>300</Targeting_Min_Attack_Distance>
+		<Targeting_Min_Attack_Distance>200</Targeting_Min_Attack_Distance> <!--v=200-->
 		<Targeting_Priority_Set>Defense_Satellite_Missile</Targeting_Priority_Set>
 
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
@@ -1605,7 +1724,7 @@
 		<Is_Dummy>Yes</Is_Dummy>
 
 		<Behavior>DUMMY_ORBITAL_STRUCTURE, SELECTABLE, POWERED, SHIELDED</Behavior>
-		<SpaceBehavior>SPACE_OBSTACLE, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, TARGETING, DAMAGE_TRACKING, TURRET</SpaceBehavior>
+		<SpaceBehavior>SPACE_OBSTACLE, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, TARGETING, WEAPON, DAMAGE_TRACKING, TURRET</SpaceBehavior>
 
 		<Land_Damage_Thresholds>1, 0.66, 0.33</Land_Damage_Thresholds>
 		<Land_Damage_Alternates>0, 1, 2</Land_Damage_Alternates>
@@ -1651,18 +1770,19 @@
 			<Applicable_Unit_Types/>
 		</Force_Healing_Ability>
 	</Abilities>
-	<Abilities SubObjectList="Yes"><!-- Fake Ability just to show area effect of ion storm -->
+	<!-- Fake Ability just to show min range -->
+<!--	<Abilities SubObjectList="Yes">
 		<Force_Healing_Ability Name="DBM_Satellite_Min_Range">
 			<Activation_Style>Space_Automatic</Activation_Style>
 			<Applicable_Unit_Types>Underworld_Defense_Satellite_DBM</Applicable_Unit_Types>
-			<Heal_Range>300.0</Heal_Range>
+			<Heal_Range>200.0</Heal_Range>
 			<Heal_Percent>0</Heal_Percent>
 			<Blob_Color>255, 0, 0, 90</Blob_Color>
 			<Heal_Interval_In_Secs>10</Heal_Interval_In_Secs>
 			<Single_Target_Heal>Yes</Single_Target_Heal>
 			<Heal_Range_Blob_Material>Sensor_Jamming_Blob</Heal_Range_Blob_Material>
 		</Force_Healing_Ability>
-	</Abilities>
+	</Abilities>-->
 	</SpaceBuildable>
 
 	<SpaceBuildable Name="Underworld_Defense_Satellite_Sensor">
@@ -1785,7 +1905,6 @@
 		<AI_Combat_Power>200</AI_Combat_Power>
 
 		<Damage>10</Damage>
-		<HardPoints>HP_Satellite_Laser_P</HardPoints>
 
 		<Space_FOW_Reveal_Range>1200.0</Space_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>1000.0</Targeting_Max_Attack_Distance>
@@ -1808,7 +1927,6 @@
 		<Score_Cost_Credits>15000</Score_Cost_Credits>
 
 		<Damage>12</Damage>
-		<HardPoints>HP_Satellite_Turbolaser_P</HardPoints>
 
 		<Space_FOW_Reveal_Range>1250.0</Space_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>1250.0</Targeting_Max_Attack_Distance>
@@ -1831,7 +1949,6 @@
 		<Score_Cost_Credits>15000</Score_Cost_Credits>
 
 		<Damage>10</Damage>
-		<HardPoints>HP_Satellite_Missile_P</HardPoints>
 
 		<Space_FOW_Reveal_Range>1750.0</Space_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>1500.0</Targeting_Max_Attack_Distance>
@@ -1994,20 +2111,6 @@
 		<SFXEvent_Build_Complete>EHD_Construction_Complete</SFXEvent_Build_Complete>
 	</SpaceBuildable>
 
-	<SpaceBuildable Name="UC_Empire_Mineral_Extractor_EAW">
-		<Variant_Of_Existing_Type>UC_Empire_Mineral_Extractor</Variant_Of_Existing_Type>
-
-		<Tactical_Buildable_Constructed>Empire_Mineral_Extractor_EAW</Tactical_Buildable_Constructed>
-		<Tactical_Build_Cost_Multiplayer>850</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>35</Tactical_Build_Time_Seconds>
-		<Tactical_Health>950</Tactical_Health>
-
-		<Affiliation>Empire_EAW</Affiliation>
-		<SFXEvent_Build_Started>EHD_Build_Structure</SFXEvent_Build_Started>
-		<SFXEvent_Build_Cancelled>EHD_Building_Canceled</SFXEvent_Build_Cancelled>
-		<SFXEvent_Build_Complete>EHD_Construction_Complete</SFXEvent_Build_Complete>
-	</SpaceBuildable>
-
 	<SpaceBuildable Name="UC_Rebel_Mineral_Extractor">
 		<Variant_Of_Existing_Type>UC_Empire_Mineral_Extractor</Variant_Of_Existing_Type>
 
@@ -2033,20 +2136,6 @@
 		<Tactical_Health>3000</Tactical_Health>
 
 		<Affiliation>Rebel</Affiliation>
-		<SFXEvent_Build_Started>RHD_Build_Structure</SFXEvent_Build_Started>
-		<SFXEvent_Build_Cancelled>RHD_Building_Canceled</SFXEvent_Build_Cancelled>
-		<SFXEvent_Build_Complete>RHD_Construction_Complete</SFXEvent_Build_Complete>
-	</SpaceBuildable>
-
-	<SpaceBuildable Name="UC_Rebel_Mineral_Extractor_EAW">
-		<Variant_Of_Existing_Type>UC_Empire_Mineral_Extractor</Variant_Of_Existing_Type>
-
-		<Tactical_Buildable_Constructed>Rebel_Mineral_Extractor_EAW</Tactical_Buildable_Constructed>
-		<Tactical_Build_Cost_Multiplayer>850</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>40</Tactical_Build_Time_Seconds>
-		<Tactical_Health>950</Tactical_Health>
-
-		<Affiliation>Rebel_EAW</Affiliation>
 		<SFXEvent_Build_Started>RHD_Build_Structure</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>RHD_Building_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>RHD_Construction_Complete</SFXEvent_Build_Complete>
@@ -2120,7 +2209,7 @@
 		<Custom_Soft_Footprint_Radius>275</Custom_Soft_Footprint_Radius>
 
 		<Armor_Type>Armor_Asteroid_Mine</Armor_Type>
-		<Tactical_Health>1500</Tactical_Health> <!--1700-->
+		<Tactical_Health>1700</Tactical_Health> <!--1700-->
 		<Score_Cost_Credits>5000</Score_Cost_Credits>
 
 		<Space_FOW_Reveal_Range>400.0</Space_FOW_Reveal_Range>
@@ -2160,7 +2249,7 @@
 
 	<Abilities SubObjectList="Yes">
 		<Income_Stream_Ability Name="E_Mineral_Extractor_Income_Stream">
-			<Base_Income_Value>200</Base_Income_Value>
+			<Base_Income_Value>240</Base_Income_Value> <!--v=200-->
 			<Base_Interval_In_Secs>10</Base_Interval_In_Secs>
 			<Split_Income_With_Allies>Yes</Split_Income_With_Allies>
 			<Split_Favors_Owner>No</Split_Favors_Owner>
@@ -2204,7 +2293,7 @@
 
 	<Abilities SubObjectList="Yes">
 		<Income_Stream_Ability Name="EA_Mineral_Extractor_Income_Stream">
-			<Base_Income_Value>185</Base_Income_Value>
+			<Base_Income_Value>185</Base_Income_Value> <!--185-->
 			<Base_Interval_In_Secs>10</Base_Interval_In_Secs>
 			<Split_Income_With_Allies>Yes</Split_Income_With_Allies>
 			<Split_Favors_Owner>No</Split_Favors_Owner>
@@ -2216,48 +2305,6 @@
 			<Heal_Range>0.0</Heal_Range>
 			<Heal_Percent>0.0</Heal_Percent>
 			<Heal_Amount>10.0</Heal_Amount>
-			<Heal_Interval_In_Secs>1.0</Heal_Interval_In_Secs>
-			<Single_Target_Heal>Yes</Single_Target_Heal>
-			<Applicable_Unit_Categories/>
-			<Applicable_Unit_Types/>
-			<SFXEvent_Target_Affected/>
-			<Owner_Particle_Bone_Name>ROOT</Owner_Particle_Bone_Name>
-			<Owner_Light_Effect_Type>Color_Flash</Owner_Light_Effect_Type>
-			<Owner_Light_Effect_Color>1.2, 1.2, 1.2</Owner_Light_Effect_Color>
-			<Owner_Light_Effect_Color2/>
-			<Owner_Light_Effect_Duration>0.6</Owner_Light_Effect_Duration>
-			<Owner_Light_Effect_Pulse_Count>1</Owner_Light_Effect_Pulse_Count>
-		</Force_Healing_Ability>
-	</Abilities>
-	</SpaceBuildable>
-
-	<SpaceBuildable Name="Empire_Mineral_Extractor_EAW">
-		<Variant_Of_Existing_Type>Empire_Mineral_Extractor</Variant_Of_Existing_Type>
-		<Affiliation>Empire_EAW</Affiliation>
-
-		<Armor_Type>Armor_Asteroid_Mine</Armor_Type>
-		<Tactical_Health>950</Tactical_Health>
-
-		<Tactical_Buildable_Objects_Multiplayer>
-			Empire_EAW,
-				EAW_ES_Increased_Supplies_L1_Upgrade,
-				EAW_ES_Increased_Supplies_L2_Upgrade
-		</Tactical_Buildable_Objects_Multiplayer>
-
-	<Abilities SubObjectList="Yes">
-		<Income_Stream_Ability Name="E_Mineral_Extractor_Income_Stream">
-			<Base_Income_Value>200</Base_Income_Value>
-			<Base_Interval_In_Secs>10</Base_Interval_In_Secs>
-			<Split_Income_With_Allies>Yes</Split_Income_With_Allies>
-			<Split_Favors_Owner>No</Split_Favors_Owner>
-			<Full_Amount_To_Everyone>Yes</Full_Amount_To_Everyone>
-			<Owner_Income_Percentage/>
-		</Income_Stream_Ability>
-		<Force_Healing_Ability Name="E_Mineral_Extractor_Self_Repair">
-			<Activation_Style>Skirmish_Automatic</Activation_Style>
-			<Heal_Range>0.0</Heal_Range>
-			<Heal_Percent>0.0</Heal_Percent>
-			<Heal_Amount>5.0</Heal_Amount>
 			<Heal_Interval_In_Secs>1.0</Heal_Interval_In_Secs>
 			<Single_Target_Heal>Yes</Single_Target_Heal>
 			<Applicable_Unit_Categories/>
@@ -2285,7 +2332,7 @@
 
 	<Abilities SubObjectList="Yes">
 		<Income_Stream_Ability Name="R_Mineral_Extractor_Income_Stream">
-			<Base_Income_Value>200</Base_Income_Value>
+			<Base_Income_Value>240</Base_Income_Value> <!--v=200-->
 			<Base_Interval_In_Secs>10</Base_Interval_In_Secs>
 			<Split_Income_With_Allies>Yes</Split_Income_With_Allies>
 			<Split_Favors_Owner>No</Split_Favors_Owner>
@@ -2313,7 +2360,7 @@
 
 	<Abilities SubObjectList="Yes">
 		<Income_Stream_Ability Name="RA_Mineral_Extractor_Income_Stream">
-			<Base_Income_Value>185</Base_Income_Value>
+			<Base_Income_Value>185</Base_Income_Value> <!--185-->
 			<Base_Interval_In_Secs>10</Base_Interval_In_Secs>
 			<Split_Income_With_Allies>Yes</Split_Income_With_Allies>
 			<Split_Favors_Owner>No</Split_Favors_Owner>
@@ -2340,28 +2387,6 @@
 	</Abilities>
 	</SpaceBuildable>
 
-	<SpaceBuildable Name="Rebel_Mineral_Extractor_EAW">
-		<Variant_Of_Existing_Type>Empire_Mineral_Extractor_EAW</Variant_Of_Existing_Type>
-		<Affiliation>Rebel_EAW</Affiliation>
-
-		<Tactical_Buildable_Objects_Multiplayer>
-			Rebel_EAW,
-				EAW_RS_Increased_Supplies_L1_Upgrade,
-				EAW_RS_Increased_Supplies_L2_Upgrade
-		</Tactical_Buildable_Objects_Multiplayer>
-
-	<Abilities SubObjectList="Yes">
-		<Income_Stream_Ability Name="R_Mineral_Extractor_Income_Stream">
-			<Base_Income_Value>200</Base_Income_Value>
-			<Base_Interval_In_Secs>10</Base_Interval_In_Secs>
-			<Split_Income_With_Allies>Yes</Split_Income_With_Allies>
-			<Split_Favors_Owner>No</Split_Favors_Owner>
-			<Full_Amount_To_Everyone>Yes</Full_Amount_To_Everyone>
-			<Owner_Income_Percentage/>
-		</Income_Stream_Ability>
-	</Abilities>
-	</SpaceBuildable>
-
 	<SpaceBuildable Name="Underworld_Mineral_Extractor">
 		<Variant_Of_Existing_Type>Empire_Mineral_Extractor</Variant_Of_Existing_Type>
 		<Affiliation>Underworld</Affiliation>
@@ -2374,7 +2399,7 @@
 
 	<Abilities SubObjectList="Yes">
 		<Income_Stream_Ability Name="U_Mineral_Extractor_Income_Stream">
-			<Base_Income_Value>210</Base_Income_Value>
+			<Base_Income_Value>250</Base_Income_Value> <!--v=205-->
 			<Base_Interval_In_Secs>10</Base_Interval_In_Secs>
 			<Split_Income_With_Allies>Yes</Split_Income_With_Allies>
 			<Split_Favors_Owner>No</Split_Favors_Owner>
@@ -2419,7 +2444,7 @@
 
 	<Abilities SubObjectList="Yes">
 		<Income_Stream_Ability Name="UA_Mineral_Extractor_Income_Stream">
-			<Base_Income_Value>190</Base_Income_Value>
+			<Base_Income_Value>190</Base_Income_Value> <!--190-->
 			<Base_Interval_In_Secs>10</Base_Interval_In_Secs>
 			<Split_Income_With_Allies>Yes</Split_Income_With_Allies>
 			<Split_Favors_Owner>No</Split_Favors_Owner>
@@ -2452,7 +2477,7 @@
 
 	<Abilities SubObjectList="Yes">
 		<Income_Stream_Ability Name="P_Mineral_Extractor_Income_Stream">
-			<Base_Income_Value>250</Base_Income_Value>
+			<Base_Income_Value>250</Base_Income_Value> <!--250-->
 			<Base_Interval_In_Secs>10</Base_Interval_In_Secs>
 			<Split_Income_With_Allies>Yes</Split_Income_With_Allies>
 			<Split_Favors_Owner>No</Split_Favors_Owner>
@@ -2461,369 +2486,5 @@
 		</Income_Stream_Ability>
 	</Abilities>
 	</SpaceBuildable>
-	
-	
-	<SpaceBuildable Name="EAW_UC_Empire_Defense_Satellite_Laser">
-		<Text_ID>TEXT_ORBITAL_DEFENSE_SATELLITE_LASER</Text_ID>
-		<Encyclopedia_Text>MP_TEXT_ENCYCLOPEDIA_DEFENSE_SAT_LASER_00</Encyclopedia_Text>
-		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
-
-		<Space_Model_Name>NV_LDS_build.ALO</Space_Model_Name>
-		<Icon_Name>i_button_lds.tga</Icon_Name>
-		<Affiliation>Empire_EAW</Affiliation>
-
-		<GUI_Row>0</GUI_Row>
-		<GUI_Model_Name>NV_LDS_build.ALO</GUI_Model_Name>
-		<GUI_Distance>1000</GUI_Distance>
-		<GUI_Offset>0 0 0</GUI_Offset>
-		<GUI_Velocity>45</GUI_Velocity>
-		<GUI_Bracket_Size>2</GUI_Bracket_Size>
-
-		<Size_Value>30</Size_Value>
-		<Select_Box_Scale>330</Select_Box_Scale>
-		<Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
-		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
-		<Custom_Soft_Footprint_Radius>100</Custom_Soft_Footprint_Radius>
-
-		<Armor_Type>Armor_Satellite</Armor_Type>
-		<Tactical_Health>1200</Tactical_Health>
-		<Space_FOW_Reveal_Range>200.0</Space_FOW_Reveal_Range>
-
-		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Radar_Icon_Size>0.1 0.1</Radar_Icon_Size>
-		<Last_State_Visible_Under_FOW>True</Last_State_Visible_Under_FOW>
-		<Initial_State_Visible_Under_FOW>False</Initial_State_Visible_Under_FOW>
-
-		<Victory_Relevant>No</Victory_Relevant>
-		<Has_Space_Evaluator>True</Has_Space_Evaluator>
-		<Influences_Capture_Point>False</Influences_Capture_Point>
-		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
-		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
-
-		<CategoryMask>Structure</CategoryMask>
-		<Space_Layer>StaticObject</Space_Layer>
-		<Space_Obstacle_Offset>0 0 0</Space_Obstacle_Offset>
-		<Is_Dummy>Yes</Is_Dummy>
-
-		<Behavior>SPACE_OBSTACLE, TACTICAL_UNDER_CONSTRUCTION, SELECTABLE, REVEAL, HIDE_WHEN_FOGGED</Behavior>
-
-		<Tactical_Buildable_Constructed>EAW_Empire_Defense_Satellite_Laser</Tactical_Buildable_Constructed>
-		<Tactical_Build_Cost_Multiplayer>875</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Cost_Campaign>400</Tactical_Build_Cost_Campaign>
-		<Tactical_Build_Time_Seconds>25</Tactical_Build_Time_Seconds>
-		<Tactical_Build_Start_Lower_Z>0.0</Tactical_Build_Start_Lower_Z>
-
-		<SFXEvent_Build_Started>EHD_Build_Structure</SFXEvent_Build_Started>
-		<SFXEvent_Build_Cancelled>EHD_Building_Canceled</SFXEvent_Build_Cancelled>
-		<SFXEvent_Build_Complete>EHD_Construction_Complete</SFXEvent_Build_Complete>
-		<Death_SFXEvent_Start_Die>Unit_Generic_Building_Death_SFX</Death_SFXEvent_Start_Die>
-		<Death_Explosions>Large_Explosion_Space</Death_Explosions>
-	</SpaceBuildable>
-	
-	<SpaceBuildable Name="EAW_UC_Empire_Defense_Satellite_Missile">
-		<Text_ID>TEXT_ORBITAL_DEFENSE_SATELLITE_MISSILE</Text_ID>
-		<Encyclopedia_Text>MP_TEXT_ENCYCLOPEDIA_DEFENSE_SAT_MISSILE_00</Encyclopedia_Text>
-		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
-
-		<Space_Model_Name>NV_MDS_build.ALO</Space_Model_Name>
-		<Icon_Name>i_button_mds.tga</Icon_Name>
-		<Affiliation>Empire_EAW</Affiliation>
-
-		<GUI_Row>0</GUI_Row>
-		<GUI_Model_Name>NV_MDS_build.ALO</GUI_Model_Name>
-		<GUI_Distance>1000</GUI_Distance>
-		<GUI_Offset>0 0 0</GUI_Offset>
-		<GUI_Velocity>45</GUI_Velocity>
-		<GUI_Bracket_Size>2</GUI_Bracket_Size>
-
-		<Size_Value>30</Size_Value>
-		<Select_Box_Scale>330</Select_Box_Scale>
-		<Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
-		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
-		<Custom_Soft_Footprint_Radius>100</Custom_Soft_Footprint_Radius>
-
-		<Armor_Type>Armor_Satellite</Armor_Type>
-		<Tactical_Health>1200</Tactical_Health>
-		<Space_FOW_Reveal_Range>200.0</Space_FOW_Reveal_Range>
-
-		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Radar_Icon_Size>0.1 0.1</Radar_Icon_Size>
-		<Last_State_Visible_Under_FOW>True</Last_State_Visible_Under_FOW>
-		<Initial_State_Visible_Under_FOW>False</Initial_State_Visible_Under_FOW>
-
-		<Victory_Relevant>No</Victory_Relevant>
-		<Has_Space_Evaluator>True</Has_Space_Evaluator>
-		<Influences_Capture_Point>False</Influences_Capture_Point>
-		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
-		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
-
-		<CategoryMask>Structure</CategoryMask>
-		<Space_Layer>StaticObject</Space_Layer>
-		<Space_Obstacle_Offset>0 0 0</Space_Obstacle_Offset>
-		<Is_Dummy>Yes</Is_Dummy>
-
-		<Behavior>SPACE_OBSTACLE, TACTICAL_UNDER_CONSTRUCTION, SELECTABLE, REVEAL, HIDE_WHEN_FOGGED</Behavior>
-
-		<Tactical_Buildable_Constructed>EAW_Empire_Defense_Satellite_Missile</Tactical_Buildable_Constructed>
-		<Tactical_Build_Cost_Multiplayer>700</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Cost_Campaign>275</Tactical_Build_Cost_Campaign>
-		<Tactical_Build_Time_Seconds>28</Tactical_Build_Time_Seconds>
-		<Tactical_Build_Start_Lower_Z>0.0</Tactical_Build_Start_Lower_Z>
-
-		<SFXEvent_Build_Started>EHD_Build_Structure</SFXEvent_Build_Started>
-		<SFXEvent_Build_Cancelled>EHD_Building_Canceled</SFXEvent_Build_Cancelled>
-		<SFXEvent_Build_Complete>EHD_Construction_Complete</SFXEvent_Build_Complete>
-		<Death_SFXEvent_Start_Die>Unit_Generic_Building_Death_SFX</Death_SFXEvent_Start_Die>
-		<Death_Explosions>Large_Explosion_Space</Death_Explosions>
-	</SpaceBuildable>
-	
-	<SpaceBuildable Name="EAW_UC_Rebel_Defense_Satellite_Laser">
-		<Variant_Of_Existing_Type>EAW_UC_Empire_Defense_Satellite_Laser</Variant_Of_Existing_Type>
-
-		<Tactical_Buildable_Constructed>EAW_Rebel_Defense_Satellite_Laser</Tactical_Buildable_Constructed>
-		<Tactical_Build_Cost_Multiplayer>875</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Cost_Campaign>400</Tactical_Build_Cost_Campaign>
-		<Tactical_Build_Time_Seconds>25</Tactical_Build_Time_Seconds>
-
-		<Affiliation>Rebel_EAW</Affiliation>
-		<SFXEvent_Build_Started>RHD_Build_Structure</SFXEvent_Build_Started>
-		<SFXEvent_Build_Cancelled>RHD_Building_Canceled</SFXEvent_Build_Cancelled>
-		<SFXEvent_Build_Complete>RHD_Construction_Complete</SFXEvent_Build_Complete>
-	</SpaceBuildable>
-	
-	<SpaceBuildable Name="EAW_UC_Rebel_Defense_Satellite_Missile">
-		<Variant_Of_Existing_Type>EAW_UC_Empire_Defense_Satellite_Missile</Variant_Of_Existing_Type>
-
-		<Tactical_Buildable_Constructed>EAW_Rebel_Defense_Satellite_Missile</Tactical_Buildable_Constructed>
-		<Tactical_Build_Cost_Multiplayer>700</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Cost_Campaign>275</Tactical_Build_Cost_Campaign>
-		<Tactical_Build_Time_Seconds>28</Tactical_Build_Time_Seconds>
-
-		<Affiliation>Rebel_EAW</Affiliation>
-		<SFXEvent_Build_Started>RHD_Build_Structure</SFXEvent_Build_Started>
-		<SFXEvent_Build_Cancelled>RHD_Building_Canceled</SFXEvent_Build_Cancelled>
-		<SFXEvent_Build_Complete>RHD_Construction_Complete</SFXEvent_Build_Complete>
-	</SpaceBuildable>
-	
-	<SpaceBuildable Name="EAW_Empire_Defense_Satellite_Laser">
-		<Text_ID>TEXT_ORBITAL_DEFENSE_SATELLITE_LASER</Text_ID>
-		<Encyclopedia_Text>MP_TEXT_ENCYCLOPEDIA_DEFENSE_SAT_LASER_00</Encyclopedia_Text>
-		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
-
-		<Space_Model_Name>NV_LDS.ALO</Space_Model_Name>
-		<Icon_Name>i_button_lds.tga</Icon_Name>
-		<Affiliation>Empire_EAW</Affiliation>
-
-		<GUI_Row>0</GUI_Row>
-		<GUI_Model_Name>NV_LDS.ALO</GUI_Model_Name>
-		<GUI_Distance>1000</GUI_Distance>
-		<GUI_Offset>0 0 0</GUI_Offset>
-		<GUI_Velocity>45</GUI_Velocity>
-		<GUI_Bracket_Size>1</GUI_Bracket_Size>
-
-		<Size_Value>30</Size_Value>
-		<Select_Box_Scale>330</Select_Box_Scale>
-		<Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
-		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
-		<Custom_Soft_Footprint_Radius>100</Custom_Soft_Footprint_Radius>
-
-		<Shield_Armor_Type>Shield_Default</Shield_Armor_Type>
-		<Shield_Points>500</Shield_Points>
-		<Shield_Refresh_Rate>20</Shield_Refresh_Rate>
-		<Armor_Type>Armor_Satellite</Armor_Type>
-		<Tactical_Health>1200</Tactical_Health>
-		<Energy_Capacity>5000</Energy_Capacity>
-		<Energy_Refresh_Rate>800</Energy_Refresh_Rate>
-		<Score_Cost_Credits>25000</Score_Cost_Credits>
-
-		<Damage>12</Damage>
-		<HardPoints>HP_Satellite_Laser_E</HardPoints>
-		<!--<Damage_Type>Damage_Default</Damage_Type>
-		<Projectile_Types>Proj_Ship_Large_Laser_Cannon_Green</Projectile_Types>
-		<Projectile_Damage>14.0</Projectile_Damage>
-		<Projectile_Fire_Pulse_Count>10</Projectile_Fire_Pulse_Count>
-		<Projectile_Fire_Pulse_Delay_Seconds>0.15</Projectile_Fire_Pulse_Delay_Seconds>
-		<Projectile_Fire_Recharge_Seconds>1.0</Projectile_Fire_Recharge_Seconds>
-
-		<Fire_Inaccuracy_Distance>Fighter, 3.0</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>Bomber, 2.0</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>Transport, 3.0</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>Corvette, 10.0</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>Frigate, 10.0</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>Capital, 10.0</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>Super, 10.0</Fire_Inaccuracy_Distance>-->
-
-		<Turret_Rotate_Extent_Degrees>360</Turret_Rotate_Extent_Degrees>
-		<Turret_Elevate_Extent_Degrees>100</Turret_Elevate_Extent_Degrees> <!-- vanilla: 90 -->
-		<Turret_Rotate_Speed>4.0</Turret_Rotate_Speed> <!-- vanilla: 3.5 -->
-		<Turret_Rest_Angle>0.0, 0.0, 0.0</Turret_Rest_Angle>
-		<Turret_Bone_Name>B_Turret</Turret_Bone_Name>
-		<!--<Barrel_Bone_Name>Barrel_00</Barrel_Bone_Name>-->
-		<Apply_Z_Turret_Rotate_To_Axis>2</Apply_Z_Turret_Rotate_To_Axis>
-		<Apply_Y_Turret_Rotate_To_Axis>1</Apply_Y_Turret_Rotate_To_Axis>
-
-		<Space_FOW_Reveal_Range>1200.0</Space_FOW_Reveal_Range>
-		<Targeting_Max_Attack_Distance>1000.0</Targeting_Max_Attack_Distance>
-		<Targeting_Priority_Set>Defense_Satellite_Laser</Targeting_Priority_Set>
-
-		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Radar_Icon_Size>0.1 0.1</Radar_Icon_Size>
-		<Last_State_Visible_Under_FOW>True</Last_State_Visible_Under_FOW>
-		<Initial_State_Visible_Under_FOW>False</Initial_State_Visible_Under_FOW>
-
-		<Victory_Relevant>No</Victory_Relevant>
-		<Has_Space_Evaluator>True</Has_Space_Evaluator>
-		<Influences_Capture_Point>False</Influences_Capture_Point>
-		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
-		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
-
-		<CategoryMask>Structure</CategoryMask>
-		<Space_Layer>StaticObject</Space_Layer>
-		<Space_Obstacle_Offset>0 0 0</Space_Obstacle_Offset>
-		<Is_Dummy>Yes</Is_Dummy>
-
-		<Behavior>DUMMY_ORBITAL_STRUCTURE, SELECTABLE, POWERED, SHIELDED</Behavior>
-		<SpaceBehavior>SPACE_OBSTACLE, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, TARGETING, DAMAGE_TRACKING, TURRET</SpaceBehavior>
-
-		<Land_Damage_Thresholds>1, 0.66, 0.33</Land_Damage_Thresholds>
-		<Land_Damage_Alternates>0, 1, 2</Land_Damage_Alternates>
-		<Land_Damage_SFX>null, SFX_Grenade_Detonation, SFX_Grenade_Detonation</Land_Damage_SFX>
-
-		<SFXEvent_Fire>Unit_Turret_Fire</SFXEvent_Fire>
-		<Death_SFXEvent_Start_Die>Unit_Generic_Building_Death_SFX</Death_SFXEvent_Start_Die>
-		<Death_Explosions>Large_Explosion_Space</Death_Explosions>
-		<Remove_Upon_Death>True</Remove_Upon_Death>
-
-	<Abilities SubObjectList="Yes">
-		<Force_Healing_Ability Name="Generic_Turret_Self_Repair">
-			<Activation_Style>Space_Automatic</Activation_Style>
-			<Heal_Range>0.0</Heal_Range>
-			<Heal_Percent>0.0</Heal_Percent>
-			<Heal_Amount>15.0</Heal_Amount>
-			<Heal_Interval_In_Secs>6.0</Heal_Interval_In_Secs>
-			<Single_Target_Heal>Yes</Single_Target_Heal>
-			<Applicable_Unit_Categories/>
-			<Applicable_Unit_Types/>
-			<SFXEvent_Target_Affected/>
-		</Force_Healing_Ability>
-	</Abilities>
-	</SpaceBuildable>
-	
-	<SpaceBuildable Name="EAW_Empire_Defense_Satellite_Missile">
-		<Text_ID>TEXT_ORBITAL_DEFENSE_SATELLITE_MISSILE</Text_ID>
-		<Encyclopedia_Text>MP_TEXT_ENCYCLOPEDIA_DEFENSE_SAT_MISSILE_00</Encyclopedia_Text>
-		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
-
-		<Space_Model_Name>NV_MDS.ALO</Space_Model_Name>
-		<Icon_Name>i_button_mds.tga</Icon_Name>
-		<Affiliation>Empire_EAW</Affiliation>
-
-		<GUI_Row>0</GUI_Row>
-		<GUI_Model_Name>NV_MDS.ALO</GUI_Model_Name>
-		<GUI_Distance>1000</GUI_Distance>
-		<GUI_Offset>0 0 0</GUI_Offset>
-		<GUI_Velocity>45</GUI_Velocity>
-		<GUI_Bracket_Size>1</GUI_Bracket_Size>
-
-		<Size_Value>30</Size_Value>
-		<Select_Box_Scale>330</Select_Box_Scale>
-		<Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
-		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
-		<Custom_Soft_Footprint_Radius>100</Custom_Soft_Footprint_Radius>
-
-		<Shield_Armor_Type>Shield_Default</Shield_Armor_Type>
-		<Shield_Points>500</Shield_Points>
-		<Shield_Refresh_Rate>20</Shield_Refresh_Rate>
-		<Armor_Type>Armor_Satellite</Armor_Type>
-		<Tactical_Health>1000</Tactical_Health>
-		<Energy_Capacity>5000</Energy_Capacity>
-		<Energy_Refresh_Rate>800</Energy_Refresh_Rate>
-		<Score_Cost_Credits>25000</Score_Cost_Credits>
-
-		<Damage>13</Damage>
-		<HardPoints>HP_Satellite_Missile_EAW</HardPoints>
-		<!--<Projectile_Types>Proj_Ship_Concussion_Missile_Satellite</Projectile_Types>
-		<Projectile_Fire_Pulse_Count>4</Projectile_Fire_Pulse_Count>
-		<Projectile_Fire_Pulse_Delay_Seconds>0.3</Projectile_Fire_Pulse_Delay_Seconds>
-		<Projectile_Fire_Recharge_Seconds>5.0</Projectile_Fire_Recharge_Seconds>
-
-		<Fire_Inaccuracy_Distance>Fighter, 0.0</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>Bomber, 0.0</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>Transport, 0.0</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>Corvette, 0.0</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>Frigate, 0.0</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>Capital, 0.0</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>Super, 0.0</Fire_Inaccuracy_Distance>-->
-
-		<Turret_Rotate_Extent_Degrees>360</Turret_Rotate_Extent_Degrees>
-		<Turret_Elevate_Extent_Degrees>90</Turret_Elevate_Extent_Degrees>
-		<Turret_Rotate_Speed>3.5</Turret_Rotate_Speed>
-		<Turret_Rest_Angle>0.0, 0.0, 0.0</Turret_Rest_Angle>
-		<Turret_Bone_Name>B_Turret</Turret_Bone_Name>
-		<!--<Barrel_Bone_Name>Barrel_00</Barrel_Bone_Name>-->
-		<Apply_Z_Turret_Rotate_To_Axis>2</Apply_Z_Turret_Rotate_To_Axis>
-		<Apply_Y_Turret_Rotate_To_Axis>1</Apply_Y_Turret_Rotate_To_Axis>
-
-		<Space_FOW_Reveal_Range>1750.0</Space_FOW_Reveal_Range>
-		<Targeting_Max_Attack_Distance>1500.0</Targeting_Max_Attack_Distance>
-		<Targeting_Priority_Set>Defense_Satellite_Missile</Targeting_Priority_Set>
-
-		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Radar_Icon_Size>0.1 0.1</Radar_Icon_Size>
-		<Last_State_Visible_Under_FOW>True</Last_State_Visible_Under_FOW>
-		<Initial_State_Visible_Under_FOW>False</Initial_State_Visible_Under_FOW>
-
-		<Victory_Relevant>No</Victory_Relevant>
-		<Has_Space_Evaluator>True</Has_Space_Evaluator>
-		<Influences_Capture_Point>False</Influences_Capture_Point>
-		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
-		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
-
-		<CategoryMask>Structure</CategoryMask>
-		<Space_Layer>StaticObject</Space_Layer>
-		<Space_Obstacle_Offset>0 0 0</Space_Obstacle_Offset>
-		<Is_Dummy>Yes</Is_Dummy>
-
-		<Behavior>DUMMY_ORBITAL_STRUCTURE, SELECTABLE, POWERED, SHIELDED</Behavior>
-		<SpaceBehavior>SPACE_OBSTACLE, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, TARGETING, DAMAGE_TRACKING, TURRET</SpaceBehavior>
-
-		<Land_Damage_Thresholds>1, 0.66, 0.33</Land_Damage_Thresholds>
-		<Land_Damage_Alternates>0, 1, 2</Land_Damage_Alternates>
-		<Land_Damage_SFX>null, SFX_Grenade_Detonation, SFX_Grenade_Detonation</Land_Damage_SFX>
-
-		<SFXEvent_Fire>Unit_Missile_Fire</SFXEvent_Fire>
-		<Death_SFXEvent_Start_Die>Unit_Generic_Building_Death_SFX</Death_SFXEvent_Start_Die>
-		<Death_Explosions>Large_Explosion_Space</Death_Explosions>
-		<Remove_Upon_Death>True</Remove_Upon_Death>
-
-	<Abilities SubObjectList="Yes">
-		<Force_Healing_Ability Name="Generic_Turret_Self_Repair">
-			<Activation_Style>Space_Automatic</Activation_Style>
-			<Heal_Range>0.0</Heal_Range>
-			<Heal_Percent>0.0</Heal_Percent>
-			<Heal_Amount>15.0</Heal_Amount>
-			<Heal_Interval_In_Secs>6.0</Heal_Interval_In_Secs>
-			<Single_Target_Heal>Yes</Single_Target_Heal>
-			<Applicable_Unit_Categories/>
-			<Applicable_Unit_Types/>
-			<SFXEvent_Target_Affected/>
-		</Force_Healing_Ability>
-	</Abilities>
-	</SpaceBuildable>
-
-	<SpaceBuildable Name="EAW_Rebel_Defense_Satellite_Laser">
-		<Variant_Of_Existing_Type>EAW_Empire_Defense_Satellite_Laser</Variant_Of_Existing_Type>
-		<HardPoints>HP_Satellite_Laser_R</HardPoints>
-		<Affiliation>Rebel_EAW</Affiliation>
-	</SpaceBuildable>
-
-	<SpaceBuildable Name="EAW_Rebel_Defense_Satellite_Missile">
-		<Variant_Of_Existing_Type>EAW_Empire_Defense_Satellite_Missile</Variant_Of_Existing_Type>
-		<Affiliation>Rebel_EAW</Affiliation>
-	</SpaceBuildable>
 </SpaceBuildables>
-
-
-
-
 

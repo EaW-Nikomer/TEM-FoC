@@ -92,7 +92,7 @@
 	<!-- In tactical multiplayer games, the team with the lower total credit income will share
 	a "bonus" amount of credits every tick based on the difference in total credit income between
 	the two teams times this percentage multiplier: -->
-	<Multiplayer_Losing_Team_Bonus_Credit_Percentage>0.08</Multiplayer_Losing_Team_Bonus_Credit_Percentage>
+	<Multiplayer_Losing_Team_Bonus_Credit_Percentage>0.20</Multiplayer_Losing_Team_Bonus_Credit_Percentage> <!--v=0.08-->
 
 	<!-- no redistribution, simple base income 
 
@@ -860,6 +860,7 @@
 		Damage_ATAT,
 		Damage_Fighter,
 		Damage_Gunship,
+		Damage_MFalcon,
 		Damage_Assault_Frigate,
 		Damage_Diamond_Missile, 
 		Damage_IonCannon, 
@@ -937,9 +938,6 @@
 		Damage_Mass_Driver_Space,
 		Damage_MDU_Rocket,
 		Damage_MDU_Grenade,
-		Damage_Fighter_EAW,
-		Damage_AWing_EAW,
-		Damage_Con_Missile_EAW,
 		<!-- PLEASE add your new damage types ABOVE this point.
 			 The damage types below are from hard-coded damage enumeration. You can specify Armor type for them if you want
 			 (and understand how and where these are applied).
@@ -1092,7 +1090,6 @@
 	<Damage_To_Armor_Mod>Damage_Default, Armor_Destroyer_Droid, 1</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_Default, Armor_Bunker, 1</Damage_To_Armor_Mod>
 
-
 	<!-- Fighter lasers -->
 	<Damage_To_Armor_Mod>Damage_Fighter, Armor_Default, 1</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_Fighter, Shield_Default, 1</Damage_To_Armor_Mod>
@@ -1125,41 +1122,6 @@
 	<Damage_To_Armor_Mod>Damage_Fighter, Armor_Vengeance, 0.25</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_Fighter, Armor_MC30_Frigate, 0.5</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_Fighter, Armor_SSD, 0.5</Damage_To_Armor_Mod>
-	
-		<!-- EAW Fighter lasers -->
-	<Damage_To_Armor_Mod>Damage_Fighter_EAW, Armor_Default, 1</Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod>Damage_Fighter_EAW, Shield_Default, 1</Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod>Damage_Fighter_EAW, Armor_Transport, 1</Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod>Damage_Fighter_EAW, Armor_Bomber, 1</Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod>Damage_Fighter_EAW, Armor_Fighter, 1</Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod>Damage_Fighter_EAW, Armor_Fighter_Hero, 1</Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod>Damage_Fighter_EAW, Armor_Hero_Transport, 1</Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod>Damage_Fighter_EAW, Armor_Corellian_Corvette, 1</Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod>Damage_Fighter_EAW, Armor_Missile_Cruiser, 1</Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod>Damage_Fighter_EAW, Armor_Tartan, 0.5</Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod>Damage_Fighter_EAW, Armor_Interdictor, 0.5</Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod>Damage_Fighter_EAW, Armor_Corellian_Gunboat, 0.5</Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod>Damage_Fighter_EAW, Armor_Nebulon_B, 0.5</Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod>Damage_Fighter_EAW, Armor_Acclamator, 0.5</Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod>Damage_Fighter_EAW, Armor_Pirate_Frigate, 0.5</Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod>Damage_Fighter_EAW, Armor_Satellite, 1</Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod>Damage_Fighter_EAW, Armor_Asteroid_Mine, 1</Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod>Damage_Fighter_EAW, Armor_Frigate, 0.5</Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod>Damage_Fighter_EAW, Armor_Victory_Class, 0.5</Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod>Damage_Fighter_EAW, Armor_Assault_Frigate, 0.5</Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod>Damage_Fighter_EAW, Armor_Calamari_Cruiser, 0.5</Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod>Damage_Fighter_EAW, Armor_Star_Destroyer, 0.5</Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod>Damage_Fighter_EAW, Armor_Station, 0.5</Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod>Damage_Fighter_EAW, Shield_Capital, 0.5</Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod>Damage_Fighter_EAW, Shield_Frigate, 0.5</Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod>Damage_Fighter_EAW, Shield_Corvette, 1</Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod>Damage_Fighter_EAW, Shield_Fighter, 1</Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod>Damage_Fighter_EAW, Shield_Tank, 1</Damage_To_Armor_Mod>
-
-	<Damage_To_Armor_Mod>Damage_Fighter_EAW, Shield_SSD, 0.5</Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod>Damage_Fighter_EAW, Armor_Vengeance, 0.25</Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod>Damage_Fighter_EAW, Armor_MC30_Frigate, 0.5</Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod>Damage_Fighter_EAW, Armor_SSD, 0.5</Damage_To_Armor_Mod>
 
 	<!-- A-Wing lasers -->
 	<Damage_To_Armor_Mod>Damage_AWing, Armor_Default, 1</Damage_To_Armor_Mod>
@@ -1194,42 +1156,7 @@
 	<Damage_To_Armor_Mod>Damage_AWing, Armor_MC30_Frigate, 0.6</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_AWing, Armor_SSD, 0.6</Damage_To_Armor_Mod>
 	
-	<!-- EAW A-Wing lasers -->
-	<Damage_To_Armor_Mod>Damage_AWing_EAW, Armor_Default, 1</Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod>Damage_AWing_EAW, Shield_Default, 1</Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod>Damage_AWing_EAW, Armor_Transport, 3</Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod>Damage_AWing_EAW, Armor_Bomber, 1</Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod>Damage_AWing_EAW, Armor_Fighter, 2</Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod>Damage_AWing_EAW, Armor_Fighter_Hero, 5</Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod>Damage_AWing_EAW, Armor_Hero_Transport, 5</Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod>Damage_AWing_EAW, Armor_Corellian_Corvette, 1</Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod>Damage_AWing_EAW, Armor_Missile_Cruiser, 1</Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod>Damage_AWing_EAW, Armor_Tartan, 0.5</Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod>Damage_AWing_EAW, Armor_Interdictor, 0.5</Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod>Damage_AWing_EAW, Armor_Corellian_Gunboat, 0.5</Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod>Damage_AWing_EAW, Armor_Nebulon_B, 0.5</Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod>Damage_AWing_EAW, Armor_Acclamator, 0.5</Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod>Damage_AWing_EAW, Armor_Pirate_Frigate, 0.3</Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod>Damage_AWing_EAW, Armor_Satellite, 1</Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod>Damage_AWing_EAW, Armor_Asteroid_Mine, 1</Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod>Damage_AWing_EAW, Armor_Frigate, 0.3</Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod>Damage_AWing_EAW, Armor_Victory_Class, 0.3</Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod>Damage_AWing_EAW, Armor_Assault_Frigate, 0.3</Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod>Damage_AWing_EAW, Armor_Calamari_Cruiser, 0.25</Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod>Damage_AWing_EAW, Armor_Star_Destroyer, 0.25</Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod>Damage_AWing_EAW, Armor_Station, 0.1</Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod>Damage_AWing_EAW, Shield_Capital, 0.25</Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod>Damage_AWing_EAW, Shield_Frigate, 0.5</Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod>Damage_AWing_EAW, Shield_Corvette, 1</Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod>Damage_AWing_EAW, Shield_Fighter, 1</Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod>Damage_AWing_EAW, Shield_Tank, 1</Damage_To_Armor_Mod>
-	
-	<Damage_To_Armor_Mod>Damage_AWing_EAW, Shield_SSD, 0.6</Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod>Damage_AWing_EAW, Armor_Vengeance, 0.5</Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod>Damage_AWing_EAW, Armor_MC30_Frigate, 0.6</Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod>Damage_AWing_EAW, Armor_SSD, 0.6</Damage_To_Armor_Mod>
-	
-	<!-- Gunship lasers -->
+	<!-- Gunship lasers --> <!-- Boba Fett and Bossk -->
 	<Damage_To_Armor_Mod>Damage_Gunship, Armor_Default, 1</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_Gunship, Shield_Default, 1</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_Gunship, Armor_Transport, 1</Damage_To_Armor_Mod>
@@ -1246,7 +1173,7 @@
 	<Damage_To_Armor_Mod>Damage_Gunship, Armor_Acclamator, 0.5</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_Gunship, Armor_Pirate_Frigate, 0.5</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_Gunship, Armor_Satellite, 1</Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod>Damage_Gunship, Armor_Asteroid_Mine, 1.15</Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod>Damage_Gunship, Armor_Asteroid_Mine, 1.1</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_Gunship, Armor_Frigate, 0.5</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_Gunship, Armor_Victory_Class, 0.5</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_Gunship, Armor_Assault_Frigate, 0.5</Damage_To_Armor_Mod>
@@ -1261,6 +1188,39 @@
 	<Damage_To_Armor_Mod>Damage_Gunship, Armor_Vengeance, 0.25</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_Gunship, Armor_MC30_Frigate, 0.5</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_Gunship, Armor_SSD, 0.5</Damage_To_Armor_Mod>
+	
+	<!-- Han's lasers --> <!-- Higher damage boost vs mines -->
+	<Damage_To_Armor_Mod>Damage_MFalcon, Armor_Default, 1</Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod>Damage_MFalcon, Shield_Default, 1</Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod>Damage_MFalcon, Armor_Transport, 1</Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod>Damage_MFalcon, Armor_Bomber, 1</Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod>Damage_MFalcon, Armor_Fighter, 1</Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod>Damage_MFalcon, Armor_Fighter_Hero, 1</Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod>Damage_MFalcon, Armor_Hero_Transport, 1</Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod>Damage_MFalcon, Armor_Corellian_Corvette, 1</Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod>Damage_MFalcon, Armor_Missile_Cruiser, 1</Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod>Damage_MFalcon, Armor_Tartan, 0.5</Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod>Damage_MFalcon, Armor_Interdictor, 0.5</Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod>Damage_MFalcon, Armor_Corellian_Gunboat, 0.5</Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod>Damage_MFalcon, Armor_Nebulon_B, 0.5</Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod>Damage_MFalcon, Armor_Acclamator, 0.5</Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod>Damage_MFalcon, Armor_Pirate_Frigate, 0.5</Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod>Damage_MFalcon, Armor_Satellite, 1</Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod>Damage_MFalcon, Armor_Asteroid_Mine, 1.2</Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod>Damage_MFalcon, Armor_Frigate, 0.5</Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod>Damage_MFalcon, Armor_Victory_Class, 0.5</Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod>Damage_MFalcon, Armor_Assault_Frigate, 0.5</Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod>Damage_MFalcon, Armor_Calamari_Cruiser, 0.5</Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod>Damage_MFalcon, Armor_Star_Destroyer, 0.5</Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod>Damage_MFalcon, Armor_Station, 0.25</Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod>Damage_MFalcon, Shield_Capital, 0.25</Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod>Damage_MFalcon, Shield_Frigate, 0.50</Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod>Damage_MFalcon, Shield_Corvette, 1</Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod>Damage_MFalcon, Shield_Fighter, 1</Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod>Damage_MFalcon, Shield_SSD, 0.5</Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod>Damage_MFalcon, Armor_Vengeance, 0.25</Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod>Damage_MFalcon, Armor_MC30_Frigate, 0.5</Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod>Damage_MFalcon, Armor_SSD, 0.5</Damage_To_Armor_Mod>
 
 	<!-- Corellian corvette lasers -->
 	<Damage_To_Armor_Mod>Damage_Corellian_Corvette, Armor_Default, 1</Damage_To_Armor_Mod>
@@ -1279,7 +1239,7 @@
 	<Damage_To_Armor_Mod>Damage_Corellian_Corvette, Armor_Acclamator, 1</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_Corellian_Corvette, Armor_Pirate_Frigate, 1</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_Corellian_Corvette, Armor_Satellite, 0.8</Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod>Damage_Corellian_Corvette, Armor_Asteroid_Mine, 0.9</Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod>Damage_Corellian_Corvette, Armor_Asteroid_Mine, 0.8</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_Corellian_Corvette, Armor_Frigate, 0.5</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_Corellian_Corvette, Armor_Victory_Class, 0.5</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_Corellian_Corvette, Armor_Assault_Frigate, 0.5</Damage_To_Armor_Mod>
@@ -1723,40 +1683,6 @@
 	<Damage_To_Armor_Mod>Damage_Con_Missile, Armor_Vengeance, 5.0</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_Con_Missile, Armor_MC30_Frigate, 5.8</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_Con_Missile, Armor_SSD, 0.5</Damage_To_Armor_Mod>
-	
-	<!-- EAW Concussion Missile Damage Type - Space Only -->
-	<Damage_To_Armor_Mod>Damage_Con_Missile_EAW, Armor_Default, 1</Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod>Damage_Con_Missile_EAW, Shield_Default, 1</Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod>Damage_Con_Missile_EAW, Armor_Transport, 1</Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod>Damage_Con_Missile_EAW, Armor_Bomber, 1</Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod>Damage_Con_Missile_EAW, Armor_Fighter, 1</Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod>Damage_Con_Missile_EAW, Armor_Fighter_Hero, 1</Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod>Damage_Con_Missile_EAW, Armor_Hero_Transport, 1</Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod>Damage_Con_Missile_EAW, Armor_Corellian_Corvette, 1</Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod>Damage_Con_Missile_EAW, Armor_Missile_Cruiser, 1</Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod>Damage_Con_Missile_EAW, Armor_Tartan, 1</Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod>Damage_Con_Missile_EAW, Armor_Interdictor, 1</Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod>Damage_Con_Missile_EAW, Armor_Corellian_Gunboat, 1</Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod>Damage_Con_Missile_EAW, Armor_Nebulon_B, 1</Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod>Damage_Con_Missile_EAW, Armor_Acclamator, 1</Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod>Damage_Con_Missile_EAW, Armor_Pirate_Frigate, 1</Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod>Damage_Con_Missile_EAW, Armor_Satellite, 1</Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod>Damage_Con_Missile_EAW, Armor_Asteroid_Mine, 1</Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod>Damage_Con_Missile_EAW, Armor_Frigate, 1</Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod>Damage_Con_Missile_EAW, Armor_Victory_Class, 0.75</Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod>Damage_Con_Missile_EAW, Armor_Assault_Frigate, 1</Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod>Damage_Con_Missile_EAW, Armor_Calamari_Cruiser, 0.75</Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod>Damage_Con_Missile_EAW, Armor_Star_Destroyer, 0.5</Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod>Damage_Con_Missile_EAW, Armor_Station, 0.5</Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod>Damage_Con_Missile_EAW, Shield_Capital, 1</Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod>Damage_Con_Missile_EAW, Shield_Frigate, 1</Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod>Damage_Con_Missile_EAW, Shield_Corvette, 1</Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod>Damage_Con_Missile_EAW, Shield_Fighter, 1</Damage_To_Armor_Mod>
-	
-	<Damage_To_Armor_Mod>Damage_Con_Missile_EAW, Shield_SSD, 1.0</Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod>Damage_Con_Missile_EAW, Armor_Vengeance, 5.0</Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod>Damage_Con_Missile_EAW, Armor_MC30_Frigate, 5.8</Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod>Damage_Con_Missile_EAW, Armor_SSD, 0.5</Damage_To_Armor_Mod>
 
 	<!-- Turbolaser Damage Type - Space Only -->
 	<Damage_To_Armor_Mod>Damage_Turbolaser, Armor_Default, 1</Damage_To_Armor_Mod>
@@ -1874,7 +1800,7 @@
 	<Damage_To_Armor_Mod>Damage_Nebulon_B, Armor_Acclamator, 3</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_Nebulon_B, Armor_Pirate_Frigate, 3</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_Nebulon_B, Armor_Satellite, 2</Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod>Damage_Nebulon_B, Armor_Asteroid_Mine, 2.2</Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod>Damage_Nebulon_B, Armor_Asteroid_Mine, 2.0</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_Nebulon_B, Armor_Frigate, 3</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_Nebulon_B, Armor_Victory_Class, 4.75</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_Nebulon_B, Armor_Assault_Frigate, 1.0</Damage_To_Armor_Mod>
@@ -3582,8 +3508,8 @@
 	<Damage_To_Armor_Mod>Damage_Droideka_Blaster, Armor_Default, 1.0</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_Droideka_Blaster, Shield_Default, .8</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_Droideka_Blaster, Armor_MPTL, 2.0</Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod>Damage_Droideka_Blaster, Armor_Infantry, 2.0</Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod>Damage_Droideka_Blaster, Armor_StormTrooper, 2.0</Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod>Damage_Droideka_Blaster, Armor_Infantry, 2.3</Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod>Damage_Droideka_Blaster, Armor_StormTrooper, 2.3</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_Droideka_Blaster, Armor_Mauler, 1.8</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_Droideka_Blaster, Armor_Hero, 1.2</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_Droideka_Blaster, Armor_Vehicle_LT, 2.0</Damage_To_Armor_Mod>
@@ -4483,15 +4409,10 @@
 	<Corruption_Encyclopedia_Spacing>50</Corruption_Encyclopedia_Spacing>
 
 	<Hack_Super_Weapon_Cost>50000.0</Hack_Super_Weapon_Cost>
+
+	<!-- Jan 2021 Patch - build bar maximum limit is now 48 -->
+	<Tactical_Command_Bar_Buildable_Row_Count>24</Tactical_Command_Bar_Buildable_Row_Count> <!--v=24-->
+	<Strategic_Command_Bar_Buildable_Row_Count>26</Strategic_Command_Bar_Buildable_Row_Count> <!--v=26-->
 </GameConstants>
-
-
-
-
-
-
-
-
-
 
 

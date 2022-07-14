@@ -85,7 +85,7 @@
 	<Unit_Abilities_Data SubObjectList="Yes">
 		<Unit_Ability>
 			<Type>FOW_REVEAL_PING</Type>
-			<Recharge_Seconds>45.0</Recharge_Seconds>
+			<Recharge_Seconds>30.0</Recharge_Seconds>
 			<Spawned_Object_Type>Proj_Special_Space_FOW_Reveal_Ping_Blast</Spawned_Object_Type>
 			<Effective_Radius>0.0</Effective_Radius> <!--0.0 means no distance factor, unlimited to entire map-->
 			<Area_Effect_Decal_Distance>600.0</Area_Effect_Decal_Distance>
@@ -332,7 +332,7 @@
 			<SFXEvent_GUI_Unit_Ability_Activated>Unit_Ion_Cannon_Tie_Defender</SFXEvent_GUI_Unit_Ability_Activated>
 			<Projectile_Types_Override>Proj_Ion_Cannon_Medium_Laser_Blue</Projectile_Types_Override>
 			<Recharge_Seconds>25.0</Recharge_Seconds>
-			<Supports_Autofire>True</Supports_Autofire>
+<!--			<Supports_Autofire>True</Supports_Autofire>-->
 		</Unit_Ability>
 		<Unit_Ability>
 			<Type>POWER_TO_WEAPONS</Type>
@@ -412,7 +412,7 @@
 			<Recharge_Seconds>60</Recharge_Seconds>
 			<Active_By_Default>Yes</Active_By_Default>
 			<SFXEvent_GUI_Unit_Ability_Activated>Unit_Respawn_Vader_Ship</SFXEvent_GUI_Unit_Ability_Activated>
-			<Supports_Autofire>True</Supports_Autofire>
+<!--			<Supports_Autofire>True</Supports_Autofire>-->
 		</Unit_Ability>
 	</Unit_Abilities_Data>
 	</Container>
@@ -609,7 +609,7 @@
 			<Recharge_Seconds>20.0</Recharge_Seconds>
 			<GUI_Activated_Ability_Name>Y_Wing_Container_Ion_Cannon_Shot</GUI_Activated_Ability_Name>
 			<Projectile_Types_Override>Proj_Ion_Cannon_Medium_Laser_Blue</Projectile_Types_Override>
-			<Supports_Autofire>True</Supports_Autofire>
+<!--			<Supports_Autofire>True</Supports_Autofire>-->
 		</Unit_Ability>
 	</Unit_Abilities_Data>
 
@@ -731,7 +731,7 @@
 			<Projectile_Types_Override>Proj_Ship_Lucky_Shot_Medium_Laser_Cannon_Red</Projectile_Types_Override>
 			<GUI_Activated_Ability_Name>Red_Squadron_Lucky_Shot</GUI_Activated_Ability_Name>
 			<SFXEvent_Target_Ability>Unit_Lucky_Shot_Luke</SFXEvent_Target_Ability>
-			<Supports_Autofire>True</Supports_Autofire>
+<!--			<Supports_Autofire>True</Supports_Autofire>-->
 		</Unit_Ability>
 		<Unit_Ability>
 			<Type>SPOILER_LOCK</Type>
@@ -810,7 +810,7 @@
 			<Type>SPOILER_LOCK</Type>
 			<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	3.0f</Mod_Multiplier>
 			<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	2.0f</Mod_Multiplier>
-			<Mod_Multiplier>SPEED_MULTIPLIER,		2.0f</Mod_Multiplier>
+			<Mod_Multiplier>SPEED_MULTIPLIER,		1.55f</Mod_Multiplier>
 			<SFXEvent_GUI_Unit_Ability_Activated>Unit_Ability_On_Wedge</SFXEvent_GUI_Unit_Ability_Activated>
 			<SFXEvent_GUI_Unit_Ability_Deactivated>Unit_Ability_Off_Wedge</SFXEvent_GUI_Unit_Ability_Deactivated>
 		</Unit_Ability>
@@ -818,7 +818,7 @@
 			<Type>POWER_TO_WEAPONS</Type>
 			<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	0.5f</Mod_Multiplier>
 			<Mod_Multiplier>SPEED_MULTIPLIER,		1.0f</Mod_Multiplier>
-			<Mod_Multiplier>CAUSE_DAMAGE_MULTIPLIER,	3.0f</Mod_Multiplier>
+			<Mod_Multiplier>CAUSE_DAMAGE_MULTIPLIER,	2.5f</Mod_Multiplier>
 			<Recharge_Seconds>60</Recharge_Seconds>
 			<Expiration_Seconds>10</Expiration_Seconds>
 			<Alternate_Name_Text>TEXT_TOOLTIP_ABILITY_STRIKE_NAME</Alternate_Name_Text>
@@ -873,6 +873,7 @@
 	<Unit_Abilities_Data SubObjectList="Yes">
 		<Unit_Ability>
 			<Type>BUZZ_DROIDS</Type>
+			<Effective_Radius>300</Effective_Radius>
 			<GUI_Activated_Ability_Name>Buzz_Droids_Viper</GUI_Activated_Ability_Name>
 			<Must_Be_Bought_On_Black_Market>Yes</Must_Be_Bought_On_Black_Market>
 			<Recharge_Seconds>50</Recharge_Seconds>
@@ -885,13 +886,13 @@
 		<Buzz_Droids_Ability Name="Buzz_Droids_Viper">
 			<Activation_Style>User_Input</Activation_Style>
 			<Activation_Min_Range>5</Activation_Min_Range>
-			<Activation_Max_Range>400</Activation_Max_Range>
+			<Activation_Max_Range>300</Activation_Max_Range> <!-- 400 -->
 			<!--If you change Chase_Radius update Area_Effect_Decal_Distance in the unit ability-->
 			<Chase_Radius>300</Chase_Radius>
 			<Damage_Radius>175</Damage_Radius>
-			<Enemy_Damage_Per_Second>23</Enemy_Damage_Per_Second>
+			<Enemy_Damage_Per_Second>18</Enemy_Damage_Per_Second>
 			<Own_Damage_Per_Second>3</Own_Damage_Per_Second>
-			<Activation_Time_In_Seconds>1</Activation_Time_In_Seconds>
+			<Activation_Time_In_Seconds>1.5</Activation_Time_In_Seconds>
 			<Activate_SFX>GUI_Buzz_Droids_SFX</Activate_SFX>
 			<Object_Type>Buzz_Droids</Object_Type>
 			<Must_Be_Bought_On_Black_Market>Yes</Must_Be_Bought_On_Black_Market>
@@ -2615,218 +2616,19 @@
 				<Recharge_Seconds>45.0</Recharge_Seconds>
 				<GUI_Activated_Ability_Name> R2D2_Hack_Ability </GUI_Activated_Ability_Name>
 				<SFXEvent_Target_Ability> Unit_Hack_Turret_C3PO </SFXEvent_Target_Ability> 
-				<Supports_Autofire>True</Supports_Autofire>
+<!--				<Supports_Autofire>True</Supports_Autofire>-->
 			</Unit_Ability>
 
 		 <!-- REQUIRED HERE FOR TEAM -->
 			<Unit_Ability>
 				<Type>TARGETED_REPAIR</Type>
-				<Recharge_Seconds>50.0</Recharge_Seconds>
+				<Recharge_Seconds>35.0</Recharge_Seconds>
 				<GUI_Activated_Ability_Name> R2D2_Repair_Ability </GUI_Activated_Ability_Name>
 				<Friendly_Ability> Yes </Friendly_Ability> <!-- Targeted ability to friendly units -->
 				<SFXEvent_Target_Ability> Unit_Hack_Turret_C3PO </SFXEvent_Target_Ability> 
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 	</Container>
-	
-
-	<Container Name="EAW_TIE_Scout_Squadron_Container">
-		<Text_ID>TEXT_TIE_SCOUT_SQUADRON</Text_ID>
-		<Encyclopedia_Text>TEXT_TOOLTIP_TIE_SCOUT</Encyclopedia_Text>
-		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_FIGHTER</Encyclopedia_Unit_Class>
-		<Encyclopedia_Good_Against>Y-wing Z-95_Headhunter_Rebel</Encyclopedia_Good_Against>
-		<Encyclopedia_Vulnerable_To>A-Wing</Encyclopedia_Vulnerable_To>
-		<Icon_Name>i_button_tie_scout.tga</Icon_Name>
-		<Affiliation>Empire_EAW</Affiliation>
-
-		<Behavior>TEAM, TEAM_LOCOMOTOR, SELECTABLE, TARGETING, UNIT_AI</Behavior>
-		<SpaceBehavior>REVEAL</SpaceBehavior>
-
-		<CategoryMask>Fighter | AntiBomber</CategoryMask>
-
-		<Damage>9</Damage>
-		<Autoresolve_Health>150</Autoresolve_Health>
-
-		<MovementClass>Space</MovementClass>
-		<Max_Speed>5.0</Max_Speed>
-		<Min_Speed>2.0</Min_Speed>
-
-		<Formation_Priority>2</Formation_Priority>
-		<FormationOrder>2</FormationOrder>
-		<Squadron_Formation_Error_Tolerance>25.0</Squadron_Formation_Error_Tolerance>
-
-		<Space_FOW_Reveal_Range>1500.0</Space_FOW_Reveal_Range>
-		<Targeting_Max_Attack_Distance>1000.0</Targeting_Max_Attack_Distance>
-		<Guard_Chase_Range>1000.0</Guard_Chase_Range>
-		<Idle_Chase_Range>200.0</Idle_Chase_Range>
-		<Attack_Move_Response_Range>300.0</Attack_Move_Response_Range>
-		<Autonomous_Move_Extension_Vs_Attacker>500.0</Autonomous_Move_Extension_Vs_Attacker>
-
-		<Squadron_Offsets>60.0,0.0,0.0</Squadron_Offsets>
-		<Squadron_Offsets>0.0,30.0,0.0</Squadron_Offsets>
-		<Squadron_Offsets>0.0,-30.0,0.0</Squadron_Offsets>
-
-	<Unit_Abilities_Data SubObjectList="Yes">
-		<Unit_Ability>
-			<Type>FOW_REVEAL_PING</Type>
-			<Recharge_Seconds>30.0</Recharge_Seconds>
-			<Spawned_Object_Type>Proj_Special_Space_FOW_Reveal_Ping_Blast</Spawned_Object_Type>
-			<Effective_Radius>0.0</Effective_Radius> <!--0.0 means no distance factor, unlimited to entire map-->
-			<Area_Effect_Decal_Distance>600.0</Area_Effect_Decal_Distance>
-		</Unit_Ability>
-	</Unit_Abilities_Data>
-	</Container>
-
-	<Container Name="EAW_TIE_Fighter_Squadron_Container">
-		<Text_ID>TEXT_TIE_FIGHTER_2_SQUADRON</Text_ID>
-		<Encyclopedia_Text>TEXT_TOOLTIP_TIE_FIGHTER</Encyclopedia_Text>
-		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_FIGHTER</Encyclopedia_Unit_Class>
-		<Encyclopedia_Good_Against>Y-Wing Z-95_Headhunter_Rebel</Encyclopedia_Good_Against>
-		<Encyclopedia_Vulnerable_To>X-wing Corellian_Corvette A-Wing</Encyclopedia_Vulnerable_To>
-		<Icon_Name>i_button_tie_fighter.tga</Icon_Name>
-		<Affiliation>Empire</Affiliation>
-
-		<Behavior>TEAM, TEAM_LOCOMOTOR, SELECTABLE, TARGETING, UNIT_AI</Behavior>
-		<SpaceBehavior>REVEAL</SpaceBehavior>
-
-		<CategoryMask>Fighter | AntiBomber</CategoryMask>
-
-		<Damage>20</Damage>
-		<Autoresolve_Health>300</Autoresolve_Health>
-
-		<MovementClass>Space</MovementClass>
-		<Max_Speed>4.5</Max_Speed>
-		<Min_Speed>2.5</Min_Speed>
-
-		<Formation_Priority>1</Formation_Priority>
-		<FormationOrder>1</FormationOrder>
-		<Squadron_Formation_Error_Tolerance>35.0</Squadron_Formation_Error_Tolerance>
-
-		<Space_FOW_Reveal_Range>600.0</Space_FOW_Reveal_Range>
-		<Targeting_Max_Attack_Distance>1000.0</Targeting_Max_Attack_Distance>
-		<Guard_Chase_Range>1000.0</Guard_Chase_Range>
-		<Idle_Chase_Range>200.0</Idle_Chase_Range>
-		<Attack_Move_Response_Range>300.0</Attack_Move_Response_Range>
-		<Autonomous_Move_Extension_Vs_Attacker>500.0</Autonomous_Move_Extension_Vs_Attacker>
-
-		<Squadron_Offsets>60.0,0.0,0.0</Squadron_Offsets>
-		<Squadron_Offsets>0.0,30.0,0.0</Squadron_Offsets>
-		<Squadron_Offsets>0.0,-30.0,0.0</Squadron_Offsets>
-		<Squadron_Offsets>-60.0,60.0,0.0</Squadron_Offsets>
-		<Squadron_Offsets>-60.0,-60.0,0.0</Squadron_Offsets>
-		<Squadron_Offsets>-120.0,90.0,0.0</Squadron_Offsets>
-		<Squadron_Offsets>-120.0,-90.0,0.0</Squadron_Offsets>
-
-	<Unit_Abilities_Data SubObjectList="Yes">
-		<Unit_Ability>
-			<Type>HUNT</Type>
-		</Unit_Ability>
-	</Unit_Abilities_Data>
-	</Container>
-	
-	<Container Name="EAW_TIE_Bomber_Squadron_Container">
-		<Text_ID>TEXT_TIE_BOMBER_SQUADRON</Text_ID>
-		<Encyclopedia_Text>TEXT_TOOLTIP_TIE_BOMBER</Encyclopedia_Text>
-		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_BOMBER</Encyclopedia_Unit_Class>
-		<Encyclopedia_Good_Against>Calamari_Cruiser Alliance_Assault_Frigate Nebulon_B_Frigate</Encyclopedia_Good_Against>
-		<Encyclopedia_Vulnerable_To>Corellian_Corvette X-wing A-Wing</Encyclopedia_Vulnerable_To>
-		<Icon_Name>i_button_tie_bomber.tga</Icon_Name>
-		<Affiliation>Empire_EAW</Affiliation>
-
-		<Behavior>TEAM, TEAM_LOCOMOTOR, SELECTABLE, TARGETING, UNIT_AI</Behavior>
-		<SpaceBehavior>REVEAL</SpaceBehavior>
-
-		<CategoryMask>Bomber | AntiCapital</CategoryMask>
-
-		<Damage>20</Damage>
-		<Autoresolve_Health>150</Autoresolve_Health>
-
-		<MovementClass>Space</MovementClass>
-		<Max_Speed>3.0</Max_Speed>
-		<Min_Speed>2.0</Min_Speed>
-
-		<Formation_Priority>2</Formation_Priority>
-		<FormationOrder>2</FormationOrder>
-		<Squadron_Formation_Error_Tolerance>25.0</Squadron_Formation_Error_Tolerance>
-
-		<Space_FOW_Reveal_Range>600.0</Space_FOW_Reveal_Range>
-		<Targeting_Max_Attack_Distance>1000.0</Targeting_Max_Attack_Distance>
-		<Guard_Chase_Range>1000.0</Guard_Chase_Range>
-		<Idle_Chase_Range>200.0</Idle_Chase_Range>
-		<Attack_Move_Response_Range>300.0</Attack_Move_Response_Range>
-		<Autonomous_Move_Extension_Vs_Attacker>300.0</Autonomous_Move_Extension_Vs_Attacker>
-
-		<Squadron_Offsets>60.0,0.0,0.0</Squadron_Offsets>
-		<Squadron_Offsets>0.0,60.0,0.0</Squadron_Offsets>
-		<Squadron_Offsets>0.0,0.0,0.0</Squadron_Offsets>
-		<Squadron_Offsets>0.0,-60.0,0.0</Squadron_Offsets>
-	</Container>
-	
-	<Container Name="EAW_Y_Wing_Squadron_Container">
-		<Text_ID>TEXT_Y_WING_SQUADRON</Text_ID>
-		<Encyclopedia_Text>TEXT_TOOLTIP_Y_WING</Encyclopedia_Text>
-		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_BOMBER</Encyclopedia_Unit_Class>
-		<Encyclopedia_Good_Against>Star_Destroyer Victory_Destroyer Acclamator_Assault_Ship</Encyclopedia_Good_Against>
-		<Encyclopedia_Vulnerable_To>TIE_Fighter Tartan_Patrol_Cruiser Pirate_Fighter</Encyclopedia_Vulnerable_To>
-		<Icon_Name>i_button_y_wing.tga</Icon_Name>
-		<Affiliation>Rebel_EAW</Affiliation>
-
-		<Behavior>TEAM, TEAM_LOCOMOTOR, SELECTABLE, TARGETING, UNIT_AI</Behavior>
-		<SpaceBehavior>REVEAL, ABILITY_COUNTDOWN</SpaceBehavior>
-
-		<CategoryMask>Bomber | AntiFrigate | AntiCapital</CategoryMask>
-
-		<Damage>15</Damage>
-		<Autoresolve_Health>200</Autoresolve_Health>
-
-		<MovementClass>Space</MovementClass>
-		<Max_Speed>3.0</Max_Speed>
-		<Min_Speed>2.0</Min_Speed>
-
-		<Formation_Priority>2</Formation_Priority>
-		<FormationOrder>2</FormationOrder>
-		<Squadron_Formation_Error_Tolerance>25.0</Squadron_Formation_Error_Tolerance>
-
-		<Space_FOW_Reveal_Range>600.0</Space_FOW_Reveal_Range>
-		<Targeting_Max_Attack_Distance>1000.0</Targeting_Max_Attack_Distance>
-		<Guard_Chase_Range>1000.0</Guard_Chase_Range>
-		<Idle_Chase_Range>200.0</Idle_Chase_Range>
-		<Attack_Move_Response_Range>300.0</Attack_Move_Response_Range>
-		<Autonomous_Move_Extension_Vs_Attacker>300.0</Autonomous_Move_Extension_Vs_Attacker>
-
-		<Squadron_Offsets>60.0,0.0,0.0</Squadron_Offsets>
-		<Squadron_Offsets>0.0,30.0,0.0</Squadron_Offsets>
-		<Squadron_Offsets>0.0,-30.0,0.0</Squadron_Offsets>
-
-	<Unit_Abilities_Data SubObjectList="Yes">
-		<Unit_Ability>
-			<Type>ION_CANNON_SHOT</Type>
-			<Recharge_Seconds>20.0</Recharge_Seconds>
-			<GUI_Activated_Ability_Name>Y_Wing_Container_Ion_Cannon_Shot</GUI_Activated_Ability_Name>
-			<Projectile_Types_Override>Proj_Ion_Cannon_Medium_Laser_Blue</Projectile_Types_Override>
-			<Supports_Autofire>True</Supports_Autofire>
-		</Unit_Ability>
-	</Unit_Abilities_Data>
-
-	<Abilities SubObjectList="Yes">
-		<Ion_Cannon_Shot_Attack_Ability Name="Y_Wing_Container_Ion_Cannon_Shot">
-			<Activation_Style>User_Input</Activation_Style>
-			<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
-			<Applicable_Unit_Types/>
-		</Ion_Cannon_Shot_Attack_Ability>
-	</Abilities>
-	</Container>
-	
-	<Container Name="EAW_Pirate_Fighter_E_Squadron_Container">
-		<Variant_Of_Existing_Type>Pirate_Fighter_Squadron_Container</Variant_Of_Existing_Type>
-		<Encyclopedia_Good_Against>Y-wing Z-95_Headhunter_Rebel</Encyclopedia_Good_Against>
-		<Encyclopedia_Vulnerable_To>A-Wing Corellian_Corvette</Encyclopedia_Vulnerable_To>
-		<Affiliation>Empire_EAW</Affiliation>
-	</Container>
 </Containers>
-
-
-
-
 
 
