@@ -170,7 +170,7 @@ MP_TEXT_ENCYCLOPEDIA_BARRACKS_REBEL_01,Upgrades: Combat Armor, Survival Training
 MP_TEXT_ENCYCLOPEDIA_BASE_SHIELD_EMPIRE_00,CLICK to construct Imperial Base Shield
 MP_TEXT_ENCYCLOPEDIA_BASE_SHIELD_REBEL_00,CLICK to construct Rebel Base Shield
 MP_TEXT_ENCYCLOPEDIA_CANTINA_00,Provides unique units at discounted prices.
-MP_TEXT_ENCYCLOPEDIA_CANTINA_01,Units: Pod Walkers, Pirate Skiff, Swamp Speeders.
+MP_TEXT_ENCYCLOPEDIA_CANTINA_01,Units: Pod Walkers, Pirate Skiffs, Swamp Speeders.
 MP_TEXT_ENCYCLOPEDIA_COMM_ARRAY_00,Deciphers battlefield information from orbital sensors in real-time. When destroyed or power is lost, radar display ceases to function.
 MP_TEXT_ENCYCLOPEDIA_COMM_ARRAY_EMPIRE_PAD_00,CLICK to construct Imperial Communications Array
 MP_TEXT_ENCYCLOPEDIA_COMM_ARRAY_REBEL_PAD_00,CLICK to construct Rebel Communications Array
@@ -1564,12 +1564,6 @@ TEXT_ENCYCLOPEDIA_WOOKIEE_SPAWNER,Periodically creates Wookiees until destroyed.
 TEXT_ENCYCLOPEDIA_YSALAMIRI_TREE,This tree houses many Ysalamiri families.  The Ysalamiri block all use of the Force in a large radius around the tree.
 TEXT_ENCYLOPEDIA_STRUCTURE_BOTHAN_POLOS_HOUSE,Senator Se’Lab’s Palace 
 TEXT_END_OF_DATA,END OF ENGLISH TEXT
-TEXT_END_OF_DATA,END OF ENGLISH TEXT
-TEXT_END_OF_DATA,END OF ENGLISH TEXT
-TEXT_END_OF_DATA,END OF ENGLISH TEXT
-TEXT_END_OF_DATA,END OF ENGLISH TEXT
-TEXT_END_OF_DATA,END OF ENGLISH TEXT
-TEXT_END_OF_DATA,END OF ENGLISH TEXT
 TEXT_ENEMY_FLEET,Enemy Fleet
 TEXT_ENEMY_FLEET_APPROACHING_LOCATION,Enemy fleet incoming at ##0.
 TEXT_ENEMY_HEROES_DEFEATED,Heroes Defeated:
@@ -1969,9 +1963,11 @@ TEXT_IMPERIAL_ARMOR_GROUP,2-M Repulsor Tanks
 TEXT_IMPERIAL_ARTILLERY_CORPS,SPMA-T
 TEXT_IMPERIAL_HEAVY_ASSAULT_COMPANY,AT-AT Walker
 TEXT_IMPERIAL_HEAVY_SCOUT_SQUAD,AT-ST Walkers
+TEXT_IMPERIAL_HEAVY_SCOUT_SQUAD_2,AT-ST v2 Walkers
 TEXT_IMPERIAL_HRB_PLATOON,HRB Platoon
 TEXT_IMPERIAL_LANCET_WING,Lancet Wing
 TEXT_IMPERIAL_LIGHT_SCOUT_SQUAD,Scout Troopers
+TEXT_IMPERIAL_STORMTROOPER_GARRISON,Stormtrooper Reinforcements
 TEXT_IMPERIAL_STORMTROOPER_SQUAD,Stormtroopers
 TEXT_IMPERIAL_SWAMP_TROOP,Swamp Speeders
 TEXT_IN_BASE_SS_POSITION,In-Base Special Structure Position
@@ -3429,6 +3425,7 @@ TEXT_REBEL_GROUND_BASE_3,Upgrade Planetary Base to Lvl 3
 TEXT_REBEL_GROUND_BASE_4,Upgrade Planetary Base to Lvl 4
 TEXT_REBEL_GROUND_BASE_5,Upgrade Planetary Base to Lvl 5
 TEXT_REBEL_HEAVY_TANK_BRIGADE,T4-B Tanks
+TEXT_REBEL_INFANTRY_GARRISON,Rebel Infantry Reinforcements
 TEXT_REBEL_INFANTRY_SQUAD,Infantry Platoon
 TEXT_REBEL_INFILTRATOR_TEAM,Infiltrator
 TEXT_REBEL_LIGHT_TANK_BRIGADE,T2-B Tanks
@@ -17969,7 +17966,8 @@ TEXT_TOOLTIP_ASSAULT_FRIGATE,Heavy assault frigate armed with 2 enhanced turbola
 TEXT_TOOLTIP_ATAA,All Terrain Anti Aircraft walker armed with flak cannons capable of defeating flying threats with ease. Can emit a field that disrupts missile guidance systems.  3 vehicles per company.
 TEXT_TOOLTIP_ATAT,All Terrain - Armored Transport armed with twin heavy laser cannons. Thick armor compensates for its slow speed. Able to deploy Stormtroopers.
 TEXT_TOOLTIP_ATAT_BARGE,Contains AT-AT vehicle. Slow speed and weak armor of this transport make it vulnerable to nearly every enemy threat.
-TEXT_TOOLTIP_ATST,All Terrain Scout Transport armed with a pair of light laser cannons. Ideal for garrison duties and neutralizing light enemy resistance. Capable of releasing a barrage of fire on an area for a limited time. 4 vehicles per company.
+TEXT_TOOLTIP_ATST,All Terrain Scout Transport armed with a pair of light laser cannons. Ideal for garrison duties and neutralizing light enemy resistance. Capable of releasing a barrage of concussion grenades on an area for a limited time. 4 vehicles per company.
+TEXT_TOOLTIP_ATST_2,All Terrain Scout Transport armed with a pair of light laser cannons. An upgraded AT-ST capable of firing a barrage of homing missiles that can bypass shields. 4 vehicles per company.
 TEXT_TOOLTIP_ATTACK,Attack
 TEXT_TOOLTIP_ATTACK_01,Attack targeted object with selected units
 TEXT_TOOLTIP_ATTACK_DEFENSE,Combat Power: %ld
@@ -18009,7 +18007,7 @@ TEXT_TOOLTIP_CLOAK,Cloak
 TEXT_TOOLTIP_CLOSED_STRUCTURE_SLOT,Empty Structure Slot
 TEXT_TOOLTIP_COMPANY_COUNT,Ground Forces on Planet
 TEXT_TOOLTIP_CORELLIAN_CORVETTE,Fast patrol cruiser armed with 8 laser cannons. Designed to destroy fighters and bombers. Engines are extremely powerful allowing it to safely run away from any fight it can't win.
-TEXT_TOOLTIP_CORELLIAN_GUNBOAT,Fast patrol cruiser armed with 2 laser cannons and 4 concussion missile launchers. Dominant missile weaponry can damage enemy ships even if their shields are up.
+TEXT_TOOLTIP_CORELLIAN_GUNBOAT,Fast patrol cruiser armed with 4 laser cannons and 4 concussion missile launchers. Dominant missile weaponry can damage enemy ships even if their shields are up.
 TEXT_TOOLTIP_CORRUPT_EVIL_PLANET,Corrupt Empire controlled planet
 TEXT_TOOLTIP_CORRUPT_GOOD_PLANET,Corrupt Rebel controlled planet
 TEXT_TOOLTIP_CORRUPTION_AGENT,The corruption agent spreads the will of Tyber Zann across the galaxy by infiltrating a planet with bribery, extortion and assassination.
@@ -18234,6 +18232,7 @@ TEXT_TOOLTIP_RANCOR_CUDDLES,Silri's loyal and fierce rancor ally.
 TEXT_TOOLTIP_REBEL_PILOT,Well trained fighter pilot, but vulnerable on the ground - must be protected.
 TEXT_TOOLTIP_REBEL_REFUGEE,A group of refugees on the run from Imperial forces.
 TEXT_TOOLTIP_REBELSOLDIER,Rebellion soldiers, lightly armed, but highly motivated. 3 squads (of 5 soldiers each) per company.
+TEXT_TOOLTIP_REBELSOLDIER_GARRISON,Rebellion soldiers, lightly armed, but highly motivated. 6 squads (of 5 soldiers each) per company.
 TEXT_TOOLTIP_RED_SQUADRON,Luke Skywalker, Wedge, Biggs, and Porkins team up to make a potent fighter squadron. Luke uses the light side of the Force to enhance his fighting skills.
 TEXT_TOOLTIP_REINFORCEMENT_POINT_DESCRIPTION,Allows a player to bring in reinforcements from space.  Must be captured before it can be used.  Capture it by keeping only friendly infantry near it for several seconds.
 TEXT_TOOLTIP_REINFORCEMENT_POINT_NAME,Reinforcement point
@@ -18286,6 +18285,7 @@ TEXT_TOOLTIP_STATION3,Enhanced medium sized space station capable of withstandin
 TEXT_TOOLTIP_STATION4,Large space station capable of withstanding most attacks.
 TEXT_TOOLTIP_STATION5,Very large space station capable of withstanding major attacks.
 TEXT_TOOLTIP_STORMTROOPER,Imperial soldiers well suited for garrison duties and neutralizing light enemy resistance. 2 squads (of 9 soldiers each) per company.
+TEXT_TOOLTIP_STORMTROOPER_GARRISON,Imperial soldiers well suited for garrison duties and neutralizing light enemy resistance. 5 squads (of 9 soldiers each) per company.
 TEXT_TOOLTIP_STORY_BUTTON,Mission Holocron
 TEXT_TOOLTIP_STRUCTURE_COMMUNICATION_SATELLITE,Communication Satellite
 TEXT_TOOLTIP_STRUCTURE_SECURITY_OUTPOST,Security Outpost
@@ -18471,6 +18471,7 @@ TEXT_UNIT_ASSAULT_FRIGATE,Assault Frigate Mk II
 TEXT_UNIT_AT_AA_WALKER,AT-AA Walker
 TEXT_UNIT_AT_AT_WALKER,AT-AT Walker
 TEXT_UNIT_AT_ST_WALKER,AT-ST Walker
+TEXT_UNIT_AT_ST_WALKER_2,AT-ST v2 Walker
 TEXT_UNIT_B_WING,B-wing
 TEXT_UNIT_BIGGS_XWING,Biggs Darklighter (Red 3)
 TEXT_UNIT_BOARDING_SHUTTLE,RZ-52 Boarding Shuttle
@@ -18610,6 +18611,8 @@ TEXT_UNIT_UNDERWORLD_HERO_SHUTTLE,Consortium Shuttle
 TEXT_UNIT_UNDERWORLD_LIGHT_TRANSPORT,Consortium Light Transport
 TEXT_UNIT_UNDERWORLD_MERC,Grenadier
 TEXT_UNIT_UNDERWORLD_MERC_ENCYC,The base soldier for the Zann Consortium, useful against infantry and other light resistance. 3 squads (of 4 soldiers each) per company.
+TEXT_UNIT_UNDERWORLD_MERC_GARRISON,Grenadier Reinforcements
+TEXT_UNIT_UNDERWORLD_MERC_GARRISON_ENCYC,The base soldier for the Zann Consortium, useful against infantry and other light resistance. 6 squads (of 4 soldiers each) per company.
 TEXT_UNIT_UNDERWORLD_MERC_SQUAD,Grenadier
 TEXT_UNIT_UNDERWORLD_TRANSPORT,Consortium Vehicle Transport
 TEXT_UNIT_VENGEANCE_FRIGATE,Vengeance-class Frigate
@@ -18777,7 +18780,7 @@ TEXT_UPGRADE_TOOLTIP_EL_MORE_GARRISONS_L1-TEMP,Adds additional stormtroopers and
 TEXT_UPGRADE_TOOLTIP_EL_REINFORCED_STRUCTURES,Reduces the damage taken by structures by 25%.
 TEXT_UPGRADE_TOOLTIP_EL_SCOUT_TROOPER_RESEARCH,Grants the ability to request Scout Trooper reinforcements from neighboring systems.
 TEXT_UPGRADE_TOOLTIP_EL_SPMAT_RESEARCH,Grants the ability to request SPMA-T Artillery reinforcements from neighboring systems.
-TEXT_UPGRADE_TOOLTIP_EL_STAMINA_BOOST,Stormtrooper units gain a 35% health increase.
+TEXT_UPGRADE_TOOLTIP_EL_STAMINA_BOOST,Stormtrooper units gain a 20% health increase.
 TEXT_UPGRADE_TOOLTIP_EL_WEATHER_PROOF_L1,Planetary weather no longer affects infantry. 
 TEXT_UPGRADE_TOOLTIP_ES_ENHANCED_REACTORS_L1,Fighters gain a 25% movement speed increase.
 TEXT_UPGRADE_TOOLTIP_ES_ENHANCED_REACTORS_L2,Fighters and Frigates gain a 25% movement speed increase.
@@ -18878,6 +18881,7 @@ TEXT_UPGRADE_TOOLTIP_TECHNOLOGY_LEVEL_FOUR,Upgrade your Technology to level 4
 TEXT_UPGRADE_TOOLTIP_TECHNOLOGY_LEVEL_THREE,Upgrade your Technology to level 3
 TEXT_UPGRADE_TOOLTIP_TECHNOLOGY_LEVEL_TWO,Upgrade your Technology to level 2
 TEXT_UPGRADE_TOOLTIP_U_EXTORT_CASH_L1,Extorts additional cash from workers, increasing the income produced from Mining Facilities by 15%.
+TEXT_UPGRADE_TOOLTIP_U_EXTORT_CASH_L1_S,Extorts additional cash from workers, increasing the income produced from Mining Facilities by 20%.
 TEXT_UPGRADE_TOOLTIP_U_EXTORT_CASH_L2,Extorts additional cash from workers, increasing the income produced from Mining Facilities by 45%.
 TEXT_UPGRADE_TOOLTIP_UL_BLACKMARKET_SHIELDING_L1,Consortium structure shielding absorbs 25% more damage. Applies to all structures with shields.
 TEXT_UPGRADE_TOOLTIP_UL_BLACKMARKET_SHIELDING_L2,Consortium structure shielding absorbs 50% more damage. Applies to all structures with shields.
@@ -18892,8 +18896,8 @@ TEXT_UPGRADE_TOOLTIP_UL_RECHARGE_ABILITY_L1,Special abilities on infantry rechar
 TEXT_UPGRADE_TOOLTIP_UL_RECHARGE_ABILITY_L2,Special abilities on infantry and heroes recharge 15% faster.
 TEXT_UPGRADE_TOOLTIP_UL_SMUGGLED_DROID_SYSTEMS_L1,Destroyer Droid shielding absorbs 25% more damage. 
 TEXT_UPGRADE_TOOLTIP_UL_SMUGGLED_DROID_SYSTEMS_L2,Destroyer Droid shielding absorbs 25% more damage and laser weapon power is increased by 20%.
-TEXT_UPGRADE_TOOLTIP_UL_WEAPON_BOOST_L1,Increases the damage done by the MZ-8 Pulse Tank by 25%.
-TEXT_UPGRADE_TOOLTIP_UL_WEAPON_BOOST_L2,Increases the damage done by the MZ-8 Pulse Tank by 50%.
+TEXT_UPGRADE_TOOLTIP_UL_WEAPON_BOOST_L1,Increases the damage done by Canderous and MZ-8 Pulse Tanks by 25%.
+TEXT_UPGRADE_TOOLTIP_UL_WEAPON_BOOST_L2,Increases the damage done by Canderous and MZ-8 Pulse Tanks by 50%.
 TEXT_UPGRADE_TOOLTIP_US_BLACKMARKET_ENGINES_L1,Increases the movement speed of Skipray Blastboats by 25%.
 TEXT_UPGRADE_TOOLTIP_US_BLACKMARKET_ENGINES_L2,Increases the movement speed of Skipray Blastboats and Interceptor IV Frigates by 25%.
 TEXT_UPGRADE_TOOLTIP_US_BLACKMARKET_ENGINES_L3,Increases the movement speed of Skipray Blastboats, Interceptor IV Frigates, and Aggressor Destroyers by 25%.
