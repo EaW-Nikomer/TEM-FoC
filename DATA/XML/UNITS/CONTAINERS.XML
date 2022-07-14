@@ -197,7 +197,7 @@
 			<Type>STEALTH</Type>
 			<Alternate_Icon_Name>i_sa_stealth.tga</Alternate_Icon_Name>
 			<GUI_Activated_Ability_Name>Stealth_Phantom</GUI_Activated_Ability_Name>
-			<Recharge_Seconds>10.0</Recharge_Seconds>
+			<Recharge_Seconds>13.0</Recharge_Seconds>
 			<Expiration_Seconds>80.0</Expiration_Seconds>
 			<SFXEvent_GUI_Unit_Ability_Activated> Unit_Stealth_On_Tie_Phantom </SFXEvent_GUI_Unit_Ability_Activated>
 			<SFXEvent_GUI_Unit_Ability_Deactivated> Unit_Stealth_Off_Tie_Phantom </SFXEvent_GUI_Unit_Ability_Deactivated>
@@ -834,7 +834,7 @@
 			<Type>POWER_TO_WEAPONS</Type>
 			<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	0.5f</Mod_Multiplier>
 			<Mod_Multiplier>SPEED_MULTIPLIER,		1.0f</Mod_Multiplier>
-			<Mod_Multiplier>CAUSE_DAMAGE_MULTIPLIER,	2.5f</Mod_Multiplier>
+			<Mod_Multiplier>CAUSE_DAMAGE_MULTIPLIER,	2.1f</Mod_Multiplier>
 			<Recharge_Seconds>60</Recharge_Seconds>
 			<Expiration_Seconds>10</Expiration_Seconds>
 			<Alternate_Name_Text>TEXT_TOOLTIP_ABILITY_STRIKE_NAME</Alternate_Name_Text>
@@ -892,7 +892,7 @@
 			<Effective_Radius>350</Effective_Radius>
 			<GUI_Activated_Ability_Name>Buzz_Droids_Viper</GUI_Activated_Ability_Name>
 			<Must_Be_Bought_On_Black_Market>Yes</Must_Be_Bought_On_Black_Market>
-			<Recharge_Seconds>60</Recharge_Seconds>
+			<Recharge_Seconds>80</Recharge_Seconds>
 			<SFXEvent_Target_Ability>Unit_Buzz_Droids_Star_Viper</SFXEvent_Target_Ability>
 			<Area_Effect_Decal_Distance>300.0</Area_Effect_Decal_Distance>
 		</Unit_Ability>
@@ -908,7 +908,7 @@
 			<Damage_Radius>175</Damage_Radius>
 			<Enemy_Damage_Per_Second>18</Enemy_Damage_Per_Second>
 			<Own_Damage_Per_Second>3</Own_Damage_Per_Second>
-			<Activation_Time_In_Seconds>1.4</Activation_Time_In_Seconds>
+			<Activation_Time_In_Seconds>1.3</Activation_Time_In_Seconds>
 			<Activate_SFX>GUI_Buzz_Droids_SFX</Activate_SFX>
 			<Object_Type>Buzz_Droids</Object_Type>
 			<Must_Be_Bought_On_Black_Market>Yes</Must_Be_Bought_On_Black_Market>
@@ -935,7 +935,7 @@
 		<Autoresolve_Health>200</Autoresolve_Health>
 
 		<MovementClass>Space</MovementClass>
-		<Max_Speed>3.6</Max_Speed>
+		<Max_Speed>4.0</Max_Speed>
 		<Min_Speed>2.3</Min_Speed>
 
 		<Formation_Priority>2</Formation_Priority>
@@ -2646,6 +2646,7 @@
 		</Unit_Abilities_Data>
 	</Container>
 </Containers>
+
 
 
 

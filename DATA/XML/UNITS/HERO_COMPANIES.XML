@@ -641,8 +641,8 @@
 		<Encyclopedia_Text> TEXT_TOOLTIP_SLAVE_ONE </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_HERO_MAJOR </Encyclopedia_Unit_Class>
 		
-		<Tactical_Build_Cost_Multiplayer>1700</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>28</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Cost_Multiplayer>1600</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>25</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites/>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
@@ -1249,8 +1249,8 @@
 		<Encyclopedia_Text> TEXT_TOOLTIP_MILLENNIUM_FALCON </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_HERO_MAJOR </Encyclopedia_Unit_Class>
 		
-		<Tactical_Build_Cost_Multiplayer>1750</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>33</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Cost_Multiplayer>1700</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>29</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites/>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
@@ -2065,6 +2065,7 @@
 	</HeroCompany>
 
 </HeroCompanies>
+
 
 
 

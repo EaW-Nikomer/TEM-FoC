@@ -1093,7 +1093,7 @@
 			<Type>STEALTH</Type>
 			<Alternate_Icon_Name>i_sa_stealth.tga</Alternate_Icon_Name>
 			<GUI_Activated_Ability_Name>Stealth_Phantom</GUI_Activated_Ability_Name>
-			<Recharge_Seconds>10.0</Recharge_Seconds>
+			<Recharge_Seconds>13.0</Recharge_Seconds>
 			<Expiration_Seconds>80.0</Expiration_Seconds>
 			<SFXEvent_GUI_Unit_Ability_Activated>Unit_Stealth_On_Tie_Phantom</SFXEvent_GUI_Unit_Ability_Activated>
 			<SFXEvent_GUI_Unit_Ability_Deactivated>Unit_Stealth_Off_Tie_Phantom</SFXEvent_GUI_Unit_Ability_Deactivated>
@@ -1771,7 +1771,7 @@
 			<Effective_Radius>350</Effective_Radius>
 			<GUI_Activated_Ability_Name>Buzz_Droids_Viper</GUI_Activated_Ability_Name>
 			<Must_Be_Bought_On_Black_Market>Yes</Must_Be_Bought_On_Black_Market>
-			<Recharge_Seconds>60</Recharge_Seconds>
+			<Recharge_Seconds>80</Recharge_Seconds>
 			<SFXEvent_Target_Ability>Unit_Buzz_Droids_Star_Viper</SFXEvent_Target_Ability>
 			<!--Make this double the Chase_Radius in the special ability-->
 			<Area_Effect_Decal_Distance>300.0</Area_Effect_Decal_Distance>
@@ -1788,7 +1788,7 @@
 			<Damage_Radius>175</Damage_Radius>
 			<Enemy_Damage_Per_Second>18</Enemy_Damage_Per_Second>
 			<Own_Damage_Per_Second>3</Own_Damage_Per_Second>
-			<Activation_Time_In_Seconds>1.4</Activation_Time_In_Seconds>
+			<Activation_Time_In_Seconds>1.3</Activation_Time_In_Seconds>
 			<Activate_SFX>GUI_Buzz_Droids_SFX</Activate_SFX>
 			<Object_Type>Buzz_Droids</Object_Type>
 			<Must_Be_Bought_On_Black_Market>Yes</Must_Be_Bought_On_Black_Market>
@@ -1861,7 +1861,7 @@
 
 	<!-- Movement Info -->
 		<MovementClass>Space</MovementClass>
-		<Max_Speed>3.6</Max_Speed>
+		<Max_Speed>4.0</Max_Speed>
 		<Min_Speed>2.3</Min_Speed>
 		<Min_Speed_Fraction_For_Turn>0.6</Min_Speed_Fraction_For_Turn>
 		<Max_Rate_Of_Turn>2.0</Max_Rate_Of_Turn>
@@ -2326,6 +2326,7 @@
 		<Affiliation>Underworld</Affiliation>
 	</SpaceUnit>
 </SpaceUnitsFighter>
+
 
 
 

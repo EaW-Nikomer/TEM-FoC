@@ -183,7 +183,7 @@
 
 	<!--Multiplayer Construction Info-->
 		<Tactical_Build_Cost_Multiplayer>2100</Tactical_Build_Cost_Multiplayer> <!--2500-->
-		<Tactical_Build_Time_Seconds>21</Tactical_Build_Time_Seconds> <!--18-->
+		<Tactical_Build_Time_Seconds>15</Tactical_Build_Time_Seconds> <!--18-->
 		<Tactical_Build_Prerequisites/>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 	</SpaceUnit>
@@ -780,6 +780,11 @@
 			<Recharge_Seconds>60</Recharge_Seconds>
 			<SFXEvent_GUI_Unit_Ability_Activated>Unit_Barrage_Acclamator</SFXEvent_GUI_Unit_Ability_Activated>
 		</Unit_Ability>
+		<Unit_Ability>
+			<Type>DEPLOY_SQUAD</Type>
+			<Recharge_Seconds>5</Recharge_Seconds>
+			<SFXEvent_GUI_Unit_Ability_Activated> </SFXEvent_GUI_Unit_Ability_Activated>
+		</Unit_Ability>
 	</Unit_Abilities_Data>
 
 	<!--Multiplayer Construction Info-->
@@ -1193,6 +1198,11 @@
 			<Recharge_Seconds>60</Recharge_Seconds>
 			<SFXEvent_GUI_Unit_Ability_Activated>Unit_Barrage_Victory_Destroyer</SFXEvent_GUI_Unit_Ability_Activated>
 		</Unit_Ability>
+		<Unit_Ability>
+			<Type>DEPLOY_SQUAD</Type>
+			<Recharge_Seconds>5</Recharge_Seconds>
+			<SFXEvent_GUI_Unit_Ability_Activated> </SFXEvent_GUI_Unit_Ability_Activated>
+		</Unit_Ability>
 	</Unit_Abilities_Data>
 
 	<!--Multiplayer Construction Info-->
@@ -1269,7 +1279,7 @@
 
 	<!-- Statistics Info -->
 		<Shield_Armor_Type>Shield_Frigate</Shield_Armor_Type>
-		<Shield_Points>750</Shield_Points>
+		<Shield_Points>650</Shield_Points>
 		<Shield_Refresh_Rate>40</Shield_Refresh_Rate>
 		<Armor_Type>Armor_Assault_Frigate</Armor_Type>
 		<Tactical_Health>2500</Tactical_Health>
@@ -1417,7 +1427,7 @@
 
 	<!--Multiplayer Construction Info-->
 		<Tactical_Build_Cost_Multiplayer>2600</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>13</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Time_Seconds>22</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites/>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 	</SpaceUnit>
@@ -2006,6 +2016,7 @@
 		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
 	</SpaceUnit>
 </SpaceUnitsFrigate>
+
 
 
 

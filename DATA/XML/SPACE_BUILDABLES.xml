@@ -2209,7 +2209,7 @@
 		<Score_Cost_Credits>5000</Score_Cost_Credits>
 
 		<Space_FOW_Reveal_Range>400.0</Space_FOW_Reveal_Range>
-		<Reinforcement_Prevention_Radius>200</Reinforcement_Prevention_Radius>
+		<Reinforcement_Prevention_Radius>600</Reinforcement_Prevention_Radius>
 
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Radar_Icon_Name>mini_map_mining_facilities.tga</Radar_Icon_Name>
@@ -2256,7 +2256,7 @@
 			<Activation_Style>Skirmish_Automatic</Activation_Style>
 			<Heal_Range>0.0</Heal_Range>
 			<Heal_Percent>0.0</Heal_Percent>
-			<Heal_Amount>5.0</Heal_Amount>
+			<Heal_Amount>8.0</Heal_Amount>
 			<Heal_Interval_In_Secs>1.0</Heal_Interval_In_Secs>
 			<Single_Target_Heal>Yes</Single_Target_Heal>
 			<Applicable_Unit_Categories/>
@@ -2289,7 +2289,7 @@
 
 	<Abilities SubObjectList="Yes">
 		<Income_Stream_Ability Name="EA_Mineral_Extractor_Income_Stream">
-			<Base_Income_Value>185</Base_Income_Value> <!--185-->
+			<Base_Income_Value>180</Base_Income_Value> <!--180-->
 			<Base_Interval_In_Secs>10</Base_Interval_In_Secs>
 			<Split_Income_With_Allies>Yes</Split_Income_With_Allies>
 			<Split_Favors_Owner>No</Split_Favors_Owner>
@@ -2356,7 +2356,7 @@
 
 	<Abilities SubObjectList="Yes">
 		<Income_Stream_Ability Name="RA_Mineral_Extractor_Income_Stream">
-			<Base_Income_Value>185</Base_Income_Value> <!--185-->
+			<Base_Income_Value>180</Base_Income_Value> <!--180-->
 			<Base_Interval_In_Secs>10</Base_Interval_In_Secs>
 			<Split_Income_With_Allies>Yes</Split_Income_With_Allies>
 			<Split_Favors_Owner>No</Split_Favors_Owner>
@@ -2406,7 +2406,7 @@
 			<Activation_Style>Skirmish_Automatic</Activation_Style>
 			<Heal_Range>0.0</Heal_Range>
 			<Heal_Percent>0.0</Heal_Percent>
-			<Heal_Amount>5.0</Heal_Amount>
+			<Heal_Amount>8.0</Heal_Amount>
 			<Heal_Interval_In_Secs>1.0</Heal_Interval_In_Secs>
 			<Single_Target_Heal>Yes</Single_Target_Heal>
 			<Applicable_Unit_Categories/>
@@ -2440,7 +2440,7 @@
 
 	<Abilities SubObjectList="Yes">
 		<Income_Stream_Ability Name="UA_Mineral_Extractor_Income_Stream">
-			<Base_Income_Value>190</Base_Income_Value> <!--190-->
+			<Base_Income_Value>180</Base_Income_Value> <!--190-->
 			<Base_Interval_In_Secs>10</Base_Interval_In_Secs>
 			<Split_Income_With_Allies>Yes</Split_Income_With_Allies>
 			<Split_Favors_Owner>No</Split_Favors_Owner>
@@ -2483,5 +2483,3 @@
 	</Abilities>
 	</SpaceBuildable>
 </SpaceBuildables>
-
-

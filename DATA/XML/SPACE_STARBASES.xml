@@ -3138,6 +3138,7 @@
 	<!-- Skirmish Buildables -->
 		<Tactical_Buildable_Objects_Multiplayer>
 			Empire,
+				TIE_Fighter_Squadron,
 				TIE_Interceptor_Squadron,
 				TIE_Bomber_Squadron,
 				ES_Enhanced_Reactors_L1_Upgrade,
@@ -3210,6 +3211,7 @@
 	<!-- Skirmish Buildables -->
 		<Tactical_Buildable_Objects_Multiplayer>
 			Empire,
+				TIE_Fighter_Squadron,
 				TIE_Interceptor_Squadron,
 				TIE_Phantom_Squadron,
 				TIE_Scout_Squadron,
@@ -3316,6 +3318,7 @@
 	<!-- Skirmish Buildables -->
 		<Tactical_Buildable_Objects_Multiplayer>
 			Empire,
+				TIE_Fighter_Squadron,
 				TIE_Interceptor_Squadron,
 				TIE_Defender_Squadron,
 				TIE_Phantom_Squadron,
@@ -3445,6 +3448,7 @@
 	<!-- Skirmish Buildables -->
 		<Tactical_Buildable_Objects_Multiplayer>
 			Empire,
+				TIE_Fighter_Squadron,
 				TIE_Interceptor_Squadron,
 				TIE_Defender_Squadron,
 				TIE_Phantom_Squadron,
@@ -3576,6 +3580,7 @@
 	<!-- Skirmish Buildables -->
 		<Tactical_Buildable_Objects_Multiplayer>
 			Empire,
+				TIE_Fighter_Squadron,
 				TIE_Interceptor_Squadron,
 				TIE_Defender_Squadron,
 				TIE_Phantom_Squadron,
@@ -4238,6 +4243,3 @@
 	</Abilities>
 	</StarBase>
 </StarBases>
-
-
-

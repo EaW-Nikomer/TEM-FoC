@@ -1,6 +1,79 @@
 TEM FOC NOTES
 
-v2.0.1.1128 (2021-02-12) [FoC v1.121.748742]
+v3.0.1.1206 (2021-10-09) [FoC v1.121.748742]
+============================================
+Asteroid Mines
+	Reinforcement Prevention Radius: 200 > 600
+	Self Repair: 5 > 8/sec (More accurate to vanilla)
+Ion Nebulae
+	New texture
+
+----- REBEL -----
+X-Wing
+	Build Time: 16 > 13sec
+Y-Wing
+	Build Time: 18 > 14sec
+A-Wing
+	Build Time: 16 > 12sec
+	Build Cost: 600 > 650
+Rogue Squadron
+	Build Time: 20 > 17sec
+	Build Cost: 1000 > 800
+	Strike Damage Multiplier: 2.5 > 2.1x
+Han Solo
+	Build Time: 33 > 29sec
+	Build Cost: 1750 > 1700
+Corellian Corv
+	Build Time: 16 > 10sec
+Nebulon-B
+	Build Time: 21 > 15sec
+
+----- EMPIRE -----
+TIE Scout
+	Build Time: 15 > 14sec
+	Ability range indicator texture changed
+TIE Phantom
+	Build Cost: 425 > 400
+	Stealth ability recharge time: 10 > 13sec
+TIE Fighter
+	Build Time: 10 > 11sec
+	Build Cost: 300 > 350
+	Now buildable at tech 1
+TIE Bomber
+	Build Time: 17 > 16sec
+Boba Fett
+	Build Time: 28 > 25sec
+	Build Cost: 1650 > 1600
+	Seismic Charge AoE Range: 600 > 450
+Tartan
+	PtW Ability duration: 10 > 12sec
+Acclamator
+	Now has Deploy Squadrons ability
+Victory
+	Now has Deploy Squadrons ability
+ISD
+	Now has Deploy Squadrons ability
+
+----- UNDERWORLD -----
+StarViper
+	Build Time: 13 > 17sec
+	Buzz Droid activation time: 1.4 > 1.3sec
+	Buzz Droid ability recharge time: 60 > 80sec
+Skipray
+	Build Time: 14 > 17sec
+	Max Speed: 3.6 > 4.0
+Bossk
+	Added Stealth Detection Pod ability
+	Added Damage_Bossk_Missile DtAM
+		Damage vs Station Armor: 0.5 > 0.35x
+Crusader
+	Build Time: 10 > 16sec
+Interceptor IV
+	Build Time: 13 > 22sec
+	Shields: 750 > 650
+
+
+v2.0.1.1128 (2021-02-22) [FoC v1.121.748742]
 ============================================
 
 GENERIC

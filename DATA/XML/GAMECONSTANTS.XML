@@ -868,6 +868,7 @@
 		Damage_Proton_Torp, 
 		Damage_Proton_Torp_Light, 
 		Damage_Con_Missile, 
+		Damage_Bossk_Missile,
 		Damage_Turbolaser, 
 		Damage_Blaster_Hand,
                 Damage_Hero_Blaster_Hand,
@@ -1948,6 +1949,39 @@
 	<Damage_To_Armor_Mod>Damage_Con_Missile, Armor_Vengeance, 5.0</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_Con_Missile, Armor_MC30_Frigate, 5.8</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_Con_Missile, Armor_SSD, 0.5</Damage_To_Armor_Mod>
+
+	<!-- Bossk Missile split -->
+	<Damage_To_Armor_Mod>Damage_Bossk_Missile, Armor_Default, 1</Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod>Damage_Bossk_Missile, Shield_Default, 1</Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod>Damage_Bossk_Missile, Armor_Transport, 1</Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod>Damage_Bossk_Missile, Armor_Bomber, 1.2</Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod>Damage_Bossk_Missile, Armor_Fighter, 1.4</Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod>Damage_Bossk_Missile, Armor_Fighter_Hero, 1</Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod>Damage_Bossk_Missile, Armor_Hero_Transport, 1</Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod>Damage_Bossk_Missile, Armor_Corellian_Corvette, 1.8</Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod>Damage_Bossk_Missile, Armor_Missile_Cruiser, 1</Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod>Damage_Bossk_Missile, Armor_Tartan, 1.6</Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod>Damage_Bossk_Missile, Armor_Interdictor, 1</Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod>Damage_Bossk_Missile, Armor_Corellian_Gunboat, 1</Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod>Damage_Bossk_Missile, Armor_Nebulon_B, 1</Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod>Damage_Bossk_Missile, Armor_Acclamator, 1</Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod>Damage_Bossk_Missile, Armor_Pirate_Frigate, 1</Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod>Damage_Bossk_Missile, Armor_Satellite, 1.2</Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod>Damage_Bossk_Missile, Armor_Asteroid_Mine, 1.2</Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod>Damage_Bossk_Missile, Armor_Frigate, 1</Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod>Damage_Bossk_Missile, Armor_Victory_Class, 0.75</Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod>Damage_Bossk_Missile, Armor_Assault_Frigate, 1</Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod>Damage_Bossk_Missile, Armor_Calamari_Cruiser, 0.75</Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod>Damage_Bossk_Missile, Armor_Star_Destroyer, 0.5</Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod>Damage_Bossk_Missile, Armor_Station, 0.35</Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod>Damage_Bossk_Missile, Shield_Capital, 1</Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod>Damage_Bossk_Missile, Shield_Frigate, 1</Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod>Damage_Bossk_Missile, Shield_Corvette, 1</Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod>Damage_Bossk_Missile, Shield_Fighter, 1</Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod>Damage_Bossk_Missile, Shield_SSD, 1.0</Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod>Damage_Bossk_Missile, Armor_Vengeance, 5.0</Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod>Damage_Bossk_Missile, Armor_MC30_Frigate, 5.8</Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod>Damage_Bossk_Missile, Armor_SSD, 0.5</Damage_To_Armor_Mod>
 	
 	<!-- Diamond-Boron Missile Damage Type - Space Only -->
 	<Damage_To_Armor_Mod>Damage_Diamond_Missile, Armor_Default, 1</Damage_To_Armor_Mod>
@@ -4448,6 +4482,7 @@
 	<Tactical_Command_Bar_Buildable_Row_Count>24</Tactical_Command_Bar_Buildable_Row_Count> <!--v=24-->
 	<Strategic_Command_Bar_Buildable_Row_Count>26</Strategic_Command_Bar_Buildable_Row_Count> <!--v=26-->
 </GameConstants>
+
 
 
 

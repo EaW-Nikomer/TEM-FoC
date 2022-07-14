@@ -77,7 +77,7 @@
 
 	<!--Multiplayer Construction Info-->
 		<Tactical_Build_Cost_Multiplayer>500</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>16</Tactical_Build_Time_Seconds> <!--15-->
+		<Tactical_Build_Time_Seconds>13</Tactical_Build_Time_Seconds> <!--15-->
 		<Tactical_Build_Prerequisites/>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 	</Squadron>
@@ -159,8 +159,8 @@
 	</Unit_Abilities_Data>
 
 	<!--Multiplayer Construction Info-->
-		<Tactical_Build_Cost_Multiplayer>600</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>16</Tactical_Build_Time_Seconds> <!--18-->
+		<Tactical_Build_Cost_Multiplayer>650</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>12</Tactical_Build_Time_Seconds> <!--18-->
 		<Tactical_Build_Prerequisites/>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 	</Squadron>
@@ -240,7 +240,7 @@
 
 	<!--Multiplayer Construction Info-->
 		<Tactical_Build_Cost_Multiplayer>450</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>18</Tactical_Build_Time_Seconds> <!--17-->
+		<Tactical_Build_Time_Seconds>14</Tactical_Build_Time_Seconds> <!--17-->
 		<Tactical_Build_Prerequisites/>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 	</Squadron>
@@ -459,7 +459,7 @@
 
 	<!--Multiplayer Construction Info-->
 		<Tactical_Build_Cost_Multiplayer>325</Tactical_Build_Cost_Multiplayer> <!--275-->
-		<Tactical_Build_Time_Seconds>15</Tactical_Build_Time_Seconds> <!--12-->
+		<Tactical_Build_Time_Seconds>14</Tactical_Build_Time_Seconds> <!--12-->
 		<Tactical_Build_Prerequisites/>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 	</Squadron>
@@ -541,8 +541,8 @@
 	</Unit_Abilities_Data>
 
 	<!--Multiplayer Construction Info-->
-		<Tactical_Build_Cost_Multiplayer>300</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>10</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Cost_Multiplayer>350</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>11</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites/>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 	</Squadron>
@@ -634,7 +634,7 @@
 	</Abilities>
 
 	<!--Multiplayer Construction Info-->
-		<Tactical_Build_Cost_Multiplayer>425</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer>400</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>13</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites/>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
@@ -788,7 +788,7 @@
 
 	<!--Multiplayer Construction Info-->
 		<Tactical_Build_Cost_Multiplayer>500</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>17</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Time_Seconds>16</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites/>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 	</Squadron>
@@ -944,7 +944,7 @@
 
 	<!--Multiplayer Construction Info-->
 		<Tactical_Build_Cost_Multiplayer>625</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>13</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Time_Seconds>17</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites/>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 	</Squadron>
@@ -1021,7 +1021,7 @@
 
 	<!--Multiplayer Construction Info-->
 		<Tactical_Build_Cost_Multiplayer>650</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>14</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Time_Seconds>17</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites/>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 	</Squadron>
@@ -1966,7 +1966,7 @@
 			<Type>POWER_TO_WEAPONS</Type>
 			<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	0.5f</Mod_Multiplier>
 			<Mod_Multiplier>SPEED_MULTIPLIER,		1.0f</Mod_Multiplier>
-			<Mod_Multiplier>CAUSE_DAMAGE_MULTIPLIER,	2.5f</Mod_Multiplier>
+			<Mod_Multiplier>CAUSE_DAMAGE_MULTIPLIER,	2.1f</Mod_Multiplier>
 			<Recharge_Seconds>60</Recharge_Seconds>
 			<Expiration_Seconds>10</Expiration_Seconds>
 			<Alternate_Name_Text>TEXT_TOOLTIP_ABILITY_STRIKE_NAME</Alternate_Name_Text>
@@ -1976,8 +1976,8 @@
 	</Unit_Abilities_Data>
 
 	<!--Multiplayer Construction Info-->
-		<Tactical_Build_Cost_Multiplayer>1000</Tactical_Build_Cost_Multiplayer> <!--2500-->
-		<Tactical_Build_Time_Seconds>20</Tactical_Build_Time_Seconds> <!--25-->
+		<Tactical_Build_Cost_Multiplayer>800</Tactical_Build_Cost_Multiplayer> <!--2500-->
+		<Tactical_Build_Time_Seconds>17</Tactical_Build_Time_Seconds> <!--25-->
 		<Tactical_Build_Prerequisites/>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
@@ -2049,6 +2049,7 @@
 	</Unit_Abilities_Data>
 	</Squadron>
 </Squadrons>
+
 
 
 

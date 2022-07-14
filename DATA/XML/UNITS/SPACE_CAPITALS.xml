@@ -409,6 +409,11 @@
 			<SFXEvent_Special_Ability_Loop>Unit_Star_Destroyer_Tractor_Beam</SFXEvent_Special_Ability_Loop>
 <!--			<Supports_Autofire>True</Supports_Autofire>-->
 		</Unit_Ability>
+		<Unit_Ability>
+			<Type>DEPLOY_SQUAD</Type>
+			<Recharge_Seconds>5</Recharge_Seconds>
+			<SFXEvent_GUI_Unit_Ability_Activated> </SFXEvent_GUI_Unit_Ability_Activated>
+		</Unit_Ability>
 	</Unit_Abilities_Data>
 
 	<Abilities SubObjectList="Yes">
@@ -900,6 +905,7 @@
 		<Remove_Upon_Death>true</Remove_Upon_Death>
 	</SpaceUnit>
 </SpaceUnitsCapital>
+
 
 
 

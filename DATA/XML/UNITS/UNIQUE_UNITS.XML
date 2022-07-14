@@ -2833,8 +2833,8 @@
 	</Unit_Abilities_Data>
 
 	<!-- Skirmish Build Info -->
-		<Tactical_Build_Cost_Multiplayer>1650</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>28</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Cost_Multiplayer>1600</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>25</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites/>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
@@ -3302,7 +3302,7 @@
 			<Type>POWER_TO_WEAPONS</Type>
 			<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	0.5f</Mod_Multiplier>
 			<Mod_Multiplier>SPEED_MULTIPLIER,		1.0f</Mod_Multiplier>
-			<Mod_Multiplier>CAUSE_DAMAGE_MULTIPLIER,	2.5f</Mod_Multiplier>
+			<Mod_Multiplier>CAUSE_DAMAGE_MULTIPLIER,	2.1f</Mod_Multiplier>
 			<Recharge_Seconds>60</Recharge_Seconds>
 			<Expiration_Seconds>10</Expiration_Seconds>
 			<Alternate_Name_Text>TEXT_TOOLTIP_ABILITY_STRIKE_NAME</Alternate_Name_Text>
@@ -4144,6 +4144,14 @@
 			<Expiration_Seconds>15.0</Expiration_Seconds>
 			<Effective_Radius>900.0</Effective_Radius>
 		</Unit_Ability>
+		<Unit_Ability>
+			<Type>HARMONIC_BOMB</Type>
+			<Recharge_Seconds>65</Recharge_Seconds>
+			<Spawned_Object_Type>Proj_Stealth_Detection_Pod</Spawned_Object_Type>
+			<Bomb_Countdown_Seconds>10</Bomb_Countdown_Seconds>
+			<SFXEvent_GUI_Unit_Ability_Activated> </SFXEvent_GUI_Unit_Ability_Activated>
+<!--			<Supports_Autofire>True</Supports_Autofire>-->
+		</Unit_Ability>
 	</Unit_Abilities_Data>
 
 	<Abilities SubObjectList="Yes">
@@ -4736,6 +4744,8 @@
 	<Hover_Offset>30.0</Hover_Offset>
 </UniqueUnit>
 -->
+
+
 
 
 
