@@ -871,7 +871,7 @@
 		Damage_Bossk_Missile,
 		Damage_Turbolaser, 
 		Damage_Blaster_Hand,
-                Damage_Hero_Blaster_Hand,
+		Damage_Hero_Blaster_Hand,
 		Damage_PLEX, 
 		Damage_Sniper, 
 		Damage_Lightning, 
@@ -909,6 +909,7 @@
 		Damage_Victory_SD,
 		Damage_InterceptorIV,
 		Damage_IPV,
+		Damage_Laser_Satellite,
 		Damage_Nebulon_B,
 		Damage_Tartan_Cruiser,
 		Damage_Corellian_Corvette,
@@ -1421,6 +1422,39 @@
 	<Damage_To_Armor_Mod>Damage_Interdictor, Armor_Vengeance, 0.25</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_Interdictor, Armor_MC30_Frigate, 1</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_Interdictor, Armor_SSD, 0.25</Damage_To_Armor_Mod>
+
+	<!-- Laser Satellite Turret -->
+	<Damage_To_Armor_Mod>Damage_Laser_Satellite, Armor_Default, 1</Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod>Damage_Laser_Satellite, Shield_Default, 1</Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod>Damage_Laser_Satellite, Armor_Bomber, 1</Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod>Damage_Laser_Satellite, Armor_Transport, 1.2</Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod>Damage_Laser_Satellite, Armor_Fighter, 1</Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod>Damage_Laser_Satellite, Armor_Fighter_Hero, 1.2</Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod>Damage_Laser_Satellite, Armor_Hero_Transport, 1.2</Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod>Damage_Laser_Satellite, Armor_Corellian_Corvette, 1.3</Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod>Damage_Laser_Satellite, Armor_Missile_Cruiser, 1.4</Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod>Damage_Laser_Satellite, Armor_Corellian_Gunboat, 1</Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod>Damage_Laser_Satellite, Armor_Tartan, 1.2</Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod>Damage_Laser_Satellite, Armor_Interdictor, 1</Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod>Damage_Laser_Satellite, Armor_Nebulon_B, 1</Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod>Damage_Laser_Satellite, Armor_Acclamator, 1</Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod>Damage_Laser_Satellite, Armor_Pirate_Frigate, 1</Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod>Damage_Laser_Satellite, Armor_Satellite, 1</Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod>Damage_Laser_Satellite, Armor_Asteroid_Mine, 1.2</Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod>Damage_Laser_Satellite, Armor_Frigate, 1</Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod>Damage_Laser_Satellite, Armor_Victory_Class, 1</Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod>Damage_Laser_Satellite, Armor_Assault_Frigate, 1</Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod>Damage_Laser_Satellite, Armor_Calamari_Cruiser, 0.8</Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod>Damage_Laser_Satellite, Armor_Star_Destroyer, 0.8</Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod>Damage_Laser_Satellite, Armor_Station, 0.8</Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod>Damage_Laser_Satellite, Shield_Capital, 0.8</Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod>Damage_Laser_Satellite, Shield_Frigate, 1</Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod>Damage_Laser_Satellite, Shield_Corvette, 1</Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod>Damage_Laser_Satellite, Shield_Fighter, 1.2</Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod>Damage_Laser_Satellite, Shield_SSD, 1</Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod>Damage_Laser_Satellite, Armor_Vengeance, 0.8</Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod>Damage_Laser_Satellite, Armor_MC30_Frigate, 1.4</Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod>Damage_Laser_Satellite, Armor_SSD, 0.8</Damage_To_Armor_Mod>
 	
 	<!-- Nebulon B lasers and turbolasers -->
 	<Damage_To_Armor_Mod>Damage_Nebulon_B, Armor_Default, 1</Damage_To_Armor_Mod>
@@ -1958,9 +1992,9 @@
 	<Damage_To_Armor_Mod>Damage_Bossk_Missile, Armor_Fighter, 1.4</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_Bossk_Missile, Armor_Fighter_Hero, 1</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_Bossk_Missile, Armor_Hero_Transport, 1</Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod>Damage_Bossk_Missile, Armor_Corellian_Corvette, 1.4</Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod>Damage_Bossk_Missile, Armor_Corellian_Corvette, 1.2</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_Bossk_Missile, Armor_Missile_Cruiser, 1</Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod>Damage_Bossk_Missile, Armor_Tartan, 1.2</Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod>Damage_Bossk_Missile, Armor_Tartan, 1</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_Bossk_Missile, Armor_Interdictor, 1</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_Bossk_Missile, Armor_Corellian_Gunboat, 1</Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod>Damage_Bossk_Missile, Armor_Nebulon_B, 1</Damage_To_Armor_Mod>
@@ -4482,6 +4516,9 @@
 	<Tactical_Command_Bar_Buildable_Row_Count>24</Tactical_Command_Bar_Buildable_Row_Count> <!--v=24-->
 	<Strategic_Command_Bar_Buildable_Row_Count>26</Strategic_Command_Bar_Buildable_Row_Count> <!--v=26-->
 </GameConstants>
+
+
+
 
 
 

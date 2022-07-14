@@ -3735,7 +3735,7 @@
 		<Fire_Projectile_Type>Proj_Ship_Medium_Laser_Cannon_Green</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>2.0</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>3.0</Fire_Max_Recharge_Seconds>
-		<Fire_Pulse_Count>5</Fire_Pulse_Count>
+		<Fire_Pulse_Count>6</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>1000.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Empire_Ship_Laser_Fire</Fire_SFXEvent>
@@ -3763,7 +3763,7 @@
 		<Fire_Projectile_Type>Proj_Ship_Medium_Laser_Cannon_Green</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>2.0</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>3.0</Fire_Max_Recharge_Seconds>
-		<Fire_Pulse_Count>5</Fire_Pulse_Count>
+		<Fire_Pulse_Count>7</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>1000.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Empire_Ship_Laser_Fire</Fire_SFXEvent>
@@ -3791,7 +3791,7 @@
 		<Fire_Projectile_Type>Proj_Ship_Medium_Laser_Cannon_Green</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>2.0</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>3.0</Fire_Max_Recharge_Seconds>
-		<Fire_Pulse_Count>5</Fire_Pulse_Count>
+		<Fire_Pulse_Count>7</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>1000.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Empire_Ship_Laser_Fire</Fire_SFXEvent>
@@ -3819,7 +3819,7 @@
 		<Fire_Projectile_Type>Proj_Ship_Medium_Laser_Cannon_Green</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>2.0</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>3.0</Fire_Max_Recharge_Seconds>
-		<Fire_Pulse_Count>5</Fire_Pulse_Count>
+		<Fire_Pulse_Count>6</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>1000.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Empire_Ship_Laser_Fire</Fire_SFXEvent>
@@ -3847,7 +3847,7 @@
 		<Fire_Projectile_Type>Proj_Ship_Medium_Laser_Cannon_Green</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>2.0</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>3.0</Fire_Max_Recharge_Seconds>
-		<Fire_Pulse_Count>5</Fire_Pulse_Count>
+		<Fire_Pulse_Count>6</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>1000.0</Fire_Range_Distance>
 			<Fire_SFXEvent>Unit_Empire_Ship_Laser_Fire</Fire_SFXEvent>
@@ -4534,4 +4534,5 @@
 		<Fire_Inaccuracy_Distance>LandHero, 45.0</Fire_Inaccuracy_Distance>
 	</HardPoint>
 </HardPoints>
+
 

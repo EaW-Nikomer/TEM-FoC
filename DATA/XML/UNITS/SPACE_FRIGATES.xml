@@ -170,7 +170,7 @@
 			<Recharge_Seconds>60</Recharge_Seconds>
 			<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,		1.35f</Mod_Multiplier>
 			<Mod_Multiplier>CAUSE_DAMAGE_MULTIPLIER,		0.75f</Mod_Multiplier>
-			<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER,			0.8f</Mod_Multiplier>
+			<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER,			0.75f</Mod_Multiplier>
 			<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,		1.0f</Mod_Multiplier>
 			<Mod_Multiplier>SHIELD_REGEN_INTERVAL_MULTIPLIER,	0.1333f</Mod_Multiplier>
 			<Mod_Multiplier>ENERGY_REGEN_INTERVAL_MULTIPLIER,	0.10f</Mod_Multiplier>
@@ -775,8 +775,9 @@
 	<Unit_Abilities_Data SubObjectList="Yes">
 		<Unit_Ability>
 			<Type>power_to_weapons</Type>
-			<Expiration_Seconds>8</Expiration_Seconds> <!--20-->
+			<Expiration_Seconds>10</Expiration_Seconds> <!--20-->
 			<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	0.5f</Mod_Multiplier>
+			<Mod_Multiplier>CAUSE_DAMAGE_MULTIPLIER,	0.75f</Mod_Multiplier>
 			<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	-3f</Mod_Multiplier>
 			<Mod_Multiplier>SPEED_MULTIPLIER,		0.5f</Mod_Multiplier>
 			<Recharge_Seconds>60</Recharge_Seconds>
@@ -1281,7 +1282,7 @@
 
 	<!-- Statistics Info -->
 		<Shield_Armor_Type>Shield_Frigate</Shield_Armor_Type>
-		<Shield_Points>650</Shield_Points>
+		<Shield_Points>600</Shield_Points>
 		<Shield_Refresh_Rate>40</Shield_Refresh_Rate>
 		<Armor_Type>Armor_Assault_Frigate</Armor_Type>
 		<Tactical_Health>2500</Tactical_Health>
@@ -2018,6 +2019,9 @@
 		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
 	</SpaceUnit>
 </SpaceUnitsFrigate>
+
+
+
 
 
 

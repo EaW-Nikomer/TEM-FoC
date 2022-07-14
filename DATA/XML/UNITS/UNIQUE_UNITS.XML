@@ -3244,6 +3244,7 @@
 		<Damage>40</Damage>
 
 		<Damage_Type>Damage_Fighter</Damage_Type>
+		<Projectile_Damage>5.25</Projectile_Damage>
 		<Projectile_Types>Proj_Ship_Small_Laser_Cannon_Red</Projectile_Types>
 		<Projectile_Fire_Pulse_Count>4</Projectile_Fire_Pulse_Count>
 		<Projectile_Fire_Pulse_Delay_Seconds>0.1</Projectile_Fire_Pulse_Delay_Seconds>
@@ -4046,8 +4047,8 @@
 		<MovementClass>Space</MovementClass>
 		<Max_Speed>6.5</Max_Speed>
 		<Min_Speed>3.5</Min_Speed>
-		<Max_Rate_Of_Turn>1.5</Max_Rate_Of_Turn>
-		<Max_Rate_Of_Roll>2.5</Max_Rate_Of_Roll>
+		<Max_Rate_Of_Turn>2.0</Max_Rate_Of_Turn>
+		<Max_Rate_Of_Roll>3.0</Max_Rate_Of_Roll>
 		<Bank_Turn_Angle>30</Bank_Turn_Angle>
 		<Max_Thrust>1.0</Max_Thrust>
 		<Max_Lift>2.0</Max_Lift>
@@ -4059,10 +4060,10 @@
 
 	<!-- Statistics Info -->
 		<Shield_Armor_Type>Shield_Fighter</Shield_Armor_Type>
-		<Shield_Points>650</Shield_Points> <!--was 650-->
-		<Shield_Refresh_Rate>25</Shield_Refresh_Rate> <!--was 25-->
+		<Shield_Points>400</Shield_Points> <!--was 650-->
+		<Shield_Refresh_Rate>15</Shield_Refresh_Rate> <!--was 25-->
 		<Armor_Type>Armor_Hero_Transport</Armor_Type>
-		<Tactical_Health>500</Tactical_Health>
+		<Tactical_Health>400</Tactical_Health>
 		<Energy_Capacity>3000</Energy_Capacity>
 		<Energy_Refresh_Rate>500</Energy_Refresh_Rate>
 
@@ -4839,4 +4840,6 @@
 	<Hover_Offset>30.0</Hover_Offset>
 </UniqueUnit>
 -->
+
+
 

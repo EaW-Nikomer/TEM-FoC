@@ -1,5 +1,66 @@
 TEM FOC NOTES
 
+v5.0.1.1310 (2021-10-27) [FoC v1.121.748742]
+============================================
+
+---- GENERIC ----
+Laser Satellite
+	Damage Type: Damage_Default > Damage_Laser_Satellite* (new)
+	*20% increased hull damage vs Transports, Fighter Heroes, Tartans, Asteroid Mines, and Fighter Shields
+	*30% increased hull damage vs Corellian Corvette (+Crusader)
+	*40% increased hull damage vs Diamond Missile Corvettes and MC30s
+	*20% reduced hull damage vs Capital Ships, Starbases, Vengeance Frigates, SSDs, and Capital Ship Shields
+	Projectile Base Damage: 14 > 15
+
+---- EMPIRE ----
+Acclamator
+	PtW Duration: 8 > 10sec
+	PtW Damage Multiplier: 1.0 > 0.75x
+	*PtW DPS: -6%
+Tartan
+	Fire Pulse Count (x3 weapons): 5 > 6
+	Fire Pulse Count (x2 weapons): 5 > 7
+	PtW Weapon Delay Multiplier: 0.2 > 0.25x
+	*PtW DPS: -5% | Base DPS: +18%
+TIE Scout
+	FoW Ping range: 5000 > 4000
+
+---- REBEL ----
+Rebel L2 station upgrade
+	Build time: 85 > 75sec
+X-Wing
+	Added Override Damage: 5.0 > 5.25
+	S-Foils Speed Multiplier: 1.3 > 1.325 (S-Foils Speed: 5.2 > 5.3)
+Rogue Squad
+	Added Override Damage: 5.0 > 5.25
+Y-Wing
+	Shields: 30 > 40
+	Shield Regen: 3 > 4
+	Max Speed: 3.0 > 3.3
+	Ion Torpedo Dummy Hardpoint
+		Fire recharge time: 5 > 0.5sec (to ensure it's almost always off cooldown when the ability is used)
+Nebulon-B
+	PtS Take Damage multiplier: 0.8 > 0.75x
+
+---- UNDERWORLD ----
+Underworld L2 station upgrade
+	Build time: 75 > 85sec
+Bossk
+	Shields: 650 > 400
+	Shield Regen: 25 > 15
+	Health: 500 > 400
+	Max Rate of Turn: 1.5 > 2.0
+	Max Rate of Roll: 2.5 > 3.0
+Damage CCM Bossk vs Armor
+	Tartan: 1.2 > 1.0x
+	Corellian: 1.4 > 1.2x
+Crusader
+	Max Speed: 3.8 > 3.25
+	Shields: 700 > 500
+Interceptor IV
+	Shields: 650 > 600
+
+
 v4.0.1.1254 (2021-10-17) [FoC v1.121.748742]
 ============================================
 

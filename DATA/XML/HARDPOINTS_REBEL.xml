@@ -2732,8 +2732,8 @@
 		<Fire_Cone_Width>30.0</Fire_Cone_Width>
 		<Fire_Cone_Height>30.0</Fire_Cone_Height>
 		<Fire_Projectile_Type>Proj_Dummy_Invisible</Fire_Projectile_Type> <!-- Deals no damage -->
-		<Fire_Min_Recharge_Seconds>5.0</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>5.0</Fire_Max_Recharge_Seconds>
+		<Fire_Min_Recharge_Seconds>0.5</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>0.5</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.1</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>725.0</Fire_Range_Distance>
@@ -3230,6 +3230,7 @@
 		<Fire_When_In_Normal_Attack_Mode>No</Fire_When_In_Normal_Attack_Mode>
 	</HardPoint>
 </HardPoints>
+
 
 
 
