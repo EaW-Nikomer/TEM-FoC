@@ -517,7 +517,7 @@
 		</Redirect_Blaster_Ability>
 	</Abilities>
 	</GroundVehicle>
-	
+
 	<GroundVehicle Name="AT_ST_Walker">
 		<Variant_Of_Existing_Type>AT_ST_Walker_Template</Variant_Of_Existing_Type>
 
@@ -530,15 +530,15 @@
 	<Unit_Abilities_Data SubObjectList="Yes">
 		<Unit_Ability>
 			<Type>BARRAGE</Type>
-			<Expiration_Seconds>2</Expiration_Seconds>
-			<Recharge_Seconds>40</Recharge_Seconds>
-			<Mod_Multiplier>FIRE_RATE_MULTIPLIER, 0.5f</Mod_Multiplier>
-			<SFXEvent_Target_Ability>Unit_Barrage_Interdictor</SFXEvent_Target_Ability>
-			<Projectile_Types_Override>Proj_ATST_Concussion_Grenade</Projectile_Types_Override>
+			<Expiration_Seconds>10</Expiration_Seconds>
+			<Recharge_Seconds>45</Recharge_Seconds>
+			<Mod_Multiplier>FIRE_RATE_MULTIPLIER, 2.5f</Mod_Multiplier>
+			<SFXEvent_Target_Ability>Unit_Attack_AT_ST</SFXEvent_Target_Ability>
+			<Projectile_Types_Override>AT_ST_Barrage</Projectile_Types_Override>
 			<!-- radius depends on the explosion size and inaccuracy of 'Proj_ATST_Concussion_Grenade' -->
-			<Area_Effect_Decal_Distance>60.0</Area_Effect_Decal_Distance>
+			<Area_Effect_Decal_Distance>75.0</Area_Effect_Decal_Distance>
 			<!-- keep this the same as Area_Effect_Decal_Distance -->
-			<Targeting_Fire_Inaccuracy_Fixed_Radius_Override>60</Targeting_Fire_Inaccuracy_Fixed_Radius_Override>
+			<Targeting_Fire_Inaccuracy_Fixed_Radius_Override>75</Targeting_Fire_Inaccuracy_Fixed_Radius_Override>
 			<Target_Position_Z_Offset>0</Target_Position_Z_Offset>
 		</Unit_Ability>
 	</Unit_Abilities_Data>
@@ -558,15 +558,15 @@
 	<Unit_Abilities_Data SubObjectList="Yes">
 		<Unit_Ability>
 			<Type>BARRAGE</Type>
-			<Expiration_Seconds>2</Expiration_Seconds>
-			<Recharge_Seconds>40</Recharge_Seconds>
-			<Mod_Multiplier>FIRE_RATE_MULTIPLIER, 0.5f</Mod_Multiplier>
-			<SFXEvent_Target_Ability>Unit_Barrage_Interdictor</SFXEvent_Target_Ability>
-			<Projectile_Types_Override>Proj_ATST_Concussion_Grenade</Projectile_Types_Override>
+			<Expiration_Seconds>10</Expiration_Seconds>
+			<Recharge_Seconds>45</Recharge_Seconds>
+			<Mod_Multiplier>FIRE_RATE_MULTIPLIER, 2.5f</Mod_Multiplier>
+			<SFXEvent_Target_Ability>Unit_Attack_AT_ST</SFXEvent_Target_Ability>
+			<Projectile_Types_Override>AT_ST_Barrage</Projectile_Types_Override>
 			<!-- radius depends on the explosion size and inaccuracy of 'Proj_ATST_Concussion_Grenade' -->
-			<Area_Effect_Decal_Distance>60.0</Area_Effect_Decal_Distance>
+			<Area_Effect_Decal_Distance>75.0</Area_Effect_Decal_Distance>
 			<!-- keep this the same as Area_Effect_Decal_Distance -->
-			<Targeting_Fire_Inaccuracy_Fixed_Radius_Override>60</Targeting_Fire_Inaccuracy_Fixed_Radius_Override>
+			<Targeting_Fire_Inaccuracy_Fixed_Radius_Override>75</Targeting_Fire_Inaccuracy_Fixed_Radius_Override>
 			<Target_Position_Z_Offset>0</Target_Position_Z_Offset>
 		</Unit_Ability>
 		<Unit_Ability>
@@ -2909,17 +2909,12 @@
 		<Damage>21</Damage>
 		<AI_Combat_Power>300</AI_Combat_Power>
 
-		<HardPoints>HP_MPTL_00, HP_MPTL_01, HP_MPTL_02, HP_MPTL_03, HP_MPTL_04</HardPoints>
-
-<!--		<Projectile_Types>Proj_Ground_Proton_Torpedo</Projectile_Types>
+		<Projectile_Types>Proj_Ground_Proton_Torpedo</Projectile_Types>
 		<Projectile_Fire_Recharge_Seconds>6.0</Projectile_Fire_Recharge_Seconds>
 		<Projectile_Fire_Pulse_Count>9</Projectile_Fire_Pulse_Count>
 		<Projectile_Fire_Pulse_Delay_Seconds>0.2</Projectile_Fire_Pulse_Delay_Seconds>
 
-		<Targeting_Fire_Inaccuracy_Fixed_Radius>40</Targeting_Fire_Inaccuracy_Fixed_Radius>-->
-
-		<Projectile_Types>Proj_Dummy_Invisible</Projectile_Types>
-		<Projectile_Fire_Recharge_Seconds>5.0</Projectile_Fire_Recharge_Seconds>
+		<Targeting_Fire_Inaccuracy_Fixed_Radius>40</Targeting_Fire_Inaccuracy_Fixed_Radius>
 
 		<Turret_Rotate_Extent_Degrees>360</Turret_Rotate_Extent_Degrees>
 		<Turret_Elevate_Extent_Degrees>45</Turret_Elevate_Extent_Degrees>
@@ -2996,7 +2991,7 @@
 		<Converted_To_Enemy_Die_Time_Seconds>60</Converted_To_Enemy_Die_Time_Seconds>
 
 	<!-- SFX Events -->
-		<SFXEvent_Fire> </SFXEvent_Fire> <!--Unit_MPTL_Tank_Fire-->
+		<SFXEvent_Fire>Unit_MPTL_Tank_Fire</SFXEvent_Fire>
 		<SFXEvent_Select>Unit_Select_MPTL</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_MPTL</SFXEvent_Move>
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_MPTL</SFXEvent_Fleet_Move>
@@ -4264,8 +4259,7 @@
 		</Unit_Abilities_Data>
 
 	</GroundVehicle>
-	
-	
+
 	<GroundVehicle Name="MAL_Rocket_Vehicle">
 		<Text_ID>TEXT_UNIT_MAL</Text_ID>
 		<Encyclopedia_Good_Against> T2B_Tank AT_ST_Walker R_Ground_Light_Vehicle_Factory  </Encyclopedia_Good_Against>
@@ -4311,12 +4305,12 @@
 		<Deploys>Yes</Deploys> <!-- Animation Time: 30 frames [1sec] -->
 		<Auto_Deploys>Yes</Auto_Deploys>
 		<Deployed_Max_Attack_Distance_Multiplier>1.0</Deployed_Max_Attack_Distance_Multiplier>
-		<Deployment_Anim_Rate>0.3</Deployment_Anim_Rate> <!-- was 0.5 [60 frames] -->
+		<Deployment_Anim_Rate>0.5</Deployment_Anim_Rate> <!-- was 0.5 [60 frames] -->
 		<Fire_Weapon_When_Deployed>Yes</Fire_Weapon_When_Deployed>
 		<Fire_Weapon_When_Undeployed>No</Fire_Weapon_When_Undeployed>
 
 		<Deployed_Turret_Rotate_Extent_Degrees>360</Deployed_Turret_Rotate_Extent_Degrees>
-		<Deployed_Turret_Elevate_Extent_Degrees>120</Deployed_Turret_Elevate_Extent_Degrees>
+		<Deployed_Turret_Elevate_Extent_Degrees>180</Deployed_Turret_Elevate_Extent_Degrees>
 		<Turret_Rotate_Extent_Degrees>30</Turret_Rotate_Extent_Degrees>
 		<Turret_Elevate_Extent_Degrees>45</Turret_Elevate_Extent_Degrees>
 		<Turret_Rotate_Speed>8.0</Turret_Rotate_Speed>
@@ -4330,14 +4324,11 @@
 		<Turret_Targets_Air_Vehicles> 2 </Turret_Targets_Air_Vehicles>
 		<Turret_Targets_Anything_Else> 3 </Turret_Targets_Anything_Else>
 
-<!--		<Projectile_Types>Proj_MAL_Concussion_Missile, Proj_MAL_Carbonite_Missile </Projectile_Types>-->
-		<Projectile_Types>Proj_Dummy_Invisible</Projectile_Types>
-		<Projectile_Fire_Recharge_Seconds>5.0</Projectile_Fire_Recharge_Seconds>
-		<HardPoints>HP_MAL_Missile, HP_MAL_Carbonite_Missile</HardPoints>
+		<Projectile_Types>Proj_MAL_Concussion_Missile, Proj_MAL_Carbonite_Missile </Projectile_Types>
 
 		<Land_FOW_Reveal_Range>320.0</Land_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>500.0</Targeting_Max_Attack_Distance>
-		<Targeting_Min_Attack_Distance> 30 </Targeting_Min_Attack_Distance>
+		<Targeting_Min_Attack_Distance> 10 </Targeting_Min_Attack_Distance>
 
 		<Targeting_Fire_Inaccuracy_Fixed_Radius> 40 </Targeting_Fire_Inaccuracy_Fixed_Radius> <!-- adding inaccuracy radius to MAL -->
 
@@ -4350,7 +4341,7 @@
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Remove_Upon_Death>true</Remove_Upon_Death>
 
-		<SFXEvent_Fire> </SFXEvent_Fire> <!-- Unit_MPTL_Tank_Fire -->
+		<SFXEvent_Fire>Unit_MPTL_Tank_Fire</SFXEvent_Fire> <!-- Unit_MPTL_Tank_Fire -->
 		<SFXEvent_Select>Unit_Select_Missile_Launcher</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_Missile_Launcher</SFXEvent_Move>
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Missile_Launcher</SFXEvent_Fleet_Move>
@@ -4416,30 +4407,18 @@
 
 		<!-- Non-Hero unit abilities description -->
 		<Unit_Abilities_Data SubObjectList="Yes">
-
 			<!-- Primary ability -->
 			<Unit_Ability>
 				<Type>DEPLOY</Type>
 				<Alternate_Description_Text>TEXT_TOOLTIP_MAL_DEPLOY_DESCRIPTION</Alternate_Description_Text>
 			</Unit_Ability>
-
-<!--			<Unit_Ability>
+			<Unit_Ability>
 				<Type>SWAP_WEAPONS</Type>
 				<Alternate_Name_Text>TEXT_TOOLTIP_MAL_SWAP</Alternate_Name_Text>
 				<Alternate_Description_Text>TEXT_MAL_SWAP_DESCRIPTION</Alternate_Description_Text>
 				<GUI_Activated_Ability_Name>MAL_Swap_Weapon</GUI_Activated_Ability_Name>
 				<Must_Be_Bought_On_Black_Market>Yes</Must_Be_Bought_On_Black_Market>
-			</Unit_Ability>-->
-			
-		<Unit_Ability>
-			<Type>ROCKET_ATTACK</Type>
-			<Alternate_Name_Text>TEXT_TOOLTIP_MAL_SWAP</Alternate_Name_Text>
-			<Alternate_Icon_Name>I_SA_SWAP_WEAPONS.tga</Alternate_Icon_Name>
-			<Alternate_Description_Text>TEXT_MAL_SWAP_DESCRIPTION</Alternate_Description_Text>
-			<GUI_Activated_Ability_Name>MAL_Swap_Weapon</GUI_Activated_Ability_Name>
-			<Must_Be_Bought_On_Black_Market>Yes</Must_Be_Bought_On_Black_Market>
-		</Unit_Ability>
-
+			</Unit_Ability>
 		</Unit_Abilities_Data>
 
 	</GroundVehicle>
@@ -6132,6 +6111,7 @@
 	</GroundVehicle>
 	
 </GroundVehicles>
+
 
 
 

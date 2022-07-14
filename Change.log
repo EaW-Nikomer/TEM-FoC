@@ -1,5 +1,79 @@
 TEM FOC NOTES
 
+v2.0.1.1128 (2021-02-12) [FoC v1.121.748742]
+============================================
+
+GENERIC
+Skirmish default starting credits: 6000 > 8000
+Proj_Ion_Cannon_Small (for fighters)
+	No longer disables engines when target's power is drained
+Damage_Acclamator_TL reworked vs Armor
+	Corellian_Corvette: 5 > 4x
+	Missile_Cruiser: 5 > 4x
+	Tartan: 5 > 4x
+	Corellian_Gunboat: 4.75 > 4x
+	Satellite: 5 > 4x
+	Asteroid_Mine: 5 > 3x
+Added Damage_InterceptorIV
+	Custom DtAM to deal with high rate of fire
+
+EMPIRE
+Level 2 Starbase Upgrade
+	Build Cost: 2000 > 2200
+TIE Scout
+	FoW Ping Ability now has range indicator
+TIE Phantom
+	Health: 65 > 60
+Tartan
+	PtW Ability duration: 7 > 10sec
+Acclamator
+	PtW Ability duration: 20 > 8sec
+	Turbolaser damage rebalanced
+Boba Fett
+	Damage Type changed: Damage_Fighter > Damage_Gunship (20% more damage to mines)
+
+REBEL
+Level 2 Starbase Upgrade
+	Build Time: 80 > 85sec
+Asteroid Mine
+	Build Cost: 850 > 800
+	Build Time: 35 > 40sec
+Y-Wing
+	Ion Torpedo ion stun duration: 1.333 > 1.5sec
+Rogue Squadron
+	Build Time: 18 > 20sec
+	Health: 200 > 180
+Corellian Corvette
+	PtE Ability duration: 20 > 25sec
+	PtE Ability recharge time: 50 > 45sec
+Nebulon-B
+	PtS Ability now reduces firerate by ~25%
+	PtS Ability now reduces projectile damage by 25%
+Han Solo
+	Damage Type changed: Damage_Fighter > Damage_Gunship (20% more damage to mines)
+
+CONSORTIUM
+StarViper
+	Buzz Droids ability max deployment range: 300 > 350
+	Buzz Droids ability recharge time: 50 > 60sec
+	Buzz Droids activation time: 1.5 > 1.4sec
+Skipray
+	Sensor Jamming ability duration: 30 > 15sec
+	Sensor Jamming ability recharge time: 35 > 60sec
+Crusader
+	Laser Defense ability duration: 35 > 15sec
+Interceptor IV
+	Build Time: 12 > 13sec
+	Turbolaser damage type changed: Damage_Acclamator > Damage_InterceptorIV
+	Turbolaser fire recharge time: 1.5 > 2sec
+	Full Salvo ability recharge time: 45 > 50sec
+Bossk
+	Build Cost: 1250 > 1350
+	Sensor Jamming Ability: Duration: 30 > 15sec
+	Laser Damage Type changed: Damage_Fighter > Damage_Gunship (20% more damage to mines)
+
+
+
 v1.0.1.1048 (2021-02-12) [FoC v1.121.748742]
 ============================================
 

@@ -496,9 +496,8 @@
 
 
 	<GroundStructure Name="Abstract_Mass_Driver_Turret">
-	
 		<Variant_Of_Existing_Type>Abstract_Turret</Variant_Of_Existing_Type>
-		
+
 		<Text_ID>TEXT_STRUCTURE_TURRET_MD</Text_ID>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_TURRET</Encyclopedia_Unit_Class>
 		<Encyclopedia_Text>TEXT_TOOLTIP_MD_TURRET</Encyclopedia_Text>
@@ -507,25 +506,17 @@
 		<Tactical_Sell_Credits>500</Tactical_Sell_Credits>
 
 		<Damage>20</Damage>
-		
+
 		<Targeting_Max_Attack_Distance>300.0</Targeting_Max_Attack_Distance>
 		<Attack_Category_Restrictions>Structure</Attack_Category_Restrictions>
-		
-		<HardPoints>HP_Mass_Driver_Turret</HardPoints>
 
-		<Projectile_Types>Proj_Dummy_Invisible</Projectile_Types>
-		<Projectile_Fire_Recharge_Seconds>1.5</Projectile_Fire_Recharge_Seconds>
-		<Projectile_Fire_Pulse_Count>2</Projectile_Fire_Pulse_Count>
-		<Projectile_Fire_Pulse_Delay_Seconds>0.1</Projectile_Fire_Pulse_Delay_Seconds>
-
-<!--		<Projectile_Types>Proj_Mass_Driver_Turret</Projectile_Types>
+		<Projectile_Types>Proj_Mass_Driver_Turret</Projectile_Types>
 		<Projectile_Fire_Recharge_Seconds>1.5</Projectile_Fire_Recharge_Seconds>
 		<Projectile_Fire_Pulse_Count>12</Projectile_Fire_Pulse_Count>
-		<Projectile_Fire_Pulse_Delay_Seconds>0.02</Projectile_Fire_Pulse_Delay_Seconds>-->
+		<Projectile_Fire_Pulse_Delay_Seconds>0.0333</Projectile_Fire_Pulse_Delay_Seconds> <!--0.02-->
 
 		<Turret_Rotate_Extent_Degrees>360</Turret_Rotate_Extent_Degrees>
 		<Turret_Elevate_Extent_Degrees>90</Turret_Elevate_Extent_Degrees>
-
 
 		<!-- Air vehicles priority 1, ground vehicles and infantry are N/A (9999) -->
 		<Targeting_Priority_Set>MassDriverTurret</Targeting_Priority_Set>
@@ -1878,6 +1869,7 @@
 		<Armor_Type>Armor_Turret</Armor_Type>
 	</GroundBuildable>
 </GroundStructures>
+
 
 
 

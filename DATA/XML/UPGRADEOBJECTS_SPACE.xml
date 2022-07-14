@@ -5,7 +5,7 @@
 		<Affiliation>Rebel</Affiliation>
 		<Tactical_Build_Cost_Multiplayer>2000</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>300</Tactical_Build_Cost_Campaign>
-		<Tactical_Build_Time_Seconds>80</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Time_Seconds>85</Tactical_Build_Time_Seconds> <!--80-->
 		<Tactical_Build_Prerequisites>Skirmish_Rebel_Star_Base_1</Tactical_Build_Prerequisites>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
@@ -815,7 +815,7 @@
 	<UpgradeObject Name="ES_Level_Two_Starbase_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
 		<Affiliation>Empire</Affiliation>
-		<Tactical_Build_Cost_Multiplayer>2000</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer>2200</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>300</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds>80</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites>Skirmish_Empire_Star_Base_1</Tactical_Build_Prerequisites>
@@ -2634,4 +2634,5 @@
 		<CategoryMask>Upgrade</CategoryMask>
 	</UpgradeObject>
 </UpgradeObjects>
+
 

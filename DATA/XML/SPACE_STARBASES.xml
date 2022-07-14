@@ -3221,7 +3221,7 @@
 				ES_Enhanced_Reactors_L1_Upgrade,
 				ES_Reinforced_Armor_L1_Upgrade,
 				ES_Improved_Weapons_L1_Upgrade,
-				ES_Upgraded_Electronics_L1_Upgrade,
+<!--				ES_Upgraded_Electronics_L1_Upgrade,-->
 				ES_Level_Three_Starbase_Upgrade
 		</Tactical_Buildable_Objects_Multiplayer>
 
@@ -3335,7 +3335,7 @@
 				ES_Improved_Weapons_L1_Upgrade,
 				ES_Improved_Weapons_L2_Upgrade,
 				ES_Improved_Defenses_L1_Upgrade,
-				ES_Upgraded_Electronics_L1_Upgrade,
+<!--				ES_Upgraded_Electronics_L1_Upgrade,-->
 				ES_Hypervelocity_Gun_Use_Upgrade,
 				ES_Level_Four_Starbase_Upgrade
 		</Tactical_Buildable_Objects_Multiplayer>
@@ -3467,7 +3467,7 @@
 				ES_Improved_Weapons_L2_Upgrade,
 				ES_Improved_Defenses_L1_Upgrade,
 				ES_Improved_Defenses_L2_Upgrade,
-				ES_Upgraded_Electronics_L1_Upgrade,
+<!--				ES_Upgraded_Electronics_L1_Upgrade,-->
 				ES_Hypervelocity_Gun_Use_Upgrade,
 				ES_Level_Five_Starbase_Upgrade
 		</Tactical_Buildable_Objects_Multiplayer>
@@ -3605,7 +3605,7 @@
 				ES_Improved_Defenses_L1_Upgrade,
 				ES_Improved_Defenses_L2_Upgrade,
 				ES_Improved_Defenses_L3_Upgrade,
-				ES_Upgraded_Electronics_L1_Upgrade,
+<!--				ES_Upgraded_Electronics_L1_Upgrade,-->
 				ES_Hypervelocity_Gun_Use_Upgrade
 		</Tactical_Buildable_Objects_Multiplayer>
 
@@ -4238,5 +4238,6 @@
 	</Abilities>
 	</StarBase>
 </StarBases>
+
 
 

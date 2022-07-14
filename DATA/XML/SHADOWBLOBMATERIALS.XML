@@ -201,6 +201,11 @@ Format:
         <Texture_Name>i_circle00.tga</Texture_Name>
         <Render_Mode>ALPHA</Render_Mode>
     </Material>
+    
+    <Material name="FoW_Ping_Blob">
+        <Texture_Name>i_circle03.tga</Texture_Name>
+        <Render_Mode>ALPHA</Render_Mode>
+    </Material>
 
 
 </Shadow_Blob_Materials>

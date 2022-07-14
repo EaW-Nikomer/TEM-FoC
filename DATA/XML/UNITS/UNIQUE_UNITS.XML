@@ -2329,7 +2329,7 @@
 		<Damage>15</Damage>
 		<AI_Combat_Power>1500</AI_Combat_Power>
 
-		<Damage_Type>Damage_Fighter</Damage_Type>
+		<Damage_Type>Damage_Gunship</Damage_Type>
 		<Projectile_Types>Proj_Ship_Medium_Laser_Cannon_Red</Projectile_Types>
 		<Projectile_Damage>16.0</Projectile_Damage>
 		<Projectile_Fire_Pulse_Count>8</Projectile_Fire_Pulse_Count>
@@ -2588,7 +2588,7 @@
 		<Damage>5</Damage>
 		<AI_Combat_Power>1500</AI_Combat_Power>
 
-		<Damage_Type>Damage_Fighter</Damage_Type>
+		<Damage_Type>Damage_Gunship</Damage_Type>
 		<Projectile_Types>Proj_Ship_Medium_Laser_Cannon_Red</Projectile_Types>
 		<Projectile_Damage>12.0</Projectile_Damage>
 		<Projectile_Fire_Pulse_Count>8</Projectile_Fire_Pulse_Count>
@@ -2757,6 +2757,8 @@
 		<Fire_Category_Restrictions>Infantry, Vehicle, Air, Structure, Transport</Fire_Category_Restrictions>
 
 		<Ranged_Target_Z_Adjust>0</Ranged_Target_Z_Adjust>
+		<Turret_Rotate_Extent_Degrees>50</Turret_Rotate_Extent_Degrees>
+		<Turret_Elevate_Extent_Degrees>50</Turret_Elevate_Extent_Degrees>
 
 		<Land_FOW_Reveal_Range>200.0</Land_FOW_Reveal_Range>
 		<Space_FOW_Reveal_Range>1000.0</Space_FOW_Reveal_Range>
@@ -3235,7 +3237,7 @@
 		<Shield_Points>100</Shield_Points>
 		<Shield_Refresh_Rate>3</Shield_Refresh_Rate>
 		<Armor_Type>Armor_Fighter</Armor_Type>
-		<Tactical_Health>200</Tactical_Health>
+		<Tactical_Health>180</Tactical_Health> <!--200-->
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 
 		<Damage>40</Damage>
@@ -4139,7 +4141,7 @@
 			<Type>SENSOR_JAMMING</Type>
 			<GUI_Activated_Ability_Name>HoundsTooth_Sensor_Jamming</GUI_Activated_Ability_Name>
 			<Recharge_Seconds>75.0</Recharge_Seconds>
-			<Expiration_Seconds>30.0</Expiration_Seconds>
+			<Expiration_Seconds>15.0</Expiration_Seconds>
 			<Effective_Radius>900.0</Effective_Radius>
 		</Unit_Ability>
 	</Unit_Abilities_Data>
@@ -4734,3 +4736,7 @@
 	<Hover_Offset>30.0</Hover_Offset>
 </UniqueUnit>
 -->
+
+
+
+

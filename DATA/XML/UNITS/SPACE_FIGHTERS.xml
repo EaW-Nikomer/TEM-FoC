@@ -998,7 +998,7 @@
 		<Shield_Points>40</Shield_Points>
 		<Shield_Refresh_Rate>5</Shield_Refresh_Rate>
 		<Armor_Type>Armor_Fighter</Armor_Type>
-		<Tactical_Health>65</Tactical_Health>
+		<Tactical_Health>60</Tactical_Health> <!--65-->
 		<Energy_Capacity>500</Energy_Capacity>
 		<Energy_Refresh_Rate>300</Energy_Refresh_Rate>
 		<Out_Of_Combat_Defense_Adjustment>-1.0</Out_Of_Combat_Defense_Adjustment>
@@ -1768,10 +1768,10 @@
 	<Unit_Abilities_Data SubObjectList="Yes">
 		<Unit_Ability>
 			<Type>BUZZ_DROIDS</Type>
-			<Effective_Radius>300</Effective_Radius>
+			<Effective_Radius>350</Effective_Radius>
 			<GUI_Activated_Ability_Name>Buzz_Droids_Viper</GUI_Activated_Ability_Name>
 			<Must_Be_Bought_On_Black_Market>Yes</Must_Be_Bought_On_Black_Market>
-			<Recharge_Seconds>50</Recharge_Seconds>
+			<Recharge_Seconds>60</Recharge_Seconds>
 			<SFXEvent_Target_Ability>Unit_Buzz_Droids_Star_Viper</SFXEvent_Target_Ability>
 			<!--Make this double the Chase_Radius in the special ability-->
 			<Area_Effect_Decal_Distance>300.0</Area_Effect_Decal_Distance>
@@ -1782,13 +1782,13 @@
 		<Buzz_Droids_Ability Name="Buzz_Droids_Viper">
 			<Activation_Style>User_Input</Activation_Style> <!-- User_Input -->
 			<Activation_Min_Range>5</Activation_Min_Range>
-			<Activation_Max_Range>300</Activation_Max_Range> <!-- 400 -->
+			<Activation_Max_Range>350</Activation_Max_Range> <!-- 400 -->
 			<!--If you change Chase_Radius update Area_Effect_Decal_Distance in the unit ability-->
 			<Chase_Radius>300</Chase_Radius>
 			<Damage_Radius>175</Damage_Radius>
 			<Enemy_Damage_Per_Second>18</Enemy_Damage_Per_Second>
 			<Own_Damage_Per_Second>3</Own_Damage_Per_Second>
-			<Activation_Time_In_Seconds>1.5</Activation_Time_In_Seconds>
+			<Activation_Time_In_Seconds>1.4</Activation_Time_In_Seconds>
 			<Activate_SFX>GUI_Buzz_Droids_SFX</Activate_SFX>
 			<Object_Type>Buzz_Droids</Object_Type>
 			<Must_Be_Bought_On_Black_Market>Yes</Must_Be_Bought_On_Black_Market>
@@ -1971,8 +1971,8 @@
 		<Unit_Ability>
 			<Type>SENSOR_JAMMING</Type>
 			<GUI_Activated_Ability_Name>Skipray_Sensor_Jamming</GUI_Activated_Ability_Name>
-			<Recharge_Seconds>35.0</Recharge_Seconds>
-			<Expiration_Seconds>30.0</Expiration_Seconds>
+			<Recharge_Seconds>60.0</Recharge_Seconds>
+			<Expiration_Seconds>15.0</Expiration_Seconds>
 			<Effective_Radius>300.0</Effective_Radius>
 			<SFXEvent_GUI_Unit_Ability_Activated>Unit_Jam_Sensors_On_Skipray</SFXEvent_GUI_Unit_Ability_Activated>
 			<SFXEvent_GUI_Unit_Ability_Deactivated>Unit_Jam_Sensors_Off_Skipray</SFXEvent_GUI_Unit_Ability_Deactivated>
@@ -2326,5 +2326,9 @@
 		<Affiliation>Underworld</Affiliation>
 	</SpaceUnit>
 </SpaceUnitsFighter>
+
+
+
+
 
 

@@ -15,7 +15,7 @@
 		<SpaceBehavior>SPECIAL_WEAPON</SpaceBehavior>
 		<LandBehavior>SPACE_OBSTACLE, LAND_OBSTACLE,SELECTABLE,REVEAL,HIDE_WHEN_FOGGED,DAMAGE_TRACKING,DUMMY_LAND_BASE_LEVEL_COMPONENT,UNIT_AI,EARTHQUAKE_TARGET,ION_STUN_EFFECT, STUNNABLE</LandBehavior>
 
-		<Affiliation>Rebel, Rebel_EAW</Affiliation>
+		<Affiliation>Rebel</Affiliation>
 		<Political_Control>0</Political_Control>
 		<Build_Cost_Credits>2000</Build_Cost_Credits>
 		<Build_Time_Seconds>90</Build_Time_Seconds>
@@ -1359,7 +1359,7 @@
 		<GUI_Row>0</GUI_Row>
 		<Land_Model_Name>RB_HyperVelocityGun.alo</Land_Model_Name>
 		<Is_Dummy>Yes</Is_Dummy>
-		<Affiliation>Empire, Empire_EAW</Affiliation>
+		<Affiliation>Empire</Affiliation>
 		<Political_Control>0</Political_Control>
 		<Build_Cost_Credits>3000</Build_Cost_Credits>
 		<Build_Time_Seconds>95</Build_Time_Seconds>
@@ -2758,7 +2758,7 @@
 			Empire,
 				Imperial_Anti_Infantry_Brigade,
 				Imperial_Heavy_Scout_Squad,
-				Imperial_Heavy_Scout_v2_Squad,
+<!--				Imperial_Heavy_Scout_v2_Squad,-->
 				Imperial_Anti_Aircraft_Company,
 				Empire_MDU_Company,
 				EL_Light_Reflective_Armor_L1_Upgrade,
@@ -6400,6 +6400,8 @@
 		</Abilities>
 	</SpecialStructure>
 </SpecialStructures>
+
+
 
 
 

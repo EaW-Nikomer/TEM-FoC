@@ -1773,7 +1773,7 @@
 		<Encyclopedia_Vulnerable_To> Corellian_Corvette Corellian_Gunboat A-Wing </Encyclopedia_Vulnerable_To>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_HERO_MAJOR </Encyclopedia_Unit_Class>
 
-		<Tactical_Build_Cost_Multiplayer>1250</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer>1350</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>14</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites/>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
@@ -2065,6 +2065,7 @@
 	</HeroCompany>
 
 </HeroCompanies>
+
 
 
 

@@ -8,7 +8,7 @@
 		<Space_Model_Name>NV_LDS_pad.ALO</Space_Model_Name>
 		<Loop_Idle_Anim_00>No</Loop_Idle_Anim_00>
 		<Icon_Name>i_button_lrs.tga</Icon_Name>
-		<Affiliation>Neutral, Rebel, Empire, Underworld, Pirates, Rebel_EAW, Empire_EAW</Affiliation>
+		<Affiliation>Neutral, Rebel, Empire, Underworld, Pirates</Affiliation>
 
 		<GUI_Row>0</GUI_Row>
 		<GUI_Model_Name>NV_LDS_pad.ALO</GUI_Model_Name>
@@ -1964,7 +1964,7 @@
 
 		<Space_Model_Name>NB_AsteroidMining_Pad.ALO</Space_Model_Name>
 		<Icon_Name>i_button_asteroidmining.tga</Icon_Name>
-		<Affiliation>Neutral, Rebel, Rebel_EAW, Empire, Empire_EAW, Underworld, Pirates</Affiliation>
+		<Affiliation>Neutral, Rebel, Empire, Underworld, Pirates</Affiliation>
 		<Loop_Idle_Anim_00>No</Loop_Idle_Anim_00>
 
 		<GUI_Row>0</GUI_Row>
@@ -2019,13 +2019,9 @@
 			Empire,
 				UC_Empire_Mineral_Extractor,
 <!--				UC_Empire_Mineral_Extractor_Armored,-->
-			Empire_EAW,
-				UC_Empire_Mineral_Extractor_EAW,
 			Rebel,
 				UC_Rebel_Mineral_Extractor,
 <!--				UC_Rebel_Mineral_Extractor_Armored,-->
-			Rebel_EAW,
-				UC_Rebel_Mineral_Extractor_EAW,
 			Underworld,
 				UC_Underworld_Mineral_Extractor,
 <!--				UC_Underworld_Mineral_Extractor_Armored,-->
@@ -2115,8 +2111,8 @@
 		<Variant_Of_Existing_Type>UC_Empire_Mineral_Extractor</Variant_Of_Existing_Type>
 
 		<Tactical_Buildable_Constructed>Rebel_Mineral_Extractor</Tactical_Buildable_Constructed>
-		<Tactical_Build_Cost_Multiplayer>850</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>35</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Cost_Multiplayer>800</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>40</Tactical_Build_Time_Seconds>
 
 		<Affiliation>Rebel</Affiliation>
 		<SFXEvent_Build_Started>RHD_Build_Structure</SFXEvent_Build_Started>
@@ -2487,4 +2483,5 @@
 	</Abilities>
 	</SpaceBuildable>
 </SpaceBuildables>
+
 

@@ -755,7 +755,7 @@
 		<Death_Clone_Is_Obstacle>True</Death_Clone_Is_Obstacle>
 	</SecondaryStructure>
 	
-		<SecondaryStructure Name="N_Gravity_Well_Station">
+	<SecondaryStructure Name="N_Gravity_Well_Station">
 		<Text_ID>TEXT_GRAVITY_WELL_STATION</Text_ID>
 		<Encyclopedia_Text>TEXT_ENCYCLOPEDIA_GRAVITY_WELL_STATION_01</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
@@ -769,7 +769,7 @@
 		<Select_Box_Scale>330</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
 		<Is_Dummy>Yes</Is_Dummy>
-		<Affiliation>Neutral, Empire, Rebel, Underworld, Rebel_EAW, Empire_EAW</Affiliation>
+		<Affiliation>Neutral, Empire, Rebel, Underworld</Affiliation>
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
 		
 		<Tech_Level>0</Tech_Level>
@@ -849,7 +849,7 @@
 		
 		<Space_Model_Name>NB_SpaceSensorNode.ALO</Space_Model_Name>
 		<Icon_Name>i_button_space_sensornode.tga</Icon_Name>
-		<Affiliation>Neutral, Empire, Rebel, Underworld, Rebel_EAW, Empire_EAW</Affiliation>
+		<Affiliation>Neutral, Empire, Rebel, Underworld</Affiliation>
 
 		<Tech_Level>0</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
@@ -886,15 +886,12 @@
 		<Influences_Capture_Point>False</Influences_Capture_Point>
 		<Armor_Type>Armor_Satellite</Armor_Type>
 
-
 		<CategoryMask>Structure</CategoryMask>
 
-		
 		<Score_Cost_Credits>1000</Score_Cost_Credits>
 		<Custom_Soft_Footprint_Radius>180</Custom_Soft_Footprint_Radius>
 		<Space_Obstacle_Offset>0 0 0</Space_Obstacle_Offset>
 		<Space_Layer>StaticObject</Space_Layer>
-		
 		
 		<Tactical_Health>600</Tactical_Health>
 		<Space_FOW_Reveal_Range>300000</Space_FOW_Reveal_Range>
@@ -911,7 +908,7 @@
 		<Behavior>CAPTURE_POINT, DUMMY_STAR_BASE, SELECTABLE</Behavior>
 		<SpaceBehavior>SPACE_OBSTACLE, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, ION_STUN_EFFECT</SpaceBehavior>
 		<Victory_Relevant>no</Victory_Relevant>
-		<Affiliation>Rebel, Empire, Neutral, Underworld, Rebel_EAW, Empire_EAW</Affiliation>
+		<Affiliation>Rebel, Empire, Neutral, Underworld</Affiliation>
 		
 		<Capture_Point_Transition_Time_Seconds>20</Capture_Point_Transition_Time_Seconds>
 		<Capture_Point_Radius>800</Capture_Point_Radius>
@@ -942,19 +939,11 @@
 				Empire_Pirate_Frigate,
 				Empire_Pirate_Fighter_Squadron,
 				Z95_Headhunter_Empire_Squadron,
-			Empire_EAW,
-				Empire_Pirate_IPV_EAW,
-				Empire_Pirate_Frigate_EAW,
-				EAW_Empire_Pirate_Fighter_Squadron,
 			Rebel,
 				Rebel_Pirate_IPV,
 				Rebel_Pirate_Frigate,
 				Rebel_Pirate_Fighter_Squadron,
 				Z95_Headhunter_Rebel_Squadron,
-			Rebel_EAW,
-				Rebel_Pirate_IPV_EAW,
-				Rebel_Pirate_Frigate_EAW,
-				EAW_Rebel_Pirate_Fighter_Squadron,
 			Underworld,
 				Underworld_Pirate_IPV,
 				Jedi_Cruiser_U,
@@ -1017,26 +1006,18 @@
 		<Energy_Refresh_Rate>1000</Energy_Refresh_Rate>
 				
 		
-		<Affiliation>Rebel, Empire, Neutral, Underworld, Rebel_EAW, Empire_EAW</Affiliation>
+		<Affiliation>Rebel, Empire, Neutral, Underworld</Affiliation>
 		<Tactical_Buildable_Objects_Multiplayer>
 			Empire,
 				Empire_Pirate_IPV,
 				Empire_Pirate_Frigate,
 				Empire_Pirate_Fighter_Squadron,
 				Z95_Headhunter_Empire_Squadron,
-			Empire_EAW,
-				Empire_Pirate_IPV_EAW,
-				Empire_Pirate_Frigate_EAW,
-				EAW_Empire_Pirate_Fighter_Squadron,
 			Rebel,
 				Rebel_Pirate_IPV,
 				Rebel_Pirate_Frigate,
 				Rebel_Pirate_Fighter_Squadron,
 				Z95_Headhunter_Rebel_Squadron,
-			Rebel_EAW,
-				Rebel_Pirate_IPV_EAW,
-				Rebel_Pirate_Frigate_EAW,
-				EAW_Rebel_Pirate_Fighter_Squadron,
 			Underworld,
 				Underworld_Pirate_IPV,
 				Jedi_Cruiser_U,
@@ -1083,26 +1064,18 @@
 		<Capture_Point_Transition_Time_Seconds>5</Capture_Point_Transition_Time_Seconds>
 		<Capture_Point_Radius>800</Capture_Point_Radius>
 		<Influences_Capture_Point>False</Influences_Capture_Point>
-		<Affiliation>Rebel, Empire, Neutral, Underworld, Rebel_EAW, Empire_EAW</Affiliation>
+		<Affiliation>Rebel, Empire, Neutral, Underworld</Affiliation>
 		<Tactical_Buildable_Objects_Multiplayer>
 			Empire,
 				Empire_Pirate_IPV,
 				Empire_Pirate_Frigate,
 				Empire_Pirate_Fighter_Squadron,
 				Z95_Headhunter_Empire_Squadron,
-			Empire_EAW,
-				Empire_Pirate_IPV_EAW,
-				Empire_Pirate_Frigate_EAW,
-				EAW_Empire_Pirate_Fighter_Squadron,
 			Rebel,
 				Rebel_Pirate_IPV,
 				Rebel_Pirate_Frigate,
 				Rebel_Pirate_Fighter_Squadron,
 				Z95_Headhunter_Rebel_Squadron,
-			Rebel_EAW,
-				Rebel_Pirate_IPV_EAW,
-				Rebel_Pirate_Frigate_EAW,
-				EAW_Rebel_Pirate_Fighter_Squadron,
 			Underworld,
 				Underworld_Pirate_IPV,
 				Jedi_Cruiser_U,

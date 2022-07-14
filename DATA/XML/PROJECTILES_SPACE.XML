@@ -115,7 +115,7 @@
 	
 		<Projectile_Ion_Stun_On_Detonation>Yes</Projectile_Ion_Stun_On_Detonation>
 		<Projectile_Disables_Engines_When_Power_Drained>No</Projectile_Disables_Engines_When_Power_Drained>
-		<Projectile_Ion_Stun_Duration>1.333</Projectile_Ion_Stun_Duration>
+		<Projectile_Ion_Stun_Duration>1.5</Projectile_Ion_Stun_Duration>
 		<Projectile_Ion_Stun_Speed_Reduction_Percent>0.5</Projectile_Ion_Stun_Speed_Reduction_Percent>
 		<Projectile_Ion_Stun_Shot_Rate_Reduction_Percent>0.5</Projectile_Ion_Stun_Shot_Rate_Reduction_Percent>
 		<Projectile_Ion_Stun_Stack_Duration>Yes</Projectile_Ion_Stun_Stack_Duration>
@@ -250,8 +250,8 @@
 		<Projectile_Ground_Detonation_Particle/>
 		<Projectile_Lifetime_Detonation_Particle/>
 		<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Small</Projectile_Absorbed_By_Shields_Particle>
-		<Projectile_Disables_Engines_When_Power_Drained>Yes</Projectile_Disables_Engines_When_Power_Drained>
-		<Projectile_Disable_Engines_Duration>20.0</Projectile_Disable_Engines_Duration>
+<!--		<Projectile_Disables_Engines_When_Power_Drained>Yes</Projectile_Disables_Engines_When_Power_Drained>
+		<Projectile_Disable_Engines_Duration>20.0</Projectile_Disable_Engines_Duration>-->
 		<AI_Combat_Power>100</AI_Combat_Power>
 		<Projectile_SFXEvent_Detonate>SFX_Ion_Detonation</Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>SFX_Small_Damage_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
@@ -1368,6 +1368,7 @@
 
 
 </Projectiles>
+
 
 
 
