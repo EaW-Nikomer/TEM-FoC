@@ -702,7 +702,7 @@
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, BOMB</Behavior>
 		<Projectile_Category>STATIC_BOMB</Projectile_Category>
-		<Projectile_Blast_Area_Range>450.0</Projectile_Blast_Area_Range>
+		<Projectile_Blast_Area_Range>600.0</Projectile_Blast_Area_Range>
 		<Projectile_Blast_Area_Damage>300.0</Projectile_Blast_Area_Damage>
 		<Max_Secs_For_AE_Delayed_Damage>0</Max_Secs_For_AE_Delayed_Damage>
 		<Projectile_Grenade_Sticks_On_Collision>no</Projectile_Grenade_Sticks_On_Collision>

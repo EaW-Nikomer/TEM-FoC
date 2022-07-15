@@ -47,7 +47,7 @@
 		<Shield_Points>650</Shield_Points>
 		<Shield_Refresh_Rate>50</Shield_Refresh_Rate>
 		<Armor_Type>Armor_Nebulon_B</Armor_Type>
-		<Tactical_Health>3500</Tactical_Health>
+		<Tactical_Health>3600</Tactical_Health>
 		<Autoresolve_Health>3600</Autoresolve_Health>
 		<Energy_Capacity>3000</Energy_Capacity>
 		<Energy_Refresh_Rate>500</Energy_Refresh_Rate>
@@ -167,23 +167,23 @@
 	<Unit_Abilities_Data SubObjectList="Yes">
 		<Unit_Ability>
 			<Type>DEFEND</Type>
-			<Recharge_Seconds>60</Recharge_Seconds>
+			<Recharge_Seconds>85</Recharge_Seconds>
 			<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,		1.35f</Mod_Multiplier>
 			<Mod_Multiplier>CAUSE_DAMAGE_MULTIPLIER,		0.75f</Mod_Multiplier>
 			<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER,			0.75f</Mod_Multiplier>
-			<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,		1.0f</Mod_Multiplier>
+			<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,		1.30f</Mod_Multiplier>
 			<Mod_Multiplier>SHIELD_REGEN_INTERVAL_MULTIPLIER,	0.1333f</Mod_Multiplier>
 			<Mod_Multiplier>ENERGY_REGEN_INTERVAL_MULTIPLIER,	0.10f</Mod_Multiplier>
 			<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,		3.0f</Mod_Multiplier>
 			<Mod_Multiplier>SPEED_MULTIPLIER,			0.8f</Mod_Multiplier>
-			<Expiration_Seconds>15</Expiration_Seconds>
+			<Expiration_Seconds>5</Expiration_Seconds>
 			<SFXEvent_GUI_Unit_Ability_Activated>Unit_Defend_Nebulon</SFXEvent_GUI_Unit_Ability_Activated>
 <!--			<Supports_Autofire>True</Supports_Autofire>-->
 		</Unit_Ability>
 	</Unit_Abilities_Data>
 
 	<!--Multiplayer Construction Info-->
-		<Tactical_Build_Cost_Multiplayer>2050</Tactical_Build_Cost_Multiplayer> <!--2500-->
+		<Tactical_Build_Cost_Multiplayer>2150</Tactical_Build_Cost_Multiplayer> <!--2500-->
 		<Tactical_Build_Time_Seconds>20</Tactical_Build_Time_Seconds> <!--18-->
 		<Tactical_Build_Prerequisites/>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
@@ -1009,7 +1009,7 @@
 	</Unit_Abilities_Data>
 
 	<!--Multiplayer Construction Info-->
-		<Tactical_Build_Cost_Multiplayer>2350</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer>2400</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>20</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites/>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
@@ -1285,7 +1285,7 @@
 		<Shield_Points>600</Shield_Points>
 		<Shield_Refresh_Rate>40</Shield_Refresh_Rate>
 		<Armor_Type>Armor_Assault_Frigate</Armor_Type>
-		<Tactical_Health>2500</Tactical_Health>
+		<Tactical_Health>2700</Tactical_Health>
 		<Autoresolve_Health>2500</Autoresolve_Health>
 		<Energy_Capacity>3000</Energy_Capacity>
 		<Energy_Refresh_Rate>500</Energy_Refresh_Rate>
@@ -1393,19 +1393,19 @@
 	<Unit_Abilities_Data SubObjectList="Yes">
 		<Unit_Ability>
 			<Type>FULL_SALVO</Type>
-			<Recharge_Seconds>50</Recharge_Seconds>
-			<Expiration_Seconds>7</Expiration_Seconds>
+			<Recharge_Seconds>55</Recharge_Seconds>
+			<Expiration_Seconds>8</Expiration_Seconds>
 			<SFXEvent_GUI_Unit_Ability_Activated>Unit_Barrage_Interceptor_IV</SFXEvent_GUI_Unit_Ability_Activated>
 			<GUI_Activated_Ability_Name>Interceptor_Full_Salvo</GUI_Activated_Ability_Name>
 			<Must_Be_Bought_On_Black_Market>Yes</Must_Be_Bought_On_Black_Market>
 		</Unit_Ability>
 	</Unit_Abilities_Data>
 
-<!--	<Abilities SubObjectList="Yes">
+	<Abilities SubObjectList="Yes">
 		<Redirect_Blaster_Ability Name="US_Magnetically_Sealed_Armor_Bonus_L2">
 			<Initially_Enabled>No</Initially_Enabled>
 			<Activation_Style>Take_Damage</Activation_Style>
-			<Redirect_Chance>0.0</Redirect_Chance>
+			<Redirect_Chance>0.10</Redirect_Chance>
 			<Block_Chance>0.25</Block_Chance>
 			<Reaction_Arc_In_Degrees>360.0</Reaction_Arc_In_Degrees>
 			<Max_Projectile_Redirection_Angle_In_Degrees>30.0</Max_Projectile_Redirection_Angle_In_Degrees>

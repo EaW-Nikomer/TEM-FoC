@@ -169,7 +169,7 @@
 	</Unit_Abilities_Data>
 
 	<!--Multiplayer Construction Info-->
-		<Tactical_Build_Cost_Multiplayer>1400</Tactical_Build_Cost_Multiplayer> <!--1800-->
+		<Tactical_Build_Cost_Multiplayer>1500</Tactical_Build_Cost_Multiplayer> <!--1800-->
 		<Tactical_Build_Time_Seconds>14</Tactical_Build_Time_Seconds> <!--15-->
 		<Tactical_Build_Prerequisites/>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
@@ -1301,7 +1301,7 @@
 		<Redirect_Blaster_Ability Name="US_Magnetically_Sealed_Armor_Bonus_L2">
 			<Initially_Enabled>No</Initially_Enabled>
 			<Activation_Style>Take_Damage</Activation_Style>
-			<Redirect_Chance>0.0</Redirect_Chance>
+			<Redirect_Chance>0.10</Redirect_Chance>
 			<Block_Chance>0.25</Block_Chance>
 			<Reaction_Arc_In_Degrees>360.0</Reaction_Arc_In_Degrees>
 			<Max_Projectile_Redirection_Angle_In_Degrees>30.0</Max_Projectile_Redirection_Angle_In_Degrees>
@@ -1313,7 +1313,7 @@
 		<Redirect_Blaster_Ability Name="US_Magnetically_Sealed_Armor_Bonus_L3">
 			<Initially_Enabled>No</Initially_Enabled>
 			<Activation_Style>Take_Damage</Activation_Style>
-			<Redirect_Chance>0.0</Redirect_Chance>
+			<Redirect_Chance>0</Redirect_Chance>
 			<Block_Chance>0.25</Block_Chance>
 			<Reaction_Arc_In_Degrees>360.0</Reaction_Arc_In_Degrees>
 			<Max_Projectile_Redirection_Angle_In_Degrees>30.0</Max_Projectile_Redirection_Angle_In_Degrees>

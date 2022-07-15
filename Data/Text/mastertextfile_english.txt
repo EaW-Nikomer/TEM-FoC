@@ -18770,8 +18770,8 @@ TEXT_UPGRADE_RS_IMPROVED_WEAPONS_L3,Improved Weapons Level 3
 TEXT_UPGRADE_RS_INCREASED_SUPPLIES_L1,Increased Supplies Level 1
 TEXT_UPGRADE_RS_INCREASED_SUPPLIES_L2,Increased Supplies Level 2
 TEXT_UPGRADE_RS_MORE_GARRISONS_L1,Additional Garrison Units
-TEXT_UPGRADE_RS_REINFORCED_ARMOR_L1,Reinforced Armor Level 1
-TEXT_UPGRADE_RS_REINFORCED_ARMOR_L2,Reinforced Armor Level 2
+TEXT_UPGRADE_RS_REINFORCED_ARMOR_L1,Improved Hull Level 1
+TEXT_UPGRADE_RS_REINFORCED_ARMOR_L2,Improved Hull Level 2
 TEXT_UPGRADE_RS_SPECIAL_WEAPON_USE,Align Ion Cannon
 TEXT_UPGRADE_SALEUCAMI_INTERCEPTOR4_DAMAGE,Interceptor IV Weapon Boost
 TEXT_UPGRADE_SALEUCAMI_MC30_DAMAGE,MC30c Weapon Boost
@@ -18875,7 +18875,7 @@ TEXT_UPGRADE_TOOLTIP_RL_SNOWSPEEDER_RESEARCH,Grants the ability to request Speed
 TEXT_UPGRADE_TOOLTIP_RL_T2B_RESEARCH,Grants the ability to request T2-B Tank reinforcements from neighboring systems.
 TEXT_UPGRADE_TOOLTIP_RL_T4B_RESEARCH,Grants the ability to request T4-B Tank reinforcements from neighboring systems.
 TEXT_UPGRADE_TOOLTIP_RL_WEATHER_PROOF_L1,Planetary weather no longer affects your units. 
-TEXT_UPGRADE_TOOLTIP_RS_ENHANCED_SHIELDING_L1,Increases the shield strength of Fighters by 25%.
+TEXT_UPGRADE_TOOLTIP_RS_ENHANCED_SHIELDING_L1,Increases the shield strength of Fighters, Corvettes and Frigates by 25%.
 TEXT_UPGRADE_TOOLTIP_RS_ENHANCED_SHIELDING_L2,Increases the shield strength of Fighters and Frigates by 25%.
 TEXT_UPGRADE_TOOLTIP_RS_ENHANCED_SHIELDING_L2-TEMP,Increases the shield strength of Frigates by 25%.
 TEXT_UPGRADE_TOOLTIP_RS_ENHANCED_SHIELDING_L3,Increases the shield strength of Fighters, Frigates and Capital Ships by 25%.
@@ -18884,15 +18884,15 @@ TEXT_UPGRADE_TOOLTIP_RS_IMPROVED_DEFENSES_L1,Increases the amount of damage deal
 TEXT_UPGRADE_TOOLTIP_RS_IMPROVED_DEFENSES_L2,Increases the amount of damage dealt by your starbase's weapon hardpoints by 30%.
 TEXT_UPGRADE_TOOLTIP_RS_IMPROVED_DEFENSES_L3,Increases the amount of damage dealt by your starbase's weapon hardpoints by 50%.
 TEXT_UPGRADE_TOOLTIP_RS_IMPROVED_WEAPONS_L1,Increases the amount of damage dealt by Fighters by 25%.
-TEXT_UPGRADE_TOOLTIP_RS_IMPROVED_WEAPONS_L2,Increases the amount of damage dealt by Fighters and Frigates by 25%.
+TEXT_UPGRADE_TOOLTIP_RS_IMPROVED_WEAPONS_L2,Increases the amount of damage dealt by Fighters and Corvettes by 25%.
 TEXT_UPGRADE_TOOLTIP_RS_IMPROVED_WEAPONS_L2-TEMP,Increases the amount of damage dealt by Frigates by 25%.
 TEXT_UPGRADE_TOOLTIP_RS_IMPROVED_WEAPONS_L3,Increases the amount of damage dealt by Fighters, Frigates and Capital Ships by 25%.
 TEXT_UPGRADE_TOOLTIP_RS_IMPROVED_WEAPONS_L3-TEMP,Increases the amount of damage dealt by Capital Ships by 25%.
 TEXT_UPGRADE_TOOLTIP_RS_INCREASED_SUPPLIES_L1,Increases the basic income provided by Asteroid Mining Facilities by 30%.
 TEXT_UPGRADE_TOOLTIP_RS_INCREASED_SUPPLIES_L2,Increases the basic income provided by Asteroid Mining Facilities by 45%.
 TEXT_UPGRADE_TOOLTIP_RS_MORE_GARRISONS_L1,Adds additional A-wing and a Y-wing squadrons to your set of free garrison units.
-TEXT_UPGRADE_TOOLTIP_RS_REINFORCED_ARMOR_L1,Reduces the hull damage taken by Fighters by 25%.
-TEXT_UPGRADE_TOOLTIP_RS_REINFORCED_ARMOR_L2,Reduces the hull damage taken by Fighters and Frigates by 25%.
+TEXT_UPGRADE_TOOLTIP_RS_REINFORCED_ARMOR_L1,Increases health of Fighters by 25%.
+TEXT_UPGRADE_TOOLTIP_RS_REINFORCED_ARMOR_L2,Increases the health of Fighters and Frigates by 25%.
 TEXT_UPGRADE_TOOLTIP_RS_REINFORCED_ARMOR_L2-TEMP,Reduces the hull damage taken by Frigates by 25%.
 TEXT_UPGRADE_TOOLTIP_RS_REINFORCED_ARMOR_L3-TEMP,Reduces the hull damage taken by Capital Ships by 25%.
 TEXT_UPGRADE_TOOLTIP_RS_SPECIAL_WEAPON_USE,Allows you to fire the planetary Ion Cannon.
@@ -18925,15 +18925,15 @@ TEXT_UPGRADE_TOOLTIP_US_BLACKMARKET_ENGINES_L3,Increases the movement speed of S
 TEXT_UPGRADE_TOOLTIP_US_CARBONITE_COOLANT_L1,Increases Vengeance Frigate damage output by 25%.
 TEXT_UPGRADE_TOOLTIP_US_CARBONITE_COOLANT_L2,Increases Vengeance Frigate and Aggressor Destroyer damage output by 25%.
 TEXT_UPGRADE_TOOLTIP_US_MAGNETIC_ARMOR_L1,StarViper Fighter armor deflects 25% of incoming laser fire.
-TEXT_UPGRADE_TOOLTIP_US_MAGNETIC_ARMOR_L2,StarViper Fighter and Crusader Gunship armor deflects 25% of incoming laser fire.
+TEXT_UPGRADE_TOOLTIP_US_MAGNETIC_ARMOR_L2,StarViper Fighter,  Crusader Gunship and Interceptor IV Frigate armor deflects 25% of incoming laser fire.
 TEXT_UPGRADE_TOOLTIP_US_MAGNETIC_ARMOR_L3,StarViper Fighter, Crusader Gunship and Keldabe Battleship armor deflects 25% of incoming laser fire.
 TEXT_UPGRADE_TOOLTIP_US_MODIFIED_CLOAKING_GENERATOR_L1,Increases Cloaking Field duration for Vengeance Frigates by 25%.
 TEXT_UPGRADE_TOOLTIP_US_MODIFIED_CLOAKING_GENERATOR_L2,Increases Cloaking Field duration for Vengeance Frigates and the Merciless by 50%.
-TEXT_UPGRADE_TOOLTIP_US_REINFORCED_STRUCTURE_L1,Reduces the damage to Consortium space station by 15%.
-TEXT_UPGRADE_TOOLTIP_US_REINFORCED_STRUCTURE_L2,Reduces the damage to Consortium space station by 25%.
+TEXT_UPGRADE_TOOLTIP_US_REINFORCED_STRUCTURE_L1,Reduces the damage to Consortium space station and Mining Facilities by 15%.
+TEXT_UPGRADE_TOOLTIP_US_REINFORCED_STRUCTURE_L2,Reduces the damage to Consortium space station and Mining Facilities by 25%.
 TEXT_UPGRADE_TOOLTIP_US_REINFORCED_STRUCTURE_L3,Reduces the damage to Consortium space station by 40%.
 TEXT_UPGRADE_TOOLTIP_US_SPECIAL_WEAPON_USE,Allows you to fire the starbase's Plasma Cannon.
-TEXT_UPGRADE_TOOLTIP_US_TARGETING_SYSTEMS_L1,Crusader Gunship Firing Range increased by 15%
+TEXT_UPGRADE_TOOLTIP_US_TARGETING_SYSTEMS_L1,Crusader Gunship and Interceptor IV Frigate Firing Range increased by 20%
 TEXT_UPGRADE_TOOLTIP_US_TARGETING_SYSTEMS_L2,Crusader Gunship and Interceptor IV Frigate Firing Range increased by 15%
 TEXT_UPGRADE_TOOLTIP_US_TARGETING_SYSTEMS_L3,Firing Range increased by 15% for the Crusader Gunship, Interceptor IV Frigate, and Keldabe Battleship.
 TEXT_UPGRADE_TOOLTIP_UTAPAU_KEDALBE_SHIELD,Control of Utapau has granted all Keldabe-class Battleships a 25% shield boost.

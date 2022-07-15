@@ -1,5 +1,135 @@
 TEM FOC NOTES
 
+v9.0.1 (2022-07-11) [FoC v1.121.748742]
+============================================
+
+--------Space--------
+General:
+Space Turret Satellites:
+- Adjusted all pricing 
+
+Mining Facility Upgrades:
+- Lowered build time of Rebels to be the same as Empire
+
+Upgrades:
+- All faction upgrades have been reworked
+
+Tech level 2:
+-All tech level 2 upgrades for all factions have been increased by 10 seconds
+
+Maps:
+Taris in Despair:
+- Fixed top mine to now appear
+
+Damage Modifiers:
+- Fixed multiple issues with Damage_Gunship to make Heros feel similar to vanilla vs frigates and corvettes
+- Damage_Gunship damage to Armor_astroid_Mine increased from 1.2 to 1.8
+- Damage_Gunship damage to Shield_Frigate increased from 0.5 to 0.75
+- Damage_Con_Missile damage to Corellian_Corvette decreased from 1.8 to 1.4
+- Damage_Con_Missile damage to Corellian_Tartan decreased from 1.6 to 1.5
+- Damage_Proton_Torp to Armor_Corellian_Corvette decreased from 3.2 to 3.0
+- Damage_Proton_Torp to Armor_Nebulon_B decreased from 4 to 3.2
+- Damage_Proton_Torp to Armor_Acclamator decreased from 4 to 3.5
+- Damage_Proton_Torp to Armor_Assault_Frigate decreased from 4 to 3.0
+- Damage_Proton_Torp_Light to Armor_Assault_Frigate decreased from 3 to 2
+- Damage_Nebulon_B to Shield_Corvette increased from 1 to 1.2
+- Damage_Acclamator_TL to Shield_Corvette increased from 1 to 1.2
+- Damage_Assault_Frigate to Shield_Corvette increased from 1 to 1.2
+- Damage_Nebulon_B increased to Armor_Assault_Frigate from 1.2 to 1.4
+- Damage_Nebulon_B increased to Armor_Astroid_Mine from 2 to 2.2
+- Damage_Acclamator_TL to Armor_Assault_Frigate increased from 1.2 to 1.4
+- Damage_Acclamator_TL damage increased Shield_Corvette from 1 to 1.3
+- Damage_Stickybomb damage to Armor_Fighter_Hero increased from 0.7 to 1.0
+- Damage_Stickybomb damage to Armor_Mining_Facility increased from 0.75 to 0.9
+- Damage_Bossk_Missile decreased to Armor_Astroid_Mine from 1.2 to 1.1
+- Damage_Crusader_Gunship to Armor_Astroid_mine from 0.8 to 1.2
+- Damage_Crusader_Gunship to Armor_Satellite from 0.8 to 1.3
+- Damage_InterceptorIV to Shield_Corvette increased from 1 to 1.2
+- Damage_InterceptorIV increased to Armor_Acclamator from 1.35 to 1.5
+- Damage_InterceptorIV increased to Shield_Frigate from 1.2 to 1.8
+- Damage_InterceptorIV increased to Armor_Assault Frigate from 1 to 1.5
+- Damage_InterceptorIV increased to Armor_Nebulon_B from 1.5 to 1.7
+- Damage_Corellian_Corvette to Armor_Astroid_Mine from 0.8 to 1.2
+- Damage_Corellian_Corvette to Armor_Satellite from 0.8 to 1.3
+- Damage_Crusader_Gunship damage to Armor_Astroid_Mine increased from 1 to 1.1
+- Damage_Corellian_Corvette damage to Armor Astroid_Mine increased from 1 to 1.1
+- Damage_Tartan_Crusier damage to Armor_Astroid_Mine increased from 0.8 to 0.85
+
+Empire:
+Tie Fighter: 
+- Health decreased from 50 to 40
+
+Improved Electronics:
+- FoW reveal increase from 1.25 to 1.50
+
+Acclamator:
+- Price increased from 2350 to 2400
+
+Boba Fett:
+- Siesmic Charge Blast Radius increased from 450 to 525
+
+Tie Scout:
+- Build time decreased from 11 seconds to 9 seconds
+
+Cons:
+Supply Dock:
+- Provided an additional 5 credits per tech level
+
+Magnetically Sealed Armor Level 2:
+- Added a 10% chance to redirect
+
+Skipray:
+- Sensor Jamming expiration time decreased from 15 seconds to 10 seconds
+
+Bossk:
+- Health increased from 400 to 550
+
+Diamond Boron Missile Turret:
+- Price decreased from 1200 to 1000
+
+Sensor Scrambler Turret:
+- Price decreased from 875 to 575
+- FoW Reveal range increased from 250 to 1250
+
+InterceptorIV:
+- Missile hardpoint health increased from 425 to 450.
+- Turbo laser hardpoints health increased from 350 to 400
+- Full Salvo expiration time increased from 7 seconds to 8 seconds
+- Full Salvo recharge time increased from 50 seconds to 55 seconds
+
+Star Vipers:
+- Increased damage of buzz droids from 18 to 25
+- Buzz droids effective range increased from 350 to 375
+- Buzz droids recharge increased from 80 to 85 seconds
+- Buzz droids no longer does friendly fire damage
+- Activation time decreased from 1.2 to 0.5
+
+Rebs:
+Nebulon B Frigate:
+- Increase price from 2050 to 2150
+- Power to shields Expiration time decreased from 15 seconds to 5 seconds
+- Power to shield recharge time increased from 60 seconds to 85 seconds
+- Shield Regen Multiplier increased from 25% to 30%
+- Turbolaser hardpoints HP increased from 260 to 275
+- Laser hardpoints increased from 260 to 275
+- Engine hardpoint increased from 260 to 275
+
+Rogue Squadron:
+- Strike recharge time increased from 60 to 75 seconds
+
+Mining Facility:
+- Build time decreased from 40 seconds to 30
+- Provided auto healing
+
+Y-Wing:
+- Increased shields from 40 to 45
+
+Improved Garrison Level 1:
+- At tech 2
+- Cost 400
+- Provides an extra X-Wing, A-Wing and Y-Wing with free starting units
+
+
 v8.0.1 (2022-06-03) [FoC v1.121.748742]
 ============================================
 

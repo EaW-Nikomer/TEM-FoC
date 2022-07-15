@@ -1813,7 +1813,7 @@
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
 		<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
-		<Health>260.0</Health>
+		<Health>275.0</Health>
 
 		<Death_Explosion_Particles>Large_Explosion_Space</Death_Explosion_Particles>
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
@@ -1855,7 +1855,7 @@
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
 		<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
-		<Health>260.0</Health>
+		<Health>275.0</Health>
 
 		<Death_Explosion_Particles>Large_Explosion_Space</Death_Explosion_Particles>
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
@@ -1897,7 +1897,7 @@
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
 		<Tooltip_Text>TEXT_WEAPON_LASERCANNON</Tooltip_Text>
-		<Health>260.0</Health>
+		<Health>275.0</Health>
 
 		<Death_Explosion_Particles>Large_Explosion_Space</Death_Explosion_Particles>
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
@@ -1939,7 +1939,7 @@
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
 		<Tooltip_Text>TEXT_WEAPON_LASERCANNON</Tooltip_Text>
-		<Health>260.0</Health>
+		<Health>275.0</Health>
 
 		<Death_Explosion_Particles>Large_Explosion_Space</Death_Explosion_Particles>
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
@@ -1980,7 +1980,7 @@
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
 		<Tooltip_Text>TEXT_ENGINE_HARDPOINT</Tooltip_Text>
-		<Health>260.0</Health>
+		<Health>275.0</Health>
 
 			<Death_Explosion_Particles>Large_Explosion_Space</Death_Explosion_Particles>
 			<Death_Explosion_SFXEvent>Unit_Hardpoint_Engines_Death</Death_Explosion_SFXEvent>

@@ -171,7 +171,7 @@
 		<Behavior>SPACE_OBSTACLE, TACTICAL_UNDER_CONSTRUCTION, SELECTABLE, REVEAL, HIDE_WHEN_FOGGED</Behavior>
 
 		<Tactical_Buildable_Constructed>Empire_Defense_Satellite_Laser</Tactical_Buildable_Constructed>
-		<Tactical_Build_Cost_Multiplayer>875</Tactical_Build_Cost_Multiplayer> <!--was 875-->
+		<Tactical_Build_Cost_Multiplayer>750</Tactical_Build_Cost_Multiplayer> <!--was 875-->
 		<Tactical_Build_Cost_Campaign>400</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds>25</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Start_Lower_Z>0.0</Tactical_Build_Start_Lower_Z>
@@ -285,7 +285,7 @@
 		<Behavior>SPACE_OBSTACLE, TACTICAL_UNDER_CONSTRUCTION, SELECTABLE, REVEAL, HIDE_WHEN_FOGGED</Behavior>
 
 		<Tactical_Buildable_Constructed>Empire_Defense_Satellite_Missile</Tactical_Buildable_Constructed>
-		<Tactical_Build_Cost_Multiplayer>700</Tactical_Build_Cost_Multiplayer> <!--was 700-->
+		<Tactical_Build_Cost_Multiplayer>800</Tactical_Build_Cost_Multiplayer> <!--was 700-->
 		<Tactical_Build_Cost_Campaign>275</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds>28</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Start_Lower_Z>0.0</Tactical_Build_Start_Lower_Z>
@@ -338,7 +338,7 @@
 		<Behavior>SPACE_OBSTACLE, TACTICAL_UNDER_CONSTRUCTION, SELECTABLE, REVEAL, HIDE_WHEN_FOGGED</Behavior>
 
 		<Tactical_Buildable_Constructed>Empire_Defense_Satellite_Repair</Tactical_Buildable_Constructed>
-		<Tactical_Build_Cost_Multiplayer>750</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer>650</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>500</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds>28</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Start_Lower_Z>0.0</Tactical_Build_Start_Lower_Z>
@@ -461,7 +461,7 @@
 		<Variant_Of_Existing_Type>UC_Empire_Defense_Satellite_Laser</Variant_Of_Existing_Type>
 
 		<Tactical_Buildable_Constructed>Rebel_Defense_Satellite_Laser</Tactical_Buildable_Constructed>
-		<Tactical_Build_Cost_Multiplayer>875</Tactical_Build_Cost_Multiplayer>  <!--was 875-->
+		<Tactical_Build_Cost_Multiplayer>725</Tactical_Build_Cost_Multiplayer>  <!--was 875-->
 		<Tactical_Build_Cost_Campaign>400</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds>25</Tactical_Build_Time_Seconds>
 
@@ -489,7 +489,7 @@
 		<Variant_Of_Existing_Type>UC_Empire_Defense_Satellite_Missile</Variant_Of_Existing_Type>
 
 		<Tactical_Buildable_Constructed>Rebel_Defense_Satellite_Missile</Tactical_Buildable_Constructed>
-		<Tactical_Build_Cost_Multiplayer>700</Tactical_Build_Cost_Multiplayer> <!--was 700-->
+		<Tactical_Build_Cost_Multiplayer>775</Tactical_Build_Cost_Multiplayer> <!--was 700-->
 		<Tactical_Build_Cost_Campaign>275</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds>28</Tactical_Build_Time_Seconds>
 
@@ -503,7 +503,7 @@
 		<Variant_Of_Existing_Type>UC_Empire_Defense_Satellite_Repair</Variant_Of_Existing_Type>
 
 		<Tactical_Buildable_Constructed>Rebel_Defense_Satellite_Repair</Tactical_Buildable_Constructed>
-		<Tactical_Build_Cost_Multiplayer>750</Tactical_Build_Cost_Multiplayer> <!--was 750-->
+		<Tactical_Build_Cost_Multiplayer>625</Tactical_Build_Cost_Multiplayer> <!--was 750-->
 		<Tactical_Build_Cost_Campaign>500</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds>28</Tactical_Build_Time_Seconds>
 
@@ -555,7 +555,7 @@
 		<Behavior>SPACE_OBSTACLE, TACTICAL_UNDER_CONSTRUCTION, SELECTABLE, REVEAL, HIDE_WHEN_FOGGED</Behavior>
 
 		<Tactical_Buildable_Constructed>Underworld_Defense_Satellite_Plasma</Tactical_Buildable_Constructed>
-		<Tactical_Build_Cost_Multiplayer>1000</Tactical_Build_Cost_Multiplayer> <!--was 1000-->
+		<Tactical_Build_Cost_Multiplayer>900</Tactical_Build_Cost_Multiplayer> <!--was 1000-->
 		<Tactical_Build_Cost_Campaign>750</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds>20</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Start_Lower_Z>0.0</Tactical_Build_Start_Lower_Z>
@@ -627,7 +627,7 @@
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
 
 		<Tactical_Buildable_Constructed>Underworld_Defense_Satellite_DBM</Tactical_Buildable_Constructed>
-		<Tactical_Build_Cost_Multiplayer>1200</Tactical_Build_Cost_Multiplayer> <!--was 1200-->
+		<Tactical_Build_Cost_Multiplayer>1000</Tactical_Build_Cost_Multiplayer> <!--was 1200-->
 		<Tactical_Build_Cost_Campaign>1000</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds>20</Tactical_Build_Time_Seconds>
 		<Tactical_Health>1200</Tactical_Health>
@@ -658,7 +658,7 @@
 
 		<Armor_Type>Armor_Satellite</Armor_Type>
 		<Tactical_Health>1200</Tactical_Health>
-		<Space_FOW_Reveal_Range>250.0</Space_FOW_Reveal_Range>
+		<Space_FOW_Reveal_Range>1250.0</Space_FOW_Reveal_Range>
 
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Radar_Icon_Size>0.1 0.1</Radar_Icon_Size>
@@ -679,7 +679,7 @@
 		<Behavior>SPACE_OBSTACLE, TACTICAL_UNDER_CONSTRUCTION, SELECTABLE, REVEAL, HIDE_WHEN_FOGGED</Behavior>
 
 		<Tactical_Buildable_Constructed>Underworld_Defense_Satellite_Sensor</Tactical_Buildable_Constructed>
-		<Tactical_Build_Cost_Multiplayer>875</Tactical_Build_Cost_Multiplayer> <!-- 875 -->
+		<Tactical_Build_Cost_Multiplayer>575</Tactical_Build_Cost_Multiplayer> <!-- 875 -->
 		<Tactical_Build_Cost_Campaign>450</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds>18</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Start_Lower_Z>0.0</Tactical_Build_Start_Lower_Z>
@@ -2102,7 +2102,7 @@
 		<Tactical_Build_Time_Seconds>40</Tactical_Build_Time_Seconds>
 		<Tactical_Health>3000</Tactical_Health>
 		
-		<Reinforcement_Prevention_Radius>600</Reinforcement_Prevention_Radius>
+		<Reinforcement_Prevention_Radius>0</Reinforcement_Prevention_Radius>
 
 		<SFXEvent_Build_Started>EHD_Build_Structure</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>EHD_Building_Canceled</SFXEvent_Build_Cancelled>
@@ -2114,9 +2114,9 @@
 
 		<Tactical_Buildable_Constructed>Rebel_Mineral_Extractor</Tactical_Buildable_Constructed>
 		<Tactical_Build_Cost_Multiplayer>800</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>40</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Time_Seconds>35</Tactical_Build_Time_Seconds>
 		
-		<Reinforcement_Prevention_Radius>600</Reinforcement_Prevention_Radius>
+		<Reinforcement_Prevention_Radius>0</Reinforcement_Prevention_Radius>
 
 		<Affiliation>Rebel</Affiliation>
 		<SFXEvent_Build_Started>RHD_Build_Structure</SFXEvent_Build_Started>
@@ -2148,7 +2148,7 @@
 		<Tactical_Build_Cost_Multiplayer>1000</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>30</Tactical_Build_Time_Seconds>
 		
-		<Reinforcement_Prevention_Radius>600</Reinforcement_Prevention_Radius>
+		<Reinforcement_Prevention_Radius>0</Reinforcement_Prevention_Radius>
 
 		<Affiliation>Underworld</Affiliation>
 		<SFXEvent_Build_Started>UHD_Build_Structure</SFXEvent_Build_Started>
@@ -2258,6 +2258,7 @@
 			<Full_Amount_To_Everyone>Yes</Full_Amount_To_Everyone>
 			<Owner_Income_Percentage/>
 		</Income_Stream_Ability>
+		
 		<Force_Healing_Ability Name="E_Mineral_Extractor_Self_Repair">
 			<Activation_Style>Skirmish_Automatic</Activation_Style>
 			<Heal_Range>0.0</Heal_Range>
@@ -2275,6 +2276,17 @@
 			<Owner_Light_Effect_Duration>0.6</Owner_Light_Effect_Duration>
 			<Owner_Light_Effect_Pulse_Count>1</Owner_Light_Effect_Pulse_Count>
 		</Force_Healing_Ability>
+		<Force_Healing_Ability Name="E_Mineral_GravWell_Range">
+			<Activation_Style>Space_Automatic</Activation_Style>
+			<Applicable_Unit_Types>Empire_Mineral_Extractor</Applicable_Unit_Types>
+			<Heal_Range>1200.0</Heal_Range>
+			<Heal_Percent>0</Heal_Percent>
+			<Blob_Color>0, 127, 255, 255</Blob_Color>
+			<Heal_Interval_In_Secs>10</Heal_Interval_In_Secs>
+			<Single_Target_Heal>Yes</Single_Target_Heal>
+			<Heal_Range_Blob_Material>Reinforcement_Point_Radius_Overlay</Heal_Range_Blob_Material>
+		</Force_Healing_Ability>
+		
 	</Abilities>
 	</SpaceBuildable>
 
@@ -2341,6 +2353,34 @@
 			<Full_Amount_To_Everyone>Yes</Full_Amount_To_Everyone>
 			<Owner_Income_Percentage/>
 		</Income_Stream_Ability>
+		<Force_Healing_Ability Name="EA_Mineral_Extractor_Self_Repair">
+			<Activation_Style>Skirmish_Automatic</Activation_Style>
+			<Heal_Range>0.0</Heal_Range>
+			<Heal_Percent>0.0</Heal_Percent>
+			<Heal_Amount>10.0</Heal_Amount>
+			<Heal_Interval_In_Secs>1.0</Heal_Interval_In_Secs>
+			<Single_Target_Heal>Yes</Single_Target_Heal>
+			<Applicable_Unit_Categories/>
+			<Applicable_Unit_Types/>
+			<SFXEvent_Target_Affected/>
+			<Owner_Particle_Bone_Name>ROOT</Owner_Particle_Bone_Name>
+			<Owner_Light_Effect_Type>Color_Flash</Owner_Light_Effect_Type>
+			<Owner_Light_Effect_Color>1.2, 1.2, 1.2</Owner_Light_Effect_Color>
+			<Owner_Light_Effect_Color2/>
+			<Owner_Light_Effect_Duration>0.6</Owner_Light_Effect_Duration>
+			<Owner_Light_Effect_Pulse_Count>1</Owner_Light_Effect_Pulse_Count>
+		</Force_Healing_Ability>
+		<Force_Healing_Ability Name="E_Mineral_GravWell_Range">
+			<Activation_Style>Space_Automatic</Activation_Style>
+			<Applicable_Unit_Types>Empire_Mineral_Extractor</Applicable_Unit_Types>
+			<Heal_Range>1200.0</Heal_Range>
+			<Heal_Percent>0</Heal_Percent>
+			<Blob_Color>0, 127, 255, 255</Blob_Color>
+			<Heal_Interval_In_Secs>10</Heal_Interval_In_Secs>
+			<Single_Target_Heal>Yes</Single_Target_Heal>
+			<Heal_Range_Blob_Material>Reinforcement_Point_Radius_Overlay</Heal_Range_Blob_Material>
+		</Force_Healing_Ability>
+		
 	</Abilities>
 	</SpaceBuildable>
 
@@ -2424,6 +2464,16 @@
 			<Owner_Light_Effect_Color2/>
 			<Owner_Light_Effect_Duration>0.6</Owner_Light_Effect_Duration>
 			<Owner_Light_Effect_Pulse_Count>1</Owner_Light_Effect_Pulse_Count>
+		</Force_Healing_Ability>
+		<Force_Healing_Ability Name="E_Mineral_GravWell_Range">
+			<Activation_Style>Space_Automatic</Activation_Style>
+			<Applicable_Unit_Types>Empire_Mineral_Extractor</Applicable_Unit_Types>
+			<Heal_Range>1200.0</Heal_Range>
+			<Heal_Percent>0</Heal_Percent>
+			<Blob_Color>0, 127, 255, 255</Blob_Color>
+			<Heal_Interval_In_Secs>10</Heal_Interval_In_Secs>
+			<Single_Target_Heal>Yes</Single_Target_Heal>
+			<Heal_Range_Blob_Material>Reinforcement_Point_Radius_Overlay</Heal_Range_Blob_Material>
 		</Force_Healing_Ability>
 	</Abilities>
 	</SpaceBuildable>

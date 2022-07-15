@@ -2603,7 +2603,7 @@
 				Rebel_X-Wing_Squadron,
 				Y-Wing_Squadron,
 				Rogue_Squadron_Space,
-				RS_Enhanced_Shielding_L1_Upgrade,
+				RS_Reinforced_Armor_L1_Upgrade,
 				RS_Improved_Weapons_L1_Upgrade,
 				RS_Level_Two_Starbase_Upgrade
 		</Tactical_Buildable_Objects_Multiplayer>
@@ -2680,10 +2680,11 @@
 				Han_Solo_Team_Space_MP,
 				Rogue_Squadron_Space,
 				RS_Enhanced_Shielding_L1_Upgrade,
-				RS_Enhanced_Shielding_L2_Upgrade,
+			    RS_Reinforced_Armor_L1_Upgrade,
+				RS_Reinforced_Armor_L2_Upgrade,
 				RS_Improved_Weapons_L1_Upgrade,
 				RS_Improved_Weapons_L2_Upgrade,
-				RS_Reinforced_Armor_L1_Upgrade,
+				RS_More_Garrisons_L1_Upgrade,
 				RS_Level_Three_Starbase_Upgrade
 		</Tactical_Buildable_Objects_Multiplayer>
 
@@ -2795,6 +2796,7 @@
 				RS_Improved_Weapons_L2_Upgrade,
 				RS_Improved_Defenses_L1_Upgrade,
 				RS_Reinforced_Armor_L1_Upgrade,
+				RS_Reinforced_Armor_L2_Upgrade,
 				RS_Ion_Cannon_Use_Upgrade,
 				RS_Level_Four_Starbase_Upgrade
 		</Tactical_Buildable_Objects_Multiplayer>
@@ -2923,6 +2925,8 @@
 				RS_Improved_Weapons_L2_Upgrade,
 				RS_Improved_Defenses_L1_Upgrade,
 				RS_Improved_Defenses_L2_Upgrade,
+				RS_Reinforced_Armor_L1_Upgrade,
+				RS_Reinforced_Armor_L2_Upgrade,
 				RS_Ion_Cannon_Use_Upgrade,
 				RS_Level_Five_Starbase_Upgrade
 		</Tactical_Buildable_Objects_Multiplayer>
@@ -3055,6 +3059,9 @@
 				RS_Improved_Defenses_L1_Upgrade,
 				RS_Improved_Defenses_L2_Upgrade,
 				RS_Improved_Defenses_L3_Upgrade,
+				RS_Reinforced_Armor_L1_Upgrade,
+				RS_Reinforced_Armor_L2_Upgrade,
+				RS_Reinforced_Armor_L3_Upgrade,
 				RS_Ion_Cannon_Use_Upgrade
 		</Tactical_Buildable_Objects_Multiplayer>
 
@@ -3153,7 +3160,7 @@
 				TIE_Fighter_Squadron,
 				TIE_Interceptor_Squadron,
 				TIE_Bomber_Squadron,
-			    ES_Improved_Weapons_L1_Upgrade,
+				ES_Enhanced_Reactors_L1_Upgrade,
 				ES_Reinforced_Armor_L1_Upgrade,
 				ES_Level_Two_Starbase_Upgrade
 		</Tactical_Buildable_Objects_Multiplayer>
@@ -3232,10 +3239,10 @@
 <!--				Boba_Fett_Team_Space_MP,-->
 				Slave_I_Skirmish,
 				ES_Enhanced_Reactors_L1_Upgrade,
+				ES_Enhanced_Reactors_L2_Upgrade,
 				ES_Reinforced_Armor_L1_Upgrade,
 				ES_Reinforced_Armor_L2_Upgrade,
 				ES_Improved_Weapons_L1_Upgrade,
-				ES_Improved_Weapons_L2_Upgrade,
 				ES_Upgraded_Electronics_L1_Upgrade,
 				ES_Level_Three_Starbase_Upgrade
 		</Tactical_Buildable_Objects_Multiplayer>
@@ -3484,7 +3491,7 @@
 				ES_Improved_Weapons_L2_Upgrade,
 				ES_Improved_Defenses_L1_Upgrade,
 				ES_Improved_Defenses_L2_Upgrade,
-<!--				ES_Upgraded_Electronics_L1_Upgrade,-->
+				ES_Upgraded_Electronics_L1_Upgrade,
 				ES_Hypervelocity_Gun_Use_Upgrade,
 				ES_Level_Five_Starbase_Upgrade
 		</Tactical_Buildable_Objects_Multiplayer>
@@ -3623,7 +3630,7 @@
 				ES_Improved_Defenses_L1_Upgrade,
 				ES_Improved_Defenses_L2_Upgrade,
 				ES_Improved_Defenses_L3_Upgrade,
-<!--				ES_Upgraded_Electronics_L1_Upgrade,-->
+				ES_Upgraded_Electronics_L1_Upgrade,-->
 				ES_Hypervelocity_Gun_Use_Upgrade
 		</Tactical_Buildable_Objects_Multiplayer>
 
@@ -3745,7 +3752,7 @@
 		<Income_Stream_Ability Name="U_Starbase_Income_Stream">
 			<Activation_Style>Skirmish_Automatic</Activation_Style>
 			<Initially_Enabled>Yes</Initially_Enabled>
-			<Base_Income_Value>30</Base_Income_Value>
+			<Base_Income_Value>35</Base_Income_Value>
 			<Base_Interval_In_Secs>10</Base_Interval_In_Secs>
 			<Split_Income_With_Allies>Yes</Split_Income_With_Allies>
 			<Split_Favors_Owner>No</Split_Favors_Owner>
@@ -3823,7 +3830,7 @@
 		<Income_Stream_Ability Name="U_Starbase_Income_Stream">
 			<Activation_Style>Skirmish_Automatic</Activation_Style>
 			<Initially_Enabled>Yes</Initially_Enabled>
-			<Base_Income_Value>35</Base_Income_Value>
+			<Base_Income_Value>40</Base_Income_Value>
 			<Base_Interval_In_Secs>10</Base_Interval_In_Secs>
 			<Split_Income_With_Allies>Yes</Split_Income_With_Allies>
 			<Split_Favors_Owner>No</Split_Favors_Owner>
@@ -3935,7 +3942,7 @@
 		<Income_Stream_Ability Name="U_Starbase_Income_Stream">
 			<Activation_Style>Skirmish_Automatic</Activation_Style>
 			<Initially_Enabled>Yes</Initially_Enabled>
-			<Base_Income_Value>40</Base_Income_Value>
+			<Base_Income_Value>45</Base_Income_Value>
 			<Base_Interval_In_Secs>10</Base_Interval_In_Secs>
 			<Split_Income_With_Allies>Yes</Split_Income_With_Allies>
 			<Split_Favors_Owner>No</Split_Favors_Owner>
@@ -4067,7 +4074,7 @@
 		<Income_Stream_Ability Name="U_Starbase_Income_Stream">
 			<Activation_Style>Skirmish_Automatic</Activation_Style>
 			<Initially_Enabled>Yes</Initially_Enabled>
-			<Base_Income_Value>45</Base_Income_Value>
+			<Base_Income_Value>50</Base_Income_Value>
 			<Base_Interval_In_Secs>10</Base_Interval_In_Secs>
 			<Split_Income_With_Allies>Yes</Split_Income_With_Allies>
 			<Split_Favors_Owner>No</Split_Favors_Owner>
@@ -4204,7 +4211,7 @@
 		<Income_Stream_Ability Name="U_Starbase_Income_Stream">
 			<Activation_Style>Skirmish_Automatic</Activation_Style>
 			<Initially_Enabled>Yes</Initially_Enabled>
-			<Base_Income_Value>50</Base_Income_Value>
+			<Base_Income_Value>55</Base_Income_Value>
 			<Base_Interval_In_Secs>10</Base_Interval_In_Secs>
 			<Split_Income_With_Allies>Yes</Split_Income_With_Allies>
 			<Split_Favors_Owner>No</Split_Favors_Owner>
