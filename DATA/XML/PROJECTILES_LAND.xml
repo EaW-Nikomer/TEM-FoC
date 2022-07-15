@@ -359,7 +359,7 @@
 
 		<!-- Convert enemy specifics -->
 		<Projectile_Convert_Enemy_On_Detonation>Yes</Projectile_Convert_Enemy_On_Detonation>
-		<Projectile_Convert_Enemy_Radius>100</Projectile_Convert_Enemy_Radius>
+		<Projectile_Convert_Enemy_Radius>120</Projectile_Convert_Enemy_Radius>
 		<Projectile_Convert_Enemy_Spawn_Effect>Stun_Particles</Projectile_Convert_Enemy_Spawn_Effect>					<!-- Gary STUB PLACEHOLDER -->
 		<Projectile_Convert_Enemy_Targets_Category_Mask>Infantry | Vehicle</Projectile_Convert_Enemy_Targets_Category_Mask>
 	</Projectile>

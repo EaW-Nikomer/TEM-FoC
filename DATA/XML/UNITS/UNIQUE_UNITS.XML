@@ -4086,6 +4086,7 @@
 		<Targeting_Max_Attack_Distance>1000.0</Targeting_Max_Attack_Distance>
 		<Targeting_Priority_Set>Fighter</Targeting_Priority_Set>
 		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+		<Target_Stealth_Units>Yes</Target_Stealth_Units>
 
 	<!-- Formation Info -->
 		<Formation_Priority>5</Formation_Priority>
@@ -4146,7 +4147,7 @@
 			<Expiration_Seconds>15.0</Expiration_Seconds>
 			<Effective_Radius>900.0</Effective_Radius>
 		</Unit_Ability>
-		<Unit_Ability>
+		<!-- <Unit_Ability> -->
 			<Type>BUZZ_DROIDS</Type>
 <!--			<Effective_Radius>2000</Effective_Radius>-->
 			<GUI_Activated_Ability_Name>Stealth_Detection_Pod_Bossk</GUI_Activated_Ability_Name>
@@ -4156,7 +4157,7 @@
 			<Alternate_Name_Text>TEM_Ability_Stealth_Detection_Pod</Alternate_Name_Text>
 			<Alternate_Description_Text>TEM_Ability_Tooltip_Stealth_Detection_Pod</Alternate_Description_Text>
 			<Alternate_Icon_Name>I_SA_FORCE_SIGHT.TGA</Alternate_Icon_Name>
-		</Unit_Ability>
+		<!-- </Unit_Ability> -->
 	</Unit_Abilities_Data>
 
 	<Abilities SubObjectList="Yes">

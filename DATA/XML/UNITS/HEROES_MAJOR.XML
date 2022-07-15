@@ -2636,7 +2636,7 @@
 	<!-- Movement Info -->
 		<Type>Walk</Type>
 		<MovementClass>Infantry</MovementClass>
-		<Max_Speed>1.15</Max_Speed>
+		<Max_Speed>1</Max_Speed>
 		<Max_Rate_Of_Turn>20.0</Max_Rate_Of_Turn>
 		<OverrideAcceleration>.1</OverrideAcceleration>
 		<OverrideDeceleration>.1</OverrideDeceleration>
@@ -2668,8 +2668,8 @@
 
 		<Projectile_Types>Proj_Infiltrator_Blaster</Projectile_Types>
 <!--		<Projectile_Damage>40.0</Projectile_Damage>-->
-		<Projectile_Fire_Recharge_Seconds>2.5</Projectile_Fire_Recharge_Seconds>
-		<Projectile_Fire_Pulse_Count>2</Projectile_Fire_Pulse_Count>
+		<Projectile_Fire_Recharge_Seconds>1.5</Projectile_Fire_Recharge_Seconds>
+		<Projectile_Fire_Pulse_Count>1</Projectile_Fire_Pulse_Count>
 		<Projectile_Fire_Pulse_Delay_Seconds>0.2</Projectile_Fire_Pulse_Delay_Seconds>
 
 		<Targeting_Fire_Inaccuracy>Infantry, 1.0</Targeting_Fire_Inaccuracy>
@@ -3284,7 +3284,7 @@
 
 			<Unit_Ability>
 				<Type>FORCE_SIGHT</Type>
-				<Recharge_Seconds>50.0</Recharge_Seconds>
+				<Recharge_Seconds>40.0</Recharge_Seconds>
 				<GUI_Activated_Ability_Name> Yoda_Force_Sight </GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
 				<Effective_Radius> 500.0 </Effective_Radius>
 				<SFXEvent_GUI_Unit_Ability_Activated> Unit_Force_Sight_Yoda </SFXEvent_GUI_Unit_Ability_Activated>
@@ -3779,7 +3779,7 @@
 
 		<Mouse_Collide_Override_Sphere_Radius> 10.0 </Mouse_Collide_Override_Sphere_Radius>
 		<Movement_Animation_Speed> 0.8 </Movement_Animation_Speed>
-		<Max_Speed> 1.15 </Max_Speed>
+		<Max_Speed> 1.20 </Max_Speed>
 		<Alternate_Max_Speed> 2.5 </Alternate_Max_Speed>
 		<Max_Rate_Of_Turn> 20.0 </Max_Rate_Of_Turn>
 		<Alternate_Max_Rate_Of_Turn> 6.0 </Alternate_Max_Rate_Of_Turn>
@@ -5204,6 +5204,20 @@
 				<GUI_Activated_Ability_Name>Stealth_Tyber_Zann</GUI_Activated_Ability_Name>
 				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Cloak_Tyber_Zann</SFXEvent_GUI_Unit_Ability_Activated>
 			</Unit_Ability>
+			
+			<Combat_Bonus_Ability Name="Veers_Combat_Bonus">
+				<Activation_Style>Ground_Automatic</Activation_Style>
+				<Unit_Strength_Category> Infantry </Unit_Strength_Category>
+				<Applicable_Unit_Categories> Infantry </Applicable_Unit_Categories>
+				<Applicable_Unit_Types/>
+				<Health_Bonus_Percentage>0.25</Health_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.25</Damage_Bonus_Percentage>
+				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.0</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.0</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>0</Stacking_Category>
+			</Combat_Bonus_Ability>
 
 		</Unit_Abilities_Data>
 

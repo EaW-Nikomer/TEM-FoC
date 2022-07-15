@@ -1051,7 +1051,7 @@
 		<Turret_Targets_Air_Vehicles> 9999 </Turret_Targets_Air_Vehicles>
 		<Turret_Targets_Anything_Else> 1 </Turret_Targets_Anything_Else>
 		
-		<Land_FOW_Reveal_Range>200.0</Land_FOW_Reveal_Range>
+		<Land_FOW_Reveal_Range>220.0</Land_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>500.0</Targeting_Max_Attack_Distance>
 		<Targeting_Min_Attack_Distance> 220 </Targeting_Min_Attack_Distance>
 
@@ -2633,7 +2633,7 @@
 			<Type>JET_PACK</Type>
 			<Alternate_Name_Text>TEXT_TOOLTIP_DT_JETPACK</Alternate_Name_Text>
 			<Alternate_Description_Text>TEXT_DT_JETPACK_DESCRIPTION</Alternate_Description_Text>
-			<Recharge_Seconds>60.0</Recharge_Seconds>
+			<Recharge_Seconds>65.0</Recharge_Seconds>
 			<GUI_Activated_Ability_Name/>
 			<SFXEvent_Target_Ability>Unit_DT_Jet_Pack_Takeoff</SFXEvent_Target_Ability>
 			<Effective_Radius>-1.0</Effective_Radius>
@@ -2929,7 +2929,7 @@
 		<Turret_Targets_Air_Vehicles>9999</Turret_Targets_Air_Vehicles>
 		<Turret_Targets_Anything_Else>1</Turret_Targets_Anything_Else>
 
-		<Land_FOW_Reveal_Range>200.0</Land_FOW_Reveal_Range>
+		<Land_FOW_Reveal_Range>210.0</Land_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>500.0</Targeting_Max_Attack_Distance>
 		<Targeting_Min_Attack_Distance>200.0</Targeting_Min_Attack_Distance>
 		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
@@ -3455,7 +3455,7 @@
 		<Fire_Weapon_When_In_Rocket_Attack_Mode>No</Fire_Weapon_When_In_Rocket_Attack_Mode>
 		<Fire_Weapon_When_In_Normal_Attack_Mode>Yes</Fire_Weapon_When_In_Normal_Attack_Mode>
 
-		<Land_FOW_Reveal_Range>210.0</Land_FOW_Reveal_Range>
+		<Land_FOW_Reveal_Range>220.0</Land_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>200.0</Targeting_Max_Attack_Distance>
 		<Ranged_Target_Z_Adjust>6.0</Ranged_Target_Z_Adjust>
 		<Projectile_Fire_Recharge_Seconds>1.5</Projectile_Fire_Recharge_Seconds>
@@ -4326,7 +4326,7 @@
 
 		<Projectile_Types>Proj_MAL_Concussion_Missile, Proj_MAL_Carbonite_Missile </Projectile_Types>
 
-		<Land_FOW_Reveal_Range>320.0</Land_FOW_Reveal_Range>
+		<Land_FOW_Reveal_Range>260.0</Land_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>500.0</Targeting_Max_Attack_Distance>
 		<Targeting_Min_Attack_Distance> 10 </Targeting_Min_Attack_Distance>
 

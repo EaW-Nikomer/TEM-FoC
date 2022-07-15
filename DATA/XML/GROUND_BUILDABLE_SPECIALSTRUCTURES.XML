@@ -1028,8 +1028,8 @@
 		<Influences_Capture_Point>False</Influences_Capture_Point>
 		
 		<Tactical_Health>700</Tactical_Health>
-		<Tactical_Build_Cost_Multiplayer>1300</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>35</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Cost_Multiplayer>1400</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>30</Tactical_Build_Time_Seconds>
 
 		<SFXEvent_Build_Started>EHD_Build_Structure</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>EHD_Building_Canceled</SFXEvent_Build_Cancelled>
@@ -3412,8 +3412,8 @@
 		<Influences_Capture_Point>False</Influences_Capture_Point>
 
 		<Tactical_Health>250</Tactical_Health>
-		<Tactical_Build_Cost_Multiplayer>800</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>25</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Cost_Multiplayer>850</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>20</Tactical_Build_Time_Seconds>
 		
 		<Last_State_Visible_Under_FOW>True</Last_State_Visible_Under_FOW>
 		<Initial_State_Visible_Under_FOW>False</Initial_State_Visible_Under_FOW>
@@ -3725,7 +3725,7 @@
 			</Force_Healing_Ability>
 			
 			<Income_Stream_Ability Name="U_Mineral_Processor_Income_Stream">
-				<Base_Income_Value>75</Base_Income_Value>
+				<Base_Income_Value>80</Base_Income_Value>
 				<Base_Interval_In_Secs>5.0</Base_Interval_In_Secs>
 				<Split_Income_With_Allies>Yes</Split_Income_With_Allies>
 				<Split_Favors_Owner>No</Split_Favors_Owner>

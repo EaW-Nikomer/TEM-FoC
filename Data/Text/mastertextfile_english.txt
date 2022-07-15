@@ -1460,6 +1460,7 @@ TEXT_ENCYCLOPEDIA_CLASS_SUPERWEAPON,Class: Superweapon
 TEXT_ENCYCLOPEDIA_CLASS_TANK,Class: Tank
 TEXT_ENCYCLOPEDIA_CLASS_TRANSPORT,Class: Transport
 TEXT_ENCYCLOPEDIA_CLASS_TURRET,Class: Turret
+TEXT_ENCYCLOPEDIA_CLASS_UTILITY,Class: Utility
 TEXT_ENCYCLOPEDIA_CLASS_WALKER,Class: Walker
 TEXT_ENCYCLOPEDIA_CLASS_WARRIOR,Class: Elite Warrior
 TEXT_ENCYCLOPEDIA_COMM_ARRAY_00,Slightly increases the sight range of all units. Also allows build pads to produce sensor arrays.
@@ -18705,6 +18706,7 @@ TEXT_UPGRADE_ES_REINFORCED_ARMOR_L1,Reinforced Armor Level 1
 TEXT_UPGRADE_ES_REINFORCED_ARMOR_L2,Reinforced Armor Level 2
 TEXT_UPGRADE_ES_REINFORCED_ARMOR_L3,Reinforced Armor Level 3
 TEXT_UPGRADE_ES_SPECIAL_WEAPON_USE,Align Hypervelocity Gun
+TEXT_UPGRADE_ES_UPGRADED_ELECTRONICS,Improved Electronics
 TEXT_UPGRADE_FELUCIA_WEATHER_PROOF,Weatherproof
 TEXT_UPGRADE_HONOGHR_SECURE_AREA,Secure Area
 TEXT_UPGRADE_INDIGENOUS_CORRUPTION,Corrupted Forces
@@ -18798,30 +18800,31 @@ TEXT_UPGRADE_TOOLTIP_EL_MORE_GARRISONS_L1-TEMP,Adds additional stormtroopers and
 TEXT_UPGRADE_TOOLTIP_EL_REINFORCED_STRUCTURES,Reduces the damage taken by structures by 25%.
 TEXT_UPGRADE_TOOLTIP_EL_SCOUT_TROOPER_RESEARCH,Grants the ability to request Scout Trooper reinforcements from neighboring systems.
 TEXT_UPGRADE_TOOLTIP_EL_SPMAT_RESEARCH,Grants the ability to request SPMA-T Artillery reinforcements from neighboring systems.
-TEXT_UPGRADE_TOOLTIP_EL_STAMINA_BOOST,Stormtrooper units gain a 20% health increase.
+TEXT_UPGRADE_TOOLTIP_EL_STAMINA_BOOST,Stormtrooper units gain a 20% health increase and 10% movement speed increase.
 TEXT_UPGRADE_TOOLTIP_EL_WEATHER_PROOF_L1,Planetary weather no longer affects infantry. 
-TEXT_UPGRADE_TOOLTIP_ES_ENHANCED_REACTORS_L1,Fighters gain a 25% movement speed increase.
-TEXT_UPGRADE_TOOLTIP_ES_ENHANCED_REACTORS_L2,Fighters and Frigates gain a 25% movement speed increase.
+TEXT_UPGRADE_TOOLTIP_ES_ENHANCED_REACTORS_L1,Fighters and Bombers gain a 15% movement speed increase.
+TEXT_UPGRADE_TOOLTIP_ES_ENHANCED_REACTORS_L2,Fighters, Bombers and Frigates gain a 30% movement speed increase.
 TEXT_UPGRADE_TOOLTIP_ES_ENHANCED_REACTORS_L2-TEMP,Frigates gain a 25% movement speed increase.
-TEXT_UPGRADE_TOOLTIP_ES_ENHANCED_REACTORS_L3,Fighters, Frigates, and Capital Ships gain a 25% movement speed increase.
+TEXT_UPGRADE_TOOLTIP_ES_ENHANCED_REACTORS_L3,Fighters, Bombers, Frigates, and Capital Ships gain a 25% movement speed increase.
 TEXT_UPGRADE_TOOLTIP_ES_ENHANCED_REACTORS_L3-TEMP,Capital Ships gain a 25% speed increase.
 TEXT_UPGRADE_TOOLTIP_ES_IMPROVED_DEFENSES_L1,Increases the amount of damage dealt by your starbase's weapon hardpoints by 15%.
 TEXT_UPGRADE_TOOLTIP_ES_IMPROVED_DEFENSES_L2,Increases the amount of damage dealt by your starbase's weapon hardpoints by 30%.
 TEXT_UPGRADE_TOOLTIP_ES_IMPROVED_DEFENSES_L3,Increases the amount of damage dealt by your starbase's weapon hardpoints by 50%.
 TEXT_UPGRADE_TOOLTIP_ES_IMPROVED_WEAPONS_L1,Increases the amount of damage dealt by Fighters by 25%.
-TEXT_UPGRADE_TOOLTIP_ES_IMPROVED_WEAPONS_L2,Increases the amount of damage dealt by Fighters and Corvettes by 25%.
+TEXT_UPGRADE_TOOLTIP_ES_IMPROVED_WEAPONS_L2,Increases the amount of damage dealt by Fighters, Corvettes and Frigates by 25%.
 TEXT_UPGRADE_TOOLTIP_ES_IMPROVED_WEAPONS_L2-TEMP,Increases the amount of damage dealt by Corvettes by 25%.
 TEXT_UPGRADE_TOOLTIP_ES_IMPROVED_WEAPONS_L3,Increases the amount of damage dealt by Fighters, Corvettes and Capital Ships by 25%.
 TEXT_UPGRADE_TOOLTIP_ES_IMPROVED_WEAPONS_L3-TEMP,Increases the amount of damage dealt by Capital Ships by 25%.
-TEXT_UPGRADE_TOOLTIP_ES_INCREASED_SUPPLIES_L1,Increases the basic income provided by Asteroid Mining Facilities by 20%.
-TEXT_UPGRADE_TOOLTIP_ES_INCREASED_SUPPLIES_L2,Increases the basic income provided by Asteroid Mining Facilities by 40%.
+TEXT_UPGRADE_TOOLTIP_ES_INCREASED_SUPPLIES_L1,Increases the basic income provided by Asteroid Mining Facilities by 30%.
+TEXT_UPGRADE_TOOLTIP_ES_INCREASED_SUPPLIES_L2,Increases the basic income provided by Asteroid Mining Facilities by 45%.
 TEXT_UPGRADE_TOOLTIP_ES_MORE_GARRISONS_L1,Adds additional squadrons of TIE fighters and TIE bombers to your set of free garrison units.
-TEXT_UPGRADE_TOOLTIP_ES_REINFORCED_ARMOR_L1,Reduces the damage taken by Corvettes by 25%.
+TEXT_UPGRADE_TOOLTIP_ES_REINFORCED_ARMOR_L1,Reduces the damage taken by Fighters by 25%.
 TEXT_UPGRADE_TOOLTIP_ES_REINFORCED_ARMOR_L2,Reduces the damage taken by Corvettes and Frigates by 25%.
 TEXT_UPGRADE_TOOLTIP_ES_REINFORCED_ARMOR_L2-TEMP,Reduces the damage taken by Frigates by 25%.
 TEXT_UPGRADE_TOOLTIP_ES_REINFORCED_ARMOR_L3,Reduces the damage taken by Corvettes, Frigates and Capital Ships by 25%.
 TEXT_UPGRADE_TOOLTIP_ES_REINFORCED_ARMOR_L3-TEMP,Reduces the damage taken by Capital Ships by 25%.
 TEXT_UPGRADE_TOOLTIP_ES_SPECIAL_WEAPON_USE,Allows you to fire the planetary Hypervelocity Gun.
+TEXT_UPGRADE_TOOLTIP_ES_UPGRADED_ELECTRONICS,Increased Fog of War reveal of all Empire units
 TEXT_UPGRADE_TOOLTIP_FELUCIA_WEATHER_PROOF,Control of Felucia grants all friendly units immunity to the adverse effects of weather.
 TEXT_UPGRADE_TOOLTIP_HONOGHR_SECURE_AREA,Control of Honoghr causes all Infantry units to secure captureable structures and reinforcement points 20% faster.
 TEXT_UPGRADE_TOOLTIP_INDIGENOUS_CORRUPTION,The combination of credits and corruption has motivated the indigenous people of this world to aid the Consortium during tactical combat.
@@ -18845,8 +18848,8 @@ TEXT_UPGRADE_TOOLTIP_PLANETARY_CORRUPTION_KIDNAPPING,This planet has been corrup
 TEXT_UPGRADE_TOOLTIP_PLANETARY_CORRUPTION_PIRACY,This planet has been corrupted using Piracy.
 TEXT_UPGRADE_TOOLTIP_PLANETARY_CORRUPTION_RACKETEERING,Provides a salvage cash bonus for every enemy unit destroyed.
 TEXT_UPGRADE_TOOLTIP_RL_BOMBING_RUN_USE,Purchase a single Y-wing bombing run.
-TEXT_UPGRADE_TOOLTIP_RL_COMBAT_ARMOR_L1,Reduces the damage taken by Rebellion Trooper units by 25%.
-TEXT_UPGRADE_TOOLTIP_RL_COMBAT_ARMOR_L2,Reduces the damage taken by Plex Soldier units by 25%.
+TEXT_UPGRADE_TOOLTIP_RL_COMBAT_ARMOR_L1,Reduces the damage taken by Rebellion Trooper units units by 25%.
+TEXT_UPGRADE_TOOLTIP_RL_COMBAT_ARMOR_L2,Reduces the damage taken by Rebellion Trooper units and Plex Soldier units by 50%.
 TEXT_UPGRADE_TOOLTIP_RL_ENHANCED_BASE_SHIELD,Prevents all enemy weapon fire from penetrating your base's shields.
 TEXT_UPGRADE_TOOLTIP_RL_ENHANCED_REPULSORS_L1,T2-B Tanks and Speeders gain a 15% movement speed increase.
 TEXT_UPGRADE_TOOLTIP_RL_ENHANCED_REPULSORS_L2,T2-B Tanks and Speeders gain a 30% movement speed increase.
@@ -18885,8 +18888,8 @@ TEXT_UPGRADE_TOOLTIP_RS_IMPROVED_WEAPONS_L2,Increases the amount of damage dealt
 TEXT_UPGRADE_TOOLTIP_RS_IMPROVED_WEAPONS_L2-TEMP,Increases the amount of damage dealt by Frigates by 25%.
 TEXT_UPGRADE_TOOLTIP_RS_IMPROVED_WEAPONS_L3,Increases the amount of damage dealt by Fighters, Frigates and Capital Ships by 25%.
 TEXT_UPGRADE_TOOLTIP_RS_IMPROVED_WEAPONS_L3-TEMP,Increases the amount of damage dealt by Capital Ships by 25%.
-TEXT_UPGRADE_TOOLTIP_RS_INCREASED_SUPPLIES_L1,Increases the basic income provided by Asteroid Mining Facilities by 20%.
-TEXT_UPGRADE_TOOLTIP_RS_INCREASED_SUPPLIES_L2,Increases the basic income provided by Asteroid Mining Facilities by 40%.
+TEXT_UPGRADE_TOOLTIP_RS_INCREASED_SUPPLIES_L1,Increases the basic income provided by Asteroid Mining Facilities by 30%.
+TEXT_UPGRADE_TOOLTIP_RS_INCREASED_SUPPLIES_L2,Increases the basic income provided by Asteroid Mining Facilities by 45%.
 TEXT_UPGRADE_TOOLTIP_RS_MORE_GARRISONS_L1,Adds additional A-wing and a Y-wing squadrons to your set of free garrison units.
 TEXT_UPGRADE_TOOLTIP_RS_REINFORCED_ARMOR_L1,Reduces the hull damage taken by Fighters by 25%.
 TEXT_UPGRADE_TOOLTIP_RS_REINFORCED_ARMOR_L2,Reduces the hull damage taken by Fighters and Frigates by 25%.
@@ -18899,8 +18902,8 @@ TEXT_UPGRADE_TOOLTIP_TECHNOLOGY_LEVEL_FOUR,Upgrade your Technology to level 4
 TEXT_UPGRADE_TOOLTIP_TECHNOLOGY_LEVEL_THREE,Upgrade your Technology to level 3
 TEXT_UPGRADE_TOOLTIP_TECHNOLOGY_LEVEL_TWO,Upgrade your Technology to level 2
 TEXT_UPGRADE_TOOLTIP_U_EXTORT_CASH_L1,Extorts additional cash from workers, increasing the income produced from Mining Facilities by 15%.
-TEXT_UPGRADE_TOOLTIP_U_EXTORT_CASH_L1_S,Extorts additional cash from workers, increasing the income produced from Mining Facilities by 20%.
-TEXT_UPGRADE_TOOLTIP_U_EXTORT_CASH_L2,Extorts additional cash from workers, increasing the income produced from Mining Facilities by 45%.
+TEXT_UPGRADE_TOOLTIP_U_EXTORT_CASH_L1_S,Extorts additional cash from workers, increasing the income produced from Mining Facilities by 35%.
+TEXT_UPGRADE_TOOLTIP_U_EXTORT_CASH_L2,Extorts additional cash from workers, increasing the income produced from Mining Facilities by 50%.
 TEXT_UPGRADE_TOOLTIP_UL_BLACKMARKET_SHIELDING_L1,Consortium structure shielding absorbs 25% more damage. Applies to all structures with shields.
 TEXT_UPGRADE_TOOLTIP_UL_BLACKMARKET_SHIELDING_L2,Consortium structure shielding absorbs 50% more damage. Applies to all structures with shields.
 TEXT_UPGRADE_TOOLTIP_UL_BOMBING_RUN_USE,Purchase a single Skipray Blastboat bombing run.

@@ -5,7 +5,7 @@
 		<Affiliation>Rebel</Affiliation>
 		<Tactical_Build_Cost_Multiplayer>2000</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>300</Tactical_Build_Cost_Campaign>
-		<Tactical_Build_Time_Seconds>75</Tactical_Build_Time_Seconds> <!--80-->
+		<Tactical_Build_Time_Seconds>55</Tactical_Build_Time_Seconds> <!--80-->
 		<Tactical_Build_Prerequisites>Skirmish_Rebel_Star_Base_1</Tactical_Build_Prerequisites>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
@@ -33,9 +33,9 @@
 	<UpgradeObject Name="RS_Level_Three_Starbase_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
 		<Affiliation>Rebel</Affiliation>
-		<Tactical_Build_Cost_Multiplayer>3200</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer>3000</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>600</Tactical_Build_Cost_Campaign>
-		<Tactical_Build_Time_Seconds>100</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Time_Seconds>65</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites>Skirmish_Rebel_Star_Base_2</Tactical_Build_Prerequisites>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
@@ -124,7 +124,7 @@
 	<UpgradeObject Name="RS_Enhanced_Shielding_L1_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
 		<Affiliation>Rebel</Affiliation>
-		<Tactical_Build_Cost_Multiplayer>850</Tactical_Build_Cost_Multiplayer> <!--850-->
+		<Tactical_Build_Cost_Multiplayer>550</Tactical_Build_Cost_Multiplayer> <!--850-->
 		<Tactical_Build_Cost_Campaign>160</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds>30</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites/>
@@ -147,7 +147,7 @@
 			<Combat_Bonus_Ability Name="RS_Enhanced_Shielding_L1_Bonus">
 				<Activation_Style>Space_Automatic</Activation_Style>
 				<Applicable_Unit_Categories/>
-				<Applicable_Unit_Types>X-Wing, Y-Wing, A-Wing, Z-95_Headhunter_Rebel, Pirate_Fighter_R, B-Wing</Applicable_Unit_Types>
+				<Applicable_Unit_Types>X-Wing, Y-Wing, A-Wing, Z-95_Headhunter_Rebel, Pirate_Fighter_R</Applicable_Unit_Types>
 				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
 				<Damage_Bonus_Percentage>0.0</Damage_Bonus_Percentage>
 				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
@@ -187,7 +187,7 @@
 			<Combat_Bonus_Ability Name="RS_Enhanced_Shielding_L2_Bonus">
 				<Activation_Style>Space_Automatic</Activation_Style>
 				<Applicable_Unit_Categories/>
-				<Applicable_Unit_Types>X-Wing, Y-Wing, A-Wing, B-Wing, Z-95_Headhunter_Rebel, Pirate_Fighter_R, Nebulon_B_Frigate, Alliance_Assault_Frigate, MC30_Frigate, Rebel_Pirate_Frigate, Jedi_Cruiser_R</Applicable_Unit_Types>
+				<Applicable_Unit_Types>X-Wing, Y-Wing, A-Wing, Z-95_Headhunter_Rebel, Pirate_Fighter_R, Nebulon_B_Frigate, Rebel_Pirate_Frigate, Jedi_Cruiser_R</Applicable_Unit_Types>
 				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
 				<Damage_Bonus_Percentage>0.0</Damage_Bonus_Percentage>
 				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
@@ -244,9 +244,9 @@
 	<UpgradeObject Name="RS_Improved_Weapons_L1_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
 		<Affiliation>Rebel</Affiliation>
-		<Tactical_Build_Cost_Multiplayer>800</Tactical_Build_Cost_Multiplayer> <!--800-->
+		<Tactical_Build_Cost_Multiplayer>700</Tactical_Build_Cost_Multiplayer> <!--800-->
 		<Tactical_Build_Cost_Campaign>160</Tactical_Build_Cost_Campaign>
-		<Tactical_Build_Time_Seconds>25</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Time_Seconds>30</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites/>
 		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
 		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
@@ -267,7 +267,7 @@
 			<Combat_Bonus_Ability Name="RS_Improved_Weapons_L1_Bonus">
 				<Activation_Style>Space_Automatic</Activation_Style>
 				<Applicable_Unit_Categories/>
-				<Applicable_Unit_Types>X-Wing, Y-Wing, A-Wing, B-Wing, Z-95_Headhunter_Rebel, Pirate_Fighter_R</Applicable_Unit_Types>
+				<Applicable_Unit_Types>X-Wing, Y-Wing, A-Wing, Z-95_Headhunter_Rebel, Pirate_Fighter_R</Applicable_Unit_Types>
 				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
 				<Damage_Bonus_Percentage>0.25</Damage_Bonus_Percentage>
 				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
@@ -284,7 +284,7 @@
 	<UpgradeObject Name="RS_Improved_Weapons_L2_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
 		<Affiliation>Rebel</Affiliation>
-		<Tactical_Build_Cost_Multiplayer>1800</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer>900</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>160</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds>35</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites>RS_Improved_Weapons_L1_Upgrade</Tactical_Build_Prerequisites>
@@ -307,7 +307,7 @@
 			<Combat_Bonus_Ability Name="RS_Improved_Weapons_L2_Bonus">
 				<Activation_Style>Space_Automatic</Activation_Style>
 				<Applicable_Unit_Categories/>
-				<Applicable_Unit_Types>B-Wing, X-Wing, Y-Wing, A-Wing, Z-95_Headhunter_Rebel, Pirate_Fighter_R, Nebulon_B_Frigate, Alliance_Assault_Frigate, MC30_Frigate, Rebel_Pirate_Frigate, Jedi_Cruiser_R</Applicable_Unit_Types>
+				<Applicable_Unit_Types> X-Wing, Y-Wing, A-Wing, Z-95_Headhunter_Rebel, Pirate_Fighter_R, Nebulon_B_Frigate, Rebel_Pirate_Frigate, Jedi_Cruiser_R</Applicable_Unit_Types>
 				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
 				<Damage_Bonus_Percentage>0.25</Damage_Bonus_Percentage>
 				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
@@ -364,9 +364,9 @@
 	<UpgradeObject Name="RS_Increased_Supplies_L1_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
 		<Affiliation>Rebel</Affiliation>
-		<Tactical_Build_Cost_Multiplayer>250</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer>275</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>160</Tactical_Build_Cost_Campaign>
-		<Tactical_Build_Time_Seconds>40</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Time_Seconds>35</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites/>
 		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
 		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
@@ -437,9 +437,9 @@
 	<UpgradeObject Name="RS_Increased_Supplies_L2_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
 		<Affiliation>Rebel</Affiliation>
-		<Tactical_Build_Cost_Multiplayer>500</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer>525</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>160</Tactical_Build_Cost_Campaign>
-		<Tactical_Build_Time_Seconds>65</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Time_Seconds>45</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites>RS_Increased_Supplies_L1_Upgrade</Tactical_Build_Prerequisites>
 		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
 		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
@@ -547,7 +547,7 @@
 	<UpgradeObject Name="RS_Reinforced_Armor_L1_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
 		<Affiliation>Rebel</Affiliation>
-		<Tactical_Build_Cost_Multiplayer>750</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer>650</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>160</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds>30</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites/>
@@ -557,7 +557,7 @@
 		<Next_Upgrade_Level_Type>RS_Reinforced_Armor_L2_Upgrade</Next_Upgrade_Level_Type>
 		<Show_In_Sidebar_While_Building>Yes</Show_In_Sidebar_While_Building>
 		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
-		<Icon_Name>i_multi_reinforced_armor1.tga</Icon_Name>
+		<Icon_Name>i_multi_reinforced_hull1.tga</Icon_Name>
 
 		<Encyclopedia_Text>TEXT_UPGRADE_TOOLTIP_RS_REINFORCED_ARMOR_L1</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_DEFENSE</Encyclopedia_Unit_Class>
@@ -570,12 +570,12 @@
 			<Combat_Bonus_Ability Name="RS_Reinforced_Armor_L1_Bonus">
 				<Activation_Style>Space_Automatic</Activation_Style>
 				<Applicable_Unit_Categories/>
-				<Applicable_Unit_Types>X-Wing, Y-Wing, A-Wing, Z-95_Headhunter_Rebel</Applicable_Unit_Types>
-				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
+				<Applicable_Unit_Types>X-Wing, Y-Wing, A-Wing, Corellian_Corvette, Nebulon_B_Frigate</Applicable_Unit_Types>
+				<Health_Bonus_Percentage>0.15</Health_Bonus_Percentage>
 				<Damage_Bonus_Percentage>0.0</Damage_Bonus_Percentage>
 				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
 				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
-				<Defense_Bonus_Percentage>0.25</Defense_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.0</Defense_Bonus_Percentage>
 				<Movement_Speed_Bonus_Percentage>0.0</Movement_Speed_Bonus_Percentage>
 				<Stacking_Category>3</Stacking_Category>
 			</Combat_Bonus_Ability>
@@ -817,7 +817,7 @@
 		<Affiliation>Empire</Affiliation>
 		<Tactical_Build_Cost_Multiplayer>2200</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>300</Tactical_Build_Cost_Campaign>
-		<Tactical_Build_Time_Seconds>80</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Time_Seconds>55</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites>Skirmish_Empire_Star_Base_1</Tactical_Build_Prerequisites>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
@@ -845,9 +845,9 @@
 	<UpgradeObject Name="ES_Level_Three_Starbase_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
 		<Affiliation>Empire</Affiliation>
-		<Tactical_Build_Cost_Multiplayer>3200</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer>3100</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>600</Tactical_Build_Cost_Campaign>
-		<Tactical_Build_Time_Seconds>100</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Time_Seconds>65</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites>Skirmish_Empire_Star_Base_2</Tactical_Build_Prerequisites>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
@@ -936,9 +936,9 @@
 	<UpgradeObject Name="ES_Enhanced_Reactors_L1_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
 		<Affiliation>Empire</Affiliation>
-		<Tactical_Build_Cost_Multiplayer>650</Tactical_Build_Cost_Multiplayer> <!--was 650-->
+		<Tactical_Build_Cost_Multiplayer>425</Tactical_Build_Cost_Multiplayer> <!--was 650-->
 		<Tactical_Build_Cost_Campaign>160</Tactical_Build_Cost_Campaign>
-		<Tactical_Build_Time_Seconds>20</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Time_Seconds>30</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites/>
 		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
 		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
@@ -959,13 +959,13 @@
 			<Combat_Bonus_Ability Name="ES_Enhanced_Reactors_L1_Bonus">
 				<Activation_Style>Space_Automatic</Activation_Style>
 				<Applicable_Unit_Categories/>
-				<Applicable_Unit_Types>TIE_Defender, TIE_Defender_Squadron_Container, TIE_Phantom, TIE_Phantom_Squadron_Container, TIE_Interceptor, TIE_Interceptor_Squadron_Container, TIE_Fighter, TIE_Fighter_Squadron_Container, TIE_Scout, TIE_Scout_Squadron_Container, TIE_Bomber, TIE_Bomber_Squadron_Container, Z-95_Headhunter_Empire, Z95_E_Squadron_Container, Pirate_Fighter_E, Pirate_Fighter_E_Squadron_Container</Applicable_Unit_Types> <!--, TIE_Prototype, Escort_TIE_Fighter, Darth_Vader_TIE_Fighter_Container-->
+				<Applicable_Unit_Types>TIE_Interceptor, TIE_Interceptor_Squadron_Container, TIE_Fighter, TIE_Fighter_Squadron_Container, TIE_Bomber, TIE_Bomber_Squadron_Container, Z-95_Headhunter_Empire, Z95_E_Squadron_Container, Acclamator_Assault_Ship, Tartan_Patrol_Cruiser, TIE_Phantom, TIE_Phantom_Squadron_Container, TIE_Scout, TIE_Scout_Squadron_Container Pirate_Fighter_E, Pirate_Fighter_E_Squadron_Container</Applicable_Unit_Types> <!--, TIE_Prototype, Escort_TIE_Fighter, Darth_Vader_TIE_Fighter_Container-->
 				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
 				<Damage_Bonus_Percentage>0.0</Damage_Bonus_Percentage>
 				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
 				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
 				<Defense_Bonus_Percentage>0.0</Defense_Bonus_Percentage>
-				<Movement_Speed_Bonus_Percentage>0.25</Movement_Speed_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.15</Movement_Speed_Bonus_Percentage>
 				<Stacking_Category>3</Stacking_Category>
 			</Combat_Bonus_Ability>
 		</Abilities>
@@ -999,7 +999,7 @@
 			<Combat_Bonus_Ability Name="ES_Enhanced_Reactors_L2_Fighter_Bonus">
 				<Activation_Style>Space_Automatic</Activation_Style>
 				<Applicable_Unit_Categories/>
-				<Applicable_Unit_Types>TIE_Defender, TIE_Defender_Squadron_Container, TIE_Phantom, TIE_Phantom_Squadron_Container, TIE_Interceptor, TIE_Interceptor_Squadron_Container, TIE_Fighter, TIE_Fighter_Squadron_Container, TIE_Scout, TIE_Scout_Squadron_Container, TIE_Bomber, TIE_Bomber_Squadron_Container, Z-95_Headhunter_Empire, Z95_E_Squadron_Container, Pirate_Fighter_E, Pirate_Fighter_E_Squadron_Container</Applicable_Unit_Types> <!--, TIE_Prototype, Escort_TIE_Fighter, Darth_Vader_TIE_Fighter_Container-->
+				<Applicable_Unit_Types>TIE_Interceptor, TIE_Interceptor_Squadron_Container, TIE_Fighter, TIE_Fighter_Squadron_Container, TIE_Scout, TIE_Scout_Squadron_Container, TIE_Bomber, TIE_Bomber_Squadron_Container, Z-95_Headhunter_Empire, Z95_E_Squadron_Container, Pirate_Fighter_E, Pirate_Fighter_E_Squadron_Container</Applicable_Unit_Types> <!--, TIE_Prototype, Escort_TIE_Fighter, Darth_Vader_TIE_Fighter_Container-->
 				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
 				<Damage_Bonus_Percentage>0.0</Damage_Bonus_Percentage>
 				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
@@ -1080,7 +1080,7 @@
 	<UpgradeObject Name="ES_Reinforced_Armor_L1_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
 		<Affiliation>Empire</Affiliation>
-		<Tactical_Build_Cost_Multiplayer>750</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer>600</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>160</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds>30</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites/>
@@ -1103,7 +1103,7 @@
 			<Combat_Bonus_Ability Name="ES_Reinforced_Armor_L1_Bonus">
 				<Activation_Style>Space_Automatic</Activation_Style>
 				<Applicable_Unit_Categories/>
-				<Applicable_Unit_Types>Tartan_Patrol_Cruiser, Broadside_Class_Cruiser, Empire_Pirate_IPV</Applicable_Unit_Types>
+				<Applicable_Unit_Types>TIE-Fighters, TIE-Bombers, TIE-Interceptor, Z-95_Headhunter_Empire, Pirate_Fighter_E</Applicable_Unit_Types>
 				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
 				<Damage_Bonus_Percentage>0.0</Damage_Bonus_Percentage>
 				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
@@ -1120,7 +1120,7 @@
 	<UpgradeObject Name="ES_Reinforced_Armor_L2_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
 		<Affiliation>Empire</Affiliation>
-		<Tactical_Build_Cost_Multiplayer>2000</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer>800</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>160</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds>35</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites>ES_Reinforced_Armor_L1_Upgrade</Tactical_Build_Prerequisites>
@@ -1143,7 +1143,7 @@
 			<Combat_Bonus_Ability Name="ES_Reinforced_Armor_L2_Bonus">
 				<Activation_Style>Space_Automatic</Activation_Style>
 				<Applicable_Unit_Categories/>
-				<Applicable_Unit_Types>Tartan_Patrol_Cruiser, Broadside_Class_Cruiser, Empire_Pirate_IPV, Victory_Destroyer, Acclamator_Assault_Ship, Interdictor_Cruiser, Empire_Pirate_Frigate, Jedi_Cruiser_E</Applicable_Unit_Types>
+				<Applicable_Unit_Types>TIE-Fighters, TIE-Bombers, TIE-Interceptor, Z-95_Headhunter_Empire, Pirate_Fighter_E, Tartan_Patrol_Cruiser, Broadside_Class_Cruiser, Empire_Pirate_IPV, Acclamator_Assault_Ship, Empire_Pirate_Frigate, Jedi_Cruiser_E</Applicable_Unit_Types>
 				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
 				<Damage_Bonus_Percentage>0.0</Damage_Bonus_Percentage>
 				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
@@ -1202,7 +1202,7 @@
 		<Affiliation>Empire</Affiliation>
 		<Tactical_Build_Cost_Multiplayer>250</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>160</Tactical_Build_Cost_Campaign>
-		<Tactical_Build_Time_Seconds>40</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Time_Seconds>30</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites/>
 		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
 		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
@@ -1275,7 +1275,7 @@
 		<Affiliation>Empire</Affiliation>
 		<Tactical_Build_Cost_Multiplayer>500</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>160</Tactical_Build_Cost_Campaign>
-		<Tactical_Build_Time_Seconds>65</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Time_Seconds>40</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites>ES_Increased_Supplies_L1_Upgrade</Tactical_Build_Prerequisites>
 		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
 		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
@@ -1346,7 +1346,7 @@
 	<UpgradeObject Name="ES_Improved_Weapons_L1_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
 		<Affiliation>Empire</Affiliation>
-		<Tactical_Build_Cost_Multiplayer>800</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer>650</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>160</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds>25</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites/>
@@ -1369,7 +1369,7 @@
 			<Combat_Bonus_Ability Name="ES_Improved_Weapons_L1_Bonus">
 				<Activation_Style>Space_Automatic</Activation_Style>
 				<Applicable_Unit_Categories/>
-				<Applicable_Unit_Types>TIE_Scout, TIE_Fighter, TIE_Phantom, TIE_Interceptor, TIE_Bomber, TIE_Defender, Z-95_Headhunter_Empire, Pirate_Fighter_E</Applicable_Unit_Types>
+				<Applicable_Unit_Types>TIE_Fighter, TIE_Phantom, TIE_Interceptor, TIE_Bomber, Z-95_Headhunter_Empire, Pirate_Fighter_E</Applicable_Unit_Types>
 				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
 				<Damage_Bonus_Percentage>0.25</Damage_Bonus_Percentage>
 				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
@@ -1386,7 +1386,7 @@
 	<UpgradeObject Name="ES_Improved_Weapons_L2_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
 		<Affiliation>Empire</Affiliation>
-		<Tactical_Build_Cost_Multiplayer>1800</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer>850</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>160</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds>35</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites>ES_Improved_Weapons_L1_Upgrade</Tactical_Build_Prerequisites>
@@ -1409,7 +1409,7 @@
 			<Combat_Bonus_Ability Name="ES_Improved_Weapons_L2_Bonus">
 				<Activation_Style>Space_Automatic</Activation_Style>
 				<Applicable_Unit_Categories/>
-				<Applicable_Unit_Types>TIE_Scout, TIE_Fighter, TIE_Phantom, TIE_Interceptor, TIE_Bomber, TIE_Defender, Tartan_Patrol_Cruiser, Broadside_Class_Cruiser, Z-95_Headhunter_Empire, Pirate_Fighter_E, Empire_Pirate_IPV</Applicable_Unit_Types>
+				<Applicable_Unit_Types>TIE_Fighter, TIE_Phantom, TIE_Interceptor, Acclamator_Assault_Ship, TIE_Bomber, Tartan_Patrol_Cruiser, Z-95_Headhunter_Empire, Pirate_Fighter_E, Empire_Pirate_IPV</Applicable_Unit_Types>
 				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
 				<Damage_Bonus_Percentage>0.25</Damage_Bonus_Percentage>
 				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
@@ -1692,7 +1692,7 @@
 	<UpgradeObject Name="ES_Upgraded_Electronics_L1_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
 		<Affiliation>Empire</Affiliation>
-		<Tactical_Build_Cost_Multiplayer>550</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer>350</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>500</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds>25</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites/>
@@ -1704,9 +1704,9 @@
 		<Show_In_Sidebar_When_Complete>Yes</Show_In_Sidebar_When_Complete>
 		<Icon_Name>I_BUTTON_BOMBARDMENT_USE_UPGRADE.TGA</Icon_Name>
 
-		<Encyclopedia_Text>Galyana_Upgrade_Electronics_1</Encyclopedia_Text>
-		<Encyclopedia_Unit_Class>Galyana_Upgrade_Level_1</Encyclopedia_Unit_Class>
-		<Text_ID>Galyana_Upgrade_Upgraded_Electronics</Text_ID>
+		<Encyclopedia_Text>TEXT_UPGRADE_TOOLTIP_ES_UPGRADED_ELECTRONICS</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYLOPEDIA_CLASS_UTILITY</Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UPGRADE_ES_UPGRADED_ELECTRONICS</Text_ID>
 
 		<SFXEvent_Build_Started>EHD_Upgrade_Progress</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>EHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
@@ -1728,7 +1728,7 @@
 		<Affiliation>Underworld</Affiliation>
 		<Tactical_Build_Cost_Multiplayer>2600</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>300</Tactical_Build_Cost_Campaign>
-		<Tactical_Build_Time_Seconds>85</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Time_Seconds>50</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites>Skirmish_Underworld_Star_Base_1</Tactical_Build_Prerequisites>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
@@ -1756,9 +1756,9 @@
 	<UpgradeObject Name="US_Level_Three_Starbase_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
 		<Affiliation>Underworld</Affiliation>
-		<Tactical_Build_Cost_Multiplayer>3800</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer>3200</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>600</Tactical_Build_Cost_Campaign>
-		<Tactical_Build_Time_Seconds>95</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Time_Seconds>60</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites>Skirmish_Underworld_Star_Base_2</Tactical_Build_Prerequisites>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
@@ -1941,7 +1941,7 @@
 
 		<Abilities SubObjectList="Yes">
 			<Income_Stream_Mod_Ability Name="US_Extort_Cash_L1_Upgrade">
-				<Income_Multiplier>1.25</Income_Multiplier>
+				<Income_Multiplier>1.35</Income_Multiplier>
 				<Income_Additive_Value>0.0</Income_Additive_Value>
 				<Interval_Multiplier>1.0</Interval_Multiplier>
 				<Stacking_Category>1</Stacking_Category>
@@ -1997,7 +1997,7 @@
 	<UpgradeObject Name="US_Reinforced_Structure_L1_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
 		<Affiliation>Underworld</Affiliation>
-		<Tactical_Build_Cost_Multiplayer>1000</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer>550</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>400</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds>25</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites/>
@@ -2023,7 +2023,7 @@
 				<Applicable_Unit_Types>
 					Underworld_Star_Base_1, Underworld_Star_Base_2, Underworld_Star_Base_3, Underworld_Star_Base_4, Underworld_Star_Base_5,
 					Skirmish_Underworld_Star_Base_1, Skirmish_Underworld_Star_Base_2, Skirmish_Underworld_Star_Base_3, Skirmish_Underworld_Star_Base_4, Skirmish_Underworld_Star_Base_5,
-					Skirmish_Hutt_Asteroid_Base
+					Skirmish_Hutt_Asteroid_Base, UC_Underworld_Mineral_Extractor, Empire_Mineral_Extractor, UC_Underworld_Defense_Satellite_Plasma, UC_Underworld_Defense_Satellite_DBM, UC_Underworld_Defense_Satellite_Sensor
 				</Applicable_Unit_Types>
 				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
 				<Damage_Bonus_Percentage>0.0</Damage_Bonus_Percentage>
@@ -2042,7 +2042,7 @@
 <UpgradeObject Name="US_Reinforced_Structure_L2_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
 		<Affiliation>Underworld</Affiliation>
-		<Tactical_Build_Cost_Multiplayer>2300</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer>650</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>800</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds>30</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites>US_Reinforced_Structure_L1_Upgrade</Tactical_Build_Prerequisites>
@@ -2068,7 +2068,7 @@
 				<Applicable_Unit_Types>
 					Underworld_Star_Base_1, Underworld_Star_Base_2, Underworld_Star_Base_3, Underworld_Star_Base_4, Underworld_Star_Base_5,
 					Skirmish_Underworld_Star_Base_1, Skirmish_Underworld_Star_Base_2, Skirmish_Underworld_Star_Base_3, Skirmish_Underworld_Star_Base_4, Skirmish_Underworld_Star_Base_5,
-					Skirmish_Hutt_Asteroid_Base
+					Skirmish_Hutt_Asteroid_Base, UC_Underworld_Mineral_Extractor, Empire_Mineral_Extractor, UC_Underworld_Defense_Satellite_Plasma, UC_Underworld_Defense_Satellite_DBM, UC_Underworld_Defense_Satellite_Sensor
 				</Applicable_Unit_Types>
 				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
 				<Damage_Bonus_Percentage>0.0</Damage_Bonus_Percentage>
@@ -2130,7 +2130,7 @@
 	<UpgradeObject Name="US_BlackMarket_Reactors_L1_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
 		<Affiliation>Underworld</Affiliation>
-		<Tactical_Build_Cost_Multiplayer>850</Tactical_Build_Cost_Multiplayer> <!-- 850 -->
+		<Tactical_Build_Cost_Multiplayer>450</Tactical_Build_Cost_Multiplayer> <!-- 850 -->
 		<Tactical_Build_Cost_Campaign>200</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds>18</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites/>
@@ -2154,13 +2154,13 @@
 			<Combat_Bonus_Ability Name="US_BlackMarket_Reactors_L1_Upgrade">
 				<Activation_Style>Space_Automatic</Activation_Style>
 				<Applicable_Unit_Categories/>
-				<Applicable_Unit_Types>Skipray_Blastboat, Skipray_Team</Applicable_Unit_Types>
+				<Applicable_Unit_Types>Skipray_Blastboat, Skipray_Team, Interceptor4_Frigate, Crusader_Gunship</Applicable_Unit_Types>
 				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
 				<Damage_Bonus_Percentage>0.0</Damage_Bonus_Percentage>
 				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
 				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
 				<Defense_Bonus_Percentage>0.0</Defense_Bonus_Percentage>
-				<Movement_Speed_Bonus_Percentage>0.25</Movement_Speed_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.15</Movement_Speed_Bonus_Percentage>
 				<Stacking_Category>3</Stacking_Category>
 			</Combat_Bonus_Ability>
 		</Abilities>
@@ -2253,7 +2253,7 @@
 	<UpgradeObject Name="US_Magnetically_Sealed_Armor_L1_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
 		<Affiliation>Underworld</Affiliation>
-		<Tactical_Build_Cost_Multiplayer>1100</Tactical_Build_Cost_Multiplayer> <!--was 1100-->
+		<Tactical_Build_Cost_Multiplayer>675</Tactical_Build_Cost_Multiplayer> <!--was 1100-->
 		<Tactical_Build_Cost_Campaign>240</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds>28</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites/>
@@ -2277,7 +2277,7 @@
 			<Enable_Ability Name="US_Magnetically_Sealed_Armor_L1_Bonus_Enabler">
 				<Ability_Name>US_Magnetically_Sealed_Armor_Bonus_L1</Ability_Name>
 				<Applicable_Unit_Categories/>
-				<Applicable_Unit_Types>Starviper_Fighter</Applicable_Unit_Types>
+				<Applicable_Unit_Types>Starviper_Fighter, Skipray_Blastboat</Applicable_Unit_Types>
 				<Affects_All_Allies>Yes</Affects_All_Allies>
 			</Enable_Ability>
 		</Abilities>
@@ -2288,7 +2288,7 @@
 	<UpgradeObject Name="US_Magnetically_Sealed_Armor_L2_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
 		<Affiliation>Underworld</Affiliation>
-		<Tactical_Build_Cost_Multiplayer>2500</Tactical_Build_Cost_Multiplayer> <!-- was 2500 -->
+		<Tactical_Build_Cost_Multiplayer>875</Tactical_Build_Cost_Multiplayer> <!-- was 2500 -->
 		<Tactical_Build_Cost_Campaign>640</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds>35</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites>US_Magnetically_Sealed_Armor_L1_Upgrade</Tactical_Build_Prerequisites>
@@ -2312,7 +2312,7 @@
 			<Enable_Ability Name="US_Magnetically_Sealed_Armor_L2_Bonus_Enabler">
 				<Ability_Name>US_Magnetically_Sealed_Armor_Bonus_L2</Ability_Name>
 				<Applicable_Unit_Categories/>
-				<Applicable_Unit_Types>Starviper_Fighter, Crusader_Gunship</Applicable_Unit_Types>
+				<Applicable_Unit_Types>Starviper_Fighter, Crusader_Gunship, Interceptor4_Frigate, Skipray_Blastboat</Applicable_Unit_Types>
 				<Affects_All_Allies>Yes</Affects_All_Allies>
 			</Enable_Ability>
 		</Abilities>
@@ -2512,7 +2512,7 @@
 	<UpgradeObject Name="US_Targeting_Systems_L1_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
 		<Affiliation>Underworld</Affiliation>
-		<Tactical_Build_Cost_Multiplayer>950</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer>400</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>280</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds>23</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites/>
@@ -2536,8 +2536,8 @@
 			<Combat_Bonus_Ability Name="US_Targeting_Systems_L1_Upgrade">
 				<Activation_Style>Space_Automatic</Activation_Style>
 				<Applicable_Unit_Categories/>
-				<Applicable_Unit_Types>Crusader_Gunship</Applicable_Unit_Types>
-				<Fire_Range_Bonus_Percentage>.15</Fire_Range_Bonus_Percentage>
+				<Applicable_Unit_Types>Crusader_Gunship, Interceptor4_Frigate</Applicable_Unit_Types>
+				<Fire_Range_Bonus_Percentage>0.15</Fire_Range_Bonus_Percentage>
 				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
 				<Damage_Bonus_Percentage>0.0</Damage_Bonus_Percentage>
 				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>

@@ -2758,7 +2758,7 @@
 			Empire,
 				Imperial_Anti_Infantry_Brigade,
 				Imperial_Heavy_Scout_Squad,
-<!--				Imperial_Heavy_Scout_v2_Squad,-->
+				<!-- Imperial_Heavy_Scout_v2_Squad, -->
 				Imperial_Anti_Aircraft_Company,
 				Empire_MDU_Company,
 				EL_Light_Reflective_Armor_L1_Upgrade,
@@ -6267,7 +6267,7 @@
 			</Planet_Income_Bonus_Ability>
 			<Income_Stream_Ability Name="Underworld_Mining_Income_Stream">
 				<!-- Income streams only exist in tactical modes that are not spawned from galatic, so this will not affect campaign play. -->
-				<Base_Income_Value>125</Base_Income_Value>
+				<Base_Income_Value>135</Base_Income_Value>
 				<Base_Interval_In_Secs>5</Base_Interval_In_Secs>
 				<Split_Income_With_Allies>Yes</Split_Income_With_Allies>
 				<Split_Favors_Owner>No</Split_Favors_Owner>

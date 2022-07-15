@@ -1043,7 +1043,7 @@
 		<Strafe_Distance>500.0</Strafe_Distance>
 
 	<!-- Misc. Info -->
-		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Is_Visible_On_Radar>No</Is_Visible_On_Radar>
 		<Victory_Relevant>Yes</Victory_Relevant>
 		<Create_Team>Yes</Create_Team>
 

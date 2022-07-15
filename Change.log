@@ -1,5 +1,370 @@
 TEM FOC NOTES
 
+v8.0.1 (2022-06-03) [FoC v1.121.748742]
+============================================
+
+----------General-----------
+Default Credits:
+- Default Credits set to 6000 from 8000
+
+Space Mining Facilities:
+- Added a reinforcement prevention radius of 1200 units
+
+----------Land-----------
+=Zann Consortium=
+Bossk:
+- Increased max speed from 1.15 to 1.20
+
+M.A.L:
+- Fog of war reveal decreased from 320 to 260
+
+Mining Facility:
+- Base income increased from 125 to 135
+
+Resource Pad:
+- Base income increased from 75 to 80
+
+Smuggled Droid Systems Level 2:
+- Price decreased from 1100 to 1000
+
+Ability Recharge level 1: 
+- Price reduced from 900 to 425
+- Now applies to LandHero
+- Reduced from 85% to 50%
+
+Ability Recharge level 2:
+- Price reduced from 1350 to 675
+- Now affacts all units
+- Build time decreased from 28 seconds to 20 seconds
+
+Black Market Shielding Level 1:
+- Price decreased from 850 to 650
+- Price decreased from 1350 to 1000
+
+Extort Cash:
+- Increased credit multiplier from 1.15 to 1.25
+
+IG-88:
+- Price reduced from 1800 to 1700
+
+Siliri:
+- Price reduced from 3800 to 3000
+
+Urai Fen:
+- Price reduced from 2000 to 1500
+
+
+Tyber Zann:
+- Price reduced from 3500 to 3200
+- Provided combat bonus passive to increase damage and health of all infantry by 25%
+
+Tech level 2:
+- Price decreased from 2700 to 2600
+
+Tech level 3:
+- Price decreased from 4400 to 3700
+- Build time decreased from 75 seconds to 55 seconds.
+
+=Empire=
+Boba Fett:
+- Damage_Hero_Blaster_Hand increased to Armor_StormTrooper from 1.5 to 1.6
+- Damage_Hero_Blaster_Hand increased to Armor_Infantry from 1.5 to 1.6
+
+SPMA-T:
+- Fog of war reveal increased from 200 to 230
+- Damage_SPMAT_Grenade increased to Armor_T4b from 1.5 to 1.6
+
+Emperor Palpatine:
+- Price decreased from 5800 to 5000
+- Build time decreased from 45 seconds to 40 seconds
+- Force Corrupt recharge decreased from 70 seconds to 65 seconds
+- Force corrupt range increased from 100 to 120
+
+Stamina Boost Upgrade:
+- Price decreased from 500 to 550
+- Gives an additional movement speed increase by 10%
+
+Light Reflective Armor Level 1:
+- Price decreased from 575 to 550
+
+
+Light Reflective Armor Level 2:
+- Price decreased from 850 to 750
+
+Enhanced Reactors Level 2:
+- Price decreased from 850 to 775
+
+Heavy Reflective Armor Level 2:
+- Price decreased from 825 to 800
+
+Dark Trooper Phase 3:
+- Jetpack recharge increased from 60 seconds to 65 seconds
+
+Darth Vader:
+- Build time decreased from 33 seconds to 30
+
+Tech level 2:
+- Build time decreased from 65 seconds to 50 seconds
+
+Tech level 3:
+- Price decreased from 4000 to 3500
+- Build time decreased from 85 seconds to 60 seconds
+
+Mineral Processor:
+- Price increased from 800 to 850
+- Build time decreased from 25 to 20
+
+Mining Facility:
+- Price increased from 1300 to 1400
+- Build time decreased from 35 seconds to 30
+
+Minning Facility Upgrade level 1:
+- Build time decreased from 35 seconds to 30 seconds
+
+Minning Facility Upgrade level 2:
+- Build time decreased from 45 seconds to 40 seconds.
+- Price increased from 500 to 525
+
+=Rebels=
+T4B Tank:
+- Increased fog of war reveal from 210 to 220
+- Damage Con_Missles_T4b damage lowered to Armor_Dark_Trooper from 1.5 to 1.3
+
+MPTL:
+- Fog of war reveal increased from 200 to 210
+
+Yoda:
+- Price reduced from 5800 to 4800
+- Force Sight ability reduced from 55 seconds to 40 seconds
+
+Obi-Wan Kenobi:
+- Price reduced from 2700 to 2400
+- Build time reduced from 28 to 26 seconds
+
+Luke Skywalker:
+- Price decreased from 2300 to 2200
+
+Garm-Bel-Iblis:
+- Price reduced from 5600 to 4600
+- Build time reduced from 50 seconds to 40 seconds.
+
+Rebel Infantry Squad:
+- Build time reverted back to 3 seconds.
+
+Plex Trooper Squad:
+- Price increased from 450 to 650
+- Increased amount of squads from 2 to 3
+- Decreased DamagePLEX to Armor_Dark_Trooper from 4.5 to 3.5
+
+Combat Armor Level 1:
+- Price reduced from 700 to 650
+- Decreased to 25% from 50%
+
+Combat Armor Level 2:
+- Price reduced from 875 to 800
+- Text tooltip now says it affects Rebel Infantry as well
+
+Tech level 2:
+- Build time decreased from 65 seconds to 55 seconds
+- Price decreased from 2500 to 2400
+
+
+Tech level 3:
+- Price reduced from 4000 to 3500
+- Build time decreased from 85 seconds to 70 seconds.
+
+Kyle Katarn:
+- Decreased speed from 1.15 to 1.0
+- Decreased delay from auto fire from 2.5 to 1.5
+- Decreased the amount of bullets per shot from 2 to 1.
+
+Minning Facility Upgrade level 1:
+- Build time decreased from 35 seconds to 30 seconds
+
+Minning Facility Upgrade level 2:
+- Build time decreased from 45 seconds to 40 seconds.
+
+
+----------Space-----------
+=General=
+-Damage_Fighter increased to Armor_Fighter from 1 to 1.10 (Trying to simulate quicker dogfights like vanilla FoC)
+
+=Zann Consortium=
+Extort Cash Level 1:
+- Increased income bonus from 25% to 35%
+
+Tech level 2:
+- Build time decreased from 85 seconds to 50 seconds
+
+Tech level 3: 
+- Build time decreased from 95 seconds to 60 seconds
+- Price decreased from 3800 to 3200
+
+Crusader:
+- Price increased from 1750 to 1800
+- Damage_Crusader_Gunship increased to Armor_Assault_Frigate from 0.5 to 0.85
+
+InterceptorIV:
+- Damage_InterceptorIV increased to Armor_Assault_Frigate from 0.75 to 1
+- Damage_InterceptorIV decreased to Armor_Acclamator from 1.5 to 1.35
+
+Reinforced Structure Level 1:
+- Moved to tech 1
+- Price decreased from 1000 to 550
+- Affects turrets and mining facilities with 15% reduction
+
+Reinforced Structure Level 2:
+- Moved to tech 2
+- Price decreased from 2300 to 650
+- 25% bonus on mines and turrets
+
+Improved Targeting Systems Level 1:
+- Moved to tech 2
+- Price decreased from 950 to 400
+- Affects Crusader and InterceptorIV
+
+Magnetically Sealed Armor Upgrade Level 1:
+- Now affects Skipray
+- Price decreased from 1100 to 675
+
+Magnetically Sealed Armor Upgrade Level 2:
+- Moved to tech 2
+- Price decreased from 2500 to 875
+- Affects all tech 2 units
+
+Black Market Engines:
+- Moved to tech 2
+- Price decreased from 850 to 450
+- Affects all tech 2 units
+
+Bossk: 
+- Removed Bossk's sensor pod ability and gave passive stealth detection (Ability didn't work)
+- Provided passive stealth detection
+
+=Empire=
+Reinforced Armor Level 1:
+- Added to tech 1
+- Affects all Fighters and Bombers 25% Armor
+- Price decreased from 750 to 600
+
+Reinforced Armor Level 2:
+- Added to tech 2
+- Affects all tech 2 units by 25%
+- Price decreased from 2000 to 800
+
+Improved Firepower Level 1:
+- Added to tech 1
+- All fighters gain 25% Firepower
+- Price decreased from 800 to 650
+
+Improved firepower Level 2:
+- Moved to tech 2
+- All tech 2 units now gain 25% firepower
+- Price decreased from 1800 to 850
+
+Improved Electronics:
+- Added back to station to tech 2
+- Price decreased from 400 to 350
+
+Enhanced Reactors Level 1:
+- Added back to station to tech 2
+- Build time increased from 20 seconds to 25 seconds
+- Decrease movement speed from 25% to 15%
+- Affects all tech 1 and tech 2 units
+- Fixed tooltip 
+- Price decreased from 625 to 425
+
+Enhanced Reactors Level 2:
+- Moving to tech 3 and will balance at a later date
+
+Tech level 2:
+- Decreased build time from 75 seconds to 55 seconds
+
+Tech level 3:
+- Price decreased from 3200 to 3000
+- Build time decreased from 100 seconds to 65 seconds
+
+Minning Facility Upgrade Level 1:
+- Build time decreased from 40 seconds to 30 seconds
+
+Minning Facility Upgrade level 2:
+- Build time decreased from 65 seconds to 40 seconds
+
+Acclamator:
+- Tactical Health increased from 2000 to 2200
+- Damage_Acclamator increased to Armor_Assault Frigate from 0.5 to 1
+- Damage_Acclamator_TL increased to Armor_Assault_Frigate from 1 to 1.2
+
+Tartan:
+- Price increased from 1550 to 1600
+- Damage_Tartan_Crusier increased to Armor_Assault_Frigate from 0.5 to 0.85
+
+Tie Phantom:
+- No longer shows up on mini-map
+
+Tie Scout:
+- Price decreased from 325 to 300
+
+=Rebels=
+Improved Firepower Level 1:
+- Added back to station at tech 1
+- Price decreased from 800 to 700
+- Build time increased from 25 seconds to 30 seconds
+- No longer affects B-Wings
+
+Improved Firepower level 2: 
+- Added to tech 2
+- Increases all tech 1 and tech 2 units firepower by 25%
+- Price decreased from 1800 to 900
+- No longer affects B-Wings
+
+Enhanced Shielding Level 1:
+- Price decreased from 850 to 550
+- No longer affects B-Wings
+
+Enhanced Shielding Level 2:
+- Increases all tech 1 and tech 2 units shielding by 25%
+- Price decreased from 2400 to 700
+
+Improved Shielding Level 2:
+- Added back to station at tech 2
+
+Tech level 2:
+- Decreased build time from 75 seconds to 55 seconds
+
+
+Tech level 3:
+- Build time decreased from 100 seconds to 65 seconds
+- Price decreased from 3200 to 3000
+
+Minning Facility Upgrade Level 1:
+- Build time decreased from 45 seconds to 35 seconds
+- Price increased from 250 to 225
+
+Minning Facility Upgrade level 2:
+- Build time decreased from 65 seconds to 45 seconds
+
+Corellian Corvette:
+- Shields reduced from 600 to 550
+- Tactical health reduced from 750 to 500
+- Price decreased from 1450 to 1400
+- Damage_Corellian_Corvette decreased to Armor_Acclamator from 1 to 0.85
+- Damage_Corellian_Corvette decreased to Armor_Nebulon_B from 1 to 0.85
+- Damage_Corellian_Corvette decreased to Armor_Pirate_Frigate from 1 to 0.85
+- Damage_Corellian_Corvette increased to Armor_Satellite from 0.8 to 1
+- Damage_Corellian_Corvette increased to Armor_Assault_Frigate from 0.5 to 0.85
+
+Nebulon B-Frigate:
+- Price increased from 1950 to 2050
+- Shields reduced from 700 to 650
+- Tactical Health reduced from 3600 to 3500
+- Damage_Nebulon_B increased to Armor_Assault_Frigate from 1 to 1.2
+
+Improved Hull Upgrade:
+- New Upgrade at tech 2 that increases HP of all tech 1 and tech 2 units by 15%
+- Price 550
+
+
 v7.0.1.1406 (2022-05-28) [FoC v1.121.748742]
 ============================================
 
